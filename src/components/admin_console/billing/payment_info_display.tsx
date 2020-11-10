@@ -10,7 +10,7 @@ import BlockableLink from 'src/components/admin_console/blockable_link';
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 import CardImage from 'src/components/payment_form/card_image';
 import noPaymentInfoGraphic from 'images/no_payment_info_graphic.svg';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import './payment_info_display.scss';
 

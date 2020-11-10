@@ -14,7 +14,7 @@ import {ChannelCategory} from 'mattermost-redux/types/channel_categories';
 import {isChannelMuted} from 'mattermost-redux/utils/channel_utils';
 
 import {getItemFromStorage} from 'src/selectors/storage';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 import {StoragePrefixes} from 'src/utils/constants';
 import {getPrefix} from 'src/utils/storage_utils';
 

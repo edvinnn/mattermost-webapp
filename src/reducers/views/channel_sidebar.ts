@@ -10,7 +10,7 @@ import {ChannelCategory} from 'mattermost-redux/types/channel_categories';
 
 import {removeItem} from 'mattermost-redux/utils/array_utils';
 
-import {DraggingState} from 'types/store';
+import {DraggingState} from 'src/types/store';
 
 import {ActionTypes} from 'src/utils/constants';
 

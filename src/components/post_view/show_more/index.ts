@@ -7,7 +7,7 @@ import {get} from 'mattermost-redux/selectors/entities/preferences';
 import {getIsRhsExpanded, getIsRhsOpen} from 'src/selectors/rhs';
 import {Preferences} from 'src/utils/constants';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import ShowMore from './show_more';
 

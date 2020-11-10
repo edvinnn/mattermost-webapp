@@ -10,7 +10,7 @@ import {ActionFunc} from 'mattermost-redux/types/actions';
 import {ChannelCategory} from 'mattermost-redux/types/channel_categories';
 
 import {createCategory} from 'src/actions/views/channel_sidebar';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import EditCategoryModal from './edit_category_modal';
 

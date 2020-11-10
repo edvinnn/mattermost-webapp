@@ -22,7 +22,7 @@ import RhsComment from 'src/components/rhs_comment';
 import RhsHeaderPost from 'src/components/rhs_header_post';
 import RhsRootPost from 'src/components/rhs_root_post';
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
-import {FakePost} from 'types/store/rhs';
+import {FakePost} from 'src/types/store/rhs';
 
 export function renderView(props: Record<string, any>) {
     return (

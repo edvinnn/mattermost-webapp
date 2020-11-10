@@ -9,7 +9,7 @@ import * as Selectors from 'mattermost-redux/selectors/entities/admin';
 
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import Logs from './logs';
 

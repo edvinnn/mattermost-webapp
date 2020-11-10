@@ -7,7 +7,7 @@ import {getEmojiImageUrl} from 'mattermost-redux/utils/emoji_utils';
 
 import {getEmojiMap} from 'src/selectors/emojis';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import PostEmoji from './post_emoji';
 

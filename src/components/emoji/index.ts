@@ -7,7 +7,7 @@ import {bindActionCreators, Dispatch} from 'redux';
 import {getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 import {loadRolesIfNeeded} from 'mattermost-redux/actions/roles';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import EmojiPage from 'src/components/emoji/emoji_page';
 

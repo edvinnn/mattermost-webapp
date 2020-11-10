@@ -11,7 +11,7 @@ import {GenericAction, ActionFunc} from 'mattermost-redux/types/actions';
 import {ServerError} from 'mattermost-redux/types/errors';
 import {TeamInviteWithError} from 'mattermost-redux/types/teams';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import InviteMembersStep from './invite_members_step';
 

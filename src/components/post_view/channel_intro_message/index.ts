@@ -15,7 +15,7 @@ import {Preferences} from 'src/utils/constants';
 import {getDirectTeammate, getDisplayNameByUser} from 'src/utils/utils.jsx';
 import {getCurrentLocale} from 'src/selectors/i18n';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import ChannelIntroMessage from './channel_intro_message';
 

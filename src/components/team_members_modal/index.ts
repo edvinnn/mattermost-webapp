@@ -10,7 +10,7 @@ import {ModalIdentifiers} from 'src/utils/constants';
 import {isModalOpen} from 'src/selectors/views/modals';
 import {openModal} from 'src/actions/views/modals';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import TeamMembersModal from './team_members_modal';
 

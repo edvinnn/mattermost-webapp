@@ -34,7 +34,7 @@ import {loadStatusesForProfilesList} from 'src/actions/status_actions.jsx';
 import {loadProfilesForGroupChannels} from 'src/actions/user_actions.jsx';
 import {setModalSearchTerm} from 'src/actions/views/search';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import MoreDirectChannels from './more_direct_channels';
 

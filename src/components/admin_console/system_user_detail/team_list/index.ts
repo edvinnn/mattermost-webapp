@@ -15,7 +15,7 @@ import {GenericAction} from 'mattermost-redux/types/actions';
 
 import {getCurrentLocale} from 'src/selectors/i18n';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import TeamList from './team_list';
 

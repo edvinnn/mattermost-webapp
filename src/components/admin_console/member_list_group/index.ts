@@ -14,7 +14,7 @@ import {ActionFunc, GenericAction} from 'mattermost-redux/types/actions';
 
 import {setModalSearchTerm} from 'src/actions/views/search';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import MemberListGroup, {Props as MemberListGroupProps} from './member_list_group';
 

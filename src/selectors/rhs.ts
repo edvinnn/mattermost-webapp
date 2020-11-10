@@ -12,8 +12,8 @@ import {$ID} from 'mattermost-redux/types/utilities';
 import {makeGetGlobalItem} from 'src/selectors/storage';
 import {PostTypes} from 'src/utils/constants';
 import {localizeMessage} from 'src/utils/utils.jsx';
-import {GlobalState} from 'types/store';
-import {RhsState, FakePost, PostDraft} from 'types/store/rhs';
+import {GlobalState} from 'src/types/store';
+import {RhsState, FakePost, PostDraft} from 'src/types/store/rhs';
 
 export function getSelectedPostId(state: GlobalState): $ID<Post> {
     return state.views.rhs.selectedPostId;

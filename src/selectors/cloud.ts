@@ -5,7 +5,7 @@
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {getCurrentUser} from 'mattermost-redux/selectors/entities/users';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 export enum InquiryType {
     Technical = 'technical',

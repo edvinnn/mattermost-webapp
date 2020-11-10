@@ -4,7 +4,7 @@
 import React from 'react';
 import {Stripe} from '@stripe/stripe-js';
 
-import {BillingDetails} from 'types/cloud/sku';
+import {BillingDetails} from 'src/types/cloud/sku';
 import {pageVisited} from 'src/actions/telemetry_actions';
 import {TELEMETRY_CATEGORIES} from 'src/utils/constants';
 

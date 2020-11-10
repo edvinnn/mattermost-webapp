@@ -8,7 +8,7 @@ import {patchTeam, removeTeamIcon, setTeamIcon} from 'mattermost-redux/actions/t
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import TeamProfileStep from './team_profile_step';
 

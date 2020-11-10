@@ -13,7 +13,7 @@ import DropdownInput from 'src/components/dropdown_input';
 import StateSelector from 'src/components/payment_form/state_selector';
 import Input from 'src/components/input';
 import SaveButton from 'src/components/save_button';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 import {browserHistory} from 'src/utils/browser_history';
 import {COUNTRIES} from 'src/utils/countries';
 import * as Utils from 'src/utils/utils';

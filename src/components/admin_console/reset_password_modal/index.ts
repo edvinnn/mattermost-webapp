@@ -9,7 +9,7 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {ActionFunc, ActionResult} from 'mattermost-redux/types/actions';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import {getPasswordConfig} from 'src/utils/utils.jsx';
 

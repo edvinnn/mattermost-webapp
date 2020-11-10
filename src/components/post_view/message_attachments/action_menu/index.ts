@@ -6,7 +6,7 @@ import {bindActionCreators, Dispatch} from 'redux';
 
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 import {autocompleteChannels} from 'src/actions/channel_actions';
 import {autocompleteUsers} from 'src/actions/user_actions';
 import {selectAttachmentMenuAction} from 'src/actions/views/posts';

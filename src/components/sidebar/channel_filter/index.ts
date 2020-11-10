@@ -9,7 +9,7 @@ import {GenericAction} from 'mattermost-redux/types/actions';
 
 import {setUnreadFilterEnabled} from 'src/actions/views/channel_sidebar';
 import {isUnreadFilterEnabled} from 'src/selectors/views/channel_sidebar';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import ChannelFilter from './channel_filter';
 

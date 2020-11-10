@@ -4,7 +4,7 @@
 import {connect} from 'react-redux';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import UserGuideDropdown from './user_guide_dropdown';
 

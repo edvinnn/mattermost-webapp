@@ -13,7 +13,7 @@ import {haveISystemPermission} from 'mattermost-redux/selectors/entities/roles';
 import {getSortedListableTeams, getTeamMemberships} from 'mattermost-redux/selectors/entities/teams';
 import {getCurrentUser} from 'mattermost-redux/selectors/entities/users';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import {addUserToTeam} from 'src/actions/team_actions';
 import {isGuest} from 'src/utils/utils';

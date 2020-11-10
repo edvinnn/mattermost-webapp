@@ -6,7 +6,7 @@ import {bindActionCreators, Dispatch} from 'redux';
 
 import {deferNavigation} from 'src/actions/admin_actions';
 import {getNavigationBlocked} from 'src/selectors/views/admin';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import BlockableLink from './blockable_link';
 

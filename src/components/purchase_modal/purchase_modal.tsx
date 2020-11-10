@@ -20,7 +20,7 @@ import {TELEMETRY_CATEGORIES, CloudLinks} from 'src/utils/constants';
 import {STRIPE_CSS_SRC, STRIPE_PUBLIC_KEY} from 'src/components/payment_form/stripe';
 import RootPortal from 'src/components/root_portal';
 import FullScreenModal from 'src/components/widgets/modals/full_screen_modal';
-import {areBillingDetailsValid, BillingDetails} from 'types/cloud/sku';
+import {areBillingDetailsValid, BillingDetails} from 'src/types/cloud/sku';
 import {getNextBillingDate} from 'src/utils/utils';
 
 import PaymentForm from '../payment_form/payment_form';

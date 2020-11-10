@@ -7,7 +7,7 @@ import {getPost} from 'mattermost-redux/selectors/entities/posts';
 import * as PostListUtils from 'mattermost-redux/utils/post_list';
 
 import {getToastStatus} from 'src/selectors/views/channel';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import FloatingTimestamp from './floating_timestamp';
 

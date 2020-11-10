@@ -11,7 +11,7 @@ import {UserTimezone} from 'mattermost-redux/types/users';
 
 import {areTimezonesEnabledAndSupported} from 'src/selectors/general';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import {Preferences} from 'src/utils/constants';
 

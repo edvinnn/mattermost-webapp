@@ -11,7 +11,7 @@ import {getCurrentUser, isCurrentUserSystemAdmin} from 'mattermost-redux/selecto
 
 import {setShowNextStepsView} from 'src/actions/views/next_steps';
 import {closeRightHandSide} from 'src/actions/views/rhs';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 import {Preferences} from 'src/utils/constants';
 
 import {getSteps, isFirstAdmin} from './steps';

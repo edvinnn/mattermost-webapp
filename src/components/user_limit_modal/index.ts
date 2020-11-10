@@ -9,7 +9,7 @@ import {bindActionCreators, Dispatch} from 'redux';
 
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import {isAdmin} from 'src/utils/utils.jsx';
 import {isModalOpen} from 'src/selectors/views/modals';

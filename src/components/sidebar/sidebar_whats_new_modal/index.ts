@@ -8,7 +8,7 @@ import {savePreferences} from 'mattermost-redux/actions/preferences';
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
 import {closeModal} from 'src/actions/views/modals';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import SidebarWhatsNewModal from './sidebar_whats_new_modal';
 

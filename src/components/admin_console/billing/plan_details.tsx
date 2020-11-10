@@ -13,7 +13,7 @@ import {trackEvent} from 'src/actions/telemetry_actions';
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 import OverlayTrigger from 'src/components/overlay_trigger';
 import {getCurrentLocale} from 'src/selectors/i18n';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 import {getMonthLong} from 'src/utils/i18n';
 import {CloudLinks} from 'src/utils/constants';
 import {localizeMessage} from 'src/utils/utils';

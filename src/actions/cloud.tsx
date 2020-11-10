@@ -8,7 +8,7 @@ import {Client4} from 'mattermost-redux/client';
 
 import {getConfirmCardSetup} from 'src/components/payment_form/stripe';
 
-import {StripeSetupIntent, BillingDetails} from 'types/cloud/sku';
+import {StripeSetupIntent, BillingDetails} from 'src/types/cloud/sku';
 
 // Returns true for success, and false for any error
 export function completeStripeAddPaymentMethod(stripe: Stripe, billingDetails: BillingDetails, isDevMode: boolean) {

@@ -14,7 +14,7 @@ import {isCurrentUserSystemAdmin} from 'mattermost-redux/selectors/entities/user
 
 import {openModal} from 'src/actions/views/modals';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import PaymentAnnouncementBar from './payment_announcement_bar';
 

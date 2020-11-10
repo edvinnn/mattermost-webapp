@@ -15,7 +15,7 @@ import {PostList} from 'mattermost-redux/types/posts';
 import {ActionFunc, GenericAction} from 'mattermost-redux/types/actions';
 import {RelationOneToOne} from 'mattermost-redux/types/utilities';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import {prefetchChannelPosts} from 'src/actions/views/channel';
 import {trackDMGMOpenChannels} from 'src/actions/user_actions';

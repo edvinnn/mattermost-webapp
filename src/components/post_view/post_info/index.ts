@@ -11,7 +11,7 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
 import {Post} from 'mattermost-redux/types/posts';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import {emitShortcutReactToLastPostFrom} from 'src/actions/post_actions.jsx';
 import {Preferences} from 'src/utils/constants';

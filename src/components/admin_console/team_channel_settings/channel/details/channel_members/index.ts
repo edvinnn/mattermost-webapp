@@ -22,7 +22,7 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
 import {loadProfilesAndReloadChannelMembers, searchProfilesAndChannelMembers} from 'src/actions/user_actions';
 import {setUserGridSearch, setUserGridFilters} from 'src/actions/views/search';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import ChannelMembers from './channel_members';
 

@@ -10,7 +10,7 @@ import {getIsRhsOpen, getIsRhsMenuOpen} from 'src/selectors/rhs';
 import {getIsLhsOpen} from 'src/selectors/lhs';
 import {getLastViewedChannelNameByTeamName} from 'src/selectors/local_storage';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import CenterChannel from './center_channel';
 

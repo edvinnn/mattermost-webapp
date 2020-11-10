@@ -12,7 +12,7 @@ import {ActionFunc} from 'mattermost-redux/types/actions';
 
 import {TeamSearchOpts, TeamsWithCount} from 'mattermost-redux/types/teams';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import TeamList from './team_list';
 

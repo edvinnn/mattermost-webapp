@@ -16,7 +16,7 @@ import {trackEvent} from 'src/actions/telemetry_actions';
 
 import OverlayTrigger from 'src/components/overlay_trigger';
 
-import {DraggingState} from 'types/store';
+import {DraggingState} from 'src/types/store';
 
 import Constants, {A11yCustomEventTypes, DraggingStateTypes, DraggingStates} from 'src/utils/constants';
 import {t} from 'src/utils/i18n';

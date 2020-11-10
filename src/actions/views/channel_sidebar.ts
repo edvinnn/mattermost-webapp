@@ -8,7 +8,7 @@ import {GlobalState} from 'mattermost-redux/types/store';
 import {insertWithoutDuplicates} from 'mattermost-redux/utils/array_utils';
 
 import {setItem} from 'src/actions/storage';
-import {DraggingState} from 'types/store';
+import {DraggingState} from 'src/types/store';
 import {ActionTypes, StoragePrefixes} from 'src/utils/constants';
 
 export function collapseCategory(categoryId: string) {

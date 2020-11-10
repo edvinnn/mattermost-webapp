@@ -17,7 +17,7 @@ import {getOtherChannels, getChannelsInCurrentTeam} from 'mattermost-redux/selec
 import {searchMoreChannels} from 'src/actions/channel_actions.jsx';
 import {openModal, closeModal} from 'src/actions/views/modals';
 
-import {GlobalState} from '../../types/store';
+import {GlobalState} from 'src/types/store';
 
 import MoreChannels from './more_channels';
 

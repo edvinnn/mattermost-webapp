@@ -6,7 +6,7 @@ import {connect} from 'react-redux';
 import {ModalIdentifiers} from 'src/utils/constants';
 import {isModalOpen} from 'src/selectors/views/modals';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import TeamSettingsModal from './team_settings_modal';
 

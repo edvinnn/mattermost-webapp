@@ -15,7 +15,7 @@ import {getMembersInTeams} from 'mattermost-redux/selectors/entities/teams';
 import {getChannelMembersInChannels} from 'mattermost-redux/selectors/entities/channels';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 import {loadChannelMembersForProfilesList, loadTeamMembersForProfilesList} from 'src/actions/user_actions.jsx';
 import {setModalSearchTerm, setModalFilters} from 'src/actions/views/search';
 

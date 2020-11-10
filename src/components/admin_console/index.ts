@@ -24,7 +24,7 @@ import {getAdminDefinition, getConsoleAccess} from 'src/selectors/admin_console'
 
 import LocalStorageStore from 'src/stores/local_storage_store';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import AdminConsole from './admin_console';
 

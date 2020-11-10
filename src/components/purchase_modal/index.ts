@@ -10,8 +10,8 @@ import {GenericAction, ActionFunc} from 'mattermost-redux/types/actions';
 import {getCloudProducts, getCloudSubscription} from 'mattermost-redux/actions/cloud';
 import {getClientConfig} from 'mattermost-redux/actions/general';
 
-import {GlobalState} from 'types/store';
-import {BillingDetails} from 'types/cloud/sku';
+import {GlobalState} from 'src/types/store';
+import {BillingDetails} from 'src/types/cloud/sku';
 
 import {isModalOpen} from 'src/selectors/views/modals';
 import {getCloudContactUsLink, InquiryType} from 'src/selectors/cloud';

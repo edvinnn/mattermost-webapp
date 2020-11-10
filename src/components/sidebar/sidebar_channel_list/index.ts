@@ -19,7 +19,7 @@ import {
 } from 'src/actions/views/channel_sidebar';
 import {close} from 'src/actions/views/lhs';
 import {isUnreadFilterEnabled, getDraggingState, getDisplayedChannels} from 'src/selectors/views/channel_sidebar';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import SidebarChannelList from './sidebar_channel_list';
 

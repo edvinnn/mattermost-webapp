@@ -22,7 +22,7 @@ import FormattedMarkdownMessage from 'src/components/formatted_markdown_message'
 import PurchaseModal from 'src/components/purchase_modal';
 import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted_admin_header';
 import {getCloudContactUsLink, InquiryType} from 'src/selectors/cloud';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 import {
     Preferences,
     CloudBanners,

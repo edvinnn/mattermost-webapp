@@ -11,7 +11,7 @@ import {CustomEmoji} from 'mattermost-redux/types/emojis';
 
 import {getEmojiMap} from 'src/selectors/emojis';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import AddEmoji from './add_emoji';
 

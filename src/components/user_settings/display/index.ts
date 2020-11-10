@@ -16,7 +16,7 @@ import {getUserCurrentTimezone} from 'mattermost-redux/utils/timezone_utils';
 
 import {Preferences} from 'src/utils/constants';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import UserSettingsDisplay from './user_settings_display';
 

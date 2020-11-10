@@ -18,7 +18,7 @@ import {getMembersInTeams, getTeamStats, getTeam} from 'mattermost-redux/selecto
 import {getProfilesInTeam, searchProfilesInTeam, filterProfiles, getFilteredUsersStats as selectFilteredUsersStats} from 'mattermost-redux/selectors/entities/users';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 import {loadProfilesAndReloadTeamMembers, searchProfilesAndTeamMembers} from 'src/actions/user_actions.jsx';
 import {setUserGridSearch, setUserGridFilters} from 'src/actions/views/search';
 

@@ -12,7 +12,7 @@ import {bindActionCreators, Dispatch} from 'redux';
 import {GenericAction} from 'mattermost-redux/types/actions';
 import {getCloudSubscription} from 'mattermost-redux/actions/cloud';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import {isAdmin} from 'src/utils/utils.jsx';
 

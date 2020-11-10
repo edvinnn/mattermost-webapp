@@ -9,7 +9,7 @@ import {ActionFunc, GenericAction} from 'mattermost-redux/types/actions';
 
 import {requestTrialLicense} from 'src/actions/admin_actions';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import FeatureDiscovery from './feature_discovery';
 

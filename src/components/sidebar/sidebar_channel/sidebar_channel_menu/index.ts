@@ -18,7 +18,7 @@ import {isChannelMuted} from 'mattermost-redux/utils/channel_utils';
 
 import {unmuteChannel, muteChannel} from 'src/actions/channel_actions';
 import {openModal} from 'src/actions/views/modals';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 import {getSiteURL} from 'src/utils/url';
 
 import SidebarChannelMenu from './sidebar_channel_menu';

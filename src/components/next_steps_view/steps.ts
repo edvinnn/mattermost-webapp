@@ -8,7 +8,7 @@ import {UserProfile} from 'mattermost-redux/types/users';
 
 import {getCurrentUser, getUsers} from 'mattermost-redux/selectors/entities/users';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 import {RecommendedNextSteps, Preferences} from 'src/utils/constants';
 import {localizeMessage} from 'src/utils/utils';
 

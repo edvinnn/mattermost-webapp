@@ -13,7 +13,7 @@ import {getSteps} from '../../next_steps_view/steps';
 import {openModal, closeModal} from 'src/actions/views/modals';
 import {setShowNextStepsView} from 'src/actions/views/next_steps';
 import {showNextSteps, showNextStepsTips} from 'src/components/next_steps_view/steps';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 import {Preferences} from 'src/utils/constants';
 
 import SidebarNextSteps from './sidebar_next_steps';

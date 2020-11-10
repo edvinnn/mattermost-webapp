@@ -10,7 +10,7 @@ import {Channel} from 'mattermost-redux/types/channels';
 
 import {getPostDraft} from 'src/selectors/rhs';
 import {StoragePrefixes} from 'src/utils/constants';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import SidebarChannelIcon from './sidebar_channel_icon';
 

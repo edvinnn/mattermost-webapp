@@ -9,7 +9,7 @@ import {ActionFunc} from 'mattermost-redux/types/actions';
 
 import {openModal} from 'src/actions/views/modals';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import ChannelMembersModal from './channel_members_modal';
 

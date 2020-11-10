@@ -12,7 +12,7 @@ import {deferNavigation} from 'src/actions/admin_actions.jsx';
 import {getCurrentLocale} from 'src/selectors/i18n';
 import {getNavigationBlocked} from 'src/selectors/views/admin';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import AdminNavbarDropdown from './admin_navbar_dropdown';
 

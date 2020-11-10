@@ -8,7 +8,7 @@ import classNames from 'classnames';
 import OverlayTrigger from 'src/components/overlay_trigger';
 import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
 import Menu from 'src/components/widgets/menu/menu';
-import {DraggingState} from 'types/store';
+import {DraggingState} from 'src/types/store';
 import {DraggingStates} from 'src/utils/constants';
 
 const MENU_BOTTOM_MARGIN = 80;

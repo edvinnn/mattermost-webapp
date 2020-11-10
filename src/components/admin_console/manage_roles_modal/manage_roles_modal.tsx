@@ -17,7 +17,7 @@ import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 import BotBadge from 'src/components/widgets/badges/bot_badge';
 import Avatar from 'src/components/widgets/users/avatar';
-import {isSuccess} from 'types/actions';
+import {isSuccess} from 'src/types/actions';
 
 export type Props = {
     show: boolean;

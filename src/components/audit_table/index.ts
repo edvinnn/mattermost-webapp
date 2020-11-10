@@ -11,7 +11,7 @@ import {GenericAction} from 'mattermost-redux/types/actions';
 
 import {getDirectTeammate} from 'src/utils/utils.jsx';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import AuditTable from './audit_table';
 

@@ -19,7 +19,7 @@ import {dismissNotice} from 'src/actions/views/notice';
 
 import Notices from 'src/components/system_notice/notices';
 import SystemNotice from 'src/components/system_notice/system_notice';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 function makeMapStateToProps() {
     const getCategory = makeGetCategory();

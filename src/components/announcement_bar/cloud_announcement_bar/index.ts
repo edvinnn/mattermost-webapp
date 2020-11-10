@@ -15,7 +15,7 @@ import {getCurrentUser, isCurrentUserSystemAdmin} from 'mattermost-redux/selecto
 
 import {openModal} from 'src/actions/views/modals';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import {Preferences} from 'src/utils/constants';
 

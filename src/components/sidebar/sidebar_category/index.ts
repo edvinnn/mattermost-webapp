@@ -11,7 +11,7 @@ import {ChannelCategory} from 'mattermost-redux/types/channel_categories';
 
 import {setCategoryCollapsed} from 'src/actions/views/channel_sidebar';
 import {isCategoryCollapsed, getDraggingState} from 'src/selectors/views/channel_sidebar';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import SidebarCategory from './sidebar_category';
 

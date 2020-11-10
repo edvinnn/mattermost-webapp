@@ -21,7 +21,7 @@ import {
 import {loadStatusesForProfilesList} from 'src/actions/status_actions.jsx';
 import {setModalSearchTerm} from 'src/actions/views/search';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import MemberListChannel, {Props} from './member_list_channel';
 

@@ -8,7 +8,7 @@ import {getUserAudits} from 'mattermost-redux/actions/users';
 import {getCurrentUserId, getUserAudits as getCurrentUserAudits} from 'mattermost-redux/selectors/entities/users';
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import AccessHistoryModal from './access_history_modal';
 

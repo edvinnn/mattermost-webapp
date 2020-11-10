@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 
 import {PaymentMethod} from 'mattermost-redux/types/cloud';
 
-import {BillingDetails} from 'types/cloud/sku';
+import {BillingDetails} from 'src/types/cloud/sku';
 
 import DropdownInput from 'src/components/dropdown_input';
 import Input from 'src/components/input';

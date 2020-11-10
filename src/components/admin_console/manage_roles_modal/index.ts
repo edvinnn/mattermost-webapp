@@ -7,7 +7,7 @@ import {GenericAction, ActionFunc} from 'mattermost-redux/types/actions';
 
 import {updateUserRoles} from 'mattermost-redux/actions/users';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import ManageRolesModal, {Props} from './manage_roles_modal';
 

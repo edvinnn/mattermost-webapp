@@ -10,7 +10,7 @@ import {clearErrors, logError} from 'mattermost-redux/actions/errors';
 
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {GlobalState} from '../../types/store';
+import {GlobalState} from 'src/types/store';
 
 import DoVerifyEmail from './do_verify_email';
 

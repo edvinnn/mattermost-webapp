@@ -12,7 +12,7 @@ import {Post} from 'mattermost-redux/types/posts';
 import {getShortcutReactToLastPostEmittedFrom} from 'src/selectors/emojis';
 import {emitShortcutReactToLastPostFrom} from 'src/actions/post_actions.jsx';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import PostListRow from './post_list_row';
 

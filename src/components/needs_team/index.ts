@@ -16,7 +16,7 @@ import {getCurrentTeamId, getMyTeams} from 'mattermost-redux/selectors/entities/
 import {getCurrentChannel} from 'mattermost-redux/selectors/entities/channels';
 import {Action} from 'mattermost-redux/types/actions';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import {setPreviousTeamId} from 'src/actions/local_storage';
 import {getPreviousTeamId} from 'src/selectors/local_storage';

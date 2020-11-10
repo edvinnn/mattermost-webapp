@@ -8,7 +8,7 @@ import {getCurrentRelativeTeamUrl} from 'mattermost-redux/selectors/entities/tea
 
 import {getIsRhsExpanded, getIsRhsOpen} from 'src/selectors/rhs';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import PostMessageView from './post_message_view';
 

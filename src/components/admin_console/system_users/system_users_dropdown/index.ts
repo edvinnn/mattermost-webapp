@@ -14,7 +14,7 @@ import {getLicense} from 'mattermost-redux/selectors/entities/general';
 
 import * as Selectors from 'mattermost-redux/selectors/entities/admin';
 
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 
 import SystemUsersDropdown, {Props} from './system_users_dropdown';
 

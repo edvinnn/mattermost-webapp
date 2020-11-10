@@ -17,8 +17,8 @@ import FormattedMarkdownMessage from 'src/components/formatted_markdown_message'
 import PaymentForm from 'src/components/payment_form/payment_form';
 import {STRIPE_CSS_SRC, STRIPE_PUBLIC_KEY} from 'src/components/payment_form/stripe';
 import SaveButton from 'src/components/save_button';
-import {areBillingDetailsValid, BillingDetails} from 'types/cloud/sku';
-import {GlobalState} from 'types/store';
+import {areBillingDetailsValid, BillingDetails} from 'src/types/cloud/sku';
+import {GlobalState} from 'src/types/store';
 import {CloudLinks} from 'src/utils/constants';
 import {browserHistory} from 'src/utils/browser_history';
 

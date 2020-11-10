@@ -8,7 +8,7 @@ import {getCurrentChannel, makeGetChannel} from 'mattermost-redux/selectors/enti
 import {getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 
 import {getDraggingState} from 'src/selectors/views/channel_sidebar';
-import {GlobalState} from 'types/store';
+import {GlobalState} from 'src/types/store';
 import {NotificationLevels} from 'src/utils/constants';
 
 import SidebarChannel from './sidebar_channel';
