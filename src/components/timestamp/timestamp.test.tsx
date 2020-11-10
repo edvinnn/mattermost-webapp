@@ -7,7 +7,7 @@ import {createIntl} from 'react-intl';
 
 import {shallowWithIntl, mountWithIntl} from 'tests/helpers/intl-test-helper';
 import {fakeDate} from 'tests/helpers/date';
-import defaultMessages from 'i18n/en.json';
+import defaultMessages from 'src/i18n/en.json';
 
 import Timestamp from './timestamp';
 import SemanticTime from './semantic_time';

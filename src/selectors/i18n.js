@@ -5,7 +5,7 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {getCurrentUserLocale} from 'mattermost-redux/selectors/entities/i18n';
 import {General} from 'mattermost-redux/constants';
 
-import * as I18n from 'i18n/i18n';
+import * as I18n from 'src/i18n/i18n';
 
 // This is a placeholder for if we ever implement browser-locale detection
 export function getCurrentLocale(state) {

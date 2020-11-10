@@ -12,7 +12,7 @@ import Constants from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 import {getBrowserTimezone} from 'src/utils/timezone.jsx';
 
-import * as I18n from 'i18n/i18n.jsx';
+import * as I18n from 'src/i18n/i18n.jsx';
 import {t} from 'src/utils/i18n';
 
 import SettingItemMax from 'src/components/setting_item_max.jsx';

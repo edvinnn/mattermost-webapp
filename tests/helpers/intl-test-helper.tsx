@@ -19,8 +19,8 @@ import {
     MountRendererProps,
 } from 'enzyme';
 
-import {doAddLocaleData} from 'i18n/i18n';
-import defaultMessages from 'i18n/en.json';
+import {doAddLocaleData} from 'src/i18n/i18n';
+import defaultMessages from 'src/i18n/en.json';
 
 doAddLocaleData();
 

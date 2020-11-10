@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 import {Overlay, Tooltip} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
-import * as I18n from 'i18n/i18n.jsx';
+import * as I18n from 'src/i18n/i18n.jsx';
 
 import Constants from 'src/utils/constants';
 import {rolesFromMapping, mappingValueFromRoles} from 'src/utils/policy_roles_adapter';
