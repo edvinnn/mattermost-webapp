@@ -19,7 +19,7 @@ import {TutorialSteps, Preferences} from 'src/utils/constants';
 
 import {goToLastViewedChannel} from 'actions/views/channel';
 import {setShowNextStepsView} from 'actions/views/next_steps';
-import {isOnboardingHidden, showNextSteps, showNextStepsTips} from 'components/next_steps_view/steps';
+import {isOnboardingHidden, showNextSteps, showNextStepsTips} from 'src/components/next_steps_view/steps';
 
 import ChannelView from './channel_view.jsx';
 

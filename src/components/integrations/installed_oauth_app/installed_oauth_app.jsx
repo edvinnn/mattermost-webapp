@@ -8,9 +8,9 @@ import {Link} from 'react-router-dom';
 
 import * as Utils from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';
-import FormError from 'components/form_error';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import CopyText from 'components/copy_text';
+import FormError from 'src/components/form_error';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import CopyText from 'src/components/copy_text';
 
 import DeleteIntegration from '../delete_integration.jsx';
 

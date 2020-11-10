@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import PictureSelector from 'components/picture_selector';
+import PictureSelector from 'src/components/picture_selector';
 
 describe('components/picture_selector', () => {
     const baseProps = {

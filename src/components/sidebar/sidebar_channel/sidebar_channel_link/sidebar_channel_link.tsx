@@ -10,8 +10,8 @@ import {Channel} from 'mattermost-redux/types/channels';
 
 import {mark, trackEvent} from 'actions/telemetry_actions';
 
-import CopyUrlContextMenu from 'components/copy_url_context_menu';
-import OverlayTrigger from 'components/overlay_trigger';
+import CopyUrlContextMenu from 'src/components/copy_url_context_menu';
+import OverlayTrigger from 'src/components/overlay_trigger';
 
 import Constants from 'src/utils/constants';
 import {wrapEmojis} from 'src/utils/emoji_utils';

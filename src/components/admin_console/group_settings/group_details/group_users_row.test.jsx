@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import GroupUsersRow from 'components/admin_console/group_settings/group_details/group_users_row.jsx';
+import GroupUsersRow from 'src/components/admin_console/group_settings/group_details/group_users_row.jsx';
 
 describe('components/admin_console/group_settings/group_details/GroupUsersRow', () => {
     test('should match snapshot', () => {

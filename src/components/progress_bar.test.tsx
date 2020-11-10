@@ -4,7 +4,7 @@
 import React from 'react';
 import {mount} from 'enzyme';
 
-import ProgressBar from 'components/progress_bar';
+import ProgressBar from 'src/components/progress_bar';
 
 describe('components/progress_bar', () => {
     test('should show no progress', () => {

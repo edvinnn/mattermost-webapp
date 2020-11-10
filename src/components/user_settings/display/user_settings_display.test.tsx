@@ -7,7 +7,7 @@ import React from 'react';
 import {UserProfile} from 'mattermost-redux/types/users';
 
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
-import UserSettingsDisplay from 'components/user_settings/display/user_settings_display';
+import UserSettingsDisplay from 'src/components/user_settings/display/user_settings_display';
 
 describe('components/user_settings/display/UserSettingsDisplay', () => {
     const user = {

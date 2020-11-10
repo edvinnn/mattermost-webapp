@@ -10,8 +10,8 @@ import {
 import {Dictionary} from 'mattermost-redux/types/utilities';
 import React from 'react';
 
-import SizeAwareImage from 'components/size_aware_image';
-import ExternalImage from 'components/external_image';
+import SizeAwareImage from 'src/components/size_aware_image';
+import ExternalImage from 'src/components/external_image';
 import {PostTypes} from 'src/utils/constants';
 import {isSystemMessage} from 'src/utils/post_utils.jsx';
 import {useSafeUrl} from 'src/utils/url';

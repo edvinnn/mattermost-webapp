@@ -4,7 +4,7 @@
 import React, {ComponentProps} from 'react';
 import {shallow} from 'enzyme';
 
-import ProfilePicture from 'components/profile_picture';
+import ProfilePicture from 'src/components/profile_picture';
 
 type Props = ComponentProps<typeof ProfilePicture>;
 

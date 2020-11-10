@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow, ShallowWrapper} from 'enzyme';
 
-import TutorialTip from 'components/tutorial/tutorial_tip/tutorial_tip';
+import TutorialTip from 'src/components/tutorial/tutorial_tip/tutorial_tip';
 import {Constants, Preferences} from 'src/utils/constants';
 
 describe('components/tutorial/tutorial_tip/tutorial_tip', () => {

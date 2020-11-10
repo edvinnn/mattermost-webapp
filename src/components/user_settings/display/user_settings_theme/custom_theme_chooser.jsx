@@ -11,9 +11,9 @@ import {t} from 'src/utils/i18n';
 
 import Constants from 'src/utils/constants';
 
-import LocalizedIcon from 'components/localized_icon';
-import OverlayTrigger from 'components/overlay_trigger';
-import Popover from 'components/widgets/popover';
+import LocalizedIcon from 'src/components/localized_icon';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import Popover from 'src/components/widgets/popover';
 
 import ColorChooser from './color_chooser';
 

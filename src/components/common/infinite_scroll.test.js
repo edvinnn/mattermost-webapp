@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 import React from 'react';
 
-import InfiniteScroll from 'components/common/infinite_scroll.jsx';
+import InfiniteScroll from 'src/components/common/infinite_scroll.jsx';
 
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
 

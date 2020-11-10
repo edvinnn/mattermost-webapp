@@ -17,9 +17,9 @@ import cloudLogo from 'images/cloud/mattermost-cloud.svg';
 import {trackEvent, pageVisited} from 'actions/telemetry_actions';
 import {TELEMETRY_CATEGORIES, CloudLinks} from 'src/utils/constants';
 
-import {STRIPE_CSS_SRC, STRIPE_PUBLIC_KEY} from 'components/payment_form/stripe';
-import RootPortal from 'components/root_portal';
-import FullScreenModal from 'components/widgets/modals/full_screen_modal';
+import {STRIPE_CSS_SRC, STRIPE_PUBLIC_KEY} from 'src/components/payment_form/stripe';
+import RootPortal from 'src/components/root_portal';
+import FullScreenModal from 'src/components/widgets/modals/full_screen_modal';
 import {areBillingDetailsValid, BillingDetails} from 'types/cloud/sku';
 import {getNextBillingDate} from 'src/utils/utils';
 
@@ -28,7 +28,7 @@ import PaymentForm from '../payment_form/payment_form';
 import ProcessPaymentSetup from './process_payment_setup';
 
 import './purchase.scss';
-import 'components/payment_form/payment_form.scss';
+import 'src/components/payment_form/payment_form.scss';
 
 const stripePromise = loadStripe(STRIPE_PUBLIC_KEY);
 

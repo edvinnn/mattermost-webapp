@@ -11,9 +11,9 @@ import * as GlobalActions from 'actions/global_actions.jsx';
 import {isMobile} from 'src/utils/user_agent';
 import {Locations} from 'src/utils/constants';
 import {isMobile as isMobileView} from 'src/utils/utils.jsx';
-import OverlayTrigger from 'components/overlay_trigger';
+import OverlayTrigger from 'src/components/overlay_trigger';
 
-import Timestamp, {RelativeRanges} from 'components/timestamp';
+import Timestamp, {RelativeRanges} from 'src/components/timestamp';
 
 const POST_TOOLTIP_RANGES = [
     RelativeRanges.TODAY_TITLE_CASE,

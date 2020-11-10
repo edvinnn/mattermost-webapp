@@ -11,8 +11,8 @@ import {getPostThread} from 'mattermost-redux/actions/posts';
 import {ErrorPageTypes} from 'src/utils/constants';
 import {browserHistory} from 'src/utils/browser_history';
 
-import {focusPost} from 'components/permalink_view/actions';
-import PermalinkView from 'components/permalink_view/permalink_view.jsx';
+import {focusPost} from 'src/components/permalink_view/actions';
+import PermalinkView from 'src/components/permalink_view/permalink_view.jsx';
 
 const mockStore = configureStore([thunk]);
 

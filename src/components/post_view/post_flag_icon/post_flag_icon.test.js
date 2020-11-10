@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import PostFlagIcon from 'components/post_view/post_flag_icon/post_flag_icon';
+import PostFlagIcon from 'src/components/post_view/post_flag_icon/post_flag_icon';
 
 describe('components/post_view/PostFlagIcon', () => {
     const baseProps = {

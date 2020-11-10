@@ -5,13 +5,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import AdminPanel from 'components/widgets/admin_console/admin_panel';
-import GroupProfile from 'components/admin_console/group_settings/group_details/group_profile';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import AdminPanel from 'src/components/widgets/admin_console/admin_panel';
+import GroupProfile from 'src/components/admin_console/group_settings/group_details/group_profile';
 
 import {t} from 'src/utils/i18n';
 
-import LineSwitch from 'components/admin_console/team_channel_settings/line_switch.jsx';
+import LineSwitch from 'src/components/admin_console/team_channel_settings/line_switch.jsx';
 
 const GroupSettingsToggle = ({isDefault, allowReference, onToggle, isDisabled}) => (
     <LineSwitch

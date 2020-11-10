@@ -8,7 +8,7 @@ import {PostType, PostMetadata} from 'mattermost-redux/types/posts';
 
 import {browserHistory} from 'src/utils/browser_history';
 
-import DeletePostModal from 'components/delete_post_modal/delete_post_modal';
+import DeletePostModal from 'src/components/delete_post_modal/delete_post_modal';
 
 jest.mock('utils/browser_history', () => ({
     browserHistory: {

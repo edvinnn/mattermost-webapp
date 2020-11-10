@@ -8,7 +8,7 @@ import {General} from 'mattermost-redux/constants';
 import {clearFileInput} from 'src/utils/utils';
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
-import FileUpload from 'components/file_upload/file_upload.jsx';
+import FileUpload from 'src/components/file_upload/file_upload.jsx';
 
 const generatedIdRegex = /[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}/;
 

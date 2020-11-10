@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import {NotificationLevels, NotificationSections} from 'src/utils/constants';
 
-import ExpandView from 'components/channel_notifications_modal/components/expand_view.jsx';
+import ExpandView from 'src/components/channel_notifications_modal/components/expand_view.jsx';
 
 describe('components/channel_notifications_modal/ExpandView', () => {
     const baseProps = {

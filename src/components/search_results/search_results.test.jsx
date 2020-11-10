@@ -3,7 +3,7 @@
 
 import assert from 'assert';
 
-import {shouldRenderFromPropsAndState} from 'components/search_results/search_results.jsx';
+import {shouldRenderFromPropsAndState} from 'src/components/search_results/search_results.jsx';
 
 describe('components/SearchResults', () => {
     describe('shouldRenderFromPropsAndState', () => {

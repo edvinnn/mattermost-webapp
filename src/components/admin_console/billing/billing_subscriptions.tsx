@@ -16,11 +16,11 @@ import {PreferenceType} from 'mattermost-redux/types/preferences';
 
 import {pageVisited, trackEvent} from 'actions/telemetry_actions';
 import {openModal} from 'actions/views/modals';
-import AlertBanner from 'components/alert_banner';
-import BlockableLink from 'components/admin_console/blockable_link';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import PurchaseModal from 'components/purchase_modal';
-import FormattedAdminHeader from 'components/widgets/admin_console/formatted_admin_header';
+import AlertBanner from 'src/components/alert_banner';
+import BlockableLink from 'src/components/admin_console/blockable_link';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import PurchaseModal from 'src/components/purchase_modal';
+import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted_admin_header';
 import {getCloudContactUsLink, InquiryType} from 'src/selectors/cloud';
 import {GlobalState} from 'types/store';
 import {

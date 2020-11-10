@@ -5,7 +5,7 @@ import React from 'react';
 import {shallow} from 'enzyme';
 import {FormattedMessage} from 'react-intl';
 
-import SchemaText from 'components/admin_console/schema_text';
+import SchemaText from 'src/components/admin_console/schema_text';
 
 import SchemaAdminSettings from './schema_admin_settings';
 

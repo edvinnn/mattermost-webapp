@@ -4,7 +4,7 @@
 import {shallow} from 'enzyme';
 import React from 'react';
 
-import ExternalImage from 'components/external_image';
+import ExternalImage from 'src/components/external_image';
 
 import YoutubeVideo from './youtube_video';
 

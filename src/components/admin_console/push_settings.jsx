@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 import Constants from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 import AdminSettings from './admin_settings';
 import DropdownSetting from './dropdown_setting.jsx';

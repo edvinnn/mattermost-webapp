@@ -9,11 +9,11 @@ import {FormattedMessage} from 'react-intl';
 import Permissions from 'mattermost-redux/constants/permissions';
 
 import Constants from 'src/utils/constants';
-import Reaction from 'components/post_view/reaction';
-import EmojiPickerOverlay from 'components/emoji_picker/emoji_picker_overlay.jsx';
-import AddReactionIcon from 'components/widgets/icons/add_reaction_icon';
-import OverlayTrigger from 'components/overlay_trigger';
-import ChannelPermissionGate from 'components/permissions_gates/channel_permission_gate';
+import Reaction from 'src/components/post_view/reaction';
+import EmojiPickerOverlay from 'src/components/emoji_picker/emoji_picker_overlay.jsx';
+import AddReactionIcon from 'src/components/widgets/icons/add_reaction_icon';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import ChannelPermissionGate from 'src/components/permissions_gates/channel_permission_gate';
 import {localizeMessage} from 'src/utils/utils.jsx';
 
 const DEFAULT_EMOJI_PICKER_RIGHT_OFFSET = 15;

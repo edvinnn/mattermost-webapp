@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import AddGroupsToChannelModal from 'components/add_groups_to_channel_modal/add_groups_to_channel_modal.jsx';
+import AddGroupsToChannelModal from 'src/components/add_groups_to_channel_modal/add_groups_to_channel_modal.jsx';
 
 describe('components/AddGroupsToChannelModal', () => {
     const baseProps = {

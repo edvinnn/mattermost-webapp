@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import AutosizeTextarea from 'components/autosize_textarea';
-import SettingItemMax from 'components/setting_item_max.jsx';
+import AutosizeTextarea from 'src/components/autosize_textarea';
+import SettingItemMax from 'src/components/setting_item_max.jsx';
 import {localizeMessage} from 'src/utils/utils.jsx';
 
 const MESSAGE_MAX_LENGTH = 200;

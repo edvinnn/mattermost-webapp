@@ -6,7 +6,7 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 import {Tooltip} from 'react-bootstrap';
 
-import OverlayTrigger from 'components/overlay_trigger';
+import OverlayTrigger from 'src/components/overlay_trigger';
 
 import {localizeMessage} from 'src/utils/utils.jsx';
 import {Constants} from 'src/utils/constants';

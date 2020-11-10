@@ -7,10 +7,10 @@ import {Dictionary} from 'mattermost-redux/types/utilities';
 
 import {t} from 'src/utils/i18n';
 
-import FlagIcon from 'components/widgets/icons/flag_icon';
-import MentionsIcon from 'components/widgets/icons/mentions_icon';
-import PinIcon from 'components/widgets/icons/pin_icon';
-import SearchIcon from 'components/widgets/icons/search_icon';
+import FlagIcon from 'src/components/widgets/icons/flag_icon';
+import MentionsIcon from 'src/components/widgets/icons/mentions_icon';
+import PinIcon from 'src/components/widgets/icons/pin_icon';
+import SearchIcon from 'src/components/widgets/icons/search_icon';
 
 import {NoResultsVariant} from './types';
 

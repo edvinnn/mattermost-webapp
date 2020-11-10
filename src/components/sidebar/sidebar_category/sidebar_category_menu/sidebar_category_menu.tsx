@@ -8,10 +8,10 @@ import {CategoryTypes} from 'mattermost-redux/constants/channel_categories';
 import {ChannelCategory} from 'mattermost-redux/types/channel_categories';
 
 import {trackEvent} from 'actions/telemetry_actions';
-import DeleteCategoryModal from 'components/delete_category_modal';
-import EditCategoryModal from 'components/edit_category_modal';
-import SidebarMenu from 'components/sidebar/sidebar_menu';
-import Menu from 'components/widgets/menu/menu';
+import DeleteCategoryModal from 'src/components/delete_category_modal';
+import EditCategoryModal from 'src/components/edit_category_modal';
+import SidebarMenu from 'src/components/sidebar/sidebar_menu';
+import Menu from 'src/components/widgets/menu/menu';
 import {ModalIdentifiers} from 'src/utils/constants';
 
 type Props = {

@@ -12,11 +12,11 @@ import {ActionFunc} from 'mattermost-redux/types/actions';
 
 import {browserHistory} from 'src/utils/browser_history';
 import * as Utils from 'src/utils/utils.jsx';
-import ConfirmModal from 'components/confirm_modal';
-import DropdownIcon from 'components/widgets/icons/fa_dropdown_icon';
+import ConfirmModal from 'src/components/confirm_modal';
+import DropdownIcon from 'src/components/widgets/icons/fa_dropdown_icon';
 
-import Menu from 'components/widgets/menu/menu';
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
+import Menu from 'src/components/widgets/menu/menu';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
 
 const ROWS_FROM_BOTTOM_TO_OPEN_UP = 3;
 

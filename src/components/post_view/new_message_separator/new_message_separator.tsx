@@ -4,7 +4,7 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import NotificationSeparator from 'components/widgets/separator/notification-separator';
+import NotificationSeparator from 'src/components/widgets/separator/notification-separator';
 
 type Props = {
     separatorId: string;

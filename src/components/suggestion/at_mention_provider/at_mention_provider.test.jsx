@@ -2,8 +2,8 @@
 // See LICENSE.txt for license information.
 
 import {Constants} from 'src/utils/constants';
-import AtMentionProvider from 'components/suggestion/at_mention_provider/at_mention_provider.jsx';
-import AtMentionSuggestion from 'components/suggestion/at_mention_provider/at_mention_suggestion.jsx';
+import AtMentionProvider from 'src/components/suggestion/at_mention_provider/at_mention_provider.jsx';
+import AtMentionSuggestion from 'src/components/suggestion/at_mention_provider/at_mention_suggestion.jsx';
 
 describe('components/suggestion/at_mention_provider/AtMentionProvider', () => {
     const userid10 = {id: 'userid10', username: 'nicknamer', first_name: '', last_name: '', nickname: 'Z'};

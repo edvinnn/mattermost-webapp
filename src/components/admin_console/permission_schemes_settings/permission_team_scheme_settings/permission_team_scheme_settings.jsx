@@ -9,21 +9,21 @@ import {PermissionsScope, ModalIdentifiers} from 'src/utils/constants';
 import {localizeMessage} from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';
 
-import SaveButton from 'components/save_button';
-import LoadingScreen from 'components/loading_screen';
-import FormError from 'components/form_error';
-import TeamSelectorModal from 'components/team_selector_modal';
-import BlockableLink from 'components/admin_console/blockable_link';
-import AdminPanel from 'components/widgets/admin_console/admin_panel';
-import AdminPanelTogglable from 'components/widgets/admin_console/admin_panel_togglable';
-import AdminPanelWithButton from 'components/widgets/admin_console/admin_panel_with_button';
+import SaveButton from 'src/components/save_button';
+import LoadingScreen from 'src/components/loading_screen';
+import FormError from 'src/components/form_error';
+import TeamSelectorModal from 'src/components/team_selector_modal';
+import BlockableLink from 'src/components/admin_console/blockable_link';
+import AdminPanel from 'src/components/widgets/admin_console/admin_panel';
+import AdminPanelTogglable from 'src/components/widgets/admin_console/admin_panel_togglable';
+import AdminPanelWithButton from 'src/components/widgets/admin_console/admin_panel_with_button';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
 import PermissionsTree, {EXCLUDED_PERMISSIONS} from '../permissions_tree';
 import GuestPermissionsTree, {GUEST_INCLUDED_PERMISSIONS} from '../guest_permissions_tree';
 
-import LocalizedInput from 'components/localized_input/localized_input';
+import LocalizedInput from 'src/components/localized_input/localized_input';
 
 import TeamInList from './team_in_list';
 

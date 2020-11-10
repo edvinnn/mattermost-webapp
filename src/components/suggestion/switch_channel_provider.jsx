@@ -31,9 +31,9 @@ import {logError} from 'mattermost-redux/actions/errors';
 import {getLastPostPerChannel} from 'mattermost-redux/selectors/entities/posts';
 import {sortChannelsByTypeAndDisplayName, isGroupChannelVisible, isUnreadChannel} from 'mattermost-redux/utils/channel_utils';
 
-import BotBadge from 'components/widgets/badges/bot_badge';
-import GuestBadge from 'components/widgets/badges/guest_badge';
-import Avatar from 'components/widgets/users/avatar';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
+import GuestBadge from 'src/components/widgets/badges/guest_badge';
+import Avatar from 'src/components/widgets/users/avatar';
 
 import {getPostDraft} from 'src/selectors/rhs';
 import store from 'src/stores/redux_store.jsx';

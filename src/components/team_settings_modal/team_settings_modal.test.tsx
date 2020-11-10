@@ -5,7 +5,7 @@
 import {shallow} from 'enzyme';
 import React from 'react';
 
-import TeamSettingsModal from 'components/team_settings_modal/team_settings_modal';
+import TeamSettingsModal from 'src/components/team_settings_modal/team_settings_modal';
 
 describe('components/team_settings_modal', () => {
     test('should match snapshot', () => {

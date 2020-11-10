@@ -5,8 +5,8 @@ import React from 'react';
 import {CSSTransition} from 'react-transition-group';
 import {injectIntl} from 'react-intl';
 
-import CloseIcon from 'components/widgets/icons/close_icon';
-import BackIcon from 'components/widgets/icons/back_icon';
+import CloseIcon from 'src/components/widgets/icons/close_icon';
+import BackIcon from 'src/components/widgets/icons/back_icon';
 
 import './full_screen_modal.scss';
 

@@ -5,8 +5,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {FormattedMessage} from 'react-intl';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import GenericModal from 'components/generic_modal';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import GenericModal from 'src/components/generic_modal';
 import closeNextStepsArrow from 'images/close_next_steps_arrow.svg';
 
 import './remove_next_steps_modal.scss';

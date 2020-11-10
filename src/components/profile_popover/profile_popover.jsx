@@ -8,9 +8,9 @@ import {FormattedMessage, injectIntl} from 'react-intl';
 
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import Timestamp from 'components/timestamp';
-import OverlayTrigger from 'components/overlay_trigger';
-import UserSettingsModal from 'components/user_settings/modal';
+import Timestamp from 'src/components/timestamp';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import UserSettingsModal from 'src/components/user_settings/modal';
 import {browserHistory} from 'src/utils/browser_history';
 import * as GlobalActions from 'actions/global_actions.jsx';
 import Constants, {ModalIdentifiers, UserStatuses} from 'src/utils/constants';
@@ -19,11 +19,11 @@ import {intlShape} from 'src/utils/react_intl';
 import * as Utils from 'src/utils/utils.jsx';
 import Pluggable from 'src/plugins/pluggable';
 
-import AddUserToChannelModal from 'components/add_user_to_channel_modal';
-import LocalizedIcon from 'components/localized_icon';
-import ToggleModalButtonRedux from 'components/toggle_modal_button_redux';
-import Avatar from 'components/widgets/users/avatar';
-import Popover from 'components/widgets/popover';
+import AddUserToChannelModal from 'src/components/add_user_to_channel_modal';
+import LocalizedIcon from 'src/components/localized_icon';
+import ToggleModalButtonRedux from 'src/components/toggle_modal_button_redux';
+import Avatar from 'src/components/widgets/users/avatar';
+import Popover from 'src/components/widgets/popover';
 
 /**
  * The profile popover, or hovercard, that appears with user information when clicking

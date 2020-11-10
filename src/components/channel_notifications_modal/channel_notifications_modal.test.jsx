@@ -5,7 +5,7 @@ import {shallow} from 'enzyme';
 
 import {IgnoreChannelMentions, NotificationLevels, NotificationSections} from 'src/utils/constants';
 
-import ChannelNotificationsModal from 'components/channel_notifications_modal/channel_notifications_modal.jsx';
+import ChannelNotificationsModal from 'src/components/channel_notifications_modal/channel_notifications_modal.jsx';
 
 describe('components/channel_notifications_modal/ChannelNotificationsModal', () => {
     const baseProps = {

@@ -4,7 +4,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import LoadingScreen from 'components/loading_screen';
+import LoadingScreen from 'src/components/loading_screen';
 
 import PostList from './post_list';
 

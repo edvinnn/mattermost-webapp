@@ -10,14 +10,14 @@ import classNames from 'classnames';
 
 import {isEmail} from 'mattermost-redux/utils/helpers';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import MailIcon from 'components/widgets/icons/mail_icon';
-import MailPlusIcon from 'components/widgets/icons/mail_plus_icon';
-import CloseCircleSolidIcon from 'components/widgets/icons/close_circle_solid_icon';
-import GuestBadge from 'components/widgets/badges/guest_badge';
-import BotBadge from 'components/widgets/badges/bot_badge';
-import LoadingSpinner from 'components/widgets/loading/loading_spinner';
-import Avatar from 'components/widgets/users/avatar';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import MailIcon from 'src/components/widgets/icons/mail_icon';
+import MailPlusIcon from 'src/components/widgets/icons/mail_plus_icon';
+import CloseCircleSolidIcon from 'src/components/widgets/icons/close_circle_solid_icon';
+import GuestBadge from 'src/components/widgets/badges/guest_badge';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
+import LoadingSpinner from 'src/components/widgets/loading/loading_spinner';
+import Avatar from 'src/components/widgets/users/avatar';
 import {imageURLForUser, getDisplayName, getLongDisplayNameParts} from 'src/utils/utils.jsx';
 
 import {t} from 'src/utils/i18n.jsx';

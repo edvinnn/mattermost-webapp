@@ -9,8 +9,8 @@ import {PreferenceType} from 'mattermost-redux/types/preferences';
 
 import {Preferences} from 'src/utils/constants';
 import {localizeMessage} from 'src/utils/utils.jsx';
-import SettingItemMax from 'components/setting_item_max.jsx';
-import SettingItemMin from 'components/setting_item_min';
+import SettingItemMax from 'src/components/setting_item_max.jsx';
+import SettingItemMin from 'src/components/setting_item_min';
 
 const SECONDS_PER_MINUTE = 60;
 

@@ -6,8 +6,8 @@ import React from 'react';
 import {Modal, Tabs, Tab} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
-import MorePublicChannels from 'components/more_channels';
-import MoreDirectMessages from 'components/more_direct_channels';
+import MorePublicChannels from 'src/components/more_channels';
+import MoreDirectMessages from 'src/components/more_direct_channels';
 
 import {localizeMessage} from 'src/utils/utils';
 

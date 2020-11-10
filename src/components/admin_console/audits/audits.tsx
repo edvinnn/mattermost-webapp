@@ -6,11 +6,11 @@ import {FormattedMessage} from 'react-intl';
 
 import {Audit} from 'mattermost-redux/types/audits';
 
-import ComplianceReports from 'components/admin_console/compliance_reports';
-import AuditTable from 'components/audit_table';
-import LoadingScreen from 'components/loading_screen';
+import ComplianceReports from 'src/components/admin_console/compliance_reports';
+import AuditTable from 'src/components/audit_table';
+import LoadingScreen from 'src/components/loading_screen';
 
-import ReloadIcon from 'components/widgets/icons/fa_reload_icon';
+import ReloadIcon from 'src/components/widgets/icons/fa_reload_icon';
 
 type Props = {
     isLicensed: boolean;

@@ -11,9 +11,9 @@ import {ChannelMembership} from 'mattermost-redux/types/channels';
 import {RelationOneToOne} from 'mattermost-redux/types/utilities';
 import GeneralConstants from 'mattermost-redux/constants/general';
 
-import UserGridName from 'components/admin_console/user_grid/user_grid_name';
-import DataGrid, {Row, Column} from 'components/admin_console/data_grid/data_grid';
-import {FilterOptions} from 'components/admin_console/filter/filter';
+import UserGridName from 'src/components/admin_console/user_grid/user_grid_name';
+import DataGrid, {Row, Column} from 'src/components/admin_console/data_grid/data_grid';
+import {FilterOptions} from 'src/components/admin_console/filter/filter';
 
 import GroupUsersRole from './users_to_remove_role';
 import UsersToRemoveGroups from './users_to_remove_groups';

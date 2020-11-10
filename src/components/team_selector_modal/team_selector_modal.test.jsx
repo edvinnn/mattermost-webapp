@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import TeamSelectorModal from 'components/team_selector_modal/team_selector_modal.jsx';
+import TeamSelectorModal from 'src/components/team_selector_modal/team_selector_modal.jsx';
 
 describe('components/TeamSelectorModal', () => {
     const defaultProps = {

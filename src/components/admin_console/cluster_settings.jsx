@@ -7,8 +7,8 @@ import {Client4} from 'mattermost-redux/client';
 
 import * as Utils from 'src/utils/utils.jsx';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import WarningIcon from 'components/widgets/icons/fa_warning_icon';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import WarningIcon from 'src/components/widgets/icons/fa_warning_icon';
 
 import AdminSettings from './admin_settings';
 import BooleanSetting from './boolean_setting';

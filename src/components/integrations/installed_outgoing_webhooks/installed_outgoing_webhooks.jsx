@@ -7,9 +7,9 @@ import {FormattedMessage} from 'react-intl';
 
 import * as Utils from 'src/utils/utils.jsx';
 import Constants from 'src/utils/constants';
-import BackstageList from 'components/backstage/components/backstage_list.jsx';
-import InstalledOutgoingWebhook, {matchesFilter} from 'components/integrations/installed_outgoing_webhook.jsx';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import BackstageList from 'src/components/backstage/components/backstage_list.jsx';
+import InstalledOutgoingWebhook, {matchesFilter} from 'src/components/integrations/installed_outgoing_webhook.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
 export default class InstalledOutgoingWebhooks extends React.PureComponent {
     static propTypes = {

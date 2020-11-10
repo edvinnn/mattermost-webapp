@@ -6,7 +6,7 @@ import * as users from 'mattermost-redux/selectors/entities/users';
 import {GlobalState} from 'mattermost-redux/types/store';
 import {UserProfile} from 'mattermost-redux/types/users';
 
-import {getUsers} from 'components/admin_console/system_users/list/selectors';
+import {getUsers} from 'src/components/admin_console/system_users/list/selectors';
 
 jest.mock('mattermost-redux/selectors/entities/users');
 

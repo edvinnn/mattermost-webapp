@@ -11,11 +11,11 @@ import {compareEmojis} from 'src/utils/emoji_utils';
 import {t} from 'src/utils/i18n';
 import imgTrans from 'images/img_trans.gif';
 
-import LocalizedInput from 'components/localized_input/localized_input';
+import LocalizedInput from 'src/components/localized_input/localized_input';
 
-import NoResultsIndicator from 'components/no_results_indicator/no_results_indicator.tsx';
+import NoResultsIndicator from 'src/components/no_results_indicator/no_results_indicator.tsx';
 
-import {NoResultsVariant} from 'components/no_results_indicator/types';
+import {NoResultsVariant} from 'src/components/no_results_indicator/types';
 
 import EmojiPickerCategory from './components/emoji_picker_category';
 import EmojiPickerItem from './components/emoji_picker_item';

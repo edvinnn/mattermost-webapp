@@ -7,10 +7,10 @@ import {Link} from 'react-router-dom';
 
 import {FormattedMessage} from 'react-intl';
 
-import ConfirmModal from 'components/confirm_modal';
-import Markdown from 'components/markdown';
-import SaveButton from 'components/save_button';
-import WarningIcon from 'components/widgets/icons/fa_warning_icon';
+import ConfirmModal from 'src/components/confirm_modal';
+import Markdown from 'src/components/markdown';
+import SaveButton from 'src/components/save_button';
+import WarningIcon from 'src/components/widgets/icons/fa_warning_icon';
 import * as Utils from 'src/utils/utils.jsx';
 
 export function matchesFilter(bot, filter, owner) {

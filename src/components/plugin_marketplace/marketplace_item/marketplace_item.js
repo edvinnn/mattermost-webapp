@@ -11,11 +11,11 @@ import {FormattedMessage} from 'react-intl';
 
 import {Link} from 'react-router-dom';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import ConfirmModal from 'components/confirm_modal';
-import OverlayTrigger from 'components/overlay_trigger';
-import LoadingWrapper from 'components/widgets/loading/loading_wrapper.tsx';
-import PluginIcon from 'components/widgets/icons/plugin_icon.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import ConfirmModal from 'src/components/confirm_modal';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import LoadingWrapper from 'src/components/widgets/loading/loading_wrapper.tsx';
+import PluginIcon from 'src/components/widgets/icons/plugin_icon.jsx';
 
 import {localizeMessage} from 'src/utils/utils';
 import {Constants} from 'src/utils/constants';

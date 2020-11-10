@@ -8,13 +8,13 @@ import {FormattedMessage} from 'react-intl';
 import debounce from 'lodash/debounce';
 import {Tabs, Tab} from 'react-bootstrap';
 
-import FullScreenModal from 'components/widgets/modals/full_screen_modal';
-import RootPortal from 'components/root_portal';
-import QuickInput from 'components/quick_input';
-import LocalizedInput from 'components/localized_input/localized_input';
-import PluginIcon from 'components/widgets/icons/plugin_icon.jsx';
-import LoadingScreen from 'components/loading_screen';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import FullScreenModal from 'src/components/widgets/modals/full_screen_modal';
+import RootPortal from 'src/components/root_portal';
+import QuickInput from 'src/components/quick_input';
+import LocalizedInput from 'src/components/localized_input/localized_input';
+import PluginIcon from 'src/components/widgets/icons/plugin_icon.jsx';
+import LoadingScreen from 'src/components/loading_screen';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 import {t} from 'src/utils/i18n';

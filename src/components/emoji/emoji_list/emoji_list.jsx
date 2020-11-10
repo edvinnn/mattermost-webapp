@@ -7,13 +7,13 @@ import {FormattedMessage} from 'react-intl';
 
 import {Emoji} from 'mattermost-redux/constants';
 
-import LoadingScreen from 'components/loading_screen';
-import SaveButton from 'components/save_button';
-import EmojiListItem from 'components/emoji/emoji_list_item';
-import NextIcon from 'components/widgets/icons/fa_next_icon';
-import PreviousIcon from 'components/widgets/icons/fa_previous_icon';
-import SearchIcon from 'components/widgets/icons/fa_search_icon';
-import LocalizedInput from 'components/localized_input/localized_input';
+import LoadingScreen from 'src/components/loading_screen';
+import SaveButton from 'src/components/save_button';
+import EmojiListItem from 'src/components/emoji/emoji_list_item';
+import NextIcon from 'src/components/widgets/icons/fa_next_icon';
+import PreviousIcon from 'src/components/widgets/icons/fa_previous_icon';
+import SearchIcon from 'src/components/widgets/icons/fa_search_icon';
+import LocalizedInput from 'src/components/localized_input/localized_input';
 
 import {t} from 'src/utils/i18n.jsx';
 

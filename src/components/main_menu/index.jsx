@@ -32,7 +32,7 @@ import {
     showOnboarding,
     showNextStepsTips,
     showNextSteps,
-} from 'components/next_steps_view/steps';
+} from 'src/components/next_steps_view/steps';
 
 import MainMenu from './main_menu.jsx';
 

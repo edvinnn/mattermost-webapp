@@ -4,12 +4,12 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import FlagIcon from 'components/widgets/icons/flag_icon';
-import MentionsIcon from 'components/widgets/icons/mentions_icon';
-import PinIcon from 'components/widgets/icons/pin_icon';
-import SearchIcon from 'components/widgets/icons/search_icon';
+import FlagIcon from 'src/components/widgets/icons/flag_icon';
+import MentionsIcon from 'src/components/widgets/icons/mentions_icon';
+import PinIcon from 'src/components/widgets/icons/pin_icon';
+import SearchIcon from 'src/components/widgets/icons/search_icon';
 
-import HeaderIconWrapper from 'components/channel_header/components/header_icon_wrapper';
+import HeaderIconWrapper from 'src/components/channel_header/components/header_icon_wrapper';
 
 describe('components/channel_header/components/HeaderIconWrapper', () => {
     function emptyFunction() {} //eslint-disable-line no-empty-function

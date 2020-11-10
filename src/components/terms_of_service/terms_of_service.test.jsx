@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import TermsOfService from 'components/terms_of_service/terms_of_service.jsx';
+import TermsOfService from 'src/components/terms_of_service/terms_of_service.jsx';
 
 import {emitUserLoggedOutEvent} from 'actions/global_actions.jsx';
 

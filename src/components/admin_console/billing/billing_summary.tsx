@@ -9,9 +9,9 @@ import {useSelector} from 'react-redux';
 import {Client4} from 'mattermost-redux/client';
 
 import {trackEvent} from 'actions/telemetry_actions';
-import BlockableLink from 'components/admin_console/blockable_link';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import OverlayTrigger from 'components/overlay_trigger';
+import BlockableLink from 'src/components/admin_console/blockable_link';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import OverlayTrigger from 'src/components/overlay_trigger';
 import {GlobalState} from 'types/store';
 import {CloudLinks} from 'src/utils/constants';
 

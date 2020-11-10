@@ -6,7 +6,7 @@ import React from 'react';
 
 import {IgnoreChannelMentions, NotificationLevels, NotificationSections} from 'src/utils/constants';
 
-import SettingItemMax from 'components/setting_item_max.jsx';
+import SettingItemMax from 'src/components/setting_item_max.jsx';
 
 import Describe from './describe.jsx';
 import ExtraInfo from './extra_info.jsx';

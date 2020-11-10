@@ -10,8 +10,8 @@ import {getCloudCustomer} from 'mattermost-redux/actions/cloud';
 import {GlobalState} from 'mattermost-redux/types/store';
 
 import {pageVisited} from 'actions/telemetry_actions';
-import FormattedAdminHeader from 'components/widgets/admin_console/formatted_admin_header';
-import AlertBanner from 'components/alert_banner';
+import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted_admin_header';
+import AlertBanner from 'src/components/alert_banner';
 
 import PaymentInfoDisplay from './payment_info_display';
 

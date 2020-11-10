@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 import {localizeMessage} from 'src/utils/utils.jsx';
 
-import SearchIcon from 'components/widgets/icons/search_icon';
+import SearchIcon from 'src/components/widgets/icons/search_icon';
 
 export default class ShowSearchButton extends React.PureComponent {
     static propTypes = {

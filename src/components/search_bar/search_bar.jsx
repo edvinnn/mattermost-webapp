@@ -8,19 +8,19 @@ import {FormattedMessage} from 'react-intl';
 
 import Constants, {searchHintOptions, RHSStates} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
-import SearchChannelProvider from 'components/suggestion/search_channel_provider.jsx';
-import SearchSuggestionList from 'components/suggestion/search_suggestion_list.jsx';
-import SuggestionDate from 'components/suggestion/suggestion_date.jsx';
-import SearchUserProvider from 'components/suggestion/search_user_provider.jsx';
-import SearchDateProvider from 'components/suggestion/search_date_provider.jsx';
-import SuggestionBox from 'components/suggestion/suggestion_box.jsx';
-import HeaderIconWrapper from 'components/channel_header/components/header_icon_wrapper';
-import SearchHint from 'components/search_hint/search_hint';
-import FlagIcon from 'components/widgets/icons/flag_icon';
-import MentionsIcon from 'components/widgets/icons/mentions_icon';
-import LoadingSpinner from 'components/widgets/loading/loading_spinner';
-import Popover from 'components/widgets/popover';
-import UserGuideDropdown from 'components/channel_header/components/user_guide_dropdown';
+import SearchChannelProvider from 'src/components/suggestion/search_channel_provider.jsx';
+import SearchSuggestionList from 'src/components/suggestion/search_suggestion_list.jsx';
+import SuggestionDate from 'src/components/suggestion/suggestion_date.jsx';
+import SearchUserProvider from 'src/components/suggestion/search_user_provider.jsx';
+import SearchDateProvider from 'src/components/suggestion/search_date_provider.jsx';
+import SuggestionBox from 'src/components/suggestion/suggestion_box.jsx';
+import HeaderIconWrapper from 'src/components/channel_header/components/header_icon_wrapper';
+import SearchHint from 'src/components/search_hint/search_hint';
+import FlagIcon from 'src/components/widgets/icons/flag_icon';
+import MentionsIcon from 'src/components/widgets/icons/mentions_icon';
+import LoadingSpinner from 'src/components/widgets/loading/loading_spinner';
+import Popover from 'src/components/widgets/popover';
+import UserGuideDropdown from 'src/components/channel_header/components/user_guide_dropdown';
 
 const {KeyCodes} = Constants;
 

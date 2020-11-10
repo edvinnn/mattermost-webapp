@@ -5,7 +5,7 @@ import React from 'react';
 import {shallow} from 'enzyme';
 
 import {browserHistory} from 'src/utils/browser_history';
-import EditOAuthApp from 'components/integrations/edit_oauth_app/edit_oauth_app.jsx';
+import EditOAuthApp from 'src/components/integrations/edit_oauth_app/edit_oauth_app.jsx';
 
 describe('components/integrations/EditOAuthApp', () => {
     const oauthApp = {

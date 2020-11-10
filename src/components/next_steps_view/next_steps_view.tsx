@@ -9,9 +9,9 @@ import {PreferenceType} from 'mattermost-redux/types/preferences';
 import {UserProfile} from 'mattermost-redux/types/users';
 
 import {pageVisited, trackEvent} from 'actions/telemetry_actions';
-import Accordion from 'components/accordion';
-import Card from 'components/card/card';
-import {getAnalyticsCategory} from 'components/next_steps_view/step_helpers';
+import Accordion from 'src/components/accordion';
+import Card from 'src/components/card/card';
+import {getAnalyticsCategory} from 'src/components/next_steps_view/step_helpers';
 import {Preferences, RecommendedNextSteps} from 'src/utils/constants';
 
 import loadingIcon from 'images/spinner-48x48-blue.apng';

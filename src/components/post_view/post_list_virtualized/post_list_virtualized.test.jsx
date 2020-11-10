@@ -10,7 +10,7 @@ import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
 import {PostListRowListIds, PostRequestTypes} from 'src/utils/constants';
 
-import PostListRow from 'components/post_view/post_list_row';
+import PostListRow from 'src/components/post_view/post_list_row';
 
 import PostList from './post_list_virtualized';
 

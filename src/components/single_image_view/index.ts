@@ -12,7 +12,7 @@ import {toggleEmbedVisibility} from 'actions/post_actions';
 
 import {getIsRhsOpen} from 'src/selectors/rhs';
 
-import SingleImageView from 'components/single_image_view/single_image_view';
+import SingleImageView from 'src/components/single_image_view/single_image_view';
 
 function mapStateToProps(state: GlobalState) {
     const isRhsOpen = getIsRhsOpen(state);

@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import {TestHelper} from 'src/utils/test_helper';
 
-import FailedPostOptions from 'components/post_view/failed_post_options/failed_post_options';
+import FailedPostOptions from 'src/components/post_view/failed_post_options/failed_post_options';
 
 describe('components/post_view/FailedPostOptions', () => {
     const baseProps = {

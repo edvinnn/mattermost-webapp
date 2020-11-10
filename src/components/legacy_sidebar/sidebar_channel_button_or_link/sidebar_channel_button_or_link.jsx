@@ -11,8 +11,8 @@ import {browserHistory} from 'src/utils/browser_history';
 import {mark, trackEvent} from 'actions/telemetry_actions.jsx';
 import {isDesktopApp} from 'src/utils/user_agent';
 import Constants from 'src/utils/constants';
-import CopyUrlContextMenu from 'components/copy_url_context_menu';
-import OverlayTrigger from 'components/overlay_trigger';
+import CopyUrlContextMenu from 'src/components/copy_url_context_menu';
+import OverlayTrigger from 'src/components/overlay_trigger';
 
 import SidebarChannelButtonOrLinkIcon from './sidebar_channel_button_or_link_icon.jsx';
 import SidebarChannelButtonOrLinkCloseButton from './sidebar_channel_button_or_link_close_button.jsx';

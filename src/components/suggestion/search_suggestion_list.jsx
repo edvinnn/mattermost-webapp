@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 
 import Constants from 'src/utils/constants';
 
-import Popover from 'components/widgets/popover';
+import Popover from 'src/components/widgets/popover';
 
 import SuggestionList from './suggestion_list.jsx';
 

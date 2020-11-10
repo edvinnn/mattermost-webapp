@@ -10,7 +10,7 @@ import {Posts} from 'mattermost-redux/constants';
 import {t} from 'src/utils/i18n';
 import {intlShape} from 'src/utils/react_intl';
 
-import Markdown from 'components/markdown';
+import Markdown from 'src/components/markdown';
 
 const typeMessage = {
     [Posts.POST_TYPES.ADD_TO_CHANNEL]: {

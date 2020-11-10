@@ -6,7 +6,7 @@ import {Modal} from 'react-bootstrap';
 import {shallow} from 'enzyme';
 
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
-import ChannelInfoModal from 'components/channel_info_modal/channel_info_modal.jsx';
+import ChannelInfoModal from 'src/components/channel_info_modal/channel_info_modal.jsx';
 
 describe('components/ChannelInfoModal', () => {
     it('should match snapshot', () => {

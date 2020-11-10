@@ -5,7 +5,7 @@ import React from 'react';
 import {Modal} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
-import SuccessIcon from 'components/widgets/icons/fa_success_icon';
+import SuccessIcon from 'src/components/widgets/icons/fa_success_icon';
 
 type Props = {
     show: boolean;

@@ -15,11 +15,11 @@ import {intlShape} from 'src/utils/react_intl';
 import * as Utils from 'src/utils/utils.jsx';
 import {getTable, formatMarkdownTableMessage, isGitHubCodeBlock, formatGithubCodePaste} from 'src/utils/paste';
 
-import DeletePostModal from 'components/delete_post_modal';
-import EmojiPickerOverlay from 'components/emoji_picker/emoji_picker_overlay.jsx';
-import EmojiIcon from 'components/widgets/icons/emoji_icon';
-import Textbox from 'components/textbox';
-import TextboxLinks from 'components/textbox/textbox_links';
+import DeletePostModal from 'src/components/delete_post_modal';
+import EmojiPickerOverlay from 'src/components/emoji_picker/emoji_picker_overlay.jsx';
+import EmojiIcon from 'src/components/widgets/icons/emoji_icon';
+import Textbox from 'src/components/textbox';
+import TextboxLinks from 'src/components/textbox/textbox_links';
 
 const KeyCodes = Constants.KeyCodes;
 const TOP_OFFSET = 0;

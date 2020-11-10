@@ -4,8 +4,8 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import TextSetting from 'components/widgets/settings/text_setting';
-import RadioSetting from 'components/widgets/settings/radio_setting';
+import TextSetting from 'src/components/widgets/settings/text_setting';
+import RadioSetting from 'src/components/widgets/settings/radio_setting';
 
 import DialogElement from './dialog_element.jsx';
 

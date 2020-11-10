@@ -7,7 +7,7 @@ import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
 import Constants from 'src/utils/constants';
 import LocalStorageStore from 'src/stores/local_storage_store';
-import LoginController from 'components/login/login_controller/login_controller';
+import LoginController from 'src/components/login/login_controller/login_controller';
 
 describe('components/login/LoginController', () => {
     const baseProps = {

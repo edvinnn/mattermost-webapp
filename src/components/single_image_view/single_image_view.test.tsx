@@ -4,8 +4,8 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import SingleImageView from 'components/single_image_view/single_image_view';
-import SizeAwareImage from 'components/size_aware_image';
+import SingleImageView from 'src/components/single_image_view/single_image_view';
+import SizeAwareImage from 'src/components/size_aware_image';
 import {TestHelper} from 'src/utils/test_helper';
 
 describe('components/SingleImageView', () => {

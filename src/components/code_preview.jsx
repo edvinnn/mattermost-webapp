@@ -8,8 +8,8 @@ import React from 'react';
 import Constants from 'src/utils/constants.jsx';
 import * as SyntaxHighlighting from 'src/utils/syntax_highlighting';
 
-import LoadingSpinner from 'components/widgets/loading/loading_spinner';
-import FileInfoPreview from 'components/file_info_preview';
+import LoadingSpinner from 'src/components/widgets/loading/loading_spinner';
+import FileInfoPreview from 'src/components/file_info_preview';
 
 export default class CodePreview extends React.PureComponent {
     constructor(props) {

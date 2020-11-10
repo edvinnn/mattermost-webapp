@@ -4,7 +4,7 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import NextIcon from 'components/widgets/icons/fa_next_icon';
+import NextIcon from 'src/components/widgets/icons/fa_next_icon';
 
 const NEXT_BUTTON_TIMEOUT = 500;
 

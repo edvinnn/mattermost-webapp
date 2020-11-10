@@ -8,7 +8,7 @@ import {showLeavePrivateChannelModal} from 'actions/global_actions';
 import {Constants} from 'src/utils/constants';
 import {localizeMessage} from 'src/utils/utils';
 
-import Menu from 'components/widgets/menu/menu';
+import Menu from 'src/components/widgets/menu/menu';
 
 export default class LeaveChannel extends React.PureComponent {
     static propTypes = {

@@ -5,7 +5,7 @@ import React from 'react';
 import {shallow} from 'enzyme';
 import {Modal} from 'react-bootstrap';
 
-import TeamMembersModal from 'components/team_members_modal/team_members_modal';
+import TeamMembersModal from 'src/components/team_members_modal/team_members_modal';
 
 describe('components/TeamMembersModal', () => {
     test('should match snapshot', () => {

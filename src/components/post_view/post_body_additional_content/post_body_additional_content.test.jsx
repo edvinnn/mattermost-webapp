@@ -6,10 +6,10 @@ import React from 'react';
 
 import * as postUtils from 'mattermost-redux/utils/post_utils';
 
-import MessageAttachmentList from 'components/post_view/message_attachments/message_attachment_list';
-import PostAttachmentOpenGraph from 'components/post_view/post_attachment_opengraph';
-import PostImage from 'components/post_view/post_image';
-import YoutubeVideo from 'components/youtube_video';
+import MessageAttachmentList from 'src/components/post_view/message_attachments/message_attachment_list';
+import PostAttachmentOpenGraph from 'src/components/post_view/post_attachment_opengraph';
+import PostImage from 'src/components/post_view/post_image';
+import YoutubeVideo from 'src/components/youtube_video';
 
 import PostBodyAdditionalContent from './post_body_additional_content';
 

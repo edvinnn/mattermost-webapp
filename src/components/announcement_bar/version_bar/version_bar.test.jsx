@@ -4,8 +4,8 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import VersionBar from 'components/announcement_bar/version_bar/version_bar.jsx';
-import AnnouncementBar from 'components/announcement_bar/default_announcement_bar';
+import VersionBar from 'src/components/announcement_bar/version_bar/version_bar.jsx';
+import AnnouncementBar from 'src/components/announcement_bar/default_announcement_bar';
 
 describe('components/VersionBar', () => {
     test('should match snapshot - bar rendered after server version change', () => {

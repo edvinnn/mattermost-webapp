@@ -8,9 +8,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {FormattedMessage, injectIntl} from 'react-intl';
 
-import QuickInput from 'components/quick_input';
-import UserList from 'components/user_list.jsx';
-import LocalizedInput from 'components/localized_input/localized_input';
+import QuickInput from 'src/components/quick_input';
+import UserList from 'src/components/user_list.jsx';
+import LocalizedInput from 'src/components/localized_input/localized_input';
 
 import {t} from 'src/utils/i18n';
 

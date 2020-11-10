@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import EmojiMap from 'src/utils/emoji_map';
 
-import EmojiPicker, {filterEmojiSearchInput} from 'components/emoji_picker/emoji_picker';
+import EmojiPicker, {filterEmojiSearchInput} from 'src/components/emoji_picker/emoji_picker';
 
 import EmojiPickerCategory from './components/emoji_picker_category';
 import EmojiPickerCategorySection from './emoji_picker_category_section';

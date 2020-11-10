@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import Sidebar from 'components/sidebar/sidebar';
+import Sidebar from 'src/components/sidebar/sidebar';
 
 describe('components/sidebar', () => {
     const baseProps = {

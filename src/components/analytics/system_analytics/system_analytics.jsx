@@ -8,9 +8,9 @@ import PropTypes from 'prop-types';
 import * as AdminActions from 'actions/admin_actions.jsx';
 import Constants from 'src/utils/constants';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
-import FormattedAdminHeader from 'components/widgets/admin_console/formatted_admin_header';
+import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted_admin_header';
 
 import DoughnutChart from '../doughnut_chart';
 import LineChart from '../line_chart';

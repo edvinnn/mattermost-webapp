@@ -7,7 +7,7 @@ import {getEmojiMap, getRecentEmojis} from 'src/selectors/emojis';
 import EmoticonProvider, {
     MIN_EMOTICON_LENGTH,
     EMOJI_CATEGORY_SUGGESTION_BLOCKLIST,
-} from 'components/suggestion/emoticon_provider.jsx';
+} from 'src/components/suggestion/emoticon_provider.jsx';
 
 jest.mock('selectors/emojis', () => ({
     getEmojiMap: jest.fn(),

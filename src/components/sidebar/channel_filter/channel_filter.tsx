@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 import classNames from 'classnames';
 
 import {trackEvent} from 'actions/telemetry_actions';
-import OverlayTrigger from 'components/overlay_trigger';
+import OverlayTrigger from 'src/components/overlay_trigger';
 import {localizeMessage} from 'src/utils/utils';
 
 type Props = {

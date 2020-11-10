@@ -6,7 +6,7 @@ import React from 'react';
 
 import {browserHistory} from 'src/utils/browser_history';
 import {t} from 'src/utils/i18n';
-import AbstractOutgoingWebhook from 'components/integrations/abstract_outgoing_webhook.jsx';
+import AbstractOutgoingWebhook from 'src/components/integrations/abstract_outgoing_webhook.jsx';
 
 const HEADER = {id: t('integrations.add'), defaultMessage: 'Add'};
 const FOOTER = {id: t('add_outgoing_webhook.save'), defaultMessage: 'Save'};

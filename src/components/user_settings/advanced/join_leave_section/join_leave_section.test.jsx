@@ -6,10 +6,10 @@ import {shallow} from 'enzyme';
 
 import {AdvancedSections} from 'src/utils/constants';
 
-import SettingItemMax from 'components/setting_item_max.jsx';
-import SettingItemMin from 'components/setting_item_min';
+import SettingItemMax from 'src/components/setting_item_max.jsx';
+import SettingItemMin from 'src/components/setting_item_min';
 
-import JoinLeaveSection from 'components/user_settings/advanced/join_leave_section/join_leave_section.jsx';
+import JoinLeaveSection from 'src/components/user_settings/advanced/join_leave_section/join_leave_section.jsx';
 
 describe('components/user_settings/advanced/JoinLeaveSection', () => {
     const defaultProps = {

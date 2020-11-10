@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import AddOutgoingWebhook from 'components/integrations/add_outgoing_webhook/add_outgoing_webhook.jsx';
+import AddOutgoingWebhook from 'src/components/integrations/add_outgoing_webhook/add_outgoing_webhook.jsx';
 
 describe('components/integrations/AddOutgoingWebhook', () => {
     test('should match snapshot', () => {

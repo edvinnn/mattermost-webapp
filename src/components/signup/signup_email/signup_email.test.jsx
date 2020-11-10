@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import SignupEmail from 'components/signup/signup_email/signup_email.jsx';
+import SignupEmail from 'src/components/signup/signup_email/signup_email.jsx';
 
 import {browserHistory} from 'src/utils/browser_history';
 

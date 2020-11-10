@@ -12,9 +12,9 @@ import {trackEvent} from 'actions/telemetry_actions.jsx';
 import {filterAndSortTeamsByDisplayName} from 'src/utils/team_utils.jsx';
 import {ModalIdentifiers} from 'src/utils/constants';
 
-import AboutBuildModal from 'components/about_build_modal';
+import AboutBuildModal from 'src/components/about_build_modal';
 
-import Menu from 'components/widgets/menu/menu';
+import Menu from 'src/components/widgets/menu/menu';
 
 import MenuItemBlockableLink from './menu_item_blockable_link';
 

@@ -4,8 +4,8 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import GeneralTab from 'components/team_general_tab';
-import ImportTab from 'components/team_import_tab.jsx';
+import GeneralTab from 'src/components/team_general_tab';
+import ImportTab from 'src/components/team_import_tab.jsx';
 
 const TeamSettings = ({activeTab, activeSection, updateSection, closeModal, collapseModal, team}) => {
     if (!team) {

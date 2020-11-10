@@ -9,7 +9,7 @@ import ReactDOM from 'react-dom';
 import Constants from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 
-import FileInfoPreview from 'components/file_info_preview';
+import FileInfoPreview from 'src/components/file_info_preview';
 
 export default class AudioVideoPreview extends React.PureComponent {
     static propTypes = {

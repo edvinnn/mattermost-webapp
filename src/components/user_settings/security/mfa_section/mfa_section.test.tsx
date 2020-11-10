@@ -6,7 +6,7 @@ jest.mock('utils/browser_history');
 import {shallow} from 'enzyme';
 import React from 'react';
 
-import MfaSection from 'components/user_settings/security/mfa_section/mfa_section';
+import MfaSection from 'src/components/user_settings/security/mfa_section/mfa_section';
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
 import {browserHistory} from 'src/utils/browser_history';
 

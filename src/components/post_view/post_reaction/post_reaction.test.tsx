@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import {Emoji} from 'mattermost-redux/types/emojis';
 
-import PostReaction from 'components/post_view/post_reaction/post_reaction';
+import PostReaction from 'src/components/post_view/post_reaction/post_reaction';
 
 describe('components/post_view/PostReaction', () => {
     const baseProps = {

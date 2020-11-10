@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import {Client4} from 'mattermost-redux/client';
 
-import Root from 'components/root/root';
+import Root from 'src/components/root/root';
 import * as GlobalActions from 'actions/global_actions.jsx';
 import * as Utils from 'src/utils/utils';
 import Constants, {StoragePrefixes} from 'src/utils/constants';

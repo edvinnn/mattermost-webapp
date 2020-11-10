@@ -4,7 +4,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Toggle from 'components/toggle';
+import Toggle from 'src/components/toggle';
 
 export default class LineSwitch extends React.PureComponent {
     static propTypes = {

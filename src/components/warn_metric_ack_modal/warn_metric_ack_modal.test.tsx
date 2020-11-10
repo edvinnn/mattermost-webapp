@@ -7,7 +7,7 @@ import {shallow} from 'enzyme';
 import {Modal} from 'react-bootstrap';
 import {UserProfile} from 'mattermost-redux/src/types/users';
 
-import WarnMetricAckModal from 'components/warn_metric_ack_modal/warn_metric_ack_modal';
+import WarnMetricAckModal from 'src/components/warn_metric_ack_modal/warn_metric_ack_modal';
 
 describe('components/WarnMetricAckModal', () => {
     const serverError = 'some error';

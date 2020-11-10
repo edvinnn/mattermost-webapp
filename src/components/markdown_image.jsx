@@ -6,9 +6,9 @@ import React from 'react';
 
 import Constants from 'src/utils/constants.jsx';
 
-import ExternalImage from 'components/external_image';
-import SizeAwareImage from 'components/size_aware_image';
-import ViewImageModal from 'components/view_image';
+import ExternalImage from 'src/components/external_image';
+import SizeAwareImage from 'src/components/size_aware_image';
+import ViewImageModal from 'src/components/view_image';
 
 import brokenImageIcon from 'images/icons/brokenimage.png';
 

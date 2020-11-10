@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import TextDismissableBar from 'components/announcement_bar/text_dismissable_bar.jsx';
+import TextDismissableBar from 'src/components/announcement_bar/text_dismissable_bar.jsx';
 
 describe('components/TextDismissableBar', () => {
     const baseProps = {

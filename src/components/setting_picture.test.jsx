@@ -4,8 +4,8 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import SettingPicture from 'components/setting_picture.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import SettingPicture from 'src/components/setting_picture.jsx';
 
 const helpText = (
     <FormattedMarkdownMessage

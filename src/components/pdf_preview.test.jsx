@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import PDFPreview from 'components/pdf_preview.jsx';
+import PDFPreview from 'src/components/pdf_preview.jsx';
 
 jest.mock('pdfjs-dist', () => ({
     getDocument: () => Promise.resolve({

@@ -9,7 +9,7 @@ import {FormattedMessage} from 'react-intl';
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 import Constants from 'src/utils/constants';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 export default class ConvertChannelModal extends React.PureComponent {
     static propTypes = {

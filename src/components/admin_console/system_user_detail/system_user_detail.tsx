@@ -23,20 +23,20 @@ import {Constants} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';
 
-import BlockableLink from 'components/admin_console/blockable_link';
-import ResetPasswordModal from 'components/admin_console/reset_password_modal';
-import AdminButtonOutline from 'components/admin_console/admin_button_outline/admin_button_outline';
-import AdminUserCard from 'components/admin_console/admin_user_card/admin_user_card';
-import AdminPanel from 'components/widgets/admin_console/admin_panel';
-import ConfirmModal from 'components/confirm_modal';
-import SaveButton from 'components/save_button';
-import FormError from 'components/form_error';
-import TeamSelectorModal from 'components/team_selector_modal';
+import BlockableLink from 'src/components/admin_console/blockable_link';
+import ResetPasswordModal from 'src/components/admin_console/reset_password_modal';
+import AdminButtonOutline from 'src/components/admin_console/admin_button_outline/admin_button_outline';
+import AdminUserCard from 'src/components/admin_console/admin_user_card/admin_user_card';
+import AdminPanel from 'src/components/widgets/admin_console/admin_panel';
+import ConfirmModal from 'src/components/confirm_modal';
+import SaveButton from 'src/components/save_button';
+import FormError from 'src/components/form_error';
+import TeamSelectorModal from 'src/components/team_selector_modal';
 
-import TeamList from 'components/admin_console/system_user_detail/team_list';
-import EmailIcon from 'components/widgets/icons/email_icon.jsx';
-import AtIcon from 'components/widgets/icons/at_icon.jsx';
-import SheidOutlineIcon from 'components/widgets/icons/shield_outline_icon.jsx';
+import TeamList from 'src/components/admin_console/system_user_detail/team_list';
+import EmailIcon from 'src/components/widgets/icons/email_icon.jsx';
+import AtIcon from 'src/components/widgets/icons/at_icon.jsx';
+import SheidOutlineIcon from 'src/components/widgets/icons/shield_outline_icon.jsx';
 
 import './system_user_detail.scss';
 

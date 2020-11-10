@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 import {changeOpacity} from 'mattermost-redux/utils/theme_utils';
 
 import {Constants} from 'src/utils/constants';
-import ActionButton from 'components/post_view/message_attachments/action_button/action_button';
+import ActionButton from 'src/components/post_view/message_attachments/action_button/action_button';
 
 describe('components/post_view/message_attachments/action_button.jsx', () => {
     const baseProps = {

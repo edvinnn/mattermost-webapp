@@ -5,7 +5,7 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
 import {isMobile} from 'src/utils/utils.jsx';
-import EditIcon from 'components/widgets/icons/fa_edit_icon';
+import EditIcon from 'src/components/widgets/icons/fa_edit_icon';
 
 interface Props {
 

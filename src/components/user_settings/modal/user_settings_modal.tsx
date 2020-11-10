@@ -23,7 +23,7 @@ import * as Utils from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';
 import ConfirmModal from '../../confirm_modal';
 
-const UserSettings = React.lazy(() => import(/* webpackPrefetch: true */ 'components/user_settings'));
+const UserSettings = React.lazy(() => import(/* webpackPrefetch: true */ 'src/components/user_settings'));
 const SettingsSidebar = React.lazy(() => import(/* webpackPrefetch: true */ '../../settings_sidebar'));
 
 const holders = defineMessages({

@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import {Constants} from 'src/utils/constants';
 
-import Menu from 'components/widgets/menu/menu';
+import Menu from 'src/components/widgets/menu/menu';
 
 import LeaveChannel from './leave_channel';
 

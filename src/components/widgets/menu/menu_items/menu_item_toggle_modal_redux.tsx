@@ -5,7 +5,7 @@ import React from 'react';
 
 import {Dictionary} from 'mattermost-redux/types/utilities';
 
-import ToggleModalButtonRedux from 'components/toggle_modal_button_redux';
+import ToggleModalButtonRedux from 'src/components/toggle_modal_button_redux';
 
 import menuItem from './menu_item';
 

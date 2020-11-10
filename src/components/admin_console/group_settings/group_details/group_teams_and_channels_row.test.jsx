@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import GroupTeamsAndChannelsRow from 'components/admin_console/group_settings/group_details/group_teams_and_channels_row.jsx';
+import GroupTeamsAndChannelsRow from 'src/components/admin_console/group_settings/group_details/group_teams_and_channels_row.jsx';
 
 describe('components/admin_console/group_settings/group_details/GroupTeamsAndChannelsRow', () => {
     for (const type of ['public-team', 'private-team', 'public-channel', 'private-channel']) {

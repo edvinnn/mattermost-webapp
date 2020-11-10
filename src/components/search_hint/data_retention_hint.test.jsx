@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import DataRetentionHint from 'components/search_hint/data_retention_hint';
+import DataRetentionHint from 'src/components/search_hint/data_retention_hint';
 
 describe('components/DataRetentionHint', () => {
     test('should match snapshot', () => {

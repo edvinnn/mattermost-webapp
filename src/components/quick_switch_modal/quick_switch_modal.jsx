@@ -7,19 +7,19 @@ import React from 'react';
 import {Modal} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 import {browserHistory} from 'src/utils/browser_history';
 import Constants from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 import * as UserAgent from 'src/utils/user_agent';
 import {t} from 'src/utils/i18n';
-import SuggestionBox from 'components/suggestion/suggestion_box.jsx';
-import SuggestionList from 'components/suggestion/suggestion_list.jsx';
-import SwitchChannelProvider from 'components/suggestion/switch_channel_provider.jsx';
-import SwitchTeamProvider from 'components/suggestion/switch_team_provider.jsx';
-import NoResultsIndicator from 'components/no_results_indicator/no_results_indicator.tsx';
+import SuggestionBox from 'src/components/suggestion/suggestion_box.jsx';
+import SuggestionList from 'src/components/suggestion/suggestion_list.jsx';
+import SwitchChannelProvider from 'src/components/suggestion/switch_channel_provider.jsx';
+import SwitchTeamProvider from 'src/components/suggestion/switch_team_provider.jsx';
+import NoResultsIndicator from 'src/components/no_results_indicator/no_results_indicator.tsx';
 
-import {NoResultsVariant} from 'components/no_results_indicator/types';
+import {NoResultsVariant} from 'src/components/no_results_indicator/types';
 
 const CHANNEL_MODE = 'channel';
 const TEAM_MODE = 'team';

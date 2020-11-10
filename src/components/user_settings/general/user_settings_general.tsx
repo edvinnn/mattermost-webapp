@@ -12,10 +12,10 @@ import {trackEvent} from 'actions/telemetry_actions.jsx';
 import * as Utils from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';
 
-import SettingItemMax from 'components/setting_item_max.jsx';
-import SettingItemMin from 'components/setting_item_min';
-import SettingPicture from 'components/setting_picture.jsx';
-import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
+import SettingItemMax from 'src/components/setting_item_max.jsx';
+import SettingItemMin from 'src/components/setting_item_min';
+import SettingPicture from 'src/components/setting_picture.jsx';
+import LoadingWrapper from 'src/components/widgets/loading/loading_wrapper';
 import {AnnouncementBarMessages, AnnouncementBarTypes, AcceptedProfileImageTypes, Constants, ValidationErrors} from 'src/utils/constants';
 
 const holders = defineMessages({

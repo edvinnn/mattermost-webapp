@@ -25,24 +25,24 @@ import {intlShape} from 'src/utils/react_intl';
 import * as UserAgent from 'src/utils/user_agent';
 import * as Utils from 'src/utils/utils.jsx';
 
-import ConfirmModal from 'components/confirm_modal';
-import EditChannelHeaderModal from 'components/edit_channel_header_modal';
-import EditChannelPurposeModal from 'components/edit_channel_purpose_modal';
-import EmojiPickerOverlay from 'components/emoji_picker/emoji_picker_overlay.jsx';
-import FilePreview from 'components/file_preview';
-import FileUpload from 'components/file_upload';
-import CallButton from 'components/call_button';
-import LocalizedIcon from 'components/localized_icon';
-import MsgTyping from 'components/msg_typing';
-import PostDeletedModal from 'components/post_deleted_modal';
-import ResetStatusModal from 'components/reset_status_modal';
-import EmojiIcon from 'components/widgets/icons/emoji_icon';
-import Textbox from 'components/textbox';
-import TextboxLinks from 'components/textbox/textbox_links';
-import TutorialTip from 'components/tutorial/tutorial_tip';
+import ConfirmModal from 'src/components/confirm_modal';
+import EditChannelHeaderModal from 'src/components/edit_channel_header_modal';
+import EditChannelPurposeModal from 'src/components/edit_channel_purpose_modal';
+import EmojiPickerOverlay from 'src/components/emoji_picker/emoji_picker_overlay.jsx';
+import FilePreview from 'src/components/file_preview';
+import FileUpload from 'src/components/file_upload';
+import CallButton from 'src/components/call_button';
+import LocalizedIcon from 'src/components/localized_icon';
+import MsgTyping from 'src/components/msg_typing';
+import PostDeletedModal from 'src/components/post_deleted_modal';
+import ResetStatusModal from 'src/components/reset_status_modal';
+import EmojiIcon from 'src/components/widgets/icons/emoji_icon';
+import Textbox from 'src/components/textbox';
+import TextboxLinks from 'src/components/textbox/textbox_links';
+import TutorialTip from 'src/components/tutorial/tutorial_tip';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import MessageSubmitError from 'components/message_submit_error';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import MessageSubmitError from 'src/components/message_submit_error';
 
 const KeyCodes = Constants.KeyCodes;
 

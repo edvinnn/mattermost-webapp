@@ -5,8 +5,8 @@ import React from 'react';
 import {Modal} from 'react-bootstrap';
 import {shallow} from 'enzyme';
 
-import PopoverBar from 'components/view_image/popover_bar';
-import ViewImageModal from 'components/view_image/view_image';
+import PopoverBar from 'src/components/view_image/popover_bar';
+import ViewImageModal from 'src/components/view_image/view_image';
 
 import Constants from 'src/utils/constants';
 import {generateId} from 'src/utils/utils';

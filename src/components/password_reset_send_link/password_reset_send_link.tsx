@@ -7,8 +7,8 @@ import {FormattedMessage} from 'react-intl';
 import {ServerError} from 'mattermost-redux/types/errors';
 import {isEmail} from 'mattermost-redux/utils/helpers';
 
-import BackButton from 'components/common/back_button';
-import LocalizedInput from 'components/localized_input/localized_input';
+import BackButton from 'src/components/common/back_button';
+import LocalizedInput from 'src/components/localized_input/localized_input';
 
 import {t} from 'src/utils/i18n.jsx';
 

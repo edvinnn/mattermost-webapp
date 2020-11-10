@@ -14,24 +14,24 @@ import {intlShape} from 'src/utils/react_intl';
 import {cmdOrCtrlPressed, isKeyPressed} from 'src/utils/utils';
 import {useSafeUrl} from 'src/utils/url';
 import * as UserAgent from 'src/utils/user_agent';
-import InvitationModal from 'components/invitation_modal';
-import UserLimitModal from 'components/user_limit_modal';
+import InvitationModal from 'src/components/invitation_modal';
+import UserLimitModal from 'src/components/user_limit_modal';
 
-import TeamPermissionGate from 'components/permissions_gates/team_permission_gate';
-import SystemPermissionGate from 'components/permissions_gates/system_permission_gate';
+import TeamPermissionGate from 'src/components/permissions_gates/team_permission_gate';
+import SystemPermissionGate from 'src/components/permissions_gates/system_permission_gate';
 
-import LeaveTeamIcon from 'components/widgets/icons/leave_team_icon';
+import LeaveTeamIcon from 'src/components/widgets/icons/leave_team_icon';
 
-import LeaveTeamModal from 'components/leave_team_modal';
-import UserSettingsModal from 'components/user_settings/modal';
-import TeamMembersModal from 'components/team_members_modal';
-import TeamSettingsModal from 'components/team_settings_modal';
-import AboutBuildModal from 'components/about_build_modal';
-import AddGroupsToTeamModal from 'components/add_groups_to_team_modal';
-import MarketplaceModal from 'components/plugin_marketplace';
+import LeaveTeamModal from 'src/components/leave_team_modal';
+import UserSettingsModal from 'src/components/user_settings/modal';
+import TeamMembersModal from 'src/components/team_members_modal';
+import TeamSettingsModal from 'src/components/team_settings_modal';
+import AboutBuildModal from 'src/components/about_build_modal';
+import AddGroupsToTeamModal from 'src/components/add_groups_to_team_modal';
+import MarketplaceModal from 'src/components/plugin_marketplace';
 
-import Menu from 'components/widgets/menu/menu';
-import TeamGroupsManageModal from 'components/team_groups_manage_modal';
+import Menu from 'src/components/widgets/menu/menu';
+import TeamGroupsManageModal from 'src/components/team_groups_manage_modal';
 
 class MainMenu extends React.PureComponent {
     static propTypes = {

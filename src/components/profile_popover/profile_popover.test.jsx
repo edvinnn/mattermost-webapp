@@ -4,7 +4,7 @@
 import React from 'react';
 
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
-import ProfilePopover from 'components/profile_popover/profile_popover';
+import ProfilePopover from 'src/components/profile_popover/profile_popover';
 import Pluggable from 'src/plugins/pluggable';
 
 describe('components/ProfilePopover', () => {

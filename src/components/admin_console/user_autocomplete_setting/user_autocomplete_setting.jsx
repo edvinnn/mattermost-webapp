@@ -4,10 +4,10 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import GenericUserProvider from 'components/suggestion/generic_user_provider.jsx';
-import Setting from 'components/admin_console/setting';
-import SuggestionBox from 'components/suggestion/suggestion_box.jsx';
-import SuggestionList from 'components/suggestion/suggestion_list.jsx';
+import GenericUserProvider from 'src/components/suggestion/generic_user_provider.jsx';
+import Setting from 'src/components/admin_console/setting';
+import SuggestionBox from 'src/components/suggestion/suggestion_box.jsx';
+import SuggestionList from 'src/components/suggestion/suggestion_list.jsx';
 
 export default class UserAutocompleteSetting extends React.PureComponent {
     static get propTypes() {

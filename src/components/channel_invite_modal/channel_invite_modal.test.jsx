@@ -5,7 +5,7 @@ import React from 'react';
 import {shallow} from 'enzyme';
 import {Modal} from 'react-bootstrap';
 
-import ChannelInviteModal from 'components/channel_invite_modal/channel_invite_modal.jsx';
+import ChannelInviteModal from 'src/components/channel_invite_modal/channel_invite_modal.jsx';
 
 describe('components/channel_invite_modal', () => {
     const event = {

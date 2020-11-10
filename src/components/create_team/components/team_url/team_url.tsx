@@ -15,8 +15,8 @@ import Constants from 'src/utils/constants.jsx';
 import * as URL from 'src/utils/url';
 import logoImage from 'images/logo.png';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import OverlayTrigger from 'components/overlay_trigger';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import OverlayTrigger from 'src/components/overlay_trigger';
 
 type State = {
     isLoading: boolean;

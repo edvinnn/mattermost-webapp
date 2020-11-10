@@ -6,10 +6,10 @@ import React, {PureComponent} from 'react';
 
 import {imageURLForUser, isMobile, isGuest} from 'src/utils/utils.jsx';
 
-import OverlayTrigger from 'components/overlay_trigger';
-import ProfilePopover from 'components/profile_popover';
-import BotBadge from 'components/widgets/badges/bot_badge';
-import GuestBadge from 'components/widgets/badges/guest_badge';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import ProfilePopover from 'src/components/profile_popover';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
+import GuestBadge from 'src/components/widgets/badges/guest_badge';
 
 export default class UserProfile extends PureComponent {
     static propTypes = {

@@ -3,8 +3,8 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import GeneralTab from 'components/team_general_tab/team_general_tab.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import GeneralTab from 'src/components/team_general_tab/team_general_tab.jsx';
 
 const helpText = (
     <FormattedMarkdownMessage

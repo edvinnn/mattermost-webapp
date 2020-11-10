@@ -9,10 +9,10 @@ import {isMobile} from 'src/utils/user_agent';
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 import {testComponentForLineBreak} from 'tests/helpers/line_break_helpers';
 import {Constants, ModalIdentifiers} from 'src/utils/constants';
-import DeletePostModal from 'components/delete_post_modal';
-import EditPostModal from 'components/edit_post_modal/edit_post_modal.jsx';
+import DeletePostModal from 'src/components/delete_post_modal';
+import EditPostModal from 'src/components/edit_post_modal/edit_post_modal.jsx';
 import {testComponentForMarkdownHotkeys, makeSelectionEvent} from 'tests/helpers/markdown_hotkey_helpers.js';
-import Textbox from 'components/textbox';
+import Textbox from 'src/components/textbox';
 
 jest.mock('actions/global_actions.jsx', () => ({
     emitClearSuggestions: jest.fn(),

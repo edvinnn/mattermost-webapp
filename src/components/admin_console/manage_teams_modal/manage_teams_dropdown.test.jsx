@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import ManageTeamsDropdown from 'components/admin_console/manage_teams_modal/manage_teams_dropdown.jsx';
+import ManageTeamsDropdown from 'src/components/admin_console/manage_teams_modal/manage_teams_dropdown.jsx';
 
 describe('ManageTeamsDropdown', () => {
     const baseProps = {

@@ -6,8 +6,8 @@ import {shallow} from 'enzyme';
 
 import {General} from 'mattermost-redux/constants';
 
-import ActivityLogModal from 'components/activity_log_modal/activity_log_modal.jsx';
-import LoadingScreen from 'components/loading_screen';
+import ActivityLogModal from 'src/components/activity_log_modal/activity_log_modal.jsx';
+import LoadingScreen from 'src/components/loading_screen';
 
 describe('components/ActivityLogModal', () => {
     const baseProps = {

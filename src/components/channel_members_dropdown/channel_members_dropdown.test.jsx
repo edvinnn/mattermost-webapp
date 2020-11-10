@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import ChannelMembersDropdown from 'components/channel_members_dropdown/channel_members_dropdown.jsx';
+import ChannelMembersDropdown from 'src/components/channel_members_dropdown/channel_members_dropdown.jsx';
 
 describe('components/channel_members_dropdown', () => {
     const user = {

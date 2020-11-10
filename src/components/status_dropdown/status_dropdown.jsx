@@ -7,16 +7,16 @@ import {FormattedMessage} from 'react-intl';
 
 import {UserStatuses, ModalIdentifiers} from 'src/utils/constants';
 import {localizeMessage} from 'src/utils/utils.jsx';
-import ResetStatusModal from 'components/reset_status_modal';
-import StatusIcon from 'components/status_icon';
+import ResetStatusModal from 'src/components/reset_status_modal';
+import StatusIcon from 'src/components/status_icon';
 
-import Avatar from 'components/widgets/users/avatar';
-import Menu from 'components/widgets/menu/menu';
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
-import StatusAwayIcon from 'components/widgets/icons/status_away_icon';
-import StatusOnlineIcon from 'components/widgets/icons/status_online_icon';
-import StatusDndIcon from 'components/widgets/icons/status_dnd_icon';
-import StatusOfflineIcon from 'components/widgets/icons/status_offline_icon';
+import Avatar from 'src/components/widgets/users/avatar';
+import Menu from 'src/components/widgets/menu/menu';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
+import StatusAwayIcon from 'src/components/widgets/icons/status_away_icon';
+import StatusOnlineIcon from 'src/components/widgets/icons/status_online_icon';
+import StatusDndIcon from 'src/components/widgets/icons/status_dnd_icon';
+import StatusOfflineIcon from 'src/components/widgets/icons/status_offline_icon';
 
 export default class StatusDropdown extends React.PureComponent {
     static propTypes = {

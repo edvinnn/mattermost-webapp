@@ -8,8 +8,8 @@ import {ActionResult} from 'mattermost-redux/types/actions';
 import {UserProfile} from 'mattermost-redux/types/users';
 
 import * as I18n from 'i18n/i18n.jsx';
-import SettingItemMax from 'components/setting_item_max.jsx';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import SettingItemMax from 'src/components/setting_item_max.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 import {isKeyPressed} from 'src/utils/utils.jsx';
 import Constants from 'src/utils/constants';
 

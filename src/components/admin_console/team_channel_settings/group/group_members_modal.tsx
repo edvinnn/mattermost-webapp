@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 
 import {Group} from 'mattermost-redux/types/groups';
 
-import MemberListGroup from 'components/admin_console/member_list_group';
+import MemberListGroup from 'src/components/admin_console/member_list_group';
 
 type Props = {
     group: Group;

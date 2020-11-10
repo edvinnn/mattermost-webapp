@@ -8,10 +8,10 @@ import {Post} from 'mattermost-redux/types/posts';
 
 import Constants from 'src/utils/constants';
 import * as PostUtils from 'src/utils/post_utils.jsx';
-import PostInfo from 'components/post_view/post_info';
-import UserProfile from 'components/user_profile';
-import BotBadge from 'components/widgets/badges/bot_badge';
-import Badge from 'components/widgets/badges/badge';
+import PostInfo from 'src/components/post_view/post_info';
+import UserProfile from 'src/components/user_profile';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
+import Badge from 'src/components/widgets/badges/badge';
 
 export type Props = {
 

@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 import * as Utils from 'src/utils/utils.jsx';
 import statusGreen from 'images/status_green.png';
 import statusYellow from 'images/status_yellow.png';
-import ReloadIcon from 'components/widgets/icons/fa_reload_icon';
+import ReloadIcon from 'src/components/widgets/icons/fa_reload_icon';
 
 export default class ClusterTable extends React.PureComponent {
     static propTypes = {

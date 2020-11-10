@@ -15,12 +15,12 @@ import {t} from 'src/utils/i18n';
 import Constants from 'src/utils/constants';
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 
-import AdminPanel from 'components/widgets/admin_console/admin_panel';
-import UserGrid from 'components/admin_console/user_grid/user_grid';
-import {BaseMembership} from 'components/admin_console/user_grid/user_grid_role_dropdown';
-import AddUsersToTeamModal from 'components/add_users_to_team_modal';
-import ToggleModalButton from 'components/toggle_modal_button';
-import {FilterOptions} from 'components/admin_console/filter/filter';
+import AdminPanel from 'src/components/widgets/admin_console/admin_panel';
+import UserGrid from 'src/components/admin_console/user_grid/user_grid';
+import {BaseMembership} from 'src/components/admin_console/user_grid/user_grid_role_dropdown';
+import AddUsersToTeamModal from 'src/components/add_users_to_team_modal';
+import ToggleModalButton from 'src/components/toggle_modal_button';
+import {FilterOptions} from 'src/components/admin_console/filter/filter';
 
 type Props = {
     teamId: string;

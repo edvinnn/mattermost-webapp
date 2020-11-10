@@ -14,7 +14,7 @@ import 'katex/dist/katex.min.css';
 
 import {isDevMode, setCSRFFromCookie} from 'src/utils/utils';
 import store from 'src/stores/redux_store.jsx';
-import App from 'components/app';
+import App from 'src/components/app';
 
 PDFJS.disableWorker = true;
 

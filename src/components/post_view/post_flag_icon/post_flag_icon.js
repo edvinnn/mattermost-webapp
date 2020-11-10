@@ -7,9 +7,9 @@ import {Tooltip} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 import classNames from 'classnames';
 
-import OverlayTrigger from 'components/overlay_trigger';
-import FlagIcon from 'components/widgets/icons/flag_icon';
-import FlagIconFilled from 'components/widgets/icons/flag_icon_filled';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import FlagIcon from 'src/components/widgets/icons/flag_icon';
+import FlagIconFilled from 'src/components/widgets/icons/flag_icon_filled';
 import Constants, {Locations, A11yCustomEventTypes} from 'src/utils/constants';
 import {localizeMessage} from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';

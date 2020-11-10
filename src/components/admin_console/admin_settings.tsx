@@ -8,10 +8,10 @@ import {Overlay, Tooltip} from 'react-bootstrap';
 import {AdminConfig, EnvironmentConfig} from 'mattermost-redux/types/config';
 
 import {localizeMessage} from 'src/utils/utils.jsx';
-import SaveButton from 'components/save_button';
-import FormError from 'components/form_error';
+import SaveButton from 'src/components/save_button';
+import FormError from 'src/components/form_error';
 
-import AdminHeader from 'components/widgets/admin_console/admin_header';
+import AdminHeader from 'src/components/widgets/admin_console/admin_header';
 
 export type BaseProps = {
     config?: DeepPartial<AdminConfig>;

@@ -4,10 +4,10 @@
 import React, {CSSProperties} from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import NextIcon from 'components/widgets/icons/fa_next_icon';
-import PreviousIcon from 'components/widgets/icons/fa_previous_icon';
-import LoadingSpinner from 'components/widgets/loading/loading_spinner';
-import {FilterOptions} from 'components/admin_console/filter/filter';
+import NextIcon from 'src/components/widgets/icons/fa_next_icon';
+import PreviousIcon from 'src/components/widgets/icons/fa_previous_icon';
+import LoadingSpinner from 'src/components/widgets/loading/loading_spinner';
+import {FilterOptions} from 'src/components/admin_console/filter/filter';
 
 import DataGridHeader from './data_grid_header';
 import DataGridRow from './data_grid_row';

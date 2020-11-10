@@ -4,8 +4,8 @@
 import React from 'react';
 import {mount, shallow} from 'enzyme';
 
-import SizeAwareImage from 'components/size_aware_image';
-import LoadingImagePreview from 'components/loading_image_preview';
+import SizeAwareImage from 'src/components/size_aware_image';
+import LoadingImagePreview from 'src/components/loading_image_preview';
 
 jest.mock('utils/image_utils');
 

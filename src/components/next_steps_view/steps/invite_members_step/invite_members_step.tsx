@@ -11,9 +11,9 @@ import {TeamInviteWithError, Team} from 'mattermost-redux/types/teams';
 import {isEmail} from 'mattermost-redux/utils/helpers';
 
 import {pageVisited, trackEvent} from 'actions/telemetry_actions';
-import {getAnalyticsCategory} from 'components/next_steps_view/step_helpers';
-import MultiInput from 'components/multi_input';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import {getAnalyticsCategory} from 'src/components/next_steps_view/step_helpers';
+import MultiInput from 'src/components/multi_input';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 import {getSiteURL} from 'src/utils/url';
 import * as Utils from 'src/utils/utils';
 

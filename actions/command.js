@@ -19,7 +19,7 @@ import * as UserAgent from 'src/utils/user_agent';
 import {Constants, ModalIdentifiers} from 'src/utils/constants';
 import {browserHistory} from 'src/utils/browser_history';
 
-import UserSettingsModal from 'components/user_settings/modal';
+import UserSettingsModal from 'src/components/user_settings/modal';
 
 export function executeCommand(message, args) {
     return async (dispatch, getState) => {

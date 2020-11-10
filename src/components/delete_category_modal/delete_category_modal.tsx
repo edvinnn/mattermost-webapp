@@ -6,10 +6,10 @@ import {FormattedMessage} from 'react-intl';
 
 import {ChannelCategory} from 'mattermost-redux/types/channel_categories';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
 import '../category_modal.scss';
-import GenericModal from 'components/generic_modal';
+import GenericModal from 'src/components/generic_modal';
 
 type Props = {
     category: ChannelCategory;

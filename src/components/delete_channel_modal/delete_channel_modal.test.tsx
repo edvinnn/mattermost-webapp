@@ -8,7 +8,7 @@ import {ChannelType} from 'mattermost-redux/types/channels';
 
 import {browserHistory} from 'src/utils/browser_history';
 
-import DeleteChannelModal from 'components/delete_channel_modal/delete_channel_modal';
+import DeleteChannelModal from 'src/components/delete_channel_modal/delete_channel_modal';
 
 describe('components/delete_channel_modal', () => {
     const channel = {

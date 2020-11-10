@@ -4,8 +4,8 @@
 import React from 'react';
 
 import * as Utils from 'src/utils/utils.jsx';
-import BotBadge from 'components/widgets/badges/bot_badge';
-import Avatar from 'components/widgets/users/avatar';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
+import Avatar from 'src/components/widgets/users/avatar';
 
 import Provider from './provider.jsx';
 import Suggestion from './suggestion.jsx';

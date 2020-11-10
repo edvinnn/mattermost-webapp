@@ -9,8 +9,8 @@ import {Client4} from 'mattermost-redux/client';
 
 import {filterAndSortTeamsByDisplayName} from 'src/utils/team_utils.jsx';
 import * as Utils from 'src/utils/utils.jsx';
-import LoadingScreen from 'components/loading_screen';
-import Avatar from 'components/widgets/users/avatar';
+import LoadingScreen from 'src/components/loading_screen';
+import Avatar from 'src/components/widgets/users/avatar';
 
 import ManageTeamsDropdown from './manage_teams_dropdown.jsx';
 import RemoveFromTeamButton from './remove_from_team_button.jsx';

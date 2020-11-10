@@ -7,9 +7,9 @@ import {FormattedMessage} from 'react-intl';
 import {Constants} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 
-import BotBadge from 'components/widgets/badges/bot_badge';
-import GuestBadge from 'components/widgets/badges/guest_badge';
-import Avatar from 'components/widgets/users/avatar';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
+import GuestBadge from 'src/components/widgets/badges/guest_badge';
+import Avatar from 'src/components/widgets/users/avatar';
 
 import Suggestion from '../suggestion.jsx';
 

@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import LoggedIn from 'components/logged_in/logged_in.jsx';
+import LoggedIn from 'src/components/logged_in/logged_in.jsx';
 import BrowserStore from 'src/stores/browser_store';
 
 jest.mock('actions/websocket_actions.jsx', () => ({

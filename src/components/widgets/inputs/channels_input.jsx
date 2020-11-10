@@ -10,11 +10,11 @@ import classNames from 'classnames';
 
 import {Constants} from 'src/utils/constants';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import PublicChannelIcon from 'components/widgets/icons/globe_icon.jsx';
-import PrivateChannelIcon from 'components/widgets/icons/lock_icon.jsx';
-import CloseCircleSolidIcon from 'components/widgets/icons/close_circle_solid_icon';
-import LoadingSpinner from 'components/widgets/loading/loading_spinner';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import PublicChannelIcon from 'src/components/widgets/icons/globe_icon.jsx';
+import PrivateChannelIcon from 'src/components/widgets/icons/lock_icon.jsx';
+import CloseCircleSolidIcon from 'src/components/widgets/icons/close_circle_solid_icon';
+import LoadingSpinner from 'src/components/widgets/loading/loading_spinner';
 
 import {t} from 'src/utils/i18n.jsx';
 

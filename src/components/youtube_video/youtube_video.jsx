@@ -6,7 +6,7 @@ import React from 'react';
 
 import {getVideoId, ytRegex, handleYoutubeTime} from 'src/utils/youtube';
 
-import ExternalImage from 'components/external_image';
+import ExternalImage from 'src/components/external_image';
 
 export default class YoutubeVideo extends React.PureComponent {
     static propTypes = {

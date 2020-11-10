@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import {FormattedMessage, injectIntl} from 'react-intl';
 import {Overlay, Tooltip} from 'react-bootstrap';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 import {generateId} from 'src/utils/utils.jsx';
 import {intlShape} from 'src/utils/react_intl';
 import Constants from 'src/utils/constants';

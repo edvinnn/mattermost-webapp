@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import AdminDefinition from 'components/admin_console/admin_definition';
+import AdminDefinition from 'src/components/admin_console/admin_definition';
 import {TestHelper} from 'src/utils/test_helper';
 
 import AdminConsole from './admin_console';

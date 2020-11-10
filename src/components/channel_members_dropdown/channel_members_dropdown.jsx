@@ -8,9 +8,9 @@ import {FormattedMessage} from 'react-intl';
 import {Constants} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 
-import DropdownIcon from 'components/widgets/icons/fa_dropdown_icon';
-import Menu from 'components/widgets/menu/menu';
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
+import DropdownIcon from 'src/components/widgets/icons/fa_dropdown_icon';
+import Menu from 'src/components/widgets/menu/menu';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
 
 const ROWS_FROM_BOTTOM_TO_OPEN_UP = 3;
 

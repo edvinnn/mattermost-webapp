@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import SystemUserDetail from 'components/admin_console/system_user_detail/system_user_detail';
+import SystemUserDetail from 'src/components/admin_console/system_user_detail/system_user_detail';
 
 import {Constants} from 'src/utils/constants';
 

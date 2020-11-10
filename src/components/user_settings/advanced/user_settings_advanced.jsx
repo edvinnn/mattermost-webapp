@@ -10,10 +10,10 @@ import {emitUserLoggedOutEvent} from 'actions/global_actions.jsx';
 import Constants from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';
-import SettingItemMax from 'components/setting_item_max.jsx';
-import SettingItemMin from 'components/setting_item_min';
-import ConfirmModal from 'components/confirm_modal';
-import BackIcon from 'components/widgets/icons/fa_back_icon';
+import SettingItemMax from 'src/components/setting_item_max.jsx';
+import SettingItemMin from 'src/components/setting_item_min';
+import ConfirmModal from 'src/components/confirm_modal';
+import BackIcon from 'src/components/widgets/icons/fa_back_icon';
 
 import JoinLeaveSection from './join_leave_section';
 

@@ -6,8 +6,8 @@ import {getUserIdFromChannelName} from 'mattermost-redux/utils/channel_utils';
 
 import {imageURLForUser} from 'src/utils/utils.jsx';
 import Constants from 'src/utils/constants';
-import Avatar from 'components/widgets/users/avatar';
-import BotBadge from 'components/widgets/badges/bot_badge';
+import Avatar from 'src/components/widgets/users/avatar';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
 
 import Suggestion from '../suggestion.jsx';
 

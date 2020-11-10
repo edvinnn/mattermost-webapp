@@ -4,7 +4,7 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
+import LoadingWrapper from 'src/components/widgets/loading/loading_wrapper';
 
 type Props = {
     saving: boolean;

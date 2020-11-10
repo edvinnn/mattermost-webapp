@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import ChannelSelectorModal from 'components/channel_selector_modal/channel_selector_modal.jsx';
+import ChannelSelectorModal from 'src/components/channel_selector_modal/channel_selector_modal.jsx';
 
 describe('components/ChannelSelectorModal', () => {
     const defaultProps = {

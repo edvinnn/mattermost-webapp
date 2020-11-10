@@ -5,7 +5,7 @@ import React from 'react';
 import {shallow, mount} from 'enzyme';
 import {ChartData} from 'chart.js';
 
-import DoughnutChart from 'components/analytics/doughnut_chart';
+import DoughnutChart from 'src/components/analytics/doughnut_chart';
 
 jest.mock('chart.js');
 

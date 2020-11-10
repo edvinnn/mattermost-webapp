@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 import {Group} from 'mattermost-redux/types/groups';
 import {Channel} from 'mattermost-redux/types/channels';
 
-import AbstractList from 'components/admin_console/team_channel_settings/abstract_list.jsx';
+import AbstractList from 'src/components/admin_console/team_channel_settings/abstract_list.jsx';
 
 import GroupRow from './group_row';
 

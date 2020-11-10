@@ -9,8 +9,8 @@ import {AnalyticsRow} from 'mattermost-redux/types/admin';
 
 import * as Utils from 'src/utils/utils.jsx';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import LoadingWrapper from 'src/components/widgets/loading/loading_wrapper';
 
 import './feature_discovery.scss';
 

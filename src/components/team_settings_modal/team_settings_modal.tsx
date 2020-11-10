@@ -8,9 +8,9 @@ import {Modal} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
 import * as Utils from 'src/utils/utils.jsx';
-const SettingsSidebar = React.lazy(() => import('components/settings_sidebar'));
+const SettingsSidebar = React.lazy(() => import('src/components/settings_sidebar'));
 
-import TeamSettings from 'components/team_settings';
+import TeamSettings from 'src/components/team_settings';
 
 type Props = {
     onHide: () => void

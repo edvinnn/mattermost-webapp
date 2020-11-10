@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import TeamInList from 'components/admin_console/permission_schemes_settings/permission_team_scheme_settings/team_in_list/team_in_list.jsx';
+import TeamInList from 'src/components/admin_console/permission_schemes_settings/permission_team_scheme_settings/team_in_list/team_in_list.jsx';
 
 describe('components/admin_console/permission_schemes_settings/permission_team_scheme_settings/team_in_list/team_in_list', () => {
     test('should match snapshot with team', () => {

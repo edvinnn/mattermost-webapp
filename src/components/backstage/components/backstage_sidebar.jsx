@@ -7,8 +7,8 @@ import {FormattedMessage} from 'react-intl';
 
 import {Permissions} from 'mattermost-redux/constants';
 
-import SystemPermissionGate from 'components/permissions_gates/system_permission_gate';
-import TeamPermissionGate from 'components/permissions_gates/team_permission_gate';
+import SystemPermissionGate from 'src/components/permissions_gates/system_permission_gate';
+import TeamPermissionGate from 'src/components/permissions_gates/team_permission_gate';
 
 import BackstageCategory from './backstage_category.jsx';
 import BackstageSection from './backstage_section.jsx';

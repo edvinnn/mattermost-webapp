@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 import {General} from 'mattermost-redux/constants';
 
 import {localizeMessage} from 'src/utils/utils.jsx';
-import ActivityLog from 'components/activity_log_modal/components/activity_log.jsx';
+import ActivityLog from 'src/components/activity_log_modal/components/activity_log.jsx';
 
 describe('components/activity_log_modal/ActivityLog', () => {
     const baseProps = {

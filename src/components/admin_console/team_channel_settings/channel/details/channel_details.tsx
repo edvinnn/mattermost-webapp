@@ -15,9 +15,9 @@ import {SyncablePatch, Group} from 'mattermost-redux/types/groups';
 import {Channel, ChannelModeration as ChannelPermissions, ChannelModerationPatch} from 'mattermost-redux/types/channels';
 import {Team} from 'mattermost-redux/types/teams';
 
-import ConfirmModal from 'components/confirm_modal';
-import BlockableLink from 'components/admin_console/blockable_link';
-import FormError from 'components/form_error';
+import ConfirmModal from 'src/components/confirm_modal';
+import BlockableLink from 'src/components/admin_console/blockable_link';
+import FormError from 'src/components/form_error';
 import Constants from 'src/utils/constants';
 import {browserHistory} from 'src/utils/browser_history';
 import {trackEvent} from 'actions/telemetry_actions.jsx';

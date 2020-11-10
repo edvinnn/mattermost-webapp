@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import LoadingImagePreview from 'components/loading_image_preview';
+import LoadingImagePreview from 'src/components/loading_image_preview';
 
 describe('components/LoadingImagePreview', () => {
     test('should match snapshot', () => {

@@ -14,13 +14,13 @@ import {trackEvent} from 'actions/telemetry_actions.jsx';
 
 import {Constants} from 'src/utils/constants';
 import {isArchivedChannel} from 'src/utils/channel_utils';
-import DataGrid, {Row, Column} from 'components/admin_console/data_grid/data_grid';
-import {FilterOptions} from 'components/admin_console/filter/filter';
-import TeamFilterDropdown from 'components/admin_console/filter/team_filter_dropdown';
-import {PAGE_SIZE} from 'components/admin_console/team_channel_settings/abstract_list.jsx';
-import GlobeIcon from 'components/widgets/icons/globe_icon';
-import LockIcon from 'components/widgets/icons/lock_icon';
-import ArchiveIcon from 'components/widgets/icons/archive_icon';
+import DataGrid, {Row, Column} from 'src/components/admin_console/data_grid/data_grid';
+import {FilterOptions} from 'src/components/admin_console/filter/filter';
+import TeamFilterDropdown from 'src/components/admin_console/filter/team_filter_dropdown';
+import {PAGE_SIZE} from 'src/components/admin_console/team_channel_settings/abstract_list.jsx';
+import GlobeIcon from 'src/components/widgets/icons/globe_icon';
+import LockIcon from 'src/components/widgets/icons/lock_icon';
+import ArchiveIcon from 'src/components/widgets/icons/archive_icon';
 
 import './channel_list.scss';
 interface ChannelListProps {

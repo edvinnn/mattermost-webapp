@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import ShowMore from 'components/post_view/show_more/show_more';
+import ShowMore from 'src/components/post_view/show_more/show_more';
 
 describe('components/post_view/ShowMore', () => {
     const children = (<div><p>{'text'}</p></div>);

@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import VirtPostList from 'components/post_view/post_list_virtualized/post_list_virtualized';
+import VirtPostList from 'src/components/post_view/post_list_virtualized/post_list_virtualized';
 
 import {PostRequestTypes} from 'src/utils/constants';
 

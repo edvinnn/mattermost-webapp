@@ -5,7 +5,7 @@ import {render, shallow} from 'enzyme';
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import IntlProvider from 'components/intl_provider/intl_provider';
+import IntlProvider from 'src/components/intl_provider/intl_provider';
 
 import {getLanguageInfo} from 'i18n/i18n';
 

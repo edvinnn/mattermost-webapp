@@ -4,7 +4,7 @@
 import classNames from 'classnames';
 import React from 'react';
 
-import UnreadBelowIcon from 'components/widgets/icons/unread_below_icon';
+import UnreadBelowIcon from 'src/components/widgets/icons/unread_below_icon';
 
 import './unread_channel_indicator.scss';
 

@@ -6,9 +6,9 @@ import {useIntl} from 'react-intl';
 
 import {t} from 'src/utils/i18n';
 
-import SimpleTooltip, {useSynchronizedImmediate} from 'components/widgets/simple_tooltip';
+import SimpleTooltip, {useSynchronizedImmediate} from 'src/components/widgets/simple_tooltip';
 
-import Avatar from 'components/widgets/users/avatar';
+import Avatar from 'src/components/widgets/users/avatar';
 
 import './avatars.scss';
 

@@ -3,7 +3,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import StatisticCount from 'components/analytics/statistic_count';
+import StatisticCount from 'src/components/analytics/statistic_count';
 
 describe('components/analytics/statistic_count.tsx', () => {
     test('should match snapshot, on loading', () => {

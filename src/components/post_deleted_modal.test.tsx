@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 import {Modal} from 'react-bootstrap';
 
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
-import PostDeletedModal from 'components/post_deleted_modal';
+import PostDeletedModal from 'src/components/post_deleted_modal';
 
 describe('components/ChannelInfoModal', () => {
     test('should match snapshot when modal is showing', () => {

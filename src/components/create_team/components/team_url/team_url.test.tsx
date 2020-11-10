@@ -7,10 +7,10 @@ import {FormattedMessage} from 'react-intl';
 import {Button} from 'react-bootstrap';
 
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
-import TeamUrl from 'components/create_team/components/team_url/team_url';
+import TeamUrl from 'src/components/create_team/components/team_url/team_url';
 import Constants from 'src/utils/constants';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 jest.mock('images/logo.png', () => 'logo.png');
 

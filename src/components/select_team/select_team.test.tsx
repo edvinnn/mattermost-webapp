@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import {Team} from 'mattermost-redux/types/teams';
 
-import SelectTeam, {TEAMS_PER_PAGE} from 'components/select_team/select_team';
+import SelectTeam, {TEAMS_PER_PAGE} from 'src/components/select_team/select_team';
 
 import {emitUserLoggedOutEvent} from 'actions/global_actions.jsx';
 

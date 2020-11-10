@@ -14,7 +14,7 @@ import {ActionTypes, Constants} from 'src/utils/constants';
 import * as UserAgent from 'src/utils/user_agent';
 import * as GlobalActions from 'actions/global_actions.jsx';
 import * as Utils from 'src/utils/utils.jsx';
-import UserSettingsModal from 'components/user_settings/modal';
+import UserSettingsModal from 'src/components/user_settings/modal';
 
 import {executeCommand} from './command';
 const mockStore = configureStore([thunk]);

@@ -4,7 +4,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import LocalizedIcon from 'components/localized_icon';
+import LocalizedIcon from 'src/components/localized_icon';
 
 import {t} from 'src/utils/i18n';
 

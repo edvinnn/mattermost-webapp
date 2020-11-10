@@ -9,7 +9,7 @@ import {Channel} from 'mattermost-redux/types/channels';
 import {UserProfile} from 'mattermost-redux/types/users';
 
 import * as Utils from 'src/utils/utils.jsx';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 import Constants from 'src/utils/constants';
 

@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import SaveButton from 'components/save_button';
+import SaveButton from 'src/components/save_button';
 import Constants from 'src/utils/constants';
 import {isKeyPressed} from 'src/utils/utils.jsx';
 

@@ -6,9 +6,9 @@ import React from 'react';
 import {Modal} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
-import GlobeIcon from 'components/widgets/icons/globe_icon';
-import LockIcon from 'components/widgets/icons/lock_icon';
-import LocalizedInput from 'components/localized_input/localized_input';
+import GlobeIcon from 'src/components/widgets/icons/globe_icon';
+import LockIcon from 'src/components/widgets/icons/lock_icon';
+import LocalizedInput from 'src/components/localized_input/localized_input';
 import Constants from 'src/utils/constants.jsx';
 import {getShortenedURL} from 'src/utils/url';
 import * as Utils from 'src/utils/utils.jsx';

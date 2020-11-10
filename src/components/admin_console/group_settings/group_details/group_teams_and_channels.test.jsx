@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import GroupTeamsAndChannels from 'components/admin_console/group_settings/group_details/group_teams_and_channels.jsx';
+import GroupTeamsAndChannels from 'src/components/admin_console/group_settings/group_details/group_teams_and_channels.jsx';
 
 describe('components/admin_console/group_settings/group_details/GroupTeamsAndChannels', () => {
     const defaultProps = {

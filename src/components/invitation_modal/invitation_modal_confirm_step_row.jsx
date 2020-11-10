@@ -6,11 +6,11 @@ import React from 'react';
 
 import {FormattedMessage} from 'react-intl';
 
-import EmailIcon from 'components/widgets/icons/mail_icon';
-import AlertIcon from 'components/widgets/icons/alert_icon';
-import GuestBadge from 'components/widgets/badges/guest_badge';
-import BotBadge from 'components/widgets/badges/bot_badge';
-import Avatar from 'components/widgets/users/avatar';
+import EmailIcon from 'src/components/widgets/icons/mail_icon';
+import AlertIcon from 'src/components/widgets/icons/alert_icon';
+import GuestBadge from 'src/components/widgets/badges/guest_badge';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
+import Avatar from 'src/components/widgets/users/avatar';
 
 import {imageURLForUser, isGuest, getLongDisplayName} from 'src/utils/utils.jsx';
 

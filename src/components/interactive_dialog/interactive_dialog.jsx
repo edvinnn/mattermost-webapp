@@ -10,7 +10,7 @@ import {
     checkIfErrorsMatchElements,
 } from 'mattermost-redux/utils/integration_utils';
 
-import SpinnerButton from 'components/spinner_button';
+import SpinnerButton from 'src/components/spinner_button';
 
 import {localizeMessage} from 'src/utils/utils.jsx';
 

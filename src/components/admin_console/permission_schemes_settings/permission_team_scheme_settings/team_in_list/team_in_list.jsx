@@ -5,7 +5,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
-import TeamIcon from 'components/widgets/team_icon/team_icon';
+import TeamIcon from 'src/components/widgets/team_icon/team_icon';
 
 import {imageURLForTeam} from 'src/utils/utils';
 

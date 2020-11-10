@@ -8,12 +8,12 @@ import Svg from 'react-inlinesvg';
 
 import {Constants} from 'src/utils/constants';
 
-import ArchiveIcon from 'components/widgets/icons/archive_icon';
-import DraftIcon from 'components/widgets/icons/draft_icon';
-import GlobeIcon from 'components/widgets/icons/globe_icon';
-import LockIcon from 'components/widgets/icons/lock_icon';
-import StatusIcon from 'components/status_icon';
-import BotIcon from 'components/widgets/icons/bot_icon.jsx';
+import ArchiveIcon from 'src/components/widgets/icons/archive_icon';
+import DraftIcon from 'src/components/widgets/icons/draft_icon';
+import GlobeIcon from 'src/components/widgets/icons/globe_icon';
+import LockIcon from 'src/components/widgets/icons/lock_icon';
+import StatusIcon from 'src/components/status_icon';
+import BotIcon from 'src/components/widgets/icons/bot_icon.jsx';
 
 export default class SidebarChannelButtonOrLinkIcon extends React.PureComponent {
     static propTypes = {

@@ -6,15 +6,15 @@ import PropTypes from 'prop-types';
 
 import {FormattedMessage} from 'react-intl';
 
-import MenuActionProvider from 'components/suggestion/menu_action_provider';
-import GenericUserProvider from 'components/suggestion/generic_user_provider.jsx';
-import GenericChannelProvider from 'components/suggestion/generic_channel_provider.jsx';
+import MenuActionProvider from 'src/components/suggestion/menu_action_provider';
+import GenericUserProvider from 'src/components/suggestion/generic_user_provider.jsx';
+import GenericChannelProvider from 'src/components/suggestion/generic_channel_provider.jsx';
 
-import TextSetting from 'components/widgets/settings/text_setting';
-import AutocompleteSelector from 'components/autocomplete_selector';
-import ModalSuggestionList from 'components/suggestion/modal_suggestion_list.jsx';
-import BoolSetting from 'components/widgets/settings/bool_setting';
-import RadioSetting from 'components/widgets/settings/radio_setting';
+import TextSetting from 'src/components/widgets/settings/text_setting';
+import AutocompleteSelector from 'src/components/autocomplete_selector';
+import ModalSuggestionList from 'src/components/suggestion/modal_suggestion_list.jsx';
+import BoolSetting from 'src/components/widgets/settings/bool_setting';
+import RadioSetting from 'src/components/widgets/settings/radio_setting';
 
 const TEXT_DEFAULT_MAX_LENGTH = 150;
 const TEXTAREA_DEFAULT_MAX_LENGTH = 3000;

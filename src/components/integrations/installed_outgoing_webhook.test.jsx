@@ -5,8 +5,8 @@ import React from 'react';
 import {shallow} from 'enzyme';
 import {Link} from 'react-router-dom';
 
-import DeleteIntegration from 'components/integrations/delete_integration.jsx';
-import InstalledOutgoingWebhook, {matchesFilter} from 'components/integrations/installed_outgoing_webhook.jsx';
+import DeleteIntegration from 'src/components/integrations/delete_integration.jsx';
+import InstalledOutgoingWebhook, {matchesFilter} from 'src/components/integrations/installed_outgoing_webhook.jsx';
 
 describe('components/integrations/InstalledOutgoingWebhook', () => {
     const team = {

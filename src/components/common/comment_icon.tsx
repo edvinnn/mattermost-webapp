@@ -7,8 +7,8 @@ import {FormattedMessage} from 'react-intl';
 
 import {localizeMessage} from 'src/utils/utils.jsx';
 
-import OverlayTrigger from 'components/overlay_trigger';
-import ReplyIcon from 'components/widgets/icons/reply_icon';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import ReplyIcon from 'src/components/widgets/icons/reply_icon';
 
 type Props = {
     location: 'CENTER' | 'SEARCH';

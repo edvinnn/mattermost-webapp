@@ -4,7 +4,7 @@
 import React from 'react';
 
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
-import AuditTable from 'components/audit_table/audit_table';
+import AuditTable from 'src/components/audit_table/audit_table';
 import {TestHelper} from 'src/utils/test_helper';
 
 describe('components/audit_table/AuditTable', () => {

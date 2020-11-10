@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 import {Modal} from 'react-bootstrap';
 
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
-import ChangeURLModal from 'components/change_url_modal/change_url_modal';
+import ChangeURLModal from 'src/components/change_url_modal/change_url_modal';
 
 describe('components/ChangeURLModal', () => {
     const baseProps = {

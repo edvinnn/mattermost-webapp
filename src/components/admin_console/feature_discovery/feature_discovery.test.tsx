@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import FeatureDiscovery from 'components/admin_console/feature_discovery/feature_discovery';
+import FeatureDiscovery from 'src/components/admin_console/feature_discovery/feature_discovery';
 
 describe('components/feature_discovery', () => {
     describe('FeatureDiscovery', () => {

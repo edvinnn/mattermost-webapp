@@ -8,11 +8,11 @@ import {FormattedMessage} from 'react-intl';
 import {ModalIdentifiers} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils';
 
-import EditChannelHeaderModal from 'components/edit_channel_header_modal';
-import Markdown from 'components/markdown';
-import OverlayTrigger from 'components/overlay_trigger';
-import InfoIcon from 'components/widgets/icons/info_icon';
-import Popover from 'components/widgets/popover';
+import EditChannelHeaderModal from 'src/components/edit_channel_header_modal';
+import Markdown from 'src/components/markdown';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import InfoIcon from 'src/components/widgets/icons/info_icon';
+import Popover from 'src/components/widgets/popover';
 const headerMarkdownOptions = {mentionHighlight: false};
 
 export default class NavbarInfoButton extends React.PureComponent {

@@ -3,7 +3,7 @@
 
 import React, {PureComponent, ReactNode} from 'react';
 
-import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
+import LoadingWrapper from 'src/components/widgets/loading/loading_wrapper';
 
 type Props = {
     children?: ReactNode;

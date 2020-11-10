@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import ChannelFilter from 'components/sidebar/channel_filter/channel_filter';
+import ChannelFilter from 'src/components/sidebar/channel_filter/channel_filter';
 
 describe('components/sidebar/channel_filter', () => {
     const baseProps = {

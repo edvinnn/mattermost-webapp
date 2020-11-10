@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-import MenuIcon from 'components/widgets/icons/menu_icon';
+import MenuIcon from 'src/components/widgets/icons/menu_icon';
 
 type Actions = {
     toggleRhsMenu: (e?:React.MouseEvent<HTMLButtonElement, MouseEvent>) => void

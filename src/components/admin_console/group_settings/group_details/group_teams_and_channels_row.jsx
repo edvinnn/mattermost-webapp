@@ -7,12 +7,12 @@ import {FormattedMessage} from 'react-intl';
 import {isNil} from 'lodash';
 import classNames from 'classnames';
 
-import ConfirmModal from 'components/confirm_modal';
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
-import Menu from 'components/widgets/menu/menu';
+import ConfirmModal from 'src/components/confirm_modal';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
+import Menu from 'src/components/widgets/menu/menu';
 import {localizeMessage} from 'src/utils/utils.jsx';
-import GlobeIcon from 'components/widgets/icons/globe_icon';
-import LockIcon from 'components/widgets/icons/lock_icon';
+import GlobeIcon from 'src/components/widgets/icons/globe_icon';
+import LockIcon from 'src/components/widgets/icons/lock_icon';
 
 export default class GroupTeamsAndChannelsRow extends React.PureComponent {
     static propTypes = {

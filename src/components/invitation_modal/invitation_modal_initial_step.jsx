@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import InviteIcon from 'components/widgets/icons/invite_icon';
-import ArrowRightIcon from 'components/widgets/icons/arrow_right_icon';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import InviteIcon from 'src/components/widgets/icons/invite_icon';
+import ArrowRightIcon from 'src/components/widgets/icons/arrow_right_icon';
 
 import './invitation_modal_initial_step.scss';
 

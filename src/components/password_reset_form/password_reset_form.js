@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 
 import {browserHistory} from 'src/utils/browser_history';
 import Constants from 'src/utils/constants';
-import LocalizedInput from 'components/localized_input/localized_input';
+import LocalizedInput from 'src/components/localized_input/localized_input';
 
 import {t} from 'src/utils/i18n.jsx';
 

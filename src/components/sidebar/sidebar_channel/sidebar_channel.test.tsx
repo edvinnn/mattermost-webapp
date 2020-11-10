@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import {ChannelType} from 'mattermost-redux/types/channels';
 
-import SidebarChannel from 'components/sidebar/sidebar_channel/sidebar_channel';
+import SidebarChannel from 'src/components/sidebar/sidebar_channel/sidebar_channel';
 
 describe('components/sidebar/sidebar_channel', () => {
     const baseProps = {

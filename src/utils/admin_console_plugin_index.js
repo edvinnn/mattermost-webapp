@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 
 import {stripMarkdown} from 'src/utils/markdown';
-import getEnablePluginSetting from 'components/admin_console/custom_plugin_settings/enable_plugin_setting';
+import getEnablePluginSetting from 'src/components/admin_console/custom_plugin_settings/enable_plugin_setting';
 
 function extractTextsFromPlugin(plugin) {
     const texts = extractTextFromSetting(getEnablePluginSetting(plugin));

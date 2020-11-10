@@ -17,21 +17,21 @@ import Constants, {Locations, A11yCustomEventTypes} from 'src/utils/constants';
 import * as PostUtils from 'src/utils/post_utils.jsx';
 import {intlShape} from 'src/utils/react_intl';
 import {isMobile} from 'src/utils/utils.jsx';
-import DotMenu from 'components/dot_menu';
-import FileAttachmentListContainer from 'components/file_attachment_list';
-import OverlayTrigger from 'components/overlay_trigger';
-import PostProfilePicture from 'components/post_profile_picture';
-import FailedPostOptions from 'components/post_view/failed_post_options';
-import PostFlagIcon from 'components/post_view/post_flag_icon';
-import PostTime from 'components/post_view/post_time';
-import PostReaction from 'components/post_view/post_reaction';
-import ReactionList from 'components/post_view/reaction_list';
-import MessageWithAdditionalContent from 'components/message_with_additional_content';
-import BotBadge from 'components/widgets/badges/bot_badge';
-import Badge from 'components/widgets/badges/badge';
-import InfoSmallIcon from 'components/widgets/icons/info_small_icon';
-import PostPreHeader from 'components/post_view/post_pre_header';
-import UserProfile from 'components/user_profile';
+import DotMenu from 'src/components/dot_menu';
+import FileAttachmentListContainer from 'src/components/file_attachment_list';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import PostProfilePicture from 'src/components/post_profile_picture';
+import FailedPostOptions from 'src/components/post_view/failed_post_options';
+import PostFlagIcon from 'src/components/post_view/post_flag_icon';
+import PostTime from 'src/components/post_view/post_time';
+import PostReaction from 'src/components/post_view/post_reaction';
+import ReactionList from 'src/components/post_view/reaction_list';
+import MessageWithAdditionalContent from 'src/components/message_with_additional_content';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
+import Badge from 'src/components/widgets/badges/badge';
+import InfoSmallIcon from 'src/components/widgets/icons/info_small_icon';
+import PostPreHeader from 'src/components/post_view/post_pre_header';
+import UserProfile from 'src/components/user_profile';
 
 class RhsComment extends React.PureComponent {
     static propTypes = {

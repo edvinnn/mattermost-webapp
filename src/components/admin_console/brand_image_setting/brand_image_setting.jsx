@@ -10,8 +10,8 @@ import {Client4} from 'mattermost-redux/client';
 
 import {uploadBrandImage, deleteBrandImage} from 'actions/admin_actions.jsx';
 import {Constants} from 'src/utils/constants';
-import FormError from 'components/form_error';
-import OverlayTrigger from 'components/overlay_trigger';
+import FormError from 'src/components/form_error';
+import OverlayTrigger from 'src/components/overlay_trigger';
 
 const HTTP_STATUS_OK = 200;
 

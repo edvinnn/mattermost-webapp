@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import DoVerifyEmail from 'components/do_verify_email/do_verify_email';
+import DoVerifyEmail from 'src/components/do_verify_email/do_verify_email';
 
 describe('components/DoVerifyEmail', () => {
     const requiredProps = {

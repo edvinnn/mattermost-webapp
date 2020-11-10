@@ -15,8 +15,8 @@ import OAuthIcon from 'images/oauth_icon.png';
 import OutgoingWebhookIcon from 'images/outgoing_webhook.jpg';
 import SlashCommandIcon from 'images/slash_command_icon.jpg';
 
-import SystemPermissionGate from 'components/permissions_gates/system_permission_gate';
-import TeamPermissionGate from 'components/permissions_gates/team_permission_gate';
+import SystemPermissionGate from 'src/components/permissions_gates/system_permission_gate';
+import TeamPermissionGate from 'src/components/permissions_gates/team_permission_gate';
 
 import IntegrationOption from './integration_option.jsx';
 

@@ -3,10 +3,10 @@
 
 import React, {ComponentProps} from 'react';
 
-import OverlayTrigger, {BaseOverlayTrigger} from 'components/overlay_trigger';
-import ProfilePopover from 'components/profile_popover';
-import StatusIcon from 'components/status_icon';
-import Avatar from 'components/widgets/users/avatar';
+import OverlayTrigger, {BaseOverlayTrigger} from 'src/components/overlay_trigger';
+import ProfilePopover from 'src/components/profile_popover';
+import StatusIcon from 'src/components/status_icon';
+import Avatar from 'src/components/widgets/users/avatar';
 
 import './profile_picture.scss';
 

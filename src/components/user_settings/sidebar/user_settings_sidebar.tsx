@@ -13,16 +13,16 @@ import {SidebarPreferences} from 'mattermost-redux/selectors/entities/preference
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 
-import LocalizedIcon from 'components/localized_icon';
+import LocalizedIcon from 'src/components/localized_icon';
 
 import Constants from 'src/utils/constants';
 import {isMac} from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';
 
-import SettingItemMax from 'components/setting_item_max.jsx';
-import SettingItemMin from 'components/setting_item_min';
+import SettingItemMax from 'src/components/setting_item_max.jsx';
+import SettingItemMin from 'src/components/setting_item_min';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 export interface UserSettingsSidebarProps {
     actions: {

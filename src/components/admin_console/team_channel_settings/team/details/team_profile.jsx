@@ -6,12 +6,12 @@ import PropTypes from 'prop-types';
 
 import {t} from 'src/utils/i18n';
 
-import AdminPanel from 'components/widgets/admin_console/admin_panel';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import AdminPanel from 'src/components/widgets/admin_console/admin_panel';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 import * as Utils from 'src/utils/utils';
 
-import TeamIcon from 'components/widgets/team_icon/team_icon';
+import TeamIcon from 'src/components/widgets/team_icon/team_icon';
 
 export function TeamProfile({team}) {
     const teamIconUrl = Utils.imageURLForTeam(team);

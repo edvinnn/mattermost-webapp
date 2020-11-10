@@ -6,9 +6,9 @@ import {Client4} from 'mattermost-redux/client';
 
 import * as Utils from 'src/utils/utils.jsx';
 
-import GuestBadge from 'components/widgets/badges/guest_badge';
-import BotBadge from 'components/widgets/badges/bot_badge';
-import Avatar from 'components/widgets/users/avatar';
+import GuestBadge from 'src/components/widgets/badges/guest_badge';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
+import Avatar from 'src/components/widgets/users/avatar';
 
 import Provider from './provider.jsx';
 import Suggestion from './suggestion.jsx';

@@ -7,9 +7,9 @@ import {FormattedMessage} from 'react-intl';
 
 import Permissions from 'mattermost-redux/constants/permissions';
 
-import TeamPermissionGate from 'components/permissions_gates/team_permission_gate';
-import MemberListTeam from 'components/member_list_team';
-import InvitationModal from 'components/invitation_modal';
+import TeamPermissionGate from 'src/components/permissions_gates/team_permission_gate';
+import MemberListTeam from 'src/components/member_list_team';
+import InvitationModal from 'src/components/invitation_modal';
 
 import {ModalIdentifiers} from 'src/utils/constants';
 

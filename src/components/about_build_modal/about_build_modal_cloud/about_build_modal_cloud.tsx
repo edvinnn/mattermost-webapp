@@ -6,8 +6,8 @@ import {Modal} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 import classNames from 'classnames';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import MattermostLogo from 'components/widgets/icons/mattermost_logo';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import MattermostLogo from 'src/components/widgets/icons/mattermost_logo';
 
 import './about_build_modal_cloud.scss';
 

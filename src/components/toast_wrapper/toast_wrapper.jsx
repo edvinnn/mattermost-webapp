@@ -5,8 +5,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {FormattedMessage, injectIntl} from 'react-intl';
 
-import Toast from 'components/toast/toast';
-import Timestamp, {RelativeRanges} from 'components/timestamp';
+import Toast from 'src/components/toast/toast';
+import Timestamp, {RelativeRanges} from 'src/components/timestamp';
 import {isIdNotPost, getNewMessageIndex} from 'src/utils/post_utils.jsx';
 import * as Utils from 'src/utils/utils.jsx';
 import {isToday} from 'src/utils/datetime';

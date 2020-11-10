@@ -15,13 +15,13 @@ import Constants from 'src/utils/constants';
 import DelayedAction from 'src/utils/delayed_action';
 import * as Utils from 'src/utils/utils.jsx';
 import * as UserAgent from 'src/utils/user_agent';
-import CreateComment from 'components/create_comment';
-import DateSeparator from 'components/post_view/date_separator';
-import FloatingTimestamp from 'components/post_view/floating_timestamp';
-import RhsComment from 'components/rhs_comment';
-import RhsHeaderPost from 'components/rhs_header_post';
-import RhsRootPost from 'components/rhs_root_post';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import CreateComment from 'src/components/create_comment';
+import DateSeparator from 'src/components/post_view/date_separator';
+import FloatingTimestamp from 'src/components/post_view/floating_timestamp';
+import RhsComment from 'src/components/rhs_comment';
+import RhsHeaderPost from 'src/components/rhs_header_post';
+import RhsRootPost from 'src/components/rhs_root_post';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 import {FakePost} from 'types/store/rhs';
 
 export function renderView(props: Record<string, any>) {

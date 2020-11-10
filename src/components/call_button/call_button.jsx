@@ -7,9 +7,9 @@ import {injectIntl} from 'react-intl';
 
 import {intlShape} from 'src/utils/react_intl';
 
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
-import Menu from 'components/widgets/menu/menu';
-import CameraIcon from 'components/widgets/icons/camera_icon';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
+import Menu from 'src/components/widgets/menu/menu';
+import CameraIcon from 'src/components/widgets/icons/camera_icon';
 
 const customStyles = {
     left: 'inherit',

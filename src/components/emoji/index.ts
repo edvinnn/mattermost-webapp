@@ -9,7 +9,7 @@ import {loadRolesIfNeeded} from 'mattermost-redux/actions/roles';
 
 import {GlobalState} from 'types/store';
 
-import EmojiPage from 'components/emoji/emoji_page';
+import EmojiPage from 'src/components/emoji/emoji_page';
 
 function mapStateToProps(state: GlobalState) {
     const team = getCurrentTeam(state) || {};

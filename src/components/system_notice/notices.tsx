@@ -3,13 +3,13 @@
 
 import React from 'react';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
 import * as ServerVersion from 'src/utils/server_version';
 import * as UserAgent from 'src/utils/user_agent';
 
 import mattermostIcon from 'images/icon50x50.png';
-import {Notice} from 'components/system_notice/types';
+import {Notice} from 'src/components/system_notice/types';
 
 // Notices are objects with the following fields:
 //  - name - string identifier

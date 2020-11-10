@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import GroupRow from 'components/admin_console/group_settings/group_row.jsx';
+import GroupRow from 'src/components/admin_console/group_settings/group_row.jsx';
 
 describe('components/admin_console/group_settings/GroupRow', () => {
     test('should match snapshot, on linked and configured row', () => {

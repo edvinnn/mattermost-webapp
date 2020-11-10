@@ -5,8 +5,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {shallow} from 'enzyme';
 
-import DeleteIntegration from 'components/integrations/delete_integration.jsx';
-import InstalledIncomingWebhook from 'components/integrations/installed_incoming_webhook.jsx';
+import DeleteIntegration from 'src/components/integrations/delete_integration.jsx';
+import InstalledIncomingWebhook from 'src/components/integrations/installed_incoming_webhook.jsx';
 
 describe('components/integrations/InstalledIncomingWebhook', () => {
     let incomingWebhook = {};

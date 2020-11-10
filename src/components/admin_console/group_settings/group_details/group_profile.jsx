@@ -5,7 +5,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
-import MentionsIcon from 'components/widgets/icons/mentions_icon';
+import MentionsIcon from 'src/components/widgets/icons/mentions_icon';
 
 export default class GroupProfile extends React.PureComponent {
     static propTypes = {

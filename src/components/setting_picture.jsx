@@ -10,9 +10,9 @@ import {Constants} from 'src/utils/constants';
 import {localizeMessage} from 'src/utils/utils.jsx';
 import * as FileUtils from 'src/utils/file_utils.jsx';
 
-import FormError from 'components/form_error';
-import OverlayTrigger from 'components/overlay_trigger';
-import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
+import FormError from 'src/components/form_error';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import LoadingWrapper from 'src/components/widgets/loading/loading_wrapper';
 
 export default class SettingPicture extends Component {
     static defaultProps = {

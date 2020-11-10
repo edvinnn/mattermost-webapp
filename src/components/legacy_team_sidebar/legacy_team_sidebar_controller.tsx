@@ -17,7 +17,7 @@ import {Constants} from 'src/utils/constants.jsx';
 import {filterAndSortTeamsByDisplayName} from 'src/utils/team_utils.jsx';
 import * as Utils from 'src/utils/utils.jsx';
 
-import SystemPermissionGate from 'components/permissions_gates/system_permission_gate';
+import SystemPermissionGate from 'src/components/permissions_gates/system_permission_gate';
 import Pluggable from 'src/plugins/pluggable';
 
 import TeamButton from './components/team_button';

@@ -6,11 +6,11 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 
 import logoImage from 'images/logo.png';
-import BackButton from 'components/common/back_button';
-import OAuthToEmail from 'components/claim/components/oauth_to_email';
-import EmailToOAuth from 'components/claim/components/email_to_oauth';
-import LDAPToEmail from 'components/claim/components/ldap_to_email';
-import EmailToLDAP from 'components/claim/components/email_to_ldap';
+import BackButton from 'src/components/common/back_button';
+import OAuthToEmail from 'src/components/claim/components/oauth_to_email';
+import EmailToOAuth from 'src/components/claim/components/email_to_oauth';
+import LDAPToEmail from 'src/components/claim/components/ldap_to_email';
+import EmailToLDAP from 'src/components/claim/components/email_to_ldap';
 
 export default class ClaimController extends React.PureComponent {
     static propTypes = {

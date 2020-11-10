@@ -11,8 +11,8 @@ import {Groups} from 'mattermost-redux/constants';
 import {browserHistory} from 'src/utils/browser_history';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
-import BlockableLink from 'components/admin_console/blockable_link';
-import FormError from 'components/form_error';
+import BlockableLink from 'src/components/admin_console/blockable_link';
+import FormError from 'src/components/form_error';
 
 import RemoveConfirmModal from '../../remove_confirm_modal';
 import {NeedDomainsError, NeedGroupsError, UsersWillBeRemovedError} from '../../errors';

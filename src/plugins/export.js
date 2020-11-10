@@ -4,7 +4,7 @@
 import messageHtmlToComponent from 'src/utils/message_html_to_component';
 import {formatText} from 'src/utils/text_formatting';
 import {browserHistory} from 'src/utils/browser_history';
-import Textbox from 'components/textbox';
+import Textbox from 'src/components/textbox';
 
 // The following import has intentional side effects. Do not remove without research.
 import {openInteractiveDialog} from './interactive_dialog';

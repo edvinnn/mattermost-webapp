@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import ReplyIcon from 'components/widgets/icons/reply_icon';
+import ReplyIcon from 'src/components/widgets/icons/reply_icon';
 
 import Button from './button';
 

@@ -6,8 +6,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import * as Utils from 'src/utils/utils.jsx';
-import LoadingScreen from 'components/loading_screen';
-import SearchIcon from 'components/widgets/icons/fa_search_icon';
+import LoadingScreen from 'src/components/loading_screen';
+import SearchIcon from 'src/components/widgets/icons/fa_search_icon';
 
 export default class BackstageList extends React.PureComponent {
     static propTypes = {

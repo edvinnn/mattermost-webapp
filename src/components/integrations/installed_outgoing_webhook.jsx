@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 import {Link} from 'react-router-dom';
 
 import {t} from 'src/utils/i18n';
-import CopyText from 'components/copy_text';
+import CopyText from 'src/components/copy_text';
 
 import DeleteIntegration from './delete_integration.jsx';
 

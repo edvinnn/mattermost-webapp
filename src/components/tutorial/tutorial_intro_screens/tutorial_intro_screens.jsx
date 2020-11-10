@@ -9,8 +9,8 @@ import {trackEvent} from 'actions/telemetry_actions.jsx';
 import {Constants, Preferences, ModalIdentifiers} from 'src/utils/constants.jsx';
 import {useSafeUrl} from 'src/utils/url';
 import AppIcons from 'images/appIcons.png';
-import ModalToggleButtonRedux from 'components/toggle_modal_button_redux';
-import InvitationModal from 'components/invitation_modal';
+import ModalToggleButtonRedux from 'src/components/toggle_modal_button_redux';
+import InvitationModal from 'src/components/invitation_modal';
 
 const NUM_SCREENS = 3;
 

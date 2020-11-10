@@ -6,7 +6,7 @@ import React from 'react';
 
 import {OpenGraphMetadata, Post} from 'mattermost-redux/types/posts';
 
-import ExternalImage from 'components/external_image';
+import ExternalImage from 'src/components/external_image';
 
 import PostAttachmentOpenGraph, {getBestImageUrl} from './post_attachment_opengraph';
 

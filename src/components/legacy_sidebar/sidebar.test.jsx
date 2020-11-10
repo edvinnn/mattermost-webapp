@@ -6,7 +6,7 @@ import React from 'react';
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
 import {Constants} from 'src/utils/constants';
-import Sidebar from 'components/legacy_sidebar/sidebar';
+import Sidebar from 'src/components/legacy_sidebar/sidebar';
 
 jest.mock('utils/user_agent', () => {
     const original = jest.requireActual('utils/user_agent');

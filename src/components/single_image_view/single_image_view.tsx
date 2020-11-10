@@ -7,13 +7,13 @@ import {getFilePreviewUrl, getFileUrl} from 'mattermost-redux/utils/file_utils';
 import {FileInfo} from 'mattermost-redux/types/files';
 import {Post} from 'mattermost-redux/types/posts';
 
-import SizeAwareImage from 'components/size_aware_image';
+import SizeAwareImage from 'src/components/size_aware_image';
 import {FileTypes} from 'src/utils/constants';
 import {
     getFileType,
 } from 'src/utils/utils';
 
-import ViewImageModal from 'components/view_image';
+import ViewImageModal from 'src/components/view_image';
 
 const PREVIEW_IMAGE_MIN_DIMENSION = 50;
 

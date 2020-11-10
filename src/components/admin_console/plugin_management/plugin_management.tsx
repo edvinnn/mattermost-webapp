@@ -11,9 +11,9 @@ import PluginState from 'mattermost-redux/constants/plugins';
 import {AdminConfig} from 'mattermost-redux/types/config';
 
 import * as Utils from 'src/utils/utils.jsx';
-import LoadingScreen from 'components/loading_screen';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import ConfirmModal from 'components/confirm_modal';
+import LoadingScreen from 'src/components/loading_screen';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import ConfirmModal from 'src/components/confirm_modal';
 
 import AdminSettings, {BaseProps, BaseState} from '../admin_settings';
 import BooleanSetting from '../boolean_setting';

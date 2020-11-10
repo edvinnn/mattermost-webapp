@@ -13,9 +13,9 @@ import {browserHistory} from 'src/utils/browser_history';
 
 import {getRelativeChannelURL} from 'src/utils/url';
 
-import NewChannelFlow from 'components/new_channel_flow';
-import SearchableChannelList from 'components/searchable_channel_list.jsx';
-import TeamPermissionGate from 'components/permissions_gates/team_permission_gate';
+import NewChannelFlow from 'src/components/new_channel_flow';
+import SearchableChannelList from 'src/components/searchable_channel_list.jsx';
+import TeamPermissionGate from 'src/components/permissions_gates/team_permission_gate';
 import {ModalIdentifiers} from 'src/utils/constants';
 
 const CHANNELS_CHUNK_SIZE = 50;

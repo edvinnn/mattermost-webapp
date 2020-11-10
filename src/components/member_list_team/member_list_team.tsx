@@ -11,8 +11,8 @@ import {Teams} from 'mattermost-redux/constants';
 import Constants from 'src/utils/constants';
 import * as UserAgent from 'src/utils/user_agent';
 
-import SearchableUserList from 'components/searchable_user_list/searchable_user_list_container.jsx';
-import TeamMembersDropdown from 'components/team_members_dropdown';
+import SearchableUserList from 'src/components/searchable_user_list/searchable_user_list_container.jsx';
+import TeamMembersDropdown from 'src/components/team_members_dropdown';
 
 const USERS_PER_PAGE = 50;
 

@@ -11,9 +11,9 @@ import {Theme} from 'mattermost-redux/types/preferences';
 import * as PostUtils from 'src/utils/post_utils';
 import * as Utils from 'src/utils/utils';
 
-import PostMarkdown from 'components/post_markdown';
+import PostMarkdown from 'src/components/post_markdown';
 import Pluggable from 'src/plugins/pluggable';
-import ShowMore from 'components/post_view/show_more';
+import ShowMore from 'src/components/post_view/show_more';
 import {TextFormattingOptions} from 'src/utils/text_formatting';
 
 type Props = {

@@ -7,7 +7,7 @@ import {shallow} from 'enzyme';
 
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
 
-import RemovedFromChannelModal from 'components/removed_from_channel_modal/removed_from_channel_modal';
+import RemovedFromChannelModal from 'src/components/removed_from_channel_modal/removed_from_channel_modal';
 
 describe('components/RemoveFromChannelModal', () => {
     const baseProps = {

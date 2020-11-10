@@ -7,9 +7,9 @@ import {FormattedMessage} from 'react-intl';
 
 import * as Utils from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';
-import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
-import SuccessIcon from 'components/widgets/icons/fa_success_icon';
-import WarningIcon from 'components/widgets/icons/fa_warning_icon';
+import LoadingWrapper from 'src/components/widgets/loading/loading_wrapper';
+import SuccessIcon from 'src/components/widgets/icons/fa_success_icon';
+import WarningIcon from 'src/components/widgets/icons/fa_warning_icon';
 
 /**
  * A button which, when clicked, performs an action and displays

@@ -9,11 +9,11 @@ import {getFilePreviewUrl, getFileUrl, getFileDownloadUrl} from 'mattermost-redu
 import * as GlobalActions from 'actions/global_actions';
 import Constants, {FileTypes, ZoomSettings} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils';
-import AudioVideoPreview from 'components/audio_video_preview';
-import CodePreview from 'components/code_preview';
-import FileInfoPreview from 'components/file_info_preview';
-import LoadingImagePreview from 'components/loading_image_preview';
-const PDFPreview = React.lazy(() => import('components/pdf_preview'));
+import AudioVideoPreview from 'src/components/audio_video_preview';
+import CodePreview from 'src/components/code_preview';
+import FileInfoPreview from 'src/components/file_info_preview';
+import LoadingImagePreview from 'src/components/loading_image_preview';
+const PDFPreview = React.lazy(() => import('src/components/pdf_preview'));
 
 import ImagePreview from './image_preview';
 import PopoverBar from './popover_bar';

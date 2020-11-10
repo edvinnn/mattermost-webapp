@@ -11,8 +11,8 @@ import Constants, {ModalIdentifiers} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils';
 import {cleanUpUrlable} from 'src/utils/url';
 
-import NewChannelModal from 'components/new_channel_modal';
-import ChangeURLModal from 'components/change_url_modal';
+import NewChannelModal from 'src/components/new_channel_modal';
+import ChangeURLModal from 'src/components/change_url_modal';
 
 export const SHOW_NEW_CHANNEL = 1;
 export const SHOW_EDIT_URL = 2;

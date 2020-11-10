@@ -11,10 +11,10 @@ import {ConnectedComponent} from 'react-redux';
 import {ServerError} from 'mattermost-redux/types/errors';
 
 import * as Utils from 'src/utils/utils.jsx';
-import ProfilePicture from 'components/profile_picture';
-import BotBadge from 'components/widgets/badges/bot_badge';
+import ProfilePicture from 'src/components/profile_picture';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 type Props = {
     user: UserProfile;

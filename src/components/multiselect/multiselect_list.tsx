@@ -10,7 +10,7 @@ import {getOptionValue} from 'react-select/src/builtins';
 import Constants from 'src/utils/constants';
 import {cmdOrCtrlPressed} from 'src/utils/utils.jsx';
 
-import LoadingScreen from 'components/loading_screen';
+import LoadingScreen from 'src/components/loading_screen';
 
 import {Value} from './multiselect';
 

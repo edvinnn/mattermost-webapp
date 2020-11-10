@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import FileUploadOverlay from 'components/file_upload_overlay';
+import FileUploadOverlay from 'src/components/file_upload_overlay';
 
 describe('components/FileUploadOverlay', () => {
     test('should match snapshot when file upload is showing with no overlay type', () => {

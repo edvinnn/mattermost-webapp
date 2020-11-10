@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow, ShallowWrapper} from 'enzyme';
 
-import NextStepsView from 'components/next_steps_view/next_steps_view';
+import NextStepsView from 'src/components/next_steps_view/next_steps_view';
 import {TestHelper} from 'src/utils/test_helper';
 
 describe('components/next_steps_view', () => {

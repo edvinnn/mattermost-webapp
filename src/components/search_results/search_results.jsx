@@ -15,14 +15,14 @@ import {intlShape} from 'src/utils/react_intl';
 import * as Utils from 'src/utils/utils.jsx';
 import {searchHintOptions} from 'src/utils/constants';
 
-import SearchResultsHeader from 'components/search_results_header';
-import SearchResultsItem from 'components/search_results_item';
-import SearchHint from 'components/search_hint/search_hint';
-import LoadingSpinner from 'components/widgets/loading/loading_wrapper';
-import NoResultsIndicator from 'components/no_results_indicator/no_results_indicator.tsx';
-import FlagIcon from 'components/widgets/icons/flag_icon';
+import SearchResultsHeader from 'src/components/search_results_header';
+import SearchResultsItem from 'src/components/search_results_item';
+import SearchHint from 'src/components/search_hint/search_hint';
+import LoadingSpinner from 'src/components/widgets/loading/loading_wrapper';
+import NoResultsIndicator from 'src/components/no_results_indicator/no_results_indicator.tsx';
+import FlagIcon from 'src/components/widgets/icons/flag_icon';
 
-import {NoResultsVariant} from 'components/no_results_indicator/types';
+import {NoResultsVariant} from 'src/components/no_results_indicator/types';
 
 const GET_MORE_BUFFER = 30;
 

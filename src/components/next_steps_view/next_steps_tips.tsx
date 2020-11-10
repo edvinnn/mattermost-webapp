@@ -11,23 +11,23 @@ import {PreferenceType} from 'mattermost-redux/types/preferences';
 import {trackEvent} from 'actions/telemetry_actions';
 import {toggleShortcutsModal} from 'actions/global_actions';
 import {openModal, closeModal} from 'actions/views/modals';
-import Card from 'components/card/card';
-import MoreChannels from 'components/more_channels';
-import TeamMembersModal from 'components/team_members_modal';
-import MarketplaceModal from 'components/plugin_marketplace';
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
-import RemoveNextStepsModal from 'components/sidebar/sidebar_next_steps/remove_next_steps_modal';
-import Menu from 'components/widgets/menu/menu';
+import Card from 'src/components/card/card';
+import MoreChannels from 'src/components/more_channels';
+import TeamMembersModal from 'src/components/team_members_modal';
+import MarketplaceModal from 'src/components/plugin_marketplace';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
+import RemoveNextStepsModal from 'src/components/sidebar/sidebar_next_steps/remove_next_steps_modal';
+import Menu from 'src/components/widgets/menu/menu';
 import downloadApps from 'images/download-app.svg';
 import {browserHistory} from 'src/utils/browser_history';
 import * as UserAgent from 'src/utils/user_agent';
-import NewChannelFlow from 'components/new_channel_flow';
+import NewChannelFlow from 'src/components/new_channel_flow';
 import {
     ModalIdentifiers,
     RecommendedNextSteps,
     Preferences,
 } from 'src/utils/constants';
-import CloseIcon from 'components/widgets/icons/close_icon';
+import CloseIcon from 'src/components/widgets/icons/close_icon';
 import * as Utils from 'src/utils/utils';
 
 import {getAnalyticsCategory} from './step_helpers';

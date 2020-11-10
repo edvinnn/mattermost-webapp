@@ -4,7 +4,7 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import ConfirmModal from 'components/confirm_modal';
+import ConfirmModal from 'src/components/confirm_modal';
 
 type Props = {
     show: boolean;

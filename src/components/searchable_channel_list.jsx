@@ -8,14 +8,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {FormattedMessage} from 'react-intl';
 
-import LoadingScreen from 'components/loading_screen';
-import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
-import QuickInput from 'components/quick_input';
+import LoadingScreen from 'src/components/loading_screen';
+import LoadingWrapper from 'src/components/widgets/loading/loading_wrapper';
+import QuickInput from 'src/components/quick_input';
 import * as UserAgent from 'src/utils/user_agent';
 import {localizeMessage} from 'src/utils/utils.jsx';
-import LocalizedInput from 'components/localized_input/localized_input';
+import LocalizedInput from 'src/components/localized_input/localized_input';
 
-import ArchiveIcon from 'components/widgets/icons/archive_icon';
+import ArchiveIcon from 'src/components/widgets/icons/archive_icon';
 
 import {t} from 'src/utils/i18n';
 

@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
 import AdminHeader from './admin_header';
 

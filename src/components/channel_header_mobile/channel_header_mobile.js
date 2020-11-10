@@ -5,7 +5,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {MobileChannelHeaderDropdown} from 'components/channel_header_dropdown';
+import {MobileChannelHeaderDropdown} from 'src/components/channel_header_dropdown';
 import MobileChannelHeaderPlug from 'src/plugins/mobile_channel_header_plug';
 
 import * as Utils from 'src/utils/utils';

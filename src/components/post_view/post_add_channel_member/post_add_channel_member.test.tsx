@@ -9,7 +9,7 @@ import {UserProfile} from 'mattermost-redux/types/users';
 
 import {sendAddToChannelEphemeralPost} from 'actions/global_actions';
 import {TestHelper} from 'src/utils/test_helper';
-import PostAddChannelMember, {Props} from 'components/post_view/post_add_channel_member/post_add_channel_member';
+import PostAddChannelMember, {Props} from 'src/components/post_view/post_add_channel_member/post_add_channel_member';
 
 jest.mock('actions/global_actions.jsx', () => {
     return {

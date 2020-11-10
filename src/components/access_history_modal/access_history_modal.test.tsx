@@ -4,9 +4,9 @@
 import React from 'react';
 import {shallow, ShallowWrapper} from 'enzyme';
 
-import AccessHistoryModal from 'components/access_history_modal/access_history_modal';
-import AuditTable from 'components/audit_table';
-import LoadingScreen from 'components/loading_screen';
+import AccessHistoryModal from 'src/components/access_history_modal/access_history_modal';
+import AuditTable from 'src/components/audit_table';
+import LoadingScreen from 'src/components/loading_screen';
 
 describe('components/AccessHistoryModal', () => {
     const baseProps = {

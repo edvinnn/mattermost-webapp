@@ -14,10 +14,10 @@ import {CustomEmoji, Emoji, SystemEmoji} from 'mattermost-redux/types/emojis';
 import {Locations} from 'src/utils/constants';
 import {localizeMessage} from 'src/utils/utils.jsx';
 
-import OverlayTrigger from 'components/overlay_trigger';
-import ChannelPermissionGate from 'components/permissions_gates/channel_permission_gate';
-import EmojiIcon from 'components/widgets/icons/emoji_icon';
-import EmojiPickerOverlay from 'components/emoji_picker/emoji_picker_overlay.jsx';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import ChannelPermissionGate from 'src/components/permissions_gates/channel_permission_gate';
+import EmojiIcon from 'src/components/widgets/icons/emoji_icon';
+import EmojiPickerOverlay from 'src/components/emoji_picker/emoji_picker_overlay.jsx';
 
 const TOP_OFFSET = -7;
 

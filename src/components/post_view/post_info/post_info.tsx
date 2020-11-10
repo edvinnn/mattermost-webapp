@@ -15,13 +15,13 @@ import {ExtendedPost} from 'mattermost-redux/actions/posts';
 import * as PostUtils from 'src/utils/post_utils.jsx';
 import * as Utils from 'src/utils/utils.jsx';
 import Constants, {Locations} from 'src/utils/constants';
-import CommentIcon from 'components/common/comment_icon';
-import DotMenu from 'components/dot_menu';
-import OverlayTrigger from 'components/overlay_trigger';
-import PostFlagIcon from 'components/post_view/post_flag_icon';
-import PostReaction from 'components/post_view/post_reaction';
-import PostTime from 'components/post_view/post_time';
-import InfoSmallIcon from 'components/widgets/icons/info_small_icon';
+import CommentIcon from 'src/components/common/comment_icon';
+import DotMenu from 'src/components/dot_menu';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import PostFlagIcon from 'src/components/post_view/post_flag_icon';
+import PostReaction from 'src/components/post_view/post_reaction';
+import PostTime from 'src/components/post_view/post_time';
+import InfoSmallIcon from 'src/components/widgets/icons/info_small_icon';
 
 type Props = {
 

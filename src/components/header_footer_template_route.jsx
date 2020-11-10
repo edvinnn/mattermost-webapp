@@ -4,8 +4,8 @@
 import React from 'react';
 import {Route} from 'react-router-dom';
 
-const HeaderFooterTemplate = React.lazy(() => import('components/header_footer_template'));
-const LoggedIn = React.lazy(() => import('components/logged_in'));
+const HeaderFooterTemplate = React.lazy(() => import('src/components/header_footer_template'));
+const LoggedIn = React.lazy(() => import('src/components/logged_in'));
 
 export const HFTRoute = ({component: Component, ...rest}) => (
     <Route

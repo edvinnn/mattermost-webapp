@@ -10,12 +10,12 @@ import {ChannelModeration as ChannelPermissions} from 'mattermost-redux/types/ch
 import {Permissions, Roles} from 'mattermost-redux/constants';
 import {ChannelModerationRoles} from 'mattermost-redux/types/roles';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
 import {t} from 'src/utils/i18n';
 
-import AdminPanel from 'components/widgets/admin_console/admin_panel';
-import CheckboxCheckedIcon from 'components/widgets/icons/checkbox_checked_icon.jsx';
+import AdminPanel from 'src/components/widgets/admin_console/admin_panel';
+import CheckboxCheckedIcon from 'src/components/widgets/icons/checkbox_checked_icon.jsx';
 
 const PERIOD_TO_SLASH_REGEX = /\./g;
 

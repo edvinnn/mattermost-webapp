@@ -9,9 +9,9 @@ import {Channel} from 'mattermost-redux/types/channels';
 
 import {t} from 'src/utils/i18n';
 
-import AdminPanel from 'components/widgets/admin_console/admin_panel';
-import ToggleModalButton from 'components/toggle_modal_button';
-import AddGroupsToChannelModal from 'components/add_groups_to_channel_modal';
+import AdminPanel from 'src/components/widgets/admin_console/admin_panel';
+import ToggleModalButton from 'src/components/toggle_modal_button';
+import AddGroupsToChannelModal from 'src/components/add_groups_to_channel_modal';
 import GroupList from '../../group';
 
 interface ChannelGroupsProps {

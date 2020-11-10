@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import {NotificationLevels, NotificationSections} from 'src/utils/constants';
 
-import CollapseView from 'components/channel_notifications_modal/components/collapse_view.jsx';
+import CollapseView from 'src/components/channel_notifications_modal/components/collapse_view.jsx';
 
 describe('components/channel_notifications_modal/CollapseView', () => {
     const baseProps = {

@@ -5,7 +5,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
-import GroupTeamsAndChannelsRow from 'components/admin_console/group_settings/group_details/group_teams_and_channels_row.jsx';
+import GroupTeamsAndChannelsRow from 'src/components/admin_console/group_settings/group_details/group_teams_and_channels_row.jsx';
 
 export default class GroupTeamsAndChannels extends React.PureComponent {
     static propTypes = {

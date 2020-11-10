@@ -6,9 +6,9 @@ import {FormattedMessage} from 'react-intl';
 import {useSelector} from 'react-redux';
 
 import {trackEvent} from 'actions/telemetry_actions';
-import BlockableLink from 'components/admin_console/blockable_link';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import CardImage from 'components/payment_form/card_image';
+import BlockableLink from 'src/components/admin_console/blockable_link';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import CardImage from 'src/components/payment_form/card_image';
 import noPaymentInfoGraphic from 'images/no_payment_info_graphic.svg';
 import {GlobalState} from 'types/store';
 

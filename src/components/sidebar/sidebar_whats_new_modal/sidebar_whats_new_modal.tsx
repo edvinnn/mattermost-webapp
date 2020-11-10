@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 import {Preferences} from 'mattermost-redux/constants';
 import {PreferenceType} from 'mattermost-redux/types/preferences';
 
-import GenericModal from 'components/generic_modal';
+import GenericModal from 'src/components/generic_modal';
 
 import whatsNewImg from 'images/whats-new-1.5.gif';
 

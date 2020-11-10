@@ -12,17 +12,17 @@ import {Dictionary} from 'mattermost-redux/types/utilities';
 import {Bot} from 'mattermost-redux/types/bots';
 
 import {adminResetMfa} from 'actions/admin_actions.jsx';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 import {Constants} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';
 import {getSiteURL} from 'src/utils/url';
 import {emitUserLoggedOutEvent} from 'actions/global_actions.jsx';
-import ConfirmModal from 'components/confirm_modal';
-import SystemPermissionGate from 'components/permissions_gates/system_permission_gate';
+import ConfirmModal from 'src/components/confirm_modal';
+import SystemPermissionGate from 'src/components/permissions_gates/system_permission_gate';
 
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
-import Menu from 'components/widgets/menu/menu';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
+import Menu from 'src/components/widgets/menu/menu';
 
 const ROWS_FROM_BOTTOM_TO_OPEN_UP = 3;
 const TOTAL_USERS_TO_OPEN_UP = 5;

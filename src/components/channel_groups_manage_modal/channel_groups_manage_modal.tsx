@@ -10,18 +10,18 @@ import {Group} from 'mattermost-redux/types/groups';
 
 import {Channel} from 'mattermost-redux/types/channels';
 
-import AddGroupsToChannelModal from 'components/add_groups_to_channel_modal';
+import AddGroupsToChannelModal from 'src/components/add_groups_to_channel_modal';
 
 import {ModalIdentifiers} from 'src/utils/constants';
 
-import ListModal, {DEFAULT_NUM_PER_PAGE} from 'components/list_modal.jsx';
+import ListModal, {DEFAULT_NUM_PER_PAGE} from 'src/components/list_modal.jsx';
 
-import DropdownIcon from 'components/widgets/icons/fa_dropdown_icon';
+import DropdownIcon from 'src/components/widgets/icons/fa_dropdown_icon';
 
 import groupsAvatar from 'images/groups-avatar.png';
 
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
-import Menu from 'components/widgets/menu/menu';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
+import Menu from 'src/components/widgets/menu/menu';
 
 import * as Utils from 'src/utils/utils.jsx';
 

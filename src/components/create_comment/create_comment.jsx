@@ -26,17 +26,17 @@ import {
 } from 'src/utils/post_utils.jsx';
 import {getTable, formatMarkdownTableMessage, isGitHubCodeBlock, formatGithubCodePaste} from 'src/utils/paste';
 
-import ConfirmModal from 'components/confirm_modal';
-import EmojiPickerOverlay from 'components/emoji_picker/emoji_picker_overlay.jsx';
-import FilePreview from 'components/file_preview';
-import FileUpload from 'components/file_upload';
-import MsgTyping from 'components/msg_typing';
-import PostDeletedModal from 'components/post_deleted_modal';
-import EmojiIcon from 'components/widgets/icons/emoji_icon';
-import Textbox from 'components/textbox';
-import TextboxLinks from 'components/textbox/textbox_links';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import MessageSubmitError from 'components/message_submit_error';
+import ConfirmModal from 'src/components/confirm_modal';
+import EmojiPickerOverlay from 'src/components/emoji_picker/emoji_picker_overlay.jsx';
+import FilePreview from 'src/components/file_preview';
+import FileUpload from 'src/components/file_upload';
+import MsgTyping from 'src/components/msg_typing';
+import PostDeletedModal from 'src/components/post_deleted_modal';
+import EmojiIcon from 'src/components/widgets/icons/emoji_icon';
+import Textbox from 'src/components/textbox';
+import TextboxLinks from 'src/components/textbox/textbox_links';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import MessageSubmitError from 'src/components/message_submit_error';
 
 const KeyCodes = Constants.KeyCodes;
 

@@ -8,7 +8,7 @@ import {TeamType} from 'mattermost-redux/types/teams';
 
 import {TestHelper} from 'src/utils/test_helper';
 
-import Markdown from 'components/markdown/markdown';
+import Markdown from 'src/components/markdown/markdown';
 import EmojiMap from 'src/utils/emoji_map';
 
 describe('components/Markdown', () => {

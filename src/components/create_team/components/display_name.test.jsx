@@ -5,7 +5,7 @@ import {shallow} from 'enzyme';
 import {FormattedMessage} from 'react-intl';
 
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
-import DisplayName from 'components/create_team/components/display_name.jsx';
+import DisplayName from 'src/components/create_team/components/display_name.jsx';
 import Constants from 'src/utils/constants';
 import {cleanUpUrlable} from 'src/utils/url';
 

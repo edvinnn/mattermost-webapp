@@ -13,9 +13,9 @@ import EmojiMap from 'src/utils/emoji_map';
 import Constants, {StoragePrefixes, ModalIdentifiers} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 
-import CreatePost from 'components/create_post/create_post.jsx';
-import FileUpload from 'components/file_upload';
-import Textbox from 'components/textbox';
+import CreatePost from 'src/components/create_post/create_post.jsx';
+import FileUpload from 'src/components/file_upload';
+import Textbox from 'src/components/textbox';
 
 jest.mock('actions/global_actions.jsx', () => ({
     emitLocalUserTypingEvent: jest.fn(),

@@ -8,7 +8,7 @@ import {DispatchFunc} from 'mattermost-redux/types/actions';
 import {getCloudCustomer} from 'mattermost-redux/actions/cloud';
 
 import {pageVisited} from 'actions/telemetry_actions';
-import FormattedAdminHeader from 'components/widgets/admin_console/formatted_admin_header';
+import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted_admin_header';
 
 import CompanyInfoDisplay from './company_info_display';
 

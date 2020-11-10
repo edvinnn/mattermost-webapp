@@ -9,7 +9,7 @@ import {isKeyPressed} from 'src/utils/utils.jsx';
 
 import {redirectUserToDefaultTeam} from 'actions/global_actions.jsx';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 const KeyCodes = Constants.KeyCodes;
 

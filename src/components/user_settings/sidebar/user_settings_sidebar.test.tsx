@@ -10,7 +10,7 @@ import {SidebarPreferences} from 'mattermost-redux/selectors/entities/preference
 
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
 
-import UserSettingsSidebar from 'components/user_settings/sidebar/user_settings_sidebar';
+import UserSettingsSidebar from 'src/components/user_settings/sidebar/user_settings_sidebar';
 
 import {UserSettingsSidebarProps} from './user_settings_sidebar';
 

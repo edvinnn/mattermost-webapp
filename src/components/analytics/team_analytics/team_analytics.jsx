@@ -6,17 +6,17 @@ import React from 'react';
 import {FormattedDate, FormattedMessage} from 'react-intl';
 import {General} from 'mattermost-redux/constants';
 
-import LoadingScreen from 'components/loading_screen';
+import LoadingScreen from 'src/components/loading_screen';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
 import * as AdminActions from 'actions/admin_actions';
 import BrowserStore from 'src/stores/browser_store';
 import {StatTypes} from 'src/utils/constants';
-import Banner from 'components/admin_console/banner';
-import LineChart from 'components/analytics/line_chart';
-import StatisticCount from 'components/analytics/statistic_count';
-import TableChart from 'components/analytics/table_chart';
+import Banner from 'src/components/admin_console/banner';
+import LineChart from 'src/components/analytics/line_chart';
+import StatisticCount from 'src/components/analytics/statistic_count';
+import TableChart from 'src/components/analytics/table_chart';
 
 import {getMonthLong} from 'src/utils/i18n';
 

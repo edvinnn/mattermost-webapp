@@ -7,7 +7,7 @@ import {Provider} from 'react-redux';
 import configureStore from 'redux-mock-store';
 import {mount} from 'enzyme';
 
-import ModalController from 'components/modal_controller';
+import ModalController from 'src/components/modal_controller';
 
 class TestModal extends React.PureComponent {
     render() {

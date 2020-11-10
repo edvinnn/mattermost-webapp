@@ -17,16 +17,16 @@ import Constants from 'src/utils/constants';
 
 import logoImage from 'images/logo.png';
 
-import AnnouncementBar from 'components/announcement_bar';
+import AnnouncementBar from 'src/components/announcement_bar';
 
-import BackButton from 'components/common/back_button';
-import LoadingScreen from 'components/loading_screen';
+import BackButton from 'src/components/common/back_button';
+import LoadingScreen from 'src/components/loading_screen';
 
-import SystemPermissionGate from 'components/permissions_gates/system_permission_gate';
-import SiteNameAndDescription from 'components/common/site_name_and_description';
-import LogoutIcon from 'components/widgets/icons/fa_logout_icon';
+import SystemPermissionGate from 'src/components/permissions_gates/system_permission_gate';
+import SiteNameAndDescription from 'src/components/common/site_name_and_description';
+import LogoutIcon from 'src/components/widgets/icons/fa_logout_icon';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
 import InfiniteScroll from '../common/infinite_scroll.jsx';
 

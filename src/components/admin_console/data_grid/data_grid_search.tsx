@@ -3,11 +3,11 @@
 
 import React from 'react';
 
-import FaSearchIcon from 'components/widgets/icons/fa_search_icon';
+import FaSearchIcon from 'src/components/widgets/icons/fa_search_icon';
 
 import * as Utils from 'src/utils/utils.jsx';
 
-import Filter, {FilterOptions} from 'components/admin_console/filter/filter';
+import Filter, {FilterOptions} from 'src/components/admin_console/filter/filter';
 
 import './data_grid.scss';
 

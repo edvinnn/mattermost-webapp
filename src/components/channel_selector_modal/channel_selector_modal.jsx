@@ -9,9 +9,9 @@ import {FormattedMessage} from 'react-intl';
 import Constants from 'src/utils/constants';
 import {localizeMessage, compareChannels} from 'src/utils/utils.jsx';
 
-import MultiSelect from 'components/multiselect/multiselect';
+import MultiSelect from 'src/components/multiselect/multiselect';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 const CHANNELS_PER_PAGE = 50;
 

@@ -12,7 +12,7 @@ import {intlShape} from 'src/utils/react_intl';
 
 import {t} from 'src/utils/i18n';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
 import AnnouncementBar from '../default_announcement_bar';
 import TextDismissableBar from '../text_dismissable_bar';

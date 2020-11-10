@@ -11,10 +11,10 @@ import {Groups} from 'mattermost-redux/constants';
 import Constants from 'src/utils/constants';
 import {localizeMessage} from 'src/utils/utils.jsx';
 
-import MultiSelect from 'components/multiselect/multiselect';
+import MultiSelect from 'src/components/multiselect/multiselect';
 import groupsAvatar from 'images/groups-avatar.png';
-import AddIcon from 'components/widgets/icons/fa_add_icon';
-import Nbsp from 'components/html_entities/nbsp';
+import AddIcon from 'src/components/widgets/icons/fa_add_icon';
+import Nbsp from 'src/components/html_entities/nbsp';
 
 const GROUPS_PER_PAGE = 50;
 const MAX_SELECTABLE_VALUES = 10;

@@ -7,7 +7,7 @@ import {General, Posts} from 'mattermost-redux/constants';
 
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
-import CombinedSystemMessage from 'components/post_view/combined_system_message/combined_system_message.jsx';
+import CombinedSystemMessage from 'src/components/post_view/combined_system_message/combined_system_message.jsx';
 
 describe('components/post_view/CombinedSystemMessage', () => {
     function emptyFunc() {} // eslint-disable-line no-empty-function

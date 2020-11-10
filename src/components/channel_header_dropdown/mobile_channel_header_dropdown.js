@@ -5,14 +5,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
-import StatusIcon from 'components/status_icon';
+import StatusIcon from 'src/components/status_icon';
 
 import {Constants} from 'src/utils/constants';
 
-import {ChannelHeaderDropdownItems} from 'components/channel_header_dropdown';
+import {ChannelHeaderDropdownItems} from 'src/components/channel_header_dropdown';
 
-import Menu from 'components/widgets/menu/menu';
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
+import Menu from 'src/components/widgets/menu/menu';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
 
 import MobileChannelHeaderDropdownAnimation from './mobile_channel_header_dropdown_animation.jsx';
 

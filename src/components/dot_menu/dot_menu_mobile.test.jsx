@@ -4,7 +4,7 @@
 import {shallow} from 'enzyme';
 import React from 'react';
 
-import DotMenu from 'components/dot_menu/dot_menu.jsx';
+import DotMenu from 'src/components/dot_menu/dot_menu.jsx';
 
 jest.mock('utils/utils', () => {
     return {

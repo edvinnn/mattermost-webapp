@@ -5,8 +5,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
-import NotifyCounts from 'components/notify_counts';
-import MenuIcon from 'components/widgets/icons/menu_icon';
+import NotifyCounts from 'src/components/notify_counts';
+import MenuIcon from 'src/components/widgets/icons/menu_icon';
 
 const CollapseLhsButton = ({
     actions: {

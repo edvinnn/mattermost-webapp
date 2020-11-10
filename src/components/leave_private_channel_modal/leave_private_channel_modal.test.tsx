@@ -6,7 +6,7 @@ import React from 'react';
 
 import {ChannelType} from 'mattermost-redux/types/channels';
 
-import LeavePrivateChannelModal from 'components/leave_private_channel_modal/leave_private_channel_modal';
+import LeavePrivateChannelModal from 'src/components/leave_private_channel_modal/leave_private_channel_modal';
 
 describe('components/LeavePrivateChannelModal', () => {
     const channels = {

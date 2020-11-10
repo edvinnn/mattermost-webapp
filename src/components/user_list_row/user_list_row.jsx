@@ -6,11 +6,11 @@ import React from 'react';
 import {Client4} from 'mattermost-redux/client';
 
 import * as Utils from 'src/utils/utils.jsx';
-import ProfilePicture from 'components/profile_picture';
-import UserProfile from 'components/user_profile';
+import ProfilePicture from 'src/components/profile_picture';
+import UserProfile from 'src/components/user_profile';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import Nbsp from 'components/html_entities/nbsp';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import Nbsp from 'src/components/html_entities/nbsp';
 
 export default class UserListRow extends React.PureComponent {
     static propTypes = {

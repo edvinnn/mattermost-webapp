@@ -10,7 +10,7 @@ import {Permissions} from 'mattermost-redux/constants';
 
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
 import Constants from 'src/utils/constants';
-import NewChannelModal from 'components/new_channel_modal/new_channel_modal.jsx';
+import NewChannelModal from 'src/components/new_channel_modal/new_channel_modal.jsx';
 
 describe('components/NewChannelModal', () => {
     const mockStore = configureStore();

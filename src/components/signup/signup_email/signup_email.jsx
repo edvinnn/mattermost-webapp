@@ -17,11 +17,11 @@ import * as Utils from 'src/utils/utils.jsx';
 
 import logoImage from 'images/logo.png';
 
-import BackButton from 'components/common/back_button';
-import LoadingScreen from 'components/loading_screen';
-import SiteNameAndDescription from 'components/common/site_name_and_description';
+import BackButton from 'src/components/common/back_button';
+import LoadingScreen from 'src/components/loading_screen';
+import SiteNameAndDescription from 'src/components/common/site_name_and_description';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 export default class SignupEmail extends React.PureComponent {
     static propTypes = {

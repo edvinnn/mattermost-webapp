@@ -3,8 +3,8 @@
 
 import React from 'react';
 
-import BlockableLink from 'components/admin_console/blockable_link';
-import menuItem from 'components/widgets/menu/menu_items/menu_item';
+import BlockableLink from 'src/components/admin_console/blockable_link';
+import menuItem from 'src/components/widgets/menu/menu_items/menu_item';
 
 type Props = {
     to: string;

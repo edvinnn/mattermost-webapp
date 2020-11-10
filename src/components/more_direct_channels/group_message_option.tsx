@@ -4,9 +4,9 @@ import React from 'react';
 import {Channel} from 'mattermost-redux/types/channels';
 import {UserProfile} from 'mattermost-redux/types/users';
 
-import {Value} from 'components/multiselect/multiselect';
+import {Value} from 'src/components/multiselect/multiselect';
 
-import AddIcon from 'components/widgets/icons/fa_add_icon';
+import AddIcon from 'src/components/widgets/icons/fa_add_icon';
 
 type Props = {
     channel: (Channel & Value & {profiles: UserProfile[]});

@@ -5,10 +5,10 @@ import React from 'react';
 import {Group} from 'mattermost-redux/types/groups';
 import {FormattedMessage} from 'react-intl';
 
-import ToggleModalButton from 'components/toggle_modal_button';
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
-import Menu from 'components/widgets/menu/menu';
-import GroupMembersModal from 'components/admin_console/team_channel_settings/group/group_members_modal';
+import ToggleModalButton from 'src/components/toggle_modal_button';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
+import Menu from 'src/components/widgets/menu/menu';
+import GroupMembersModal from 'src/components/admin_console/team_channel_settings/group/group_members_modal';
 
 import {localizeMessage} from 'src/utils/utils.jsx';
 

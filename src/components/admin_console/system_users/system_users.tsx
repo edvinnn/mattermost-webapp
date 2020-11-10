@@ -18,11 +18,11 @@ import * as Utils from 'src/utils/utils';
 import {t} from 'src/utils/i18n';
 import {getUserOptionsFromFilter, searchUserOptionsFromFilter} from 'src/utils/filter_users';
 
-import LocalizedInput from 'components/localized_input/localized_input';
-import FormattedAdminHeader from 'components/widgets/admin_console/formatted_admin_header';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import SystemPermissionGate from 'components/permissions_gates/system_permission_gate';
-import ConfirmModal from 'components/confirm_modal';
+import LocalizedInput from 'src/components/localized_input/localized_input';
+import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted_admin_header';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import SystemPermissionGate from 'src/components/permissions_gates/system_permission_gate';
+import ConfirmModal from 'src/components/confirm_modal';
 import {emitUserLoggedOutEvent} from 'actions/global_actions';
 
 import SystemUsersList from './list';

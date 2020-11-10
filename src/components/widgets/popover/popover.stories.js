@@ -6,7 +6,7 @@ import React from 'react';
 import {storiesOf} from '@storybook/react';
 import {text, withKnobs} from '@storybook/addon-knobs';
 
-import OverlayTrigger from 'components/overlay_trigger';
+import OverlayTrigger from 'src/components/overlay_trigger';
 
 import Popover from '.';
 

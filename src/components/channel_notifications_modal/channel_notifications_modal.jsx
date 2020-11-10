@@ -12,7 +12,7 @@ import {isChannelMuted} from 'mattermost-redux/utils/channel_utils';
 import {IgnoreChannelMentions, NotificationLevels, NotificationSections} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 
-import NotificationSection from 'components/channel_notifications_modal/components/notification_section.jsx';
+import NotificationSection from 'src/components/channel_notifications_modal/components/notification_section.jsx';
 
 export default class ChannelNotificationsModal extends React.PureComponent {
     static propTypes = {

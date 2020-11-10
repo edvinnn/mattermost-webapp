@@ -7,11 +7,11 @@ import {GroupSearchOpts, MixedUnlinkedGroupRedux} from 'mattermost-redux/types/g
 
 import * as Utils from 'src/utils/utils';
 
-import GroupRow from 'components/admin_console/group_settings/group_row';
-import NextIcon from 'components/widgets/icons/fa_next_icon';
-import PreviousIcon from 'components/widgets/icons/fa_previous_icon';
-import SearchIcon from 'components/widgets/icons/search_icon';
-import CheckboxCheckedIcon from 'components/widgets/icons/checkbox_checked_icon';
+import GroupRow from 'src/components/admin_console/group_settings/group_row';
+import NextIcon from 'src/components/widgets/icons/fa_next_icon';
+import PreviousIcon from 'src/components/widgets/icons/fa_previous_icon';
+import SearchIcon from 'src/components/widgets/icons/search_icon';
+import CheckboxCheckedIcon from 'src/components/widgets/icons/checkbox_checked_icon';
 import {Constants} from 'src/utils/constants';
 
 const LDAP_GROUPS_PAGE_SIZE = 200;

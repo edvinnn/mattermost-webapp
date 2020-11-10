@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
 import {t} from 'src/utils/i18n';
-import AdminPanel from 'components/widgets/admin_console/admin_panel';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import AdminPanel from 'src/components/widgets/admin_console/admin_panel';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 import LineSwitch from '../../line_switch.jsx';
 

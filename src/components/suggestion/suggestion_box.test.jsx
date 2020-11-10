@@ -4,9 +4,9 @@
 import React from 'react';
 import {shallow, mount} from 'enzyme';
 
-import AtMentionProvider from 'components/suggestion/at_mention_provider/at_mention_provider.jsx';
-import SuggestionBox from 'components/suggestion/suggestion_box.jsx';
-import SuggestionList from 'components/suggestion/suggestion_list.jsx';
+import AtMentionProvider from 'src/components/suggestion/at_mention_provider/at_mention_provider.jsx';
+import SuggestionBox from 'src/components/suggestion/suggestion_box.jsx';
+import SuggestionList from 'src/components/suggestion/suggestion_list.jsx';
 
 jest.mock('utils/user_agent', () => {
     const original = jest.requireActual('utils/user_agent');

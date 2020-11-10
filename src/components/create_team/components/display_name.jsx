@@ -10,7 +10,7 @@ import {trackEvent} from 'actions/telemetry_actions.jsx';
 import Constants from 'src/utils/constants.jsx';
 import {cleanUpUrlable} from 'src/utils/url';
 import logoImage from 'images/logo.png';
-import NextIcon from 'components/widgets/icons/fa_next_icon';
+import NextIcon from 'src/components/widgets/icons/fa_next_icon';
 
 export default class TeamSignupDisplayNamePage extends React.PureComponent {
     static propTypes = {

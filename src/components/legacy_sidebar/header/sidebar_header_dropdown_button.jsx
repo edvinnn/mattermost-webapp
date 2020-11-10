@@ -6,11 +6,11 @@ import React from 'react';
 import {Tooltip} from 'react-bootstrap';
 
 import {localizeMessage} from 'src/utils/utils.jsx';
-import OverlayTrigger from 'components/overlay_trigger';
-import MenuIcon from 'components/widgets/icons/menu_icon';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import MenuIcon from 'src/components/widgets/icons/menu_icon';
 import Constants from 'src/utils/constants';
 
-import MenuTutorialTip from 'components/tutorial/menu_tutorial_tip';
+import MenuTutorialTip from 'src/components/tutorial/menu_tutorial_tip';
 
 export default class SidebarHeaderDropdownButton extends React.PureComponent {
     static propTypes = {

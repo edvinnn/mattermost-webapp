@@ -8,11 +8,11 @@ import {getName} from 'country-list';
 
 import {getCloudCustomer, updateCloudCustomer, updateCloudCustomerAddress} from 'mattermost-redux/actions/cloud';
 
-import BlockableLink from 'components/admin_console/blockable_link';
-import DropdownInput from 'components/dropdown_input';
-import StateSelector from 'components/payment_form/state_selector';
-import Input from 'components/input';
-import SaveButton from 'components/save_button';
+import BlockableLink from 'src/components/admin_console/blockable_link';
+import DropdownInput from 'src/components/dropdown_input';
+import StateSelector from 'src/components/payment_form/state_selector';
+import Input from 'src/components/input';
+import SaveButton from 'src/components/save_button';
 import {GlobalState} from 'types/store';
 import {browserHistory} from 'src/utils/browser_history';
 import {COUNTRIES} from 'src/utils/countries';

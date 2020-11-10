@@ -9,8 +9,8 @@ import semver from 'semver';
 
 import Constants, {NotificationLevels} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
-import SettingItemMax from 'components/setting_item_max.jsx';
-import SettingItemMin from 'components/setting_item_min';
+import SettingItemMax from 'src/components/setting_item_max.jsx';
+import SettingItemMin from 'src/components/setting_item_min';
 
 import {isDesktopApp} from 'src/utils/user_agent';
 

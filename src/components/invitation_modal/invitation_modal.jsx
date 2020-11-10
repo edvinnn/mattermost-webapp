@@ -6,9 +6,9 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
 import {trackEvent, pageVisited} from 'actions/telemetry_actions.jsx';
-import FullScreenModal from 'components/widgets/modals/full_screen_modal';
-import ConfirmModal from 'components/confirm_modal';
-import RootPortal from 'components/root_portal';
+import FullScreenModal from 'src/components/widgets/modals/full_screen_modal';
+import ConfirmModal from 'src/components/confirm_modal';
+import RootPortal from 'src/components/root_portal';
 
 import {InviteTypes} from 'src/utils/constants';
 

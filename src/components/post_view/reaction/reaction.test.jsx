@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import Reaction from 'components/post_view/reaction/reaction.jsx';
+import Reaction from 'src/components/post_view/reaction/reaction.jsx';
 import {getSortedUsers} from 'src/utils/utils';
 
 describe('components/post_view/Reaction', () => {

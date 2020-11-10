@@ -5,7 +5,7 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
 import * as Utils from 'src/utils/utils';
-import TeamIcon from 'components/widgets/team_icon/team_icon';
+import TeamIcon from 'src/components/widgets/team_icon/team_icon';
 
 import './team_row.scss';
 import TeamListDropdown from './team_list_dropdown';

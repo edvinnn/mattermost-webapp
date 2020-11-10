@@ -5,10 +5,10 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {Route, Switch, Redirect} from 'react-router-dom';
 
-import InstalledCommands from 'components/integrations/installed_commands';
-import AddCommand from 'components/integrations/add_command';
-import EditCommand from 'components/integrations/edit_command';
-import ConfirmIntegration from 'components/integrations/confirm_integration';
+import InstalledCommands from 'src/components/integrations/installed_commands';
+import AddCommand from 'src/components/integrations/add_command';
+import EditCommand from 'src/components/integrations/edit_command';
+import ConfirmIntegration from 'src/components/integrations/confirm_integration';
 
 const CommandRoute = ({component: Component, extraProps, ...rest}) => ( //eslint-disable-line react/prop-types
     <Route

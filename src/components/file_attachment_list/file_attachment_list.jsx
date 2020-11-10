@@ -9,9 +9,9 @@ import {sortFileInfos} from 'mattermost-redux/utils/file_utils';
 import {FileTypes} from 'src/utils/constants';
 import {getFileType} from 'src/utils/utils';
 
-import FileAttachment from 'components/file_attachment';
-import SingleImageView from 'components/single_image_view';
-import ViewImageModal from 'components/view_image';
+import FileAttachment from 'src/components/file_attachment';
+import SingleImageView from 'src/components/single_image_view';
+import ViewImageModal from 'src/components/view_image';
 
 export default class FileAttachmentList extends React.PureComponent {
     static propTypes = {

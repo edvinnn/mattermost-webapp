@@ -18,9 +18,9 @@ import Constants from 'src/utils/constants';
 import * as UserAgent from 'src/utils/user_agent';
 import * as Utils from 'src/utils/utils.jsx';
 
-import {makeAsyncComponent} from 'components/async_load';
-const LazyBackstageController = React.lazy(() => import('components/backstage'));
-import ChannelController from 'components/channel_layout/channel_controller';
+import {makeAsyncComponent} from 'src/components/async_load';
+const LazyBackstageController = React.lazy(() => import('src/components/backstage'));
+import ChannelController from 'src/components/channel_layout/channel_controller';
 import Pluggable from 'src/plugins/pluggable';
 
 const BackstageController = makeAsyncComponent(LazyBackstageController);

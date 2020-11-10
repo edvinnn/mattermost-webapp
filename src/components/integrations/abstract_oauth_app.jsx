@@ -9,10 +9,10 @@ import {Link} from 'react-router-dom';
 import {Permissions} from 'mattermost-redux/constants';
 
 import {localizeMessage} from 'src/utils/utils.jsx';
-import BackstageHeader from 'components/backstage/components/backstage_header.jsx';
-import FormError from 'components/form_error';
-import SpinnerButton from 'components/spinner_button';
-import SystemPermissionGate from 'components/permissions_gates/system_permission_gate';
+import BackstageHeader from 'src/components/backstage/components/backstage_header.jsx';
+import FormError from 'src/components/form_error';
+import SpinnerButton from 'src/components/spinner_button';
+import SystemPermissionGate from 'src/components/permissions_gates/system_permission_gate';
 
 export default class AbstractOAuthApp extends React.PureComponent {
     static propTypes = {

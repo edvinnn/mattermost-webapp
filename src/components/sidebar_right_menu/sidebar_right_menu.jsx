@@ -10,9 +10,9 @@ import {CSSTransition} from 'react-transition-group';
 import * as GlobalActions from 'actions/global_actions.jsx';
 import {Constants} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
-import MenuTutorialTip from 'components/tutorial/menu_tutorial_tip';
+import MenuTutorialTip from 'src/components/tutorial/menu_tutorial_tip';
 
-import MainMenu from 'components/main_menu';
+import MainMenu from 'src/components/main_menu';
 
 const ANIMATION_DURATION = 500;
 

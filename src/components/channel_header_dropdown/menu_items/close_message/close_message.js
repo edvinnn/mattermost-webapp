@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import {localizeMessage} from 'src/utils/utils';
 import {Constants} from 'src/utils/constants';
 import {browserHistory} from 'src/utils/browser_history';
-import Menu from 'components/widgets/menu/menu';
+import Menu from 'src/components/widgets/menu/menu';
 
 export default class CloseMessage extends React.PureComponent {
     static propTypes = {

@@ -8,10 +8,10 @@ import {testComponentForLineBreak} from 'tests/helpers/line_break_helpers';
 import {testComponentForMarkdownHotkeys, makeSelectionEvent} from 'tests/helpers/markdown_hotkey_helpers.js';
 import Constants from 'src/utils/constants';
 
-import CreateComment from 'components/create_comment/create_comment.jsx';
-import FileUpload from 'components/file_upload';
-import FilePreview from 'components/file_preview';
-import Textbox from 'components/textbox';
+import CreateComment from 'src/components/create_comment/create_comment.jsx';
+import FileUpload from 'src/components/file_upload';
+import FilePreview from 'src/components/file_preview';
+import Textbox from 'src/components/textbox';
 
 describe('components/CreateComment', () => {
     const channelId = 'g6139tbospd18cmxroesdk3kkc';

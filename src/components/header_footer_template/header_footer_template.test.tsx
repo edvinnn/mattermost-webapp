@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import NotLoggedIn from 'components/header_footer_template/header_footer_template';
+import NotLoggedIn from 'src/components/header_footer_template/header_footer_template';
 
 describe('components/HeaderFooterTemplate', () => {
     const RealDate: DateConstructor = Date;

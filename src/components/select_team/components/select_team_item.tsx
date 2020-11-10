@@ -6,9 +6,9 @@ import {Tooltip} from 'react-bootstrap';
 
 import {Team} from 'mattermost-redux/types/teams';
 
-import LocalizedIcon from 'components/localized_icon';
-import OverlayTrigger from 'components/overlay_trigger';
-import TeamInfoIcon from 'components/widgets/icons/team_info_icon';
+import LocalizedIcon from 'src/components/localized_icon';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import TeamInfoIcon from 'src/components/widgets/icons/team_info_icon';
 
 import {t} from 'src/utils/i18n';
 import * as Utils from 'src/utils/utils.jsx';

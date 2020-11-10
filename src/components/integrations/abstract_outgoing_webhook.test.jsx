@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import AbstractOutgoingWebhook from 'components/integrations/abstract_outgoing_webhook';
+import AbstractOutgoingWebhook from 'src/components/integrations/abstract_outgoing_webhook';
 
 describe('components/integrations/AbstractOutgoingWebhook', () => {
     const emptyFunction = jest.fn();

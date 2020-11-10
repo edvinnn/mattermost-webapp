@@ -14,24 +14,24 @@ import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
 import 'bootstrap';
 
-import EditChannelHeaderModal from 'components/edit_channel_header_modal';
-import Markdown from 'components/markdown';
-import OverlayTrigger from 'components/overlay_trigger';
-import PopoverListMembers from 'components/popover_list_members';
-import SearchBar from 'components/search_bar';
-import StatusIcon from 'components/status_icon';
-import FlagIcon from 'components/widgets/icons/flag_icon';
-import MentionsIcon from 'components/widgets/icons/mentions_icon';
-import PinIcon from 'components/widgets/icons/pin_icon';
-import SearchIcon from 'components/widgets/icons/search_icon';
-import ArchiveIcon from 'components/widgets/icons/archive_icon';
-import ChannelPermissionGate from 'components/permissions_gates/channel_permission_gate';
-import QuickSwitchModal from 'components/quick_switch_modal';
-import {ChannelHeaderDropdown} from 'components/channel_header_dropdown';
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
-import GuestBadge from 'components/widgets/badges/guest_badge';
-import BotBadge from 'components/widgets/badges/bot_badge';
-import Popover from 'components/widgets/popover';
+import EditChannelHeaderModal from 'src/components/edit_channel_header_modal';
+import Markdown from 'src/components/markdown';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import PopoverListMembers from 'src/components/popover_list_members';
+import SearchBar from 'src/components/search_bar';
+import StatusIcon from 'src/components/status_icon';
+import FlagIcon from 'src/components/widgets/icons/flag_icon';
+import MentionsIcon from 'src/components/widgets/icons/mentions_icon';
+import PinIcon from 'src/components/widgets/icons/pin_icon';
+import SearchIcon from 'src/components/widgets/icons/search_icon';
+import ArchiveIcon from 'src/components/widgets/icons/archive_icon';
+import ChannelPermissionGate from 'src/components/permissions_gates/channel_permission_gate';
+import QuickSwitchModal from 'src/components/quick_switch_modal';
+import {ChannelHeaderDropdown} from 'src/components/channel_header_dropdown';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
+import GuestBadge from 'src/components/widgets/badges/guest_badge';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
+import Popover from 'src/components/widgets/popover';
 import {
     Constants,
     ModalIdentifiers,

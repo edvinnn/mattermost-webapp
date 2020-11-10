@@ -6,15 +6,15 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import deferComponentRender from 'components/deferComponentRender';
-import ChannelHeader from 'components/channel_header';
-import CreatePost from 'components/create_post';
-import FileUploadOverlay from 'components/file_upload_overlay';
-import NextStepsView from 'components/next_steps_view';
-import PostView from 'components/post_view';
-import TutorialView from 'components/tutorial';
+import deferComponentRender from 'src/components/deferComponentRender';
+import ChannelHeader from 'src/components/channel_header';
+import CreatePost from 'src/components/create_post';
+import FileUploadOverlay from 'src/components/file_upload_overlay';
+import NextStepsView from 'src/components/next_steps_view';
+import PostView from 'src/components/post_view';
+import TutorialView from 'src/components/tutorial';
 import {clearMarks, mark, measure, trackEvent} from 'actions/telemetry_actions.jsx';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
 export default class ChannelView extends React.PureComponent {
     static propTypes = {

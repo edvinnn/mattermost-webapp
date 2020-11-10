@@ -7,7 +7,7 @@ import classNames from 'classnames';
 
 import {trackEvent} from 'actions/telemetry_actions';
 import {ModalIdentifiers} from 'src/utils/constants';
-import QuickSwitchModal from 'components/quick_switch_modal';
+import QuickSwitchModal from 'src/components/quick_switch_modal';
 import * as Utils from 'src/utils/utils';
 import {isDesktopApp} from 'src/utils/user_agent';
 

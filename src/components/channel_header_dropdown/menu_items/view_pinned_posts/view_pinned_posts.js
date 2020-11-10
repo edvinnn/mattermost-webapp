@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 import {localizeMessage} from 'src/utils/utils';
 
-import Menu from 'components/widgets/menu/menu';
+import Menu from 'src/components/widgets/menu/menu';
 
 export default class ViewPinnedPosts extends React.PureComponent {
     static propTypes = {

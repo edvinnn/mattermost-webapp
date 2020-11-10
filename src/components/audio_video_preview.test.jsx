@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import AudioVideoPreview from 'components/audio_video_preview.jsx';
+import AudioVideoPreview from 'src/components/audio_video_preview.jsx';
 
 describe('component/AudioVideoPreview', () => {
     const requiredProps = {

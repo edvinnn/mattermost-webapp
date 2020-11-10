@@ -6,8 +6,8 @@ import React from 'react';
 import {samplePlugin1} from 'tests/helpers/admin_console_plugin_index_sample_pluings';
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
-import AdminSidebar from 'components/admin_console/admin_sidebar/admin_sidebar.jsx';
-import AdminDefinition from 'components/admin_console/admin_definition';
+import AdminSidebar from 'src/components/admin_console/admin_sidebar/admin_sidebar.jsx';
+import AdminDefinition from 'src/components/admin_console/admin_definition';
 import {generateIndex} from 'src/utils/admin_console_index';
 
 jest.mock('utils/utils', () => {

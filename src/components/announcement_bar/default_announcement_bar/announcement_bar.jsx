@@ -10,10 +10,10 @@ import {Tooltip} from 'react-bootstrap';
 
 import {Constants, AnnouncementBarTypes, ModalIdentifiers} from 'src/utils/constants';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import OverlayTrigger from 'components/overlay_trigger';
-import WarnMetricAckModal from 'components/warn_metric_ack_modal';
-import ToggleModalButtonRedux from 'components/toggle_modal_button_redux';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import WarnMetricAckModal from 'src/components/warn_metric_ack_modal';
+import ToggleModalButtonRedux from 'src/components/toggle_modal_button_redux';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 

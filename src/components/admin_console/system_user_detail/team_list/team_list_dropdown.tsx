@@ -4,10 +4,10 @@
 import React from 'react';
 
 import {localizeMessage} from 'src/utils/utils.jsx';
-import EllipsisHorizontalIcon from 'components/widgets/icons/ellipsis_h_icon';
+import EllipsisHorizontalIcon from 'src/components/widgets/icons/ellipsis_h_icon';
 
-import Menu from 'components/widgets/menu/menu';
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
+import Menu from 'src/components/widgets/menu/menu';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
 
 type Props = {
     team: {[x: string]: string};

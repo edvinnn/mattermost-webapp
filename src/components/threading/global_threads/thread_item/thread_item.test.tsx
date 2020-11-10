@@ -5,9 +5,9 @@ import React, {ComponentProps} from 'react';
 import {shallow} from 'enzyme';
 
 import ThreadMenu from '../thread_menu';
-import Badge from 'components/widgets/badges/badge';
+import Badge from 'src/components/widgets/badges/badge';
 
-import Avatars from 'components/widgets/users/avatars';
+import Avatars from 'src/components/widgets/users/avatars';
 
 import ThreadItem from './thread_item';
 const users = [

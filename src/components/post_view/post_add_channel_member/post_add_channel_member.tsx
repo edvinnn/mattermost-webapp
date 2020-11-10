@@ -10,7 +10,7 @@ import {UserProfile} from 'mattermost-redux/types/users';
 import {sendAddToChannelEphemeralPost} from 'actions/global_actions';
 import {Constants} from 'src/utils/constants';
 import {t} from 'src/utils/i18n';
-import AtMention from 'components/at_mention';
+import AtMention from 'src/components/at_mention';
 
 interface Actions {
     addChannelMember: (channelId: string, userId: string) => void;

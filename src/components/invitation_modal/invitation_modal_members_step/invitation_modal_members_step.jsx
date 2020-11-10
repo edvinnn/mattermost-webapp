@@ -9,12 +9,12 @@ import {debounce} from 'mattermost-redux/actions/helpers';
 import {isEmail} from 'mattermost-redux/utils/helpers';
 
 import {trackEvent} from 'actions/telemetry_actions';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import InviteMembersIcon from 'components/widgets/icons/invite_members_icon';
-import UsersEmailsInput from 'components/widgets/inputs/users_emails_input.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import InviteMembersIcon from 'src/components/widgets/icons/invite_members_icon';
+import UsersEmailsInput from 'src/components/widgets/inputs/users_emails_input.jsx';
 import {Constants} from 'src/utils/constants';
 
-import LinkIcon from 'components/widgets/icons/link_icon';
+import LinkIcon from 'src/components/widgets/icons/link_icon';
 
 import {getSiteURL} from 'src/utils/url';
 import {t} from 'src/utils/i18n.jsx';

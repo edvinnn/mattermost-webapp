@@ -9,9 +9,9 @@ import {FormattedMessage} from 'react-intl';
 
 import {getFullName} from 'mattermost-redux/utils/user_utils';
 
-import SearchChannelWithPermissionsProvider from 'components/suggestion/search_channel_with_permissions_provider.jsx';
-import SuggestionBox from 'components/suggestion/suggestion_box.jsx';
-import SuggestionList from 'components/suggestion/suggestion_list.jsx';
+import SearchChannelWithPermissionsProvider from 'src/components/suggestion/search_channel_with_permissions_provider.jsx';
+import SuggestionBox from 'src/components/suggestion/suggestion_box.jsx';
+import SuggestionList from 'src/components/suggestion/suggestion_list.jsx';
 
 import {placeCaretAtEnd} from 'src/utils/utils.jsx';
 

@@ -7,9 +7,9 @@ import classNames from 'classnames';
 
 import './thread_item.scss';
 
-import Badge from 'components/widgets/badges/badge';
-import Timestamp from 'components/timestamp';
-import Avatars from 'components/widgets/users/avatars';
+import Badge from 'src/components/widgets/badges/badge';
+import Timestamp from 'src/components/timestamp';
+import Avatars from 'src/components/widgets/users/avatars';
 
 import ThreadMenu from '../thread_menu';
 

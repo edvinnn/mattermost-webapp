@@ -7,20 +7,20 @@ import {FormattedMessage, injectIntl} from 'react-intl';
 
 import {Groups} from 'mattermost-redux/constants';
 
-import ConfirmModal from 'components/confirm_modal';
+import ConfirmModal from 'src/components/confirm_modal';
 
-import AddGroupsToTeamModal from 'components/add_groups_to_team_modal';
+import AddGroupsToTeamModal from 'src/components/add_groups_to_team_modal';
 
 import {ModalIdentifiers} from 'src/utils/constants';
 import {intlShape} from 'src/utils/react_intl';
 
-import ListModal, {DEFAULT_NUM_PER_PAGE} from 'components/list_modal.jsx';
+import ListModal, {DEFAULT_NUM_PER_PAGE} from 'src/components/list_modal.jsx';
 
-import DropdownIcon from 'components/widgets/icons/fa_dropdown_icon';
+import DropdownIcon from 'src/components/widgets/icons/fa_dropdown_icon';
 
 import groupsAvatar from 'images/groups-avatar.png';
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
-import Menu from 'components/widgets/menu/menu';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
+import Menu from 'src/components/widgets/menu/menu';
 
 import * as Utils from 'src/utils/utils.jsx';
 

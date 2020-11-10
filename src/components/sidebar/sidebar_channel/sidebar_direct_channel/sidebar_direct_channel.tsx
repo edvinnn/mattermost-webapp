@@ -13,7 +13,7 @@ import {trackEvent} from 'actions/telemetry_actions';
 import {browserHistory} from 'src/utils/browser_history';
 import {Constants} from 'src/utils/constants';
 
-import StatusIconNew from 'components/status_icon_new';
+import StatusIconNew from 'src/components/status_icon_new';
 import SidebarChannelLink from '../sidebar_channel_link';
 
 type Props = {

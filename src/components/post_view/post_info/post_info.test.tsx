@@ -7,10 +7,10 @@ import {Posts} from 'mattermost-redux/constants';
 
 import {Post, PostType} from 'mattermost-redux/types/posts';
 
-import PostInfo from 'components/post_view/post_info/post_info';
+import PostInfo from 'src/components/post_view/post_info/post_info';
 
 import Constants from 'src/utils/constants';
-import PostFlagIcon from 'components/post_view/post_flag_icon';
+import PostFlagIcon from 'src/components/post_view/post_flag_icon';
 import {TestHelper} from 'src/utils/test_helper';
 
 describe('components/post_view/PostInfo', () => {

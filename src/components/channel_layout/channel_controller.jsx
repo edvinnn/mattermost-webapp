@@ -5,29 +5,29 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {Route} from 'react-router-dom';
 
-import AnnouncementBarController from 'components/announcement_bar';
+import AnnouncementBarController from 'src/components/announcement_bar';
 
 import Pluggable from 'src/plugins/pluggable';
-import SystemNotice from 'components/system_notice';
-import EditPostModal from 'components/edit_post_modal';
+import SystemNotice from 'src/components/system_notice';
+import EditPostModal from 'src/components/edit_post_modal';
 
-import GetPublicLinkModal from 'components/get_public_link_modal';
-import LeavePrivateChannelModal from 'components/leave_private_channel_modal';
-import ResetStatusModal from 'components/reset_status_modal';
-import ShortcutsModal from 'components/shortcuts_modal.jsx';
-import SidebarRight from 'components/sidebar_right';
-import SidebarRightMenu from 'components/sidebar_right_menu';
-import ImportThemeModal from 'components/user_settings/import_theme_modal';
-import ModalController from 'components/modal_controller';
-import LegacyTeamSidebar from 'components/legacy_team_sidebar';
-import LegacySidebar from 'components/legacy_sidebar';
-import Sidebar from 'components/sidebar';
+import GetPublicLinkModal from 'src/components/get_public_link_modal';
+import LeavePrivateChannelModal from 'src/components/leave_private_channel_modal';
+import ResetStatusModal from 'src/components/reset_status_modal';
+import ShortcutsModal from 'src/components/shortcuts_modal.jsx';
+import SidebarRight from 'src/components/sidebar_right';
+import SidebarRightMenu from 'src/components/sidebar_right_menu';
+import ImportThemeModal from 'src/components/user_settings/import_theme_modal';
+import ModalController from 'src/components/modal_controller';
+import LegacyTeamSidebar from 'src/components/legacy_team_sidebar';
+import LegacySidebar from 'src/components/legacy_sidebar';
+import Sidebar from 'src/components/sidebar';
 import * as Utils from 'src/utils/utils';
 import * as UserAgent from 'src/utils/user_agent';
-import CenterChannel from 'components/channel_layout/center_channel';
-import LoadingScreen from 'components/loading_screen';
-import FaviconTitleHandler from 'components/favicon_title_handler';
-import ProductNoticesModal from 'components/product_notices_modal';
+import CenterChannel from 'src/components/channel_layout/center_channel';
+import LoadingScreen from 'src/components/loading_screen';
+import FaviconTitleHandler from 'src/components/favicon_title_handler';
+import ProductNoticesModal from 'src/components/product_notices_modal';
 
 export default class ChannelController extends React.Component {
     static propTypes = {

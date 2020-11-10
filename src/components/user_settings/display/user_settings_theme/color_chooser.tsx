@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-import ColorInput from 'components/color_input';
+import ColorInput from 'src/components/color_input';
 
 type Props = {
     id: string;

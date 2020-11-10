@@ -9,11 +9,11 @@ import {trackEvent} from 'actions/telemetry_actions.jsx';
 import Constants from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 
-import FileUploadOverlay from 'components/file_upload_overlay';
-import RhsThread from 'components/rhs_thread';
-import RhsCard from 'components/rhs_card';
-import SearchBar from 'components/search_bar';
-import SearchResults from 'components/search_results';
+import FileUploadOverlay from 'src/components/file_upload_overlay';
+import RhsThread from 'src/components/rhs_thread';
+import RhsCard from 'src/components/rhs_card';
+import SearchBar from 'src/components/search_bar';
+import SearchResults from 'src/components/search_results';
 
 import RhsPlugin from 'src/plugins/rhs_plugin';
 

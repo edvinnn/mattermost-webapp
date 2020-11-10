@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import {FormattedMessage} from 'react-intl';
 
-import Markdown from 'components/markdown';
+import Markdown from 'src/components/markdown';
 
 import TestHelper from 'tests/helpers/client-test-helper';
 

@@ -4,11 +4,11 @@
 import React from 'react';
 import {Parser, ProcessNodeDefinitions} from 'html-to-react';
 
-import AtMention from 'components/at_mention';
-import LatexBlock from 'components/latex_block';
-import LinkTooltip from 'components/link_tooltip/link_tooltip';
-import MarkdownImage from 'components/markdown_image';
-import PostEmoji from 'components/post_emoji';
+import AtMention from 'src/components/at_mention';
+import LatexBlock from 'src/components/latex_block';
+import LinkTooltip from 'src/components/link_tooltip/link_tooltip';
+import MarkdownImage from 'src/components/markdown_image';
+import PostEmoji from 'src/components/post_emoji';
 
 /*
  * Converts HTML to React components using html-to-react.

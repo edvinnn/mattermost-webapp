@@ -4,8 +4,8 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import SaveButton from 'components/save_button';
-import ElasticSearchSettings from 'components/admin_console/elasticsearch_settings.jsx';
+import SaveButton from 'src/components/save_button';
+import ElasticSearchSettings from 'src/components/admin_console/elasticsearch_settings.jsx';
 
 jest.mock('actions/admin_actions.jsx', () => {
     return {

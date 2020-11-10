@@ -10,7 +10,7 @@ import {Post, PostType} from 'mattermost-redux/src/types/posts';
 
 import {Theme} from 'mattermost-redux/types/preferences';
 
-import PostMessageView from 'components/post_view/post_message_view/post_message_view';
+import PostMessageView from 'src/components/post_view/post_message_view/post_message_view';
 
 describe('components/post_view/PostAttachment', () => {
     const post = {

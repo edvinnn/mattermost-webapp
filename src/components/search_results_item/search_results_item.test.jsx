@@ -8,9 +8,9 @@ import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
 import {Locations} from 'src/utils/constants';
 import {browserHistory} from 'src/utils/browser_history';
-import SearchResultsItem from 'components/search_results_item/search_results_item';
-import PostFlagIcon from 'components/post_view/post_flag_icon';
-import PostPreHeader from 'components/post_view/post_pre_header';
+import SearchResultsItem from 'src/components/search_results_item/search_results_item';
+import PostFlagIcon from 'src/components/post_view/post_flag_icon';
+import PostPreHeader from 'src/components/post_view/post_pre_header';
 
 jest.mock('utils/browser_history', () => ({
     browserHistory: {

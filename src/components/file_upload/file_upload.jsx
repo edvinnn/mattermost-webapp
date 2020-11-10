@@ -26,10 +26,10 @@ import {
     localizeMessage,
 } from 'src/utils/utils.jsx';
 
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
-import Menu from 'components/widgets/menu/menu';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
+import Menu from 'src/components/widgets/menu/menu';
 
-import AttachmentIcon from 'components/widgets/icons/attachment_icon';
+import AttachmentIcon from 'src/components/widgets/icons/attachment_icon';
 
 const holders = defineMessages({
     limited: {

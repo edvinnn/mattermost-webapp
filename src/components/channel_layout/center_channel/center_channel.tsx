@@ -5,9 +5,9 @@ import React from 'react';
 import {Route, Switch, Redirect} from 'react-router-dom';
 import classNames from 'classnames';
 
-import PermalinkView from 'components/permalink_view';
-import ChannelHeaderMobile from 'components/channel_header_mobile';
-import ChannelIdentifierRouter from 'components/channel_layout/channel_identifier_router';
+import PermalinkView from 'src/components/permalink_view';
+import ChannelHeaderMobile from 'src/components/channel_header_mobile';
+import ChannelIdentifierRouter from 'src/components/channel_layout/channel_identifier_router';
 
 type Props = {
     match: {

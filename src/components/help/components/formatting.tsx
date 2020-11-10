@@ -5,8 +5,8 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 import {Link} from 'react-router-dom';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import Markdown from 'components/markdown';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import Markdown from 'src/components/markdown';
 import {getSiteURL} from 'src/utils/url';
 
 export default function HelpFormatting(): JSX.Element {

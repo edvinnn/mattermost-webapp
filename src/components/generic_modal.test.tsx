@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import GenericModal from 'components/generic_modal';
+import GenericModal from 'src/components/generic_modal';
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
 
 describe('components/GenericModal', () => {

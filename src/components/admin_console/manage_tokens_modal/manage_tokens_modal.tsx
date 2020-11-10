@@ -10,11 +10,11 @@ import {Dictionary} from 'mattermost-redux/types/utilities';
 import {ActionFunc} from 'mattermost-redux/types/actions';
 import * as UserUtils from 'mattermost-redux/utils/user_utils';
 
-import RevokeTokenButton from 'components/admin_console/revoke_token_button';
-import LoadingScreen from 'components/loading_screen';
-import Avatar from 'components/widgets/users/avatar';
+import RevokeTokenButton from 'src/components/admin_console/revoke_token_button';
+import LoadingScreen from 'src/components/loading_screen';
+import Avatar from 'src/components/widgets/users/avatar';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 export type Props = {
 

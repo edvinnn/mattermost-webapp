@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-import LoadingSpinner from 'components/widgets/loading/loading_spinner';
+import LoadingSpinner from 'src/components/widgets/loading/loading_spinner';
 
 type Props = {
     loading?: string;

@@ -6,7 +6,7 @@ import {FormattedMessage} from 'react-intl';
 
 import {AdminConfig} from 'mattermost-redux/types/config';
 
-import FormattedAdminHeader from 'components/widgets/admin_console/formatted_admin_header';
+import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted_admin_header';
 
 type Props = {
     config: AdminConfig;

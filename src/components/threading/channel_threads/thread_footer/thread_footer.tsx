@@ -6,13 +6,13 @@ import {FormattedMessage} from 'react-intl';
 
 import './thread_footer.scss';
 
-import Avatars from 'components/widgets/users/avatars';
+import Avatars from 'src/components/widgets/users/avatars';
 
-import Button from 'components/threading/common/button';
-import FollowButton from 'components/threading/common/follow_button';
+import Button from 'src/components/threading/common/button';
+import FollowButton from 'src/components/threading/common/follow_button';
 
-import Timestamp from 'components/timestamp';
-import SimpleTooltip from 'components/widgets/simple_tooltip';
+import Timestamp from 'src/components/timestamp';
+import SimpleTooltip from 'src/components/widgets/simple_tooltip';
 
 import {THREADING_TIME} from '../../common/options';
 

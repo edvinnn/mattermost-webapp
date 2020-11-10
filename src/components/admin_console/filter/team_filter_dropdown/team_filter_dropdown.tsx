@@ -9,8 +9,8 @@ import {createSelector} from 'reselect';
 import {Team, TeamSearchOpts} from 'mattermost-redux/types/teams';
 import {debounce} from 'mattermost-redux/actions/helpers';
 
-import LoadingSpinner from 'components/widgets/loading/loading_spinner';
-import InfiniteScroll from 'components/gif_picker/components/InfiniteScroll';
+import LoadingSpinner from 'src/components/widgets/loading/loading_spinner';
+import InfiniteScroll from 'src/components/gif_picker/components/InfiniteScroll';
 import * as Utils from 'src/utils/utils.jsx';
 
 import {FilterOption, FilterValues} from '../filter';

@@ -12,12 +12,12 @@ import {browserHistory} from 'src/utils/browser_history';
 
 import * as Utils from 'src/utils/utils.jsx';
 
-import DataGrid, {Column} from 'components/admin_console/data_grid/data_grid';
-import {PAGE_SIZE} from 'components/admin_console/team_channel_settings/abstract_list.jsx';
-import TeamIcon from 'components/widgets/team_icon/team_icon';
+import DataGrid, {Column} from 'src/components/admin_console/data_grid/data_grid';
+import {PAGE_SIZE} from 'src/components/admin_console/team_channel_settings/abstract_list.jsx';
+import TeamIcon from 'src/components/widgets/team_icon/team_icon';
 
 import './team_list.scss';
-import {FilterOptions} from 'components/admin_console/filter/filter';
+import {FilterOptions} from 'src/components/admin_console/filter/filter';
 
 const ROW_HEIGHT = 80;
 

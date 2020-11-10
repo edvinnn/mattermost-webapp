@@ -4,9 +4,9 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import PermissionsTree from 'components/admin_console/permission_schemes_settings/permissions_tree/permissions_tree.jsx';
+import PermissionsTree from 'src/components/admin_console/permission_schemes_settings/permissions_tree/permissions_tree.jsx';
 
-import PermissionGroup from 'components/admin_console/permission_schemes_settings/permission_group.jsx';
+import PermissionGroup from 'src/components/admin_console/permission_schemes_settings/permission_group.jsx';
 
 describe('components/admin_console/permission_schemes_settings/permission_tree', () => {
     const defaultProps = {

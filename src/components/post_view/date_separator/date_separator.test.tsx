@@ -5,9 +5,9 @@ import React from 'react';
 
 import {shallow} from 'enzyme';
 
-import BasicSeparator from 'components/widgets/separator/basic-separator';
-import DateSeparator from 'components/post_view/date_separator/date_separator';
-import Timestamp from 'components/timestamp';
+import BasicSeparator from 'src/components/widgets/separator/basic-separator';
+import DateSeparator from 'src/components/post_view/date_separator/date_separator';
+import Timestamp from 'src/components/timestamp';
 
 describe('components/post_view/DateSeparator', () => {
     test('should render Timestamp inside of a BasicSeparator and pass date/value to it', () => {

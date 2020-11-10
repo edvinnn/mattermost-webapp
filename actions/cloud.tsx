@@ -6,7 +6,7 @@ import {getCode} from 'country-list';
 
 import {Client4} from 'mattermost-redux/client';
 
-import {getConfirmCardSetup} from 'components/payment_form/stripe';
+import {getConfirmCardSetup} from 'src/components/payment_form/stripe';
 
 import {StripeSetupIntent, BillingDetails} from 'types/cloud/sku';
 

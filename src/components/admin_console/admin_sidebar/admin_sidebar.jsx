@@ -13,12 +13,12 @@ import {generateIndex} from 'src/utils/admin_console_index.jsx';
 import {browserHistory} from 'src/utils/browser_history';
 import {intlShape} from 'src/utils/react_intl';
 
-import AdminSidebarCategory from 'components/admin_console/admin_sidebar_category.jsx';
-import AdminSidebarHeader from 'components/admin_console/admin_sidebar_header';
-import AdminSidebarSection from 'components/admin_console/admin_sidebar_section.jsx';
-import Highlight from 'components/admin_console/highlight';
-import SearchIcon from 'components/widgets/icons/search_icon.jsx';
-import QuickInput from 'components/quick_input';
+import AdminSidebarCategory from 'src/components/admin_console/admin_sidebar_category.jsx';
+import AdminSidebarHeader from 'src/components/admin_console/admin_sidebar_header';
+import AdminSidebarSection from 'src/components/admin_console/admin_sidebar_section.jsx';
+import Highlight from 'src/components/admin_console/highlight';
+import SearchIcon from 'src/components/widgets/icons/search_icon.jsx';
+import QuickInput from 'src/components/quick_input';
 
 const renderScrollView = (props) => (
     <div

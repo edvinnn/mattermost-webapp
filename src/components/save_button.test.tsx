@@ -4,7 +4,7 @@
 import {shallow} from 'enzyme';
 import React from 'react';
 
-import SaveButton from 'components/save_button';
+import SaveButton from 'src/components/save_button';
 
 describe('components/SaveButton', () => {
     const baseProps = {

@@ -8,11 +8,11 @@ import {Channel} from 'mattermost-redux/types/channels';
 
 import {Team} from 'mattermost-redux/types/teams';
 
-import AnnouncementBar from 'components/announcement_bar';
-import BackButton from 'components/common/back_button';
-import DisplayName from 'components/create_team/components/display_name';
-import SiteNameAndDescription from 'components/common/site_name_and_description';
-import TeamUrl from 'components/create_team/components/team_url';
+import AnnouncementBar from 'src/components/announcement_bar';
+import BackButton from 'src/components/common/back_button';
+import DisplayName from 'src/components/create_team/components/display_name';
+import SiteNameAndDescription from 'src/components/common/site_name_and_description';
+import TeamUrl from 'src/components/create_team/components/team_url';
 
 type Props = {
 

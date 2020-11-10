@@ -10,13 +10,13 @@ import * as Utils from 'src/utils/utils.jsx';
 import DelayedAction from 'src/utils/delayed_action';
 import Constants from 'src/utils/constants.jsx';
 
-import CommentedOn from 'components/post_view/commented_on';
-import FileAttachmentListContainer from 'components/file_attachment_list';
-import FailedPostOptions from 'components/post_view/failed_post_options';
-import PostBodyAdditionalContent from 'components/post_view/post_body_additional_content';
-import PostMessageView from 'components/post_view/post_message_view';
-import ReactionList from 'components/post_view/reaction_list';
-import LoadingSpinner from 'components/widgets/loading/loading_spinner';
+import CommentedOn from 'src/components/post_view/commented_on';
+import FileAttachmentListContainer from 'src/components/file_attachment_list';
+import FailedPostOptions from 'src/components/post_view/failed_post_options';
+import PostBodyAdditionalContent from 'src/components/post_view/post_body_additional_content';
+import PostMessageView from 'src/components/post_view/post_message_view';
+import ReactionList from 'src/components/post_view/reaction_list';
+import LoadingSpinner from 'src/components/widgets/loading/loading_spinner';
 
 const SENDING_ANIMATION_DELAY = 3000;
 

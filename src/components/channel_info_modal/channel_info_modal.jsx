@@ -7,10 +7,10 @@ import {Modal} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 import {memoizeResult} from 'mattermost-redux/utils/helpers';
 
-import Markdown from 'components/markdown';
-import GlobeIcon from 'components/widgets/icons/globe_icon';
-import LockIcon from 'components/widgets/icons/lock_icon';
-import ArchiveIcon from 'components/widgets/icons/archive_icon';
+import Markdown from 'src/components/markdown';
+import GlobeIcon from 'src/components/widgets/icons/globe_icon';
+import LockIcon from 'src/components/widgets/icons/lock_icon';
+import ArchiveIcon from 'src/components/widgets/icons/archive_icon';
 
 import Constants from 'src/utils/constants.jsx';
 import {getSiteURL} from 'src/utils/url';

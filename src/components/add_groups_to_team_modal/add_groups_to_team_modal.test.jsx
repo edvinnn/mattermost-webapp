@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import AddGroupsToTeamModal from 'components/add_groups_to_team_modal/add_groups_to_team_modal.jsx';
+import AddGroupsToTeamModal from 'src/components/add_groups_to_team_modal/add_groups_to_team_modal.jsx';
 
 describe('components/AddGroupsToTeamModal', () => {
     const baseProps = {

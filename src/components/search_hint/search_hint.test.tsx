@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import {searchHintOptions} from 'src/utils/constants';
 
-import SearchHint from 'components/search_hint/search_hint';
+import SearchHint from 'src/components/search_hint/search_hint';
 
 describe('components/SearchHint', () => {
     const baseProps = {

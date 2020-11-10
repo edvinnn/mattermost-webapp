@@ -6,8 +6,8 @@ import {Tooltip} from 'react-bootstrap';
 import {getFileDownloadUrl} from 'mattermost-redux/utils/file_utils';
 import {FileInfo} from 'mattermost-redux/types/files';
 
-import OverlayTrigger from 'components/overlay_trigger';
-import AttachmentIcon from 'components/widgets/icons/attachment_icon';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import AttachmentIcon from 'src/components/widgets/icons/attachment_icon';
 import {trimFilename} from 'src/utils/file_utils';
 import {localizeMessage} from 'src/utils/utils.jsx';
 

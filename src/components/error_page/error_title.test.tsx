@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import ErrorTitle from 'components/error_page/error_title';
+import ErrorTitle from 'src/components/error_page/error_title';
 
 import {ErrorPageTypes} from 'src/utils/constants';
 

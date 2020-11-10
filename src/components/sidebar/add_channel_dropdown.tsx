@@ -5,9 +5,9 @@ import React from 'react';
 import {Tooltip} from 'react-bootstrap';
 import {FormattedMessage, IntlShape, injectIntl} from 'react-intl';
 
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
-import Menu from 'components/widgets/menu/menu';
-import OverlayTrigger from 'components/overlay_trigger';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
+import Menu from 'src/components/widgets/menu/menu';
+import OverlayTrigger from 'src/components/overlay_trigger';
 
 type Props = {
     intl: IntlShape;

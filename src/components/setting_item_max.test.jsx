@@ -5,7 +5,7 @@ import React from 'react';
 import {shallow} from 'enzyme';
 
 import Constants from 'src/utils/constants';
-import SettingItemMax from 'components/setting_item_max.jsx';
+import SettingItemMax from 'src/components/setting_item_max.jsx';
 
 describe('components/SettingItemMax', () => {
     const baseProps = {

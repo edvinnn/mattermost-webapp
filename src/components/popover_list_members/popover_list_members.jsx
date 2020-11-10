@@ -10,12 +10,12 @@ import {FormattedMessage} from 'react-intl';
 import {browserHistory} from 'src/utils/browser_history';
 import {Constants, ModalIdentifiers} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
-import ChannelMembersModal from 'components/channel_members_modal';
-import OverlayTrigger from 'components/overlay_trigger';
-import MemberIcon from 'components/widgets/icons/member_icon';
-import Popover from 'components/widgets/popover';
+import ChannelMembersModal from 'src/components/channel_members_modal';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import MemberIcon from 'src/components/widgets/icons/member_icon';
+import Popover from 'src/components/widgets/popover';
 
-import PopoverListMembersItem from 'components/popover_list_members/popover_list_members_item';
+import PopoverListMembersItem from 'src/components/popover_list_members/popover_list_members_item';
 
 export default class PopoverListMembers extends React.PureComponent {
     static propTypes = {

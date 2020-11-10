@@ -5,8 +5,8 @@ import React from 'react';
 import {Modal} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
-import AuditTable from 'components/audit_table';
-import LoadingScreen from 'components/loading_screen';
+import AuditTable from 'src/components/audit_table';
+import LoadingScreen from 'src/components/loading_screen';
 
 type Props = {
     onHide: () => void;

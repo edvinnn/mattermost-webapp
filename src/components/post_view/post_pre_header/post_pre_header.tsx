@@ -6,7 +6,7 @@ import {FormattedMessage, injectIntl, IntlShape} from 'react-intl';
 
 import {t} from 'src/utils/i18n';
 
-import FlagIconFilled from 'components/widgets/icons/flag_icon_filled';
+import FlagIconFilled from 'src/components/widgets/icons/flag_icon_filled';
 
 export type Props = {
     intl: IntlShape;

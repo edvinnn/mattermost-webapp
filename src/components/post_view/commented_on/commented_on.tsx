@@ -11,7 +11,7 @@ import {Post} from 'mattermost-redux/types/posts';
 import * as Utils from 'src/utils/utils.jsx';
 import {stripMarkdown} from 'src/utils/markdown';
 
-import CommentedOnFilesMessage from 'components/post_view/commented_on_files_message';
+import CommentedOnFilesMessage from 'src/components/post_view/commented_on_files_message';
 import UserProfile from '../../user_profile/user_profile';
 
 type Props = {

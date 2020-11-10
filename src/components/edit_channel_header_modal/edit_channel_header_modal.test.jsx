@@ -7,8 +7,8 @@ import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 import {testComponentForLineBreak} from 'tests/helpers/line_break_helpers';
 
 import Constants from 'src/utils/constants';
-import EditChannelHeaderModal from 'components/edit_channel_header_modal/edit_channel_header_modal.jsx';
-import Textbox from 'components/textbox';
+import EditChannelHeaderModal from 'src/components/edit_channel_header_modal/edit_channel_header_modal.jsx';
+import Textbox from 'src/components/textbox';
 
 const KeyCodes = Constants.KeyCodes;
 

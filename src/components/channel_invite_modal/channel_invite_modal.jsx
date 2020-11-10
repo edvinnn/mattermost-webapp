@@ -10,11 +10,11 @@ import {Client4} from 'mattermost-redux/client';
 import {filterProfilesStartingWithTerm} from 'mattermost-redux/utils/user_utils';
 
 import {displayEntireNameForUser, localizeMessage, isGuest} from 'src/utils/utils.jsx';
-import ProfilePicture from 'components/profile_picture';
-import MultiSelect from 'components/multiselect/multiselect';
-import AddIcon from 'components/widgets/icons/fa_add_icon';
-import GuestBadge from 'components/widgets/badges/guest_badge';
-import BotBadge from 'components/widgets/badges/bot_badge';
+import ProfilePicture from 'src/components/profile_picture';
+import MultiSelect from 'src/components/multiselect/multiselect';
+import AddIcon from 'src/components/widgets/icons/fa_add_icon';
+import GuestBadge from 'src/components/widgets/badges/guest_badge';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
 
 import Constants from 'src/utils/constants';
 

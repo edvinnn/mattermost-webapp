@@ -5,11 +5,11 @@ import React from 'react';
 import classNames from 'classnames';
 
 import {trackEvent} from 'actions/telemetry_actions';
-import EditCategoryModal from 'components/edit_category_modal';
-import MoreDirectChannels from 'components/more_direct_channels';
-import DataPrefetch from 'components/data_prefetch';
-import MoreChannels from 'components/more_channels';
-import NewChannelFlow from 'components/new_channel_flow';
+import EditCategoryModal from 'src/components/edit_category_modal';
+import MoreDirectChannels from 'src/components/more_direct_channels';
+import DataPrefetch from 'src/components/data_prefetch';
+import MoreChannels from 'src/components/more_channels';
+import NewChannelFlow from 'src/components/new_channel_flow';
 import Pluggable from 'src/plugins/pluggable';
 import {ModalIdentifiers} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils';

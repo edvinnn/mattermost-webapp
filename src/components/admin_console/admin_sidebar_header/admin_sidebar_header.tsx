@@ -6,12 +6,12 @@ import {FormattedMessage} from 'react-intl';
 import {Client4} from 'mattermost-redux/client';
 import {UserProfile} from 'mattermost-redux/src/types/users';
 
-import MenuIcon from 'components/widgets/icons/menu_icon';
+import MenuIcon from 'src/components/widgets/icons/menu_icon';
 
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
-import Avatar from 'components/widgets/users/avatar';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
+import Avatar from 'src/components/widgets/users/avatar';
 
-import AdminNavbarDropdown from 'components/admin_console/admin_navbar_dropdown';
+import AdminNavbarDropdown from 'src/components/admin_console/admin_navbar_dropdown';
 
 type Props = {
     currentUser: UserProfile;

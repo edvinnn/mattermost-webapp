@@ -8,9 +8,9 @@ import {General, Posts} from 'mattermost-redux/constants';
 
 import * as Utils from 'src/utils/utils.jsx';
 
-import Markdown from 'components/markdown';
-import CombinedSystemMessage from 'components/post_view/combined_system_message';
-import PostAddChannelMember from 'components/post_view/post_add_channel_member';
+import Markdown from 'src/components/markdown';
+import CombinedSystemMessage from 'src/components/post_view/combined_system_message';
+import PostAddChannelMember from 'src/components/post_view/post_add_channel_member';
 
 function renderUsername(value) {
     const username = (value[0] === '@') ? value : `@${value}`;

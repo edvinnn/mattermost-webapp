@@ -6,8 +6,8 @@ import {shallow} from 'enzyme';
 
 import {Constants} from 'src/utils/constants';
 
-import ExternalImage from 'components/external_image';
-import MessageAttachment from 'components/post_view/message_attachments/message_attachment/message_attachment.jsx';
+import ExternalImage from 'src/components/external_image';
+import MessageAttachment from 'src/components/post_view/message_attachments/message_attachment/message_attachment.jsx';
 
 describe('components/post_view/MessageAttachment', () => {
     const attachment = {

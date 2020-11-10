@@ -4,8 +4,8 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import InstalledOAuthApps from 'components/integrations/installed_oauth_apps/installed_oauth_apps.jsx';
-import BackstageList from 'components/backstage/components/backstage_list.jsx';
+import InstalledOAuthApps from 'src/components/integrations/installed_oauth_apps/installed_oauth_apps.jsx';
+import BackstageList from 'src/components/backstage/components/backstage_list.jsx';
 
 describe('components/integrations/InstalledOAuthApps', () => {
     const oauthApps = {

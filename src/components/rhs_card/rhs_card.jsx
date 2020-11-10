@@ -10,10 +10,10 @@ import {Link} from 'react-router-dom';
 import DelayedAction from 'src/utils/delayed_action';
 import Constants, {RHSStates} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
-import RhsCardHeader from 'components/rhs_card_header';
-import Markdown from 'components/markdown';
-import UserProfile from 'components/user_profile';
-import PostProfilePicture from 'components/post_profile_picture';
+import RhsCardHeader from 'src/components/rhs_card_header';
+import Markdown from 'src/components/markdown';
+import UserProfile from 'src/components/user_profile';
+import PostProfilePicture from 'src/components/post_profile_picture';
 import * as GlobalActions from 'actions/global_actions.jsx';
 
 export function renderView(props) {

@@ -4,8 +4,8 @@
 import React from 'react';
 import {Posts} from 'mattermost-redux/constants';
 
-import PostBodyAdditionalContent from 'components/post_view/post_body_additional_content';
-import PostMessageView from 'components/post_view/post_message_view';
+import PostBodyAdditionalContent from 'src/components/post_view/post_body_additional_content';
+import PostMessageView from 'src/components/post_view/post_message_view';
 
 export default function MessageWithAdditionalContent({post, previewCollapsed, previewEnabled, isEmbedVisible, pluginPostTypes}) {
     const hasPlugin = post.type && pluginPostTypes.hasOwnProperty(post.type);

@@ -8,8 +8,8 @@ import PropTypes from 'prop-types';
 import * as Utils from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n.jsx';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import LocalizedInput from 'components/localized_input/localized_input';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import LocalizedInput from 'src/components/localized_input/localized_input';
 
 export default class Setup extends React.PureComponent {
     static propTypes = {

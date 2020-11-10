@@ -6,9 +6,9 @@ import {FormattedMessage} from 'react-intl';
 import PropTypes from 'prop-types';
 
 import {t} from 'src/utils/i18n';
-import GroupsList from 'components/admin_console/group_settings/groups_list';
-import AdminPanel from 'components/widgets/admin_console/admin_panel';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import GroupsList from 'src/components/admin_console/group_settings/groups_list';
+import AdminPanel from 'src/components/widgets/admin_console/admin_panel';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 import {getSiteURL} from 'src/utils/url';
 

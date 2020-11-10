@@ -4,8 +4,8 @@
 import {shallow} from 'enzyme';
 import React from 'react';
 
-import FileAttachment from 'components/file_attachment';
-import SingleImageView from 'components/single_image_view';
+import FileAttachment from 'src/components/file_attachment';
+import SingleImageView from 'src/components/single_image_view';
 
 import FileAttachmentList from './file_attachment_list';
 

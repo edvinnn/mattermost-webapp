@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import TeamMembersDropdown from 'components/team_members_dropdown/team_members_dropdown';
+import TeamMembersDropdown from 'src/components/team_members_dropdown/team_members_dropdown';
 
 import {TestHelper} from 'src/utils/test_helper';
 

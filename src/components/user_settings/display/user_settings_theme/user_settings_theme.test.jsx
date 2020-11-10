@@ -6,7 +6,7 @@ import React from 'react';
 
 import {Preferences} from 'mattermost-redux/constants';
 
-import UserSettingsTheme from 'components/user_settings/display/user_settings_theme/user_settings_theme.jsx';
+import UserSettingsTheme from 'src/components/user_settings/display/user_settings_theme/user_settings_theme.jsx';
 
 describe('components/user_settings/display/user_settings_theme/user_settings_theme.jsx', () => {
     const requiredProps = {

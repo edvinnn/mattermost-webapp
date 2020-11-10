@@ -10,13 +10,13 @@ import {trackEvent} from 'actions/telemetry_actions.jsx';
 import Constants from 'src/utils/constants';
 import {isMobile} from 'src/utils/user_agent';
 import * as Utils from 'src/utils/utils.jsx';
-import ConfirmModal from 'components/confirm_modal';
-import SettingItemMax from 'components/setting_item_max.jsx';
-import SettingItemMin from 'components/setting_item_min';
-import SaveButton from 'components/save_button';
+import ConfirmModal from 'src/components/confirm_modal';
+import SettingItemMax from 'src/components/setting_item_max.jsx';
+import SettingItemMin from 'src/components/setting_item_min';
+import SaveButton from 'src/components/save_button';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import WarningIcon from 'components/widgets/icons/fa_warning_icon';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import WarningIcon from 'src/components/widgets/icons/fa_warning_icon';
 
 const SECTION_TOKENS = 'tokens';
 const TOKEN_CREATING = 'creating';

@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import {AdminConfig} from 'mattermost-redux/types/config';
 
-import CustomTermsOfServiceSettings from 'components/admin_console/custom_terms_of_service_settings/custom_terms_of_service_settings';
+import CustomTermsOfServiceSettings from 'src/components/admin_console/custom_terms_of_service_settings/custom_terms_of_service_settings';
 
 describe('components/admin_console/CustomTermsOfServiceSettings', () => {
     const baseProps = {

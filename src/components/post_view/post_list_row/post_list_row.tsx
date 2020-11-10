@@ -9,11 +9,11 @@ import * as PostListUtils from 'mattermost-redux/utils/post_list';
 
 import {Channel} from 'mattermost-redux/types/channels';
 
-import CombinedUserActivityPost from 'components/post_view/combined_user_activity_post';
-import Post from 'components/post_view/post';
-import DateSeparator from 'components/post_view/date_separator';
-import NewMessageSeparator from 'components/post_view/new_message_separator/new_message_separator';
-import ChannelIntroMessage from 'components/post_view/channel_intro_message/';
+import CombinedUserActivityPost from 'src/components/post_view/combined_user_activity_post';
+import Post from 'src/components/post_view/post';
+import DateSeparator from 'src/components/post_view/date_separator';
+import NewMessageSeparator from 'src/components/post_view/new_message_separator/new_message_separator';
+import ChannelIntroMessage from 'src/components/post_view/channel_intro_message/';
 import {isIdNotPost} from 'src/utils/post_utils';
 import {PostListRowListIds, Locations} from 'src/utils/constants';
 

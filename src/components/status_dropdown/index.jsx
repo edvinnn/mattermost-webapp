@@ -11,7 +11,7 @@ import {get} from 'mattermost-redux/selectors/entities/preferences';
 
 import {openModal} from 'actions/views/modals';
 
-import StatusDropdown from 'components/status_dropdown/status_dropdown.jsx';
+import StatusDropdown from 'src/components/status_dropdown/status_dropdown.jsx';
 
 function mapStateToProps(state) {
     const currentUser = getCurrentUser(state);

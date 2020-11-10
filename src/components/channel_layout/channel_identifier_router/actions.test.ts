@@ -15,7 +15,7 @@ import {
     goToChannelByChannelId,
     goToDirectChannelByEmail,
     getPathFromIdentifier,
-} from 'components/channel_layout/channel_identifier_router/actions';
+} from 'src/components/channel_layout/channel_identifier_router/actions';
 
 jest.mock('actions/global_actions.jsx', () => ({
     emitChannelClickEvent: jest.fn(),

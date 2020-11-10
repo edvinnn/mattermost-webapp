@@ -11,11 +11,11 @@ import {isMeMessage as checkIsMeMessage} from 'mattermost-redux/utils/post_utils
 import * as PostUtils from 'src/utils/post_utils.jsx';
 import Constants, {A11yCustomEventTypes} from 'src/utils/constants';
 import {intlShape} from 'src/utils/react_intl';
-import PostProfilePicture from 'components/post_profile_picture';
-import PostBody from 'components/post_view/post_body';
-import PostHeader from 'components/post_view/post_header';
-import PostContext from 'components/post_view/post_context';
-import PostPreHeader from 'components/post_view/post_pre_header';
+import PostProfilePicture from 'src/components/post_profile_picture';
+import PostBody from 'src/components/post_view/post_body';
+import PostHeader from 'src/components/post_view/post_header';
+import PostContext from 'src/components/post_view/post_context';
+import PostPreHeader from 'src/components/post_view/post_pre_header';
 
 class Post extends React.PureComponent {
     static propTypes = {

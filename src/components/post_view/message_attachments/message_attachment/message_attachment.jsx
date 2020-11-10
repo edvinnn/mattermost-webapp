@@ -11,10 +11,10 @@ import {Constants} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils';
 import LinkOnlyRenderer from 'src/utils/markdown/link_only_renderer';
 
-import ExternalImage from 'components/external_image';
-import Markdown from 'components/markdown';
-import ShowMore from 'components/post_view/show_more';
-import SizeAwareImage from 'components/size_aware_image';
+import ExternalImage from 'src/components/external_image';
+import Markdown from 'src/components/markdown';
+import ShowMore from 'src/components/post_view/show_more';
+import SizeAwareImage from 'src/components/size_aware_image';
 
 import ActionButton from '../action_button';
 import ActionMenu from '../action_menu';

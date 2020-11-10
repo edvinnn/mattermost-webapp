@@ -7,12 +7,12 @@ import {FormattedMessage} from 'react-intl';
 import {isEmail} from 'mattermost-redux/utils/helpers';
 import {debounce} from 'mattermost-redux/actions/helpers';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import InviteIcon from 'components/widgets/icons/invite_icon';
-import CloseCircleIcon from 'components/widgets/icons/close_circle_icon';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import InviteIcon from 'src/components/widgets/icons/invite_icon';
+import CloseCircleIcon from 'src/components/widgets/icons/close_circle_icon';
 
-import ChannelsInput from 'components/widgets/inputs/channels_input.jsx';
-import UsersEmailsInput from 'components/widgets/inputs/users_emails_input.jsx';
+import ChannelsInput from 'src/components/widgets/inputs/channels_input.jsx';
+import UsersEmailsInput from 'src/components/widgets/inputs/users_emails_input.jsx';
 
 import './invitation_modal_guests_step.scss';
 

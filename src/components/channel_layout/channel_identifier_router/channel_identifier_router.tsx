@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-import ChannelView from 'components/channel_view/index';
+import ChannelView from 'src/components/channel_view/index';
 import {browserHistory} from 'src/utils/browser_history';
 import Constants from 'src/utils/constants.jsx';
 

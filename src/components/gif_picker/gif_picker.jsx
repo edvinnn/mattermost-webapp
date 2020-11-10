@@ -4,11 +4,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import App from 'components/gif_picker/components/App';
-import Categories from 'components/gif_picker/components/Categories';
-import Search from 'components/gif_picker/components/Search';
-import Trending from 'components/gif_picker/components/Trending';
-import constants from 'components/gif_picker/utils/constants';
+import App from 'src/components/gif_picker/components/App';
+import Categories from 'src/components/gif_picker/components/Categories';
+import Search from 'src/components/gif_picker/components/Search';
+import Trending from 'src/components/gif_picker/components/Trending';
+import constants from 'src/components/gif_picker/utils/constants';
 
 export const appProps = {
     appName: constants.appName.mattermost,

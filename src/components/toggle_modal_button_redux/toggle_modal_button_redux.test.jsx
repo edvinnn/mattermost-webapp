@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
 import {ModalIdentifiers} from 'src/utils/constants';
-import ToggleModalButtonRedux from 'components/toggle_modal_button_redux/toggle_modal_button_redux.jsx';
+import ToggleModalButtonRedux from 'src/components/toggle_modal_button_redux/toggle_modal_button_redux.jsx';
 
 class TestModal extends React.PureComponent {
     render() {

@@ -4,8 +4,8 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import SuggestionBox from 'components/suggestion/suggestion_box.jsx';
-import SuggestionList from 'components/suggestion/suggestion_list';
+import SuggestionBox from 'src/components/suggestion/suggestion_box.jsx';
+import SuggestionList from 'src/components/suggestion/suggestion_list';
 
 export default class AutocompleteSelector extends React.PureComponent {
     static propTypes = {

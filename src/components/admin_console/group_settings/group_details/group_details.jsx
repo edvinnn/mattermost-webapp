@@ -9,19 +9,19 @@ import {Groups} from 'mattermost-redux/constants';
 import {t} from 'src/utils/i18n';
 import {localizeMessage} from 'src/utils/utils.jsx';
 
-import FormError from 'components/form_error';
-import {GroupProfileAndSettings} from 'components/admin_console/group_settings/group_details/group_profile_and_settings';
-import GroupTeamsAndChannels from 'components/admin_console/group_settings/group_details/group_teams_and_channels';
-import GroupUsers from 'components/admin_console/group_settings/group_details/group_users';
-import AdminPanel from 'components/widgets/admin_console/admin_panel';
-import BlockableLink from 'components/admin_console/blockable_link';
+import FormError from 'src/components/form_error';
+import {GroupProfileAndSettings} from 'src/components/admin_console/group_settings/group_details/group_profile_and_settings';
+import GroupTeamsAndChannels from 'src/components/admin_console/group_settings/group_details/group_teams_and_channels';
+import GroupUsers from 'src/components/admin_console/group_settings/group_details/group_users';
+import AdminPanel from 'src/components/widgets/admin_console/admin_panel';
+import BlockableLink from 'src/components/admin_console/blockable_link';
 
-import SaveChangesPanel from 'components/admin_console/team_channel_settings/save_changes_panel';
+import SaveChangesPanel from 'src/components/admin_console/team_channel_settings/save_changes_panel';
 
-import TeamSelectorModal from 'components/team_selector_modal';
-import ChannelSelectorModal from 'components/channel_selector_modal';
-import Menu from 'components/widgets/menu/menu';
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
+import TeamSelectorModal from 'src/components/team_selector_modal';
+import ChannelSelectorModal from 'src/components/channel_selector_modal';
+import Menu from 'src/components/widgets/menu/menu';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
 
 export default class GroupDetails extends React.PureComponent {
     static propTypes = {

@@ -10,10 +10,10 @@ import classNames from 'classnames';
 
 import {t} from 'src/utils/i18n';
 
-import AdminPanel from 'components/widgets/admin_console/admin_panel';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import ArchiveIcon from 'components/widgets/icons/archive_icon';
-import UnarchiveIcon from 'components/widgets/icons/unarchive_icon';
+import AdminPanel from 'src/components/widgets/admin_console/admin_panel';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import ArchiveIcon from 'src/components/widgets/icons/archive_icon';
+import UnarchiveIcon from 'src/components/widgets/icons/unarchive_icon';
 
 interface ChannelProfileProps {
     channel: Partial<Channel>;

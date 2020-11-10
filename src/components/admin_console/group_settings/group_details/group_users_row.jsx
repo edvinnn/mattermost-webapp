@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 
 import {Client4} from 'mattermost-redux/client';
 
-import Avatar from 'components/widgets/users/avatar';
+import Avatar from 'src/components/widgets/users/avatar';
 
 export default class GroupUsersRow extends React.PureComponent {
     static propTypes = {

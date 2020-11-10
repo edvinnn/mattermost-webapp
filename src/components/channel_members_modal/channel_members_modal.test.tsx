@@ -6,7 +6,7 @@ import {Modal} from 'react-bootstrap';
 import {shallow} from 'enzyme';
 import {ChannelType} from 'mattermost-redux/types/channels';
 
-import ChannelInviteModal from 'components/channel_invite_modal';
+import ChannelInviteModal from 'src/components/channel_invite_modal';
 import {ModalIdentifiers} from 'src/utils/constants';
 
 import ChannelMembersModal from './channel_members_modal';

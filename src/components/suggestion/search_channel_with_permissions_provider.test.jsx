@@ -5,7 +5,7 @@ import configureStore from 'redux-mock-store';
 
 import {getState} from 'src/stores/redux_store';
 
-import SearchChannelWithPermissionsProvider from 'components/suggestion/search_channel_with_permissions_provider.jsx';
+import SearchChannelWithPermissionsProvider from 'src/components/suggestion/search_channel_with_permissions_provider.jsx';
 
 jest.mock('stores/redux_store', () => ({
     dispatch: jest.fn(),

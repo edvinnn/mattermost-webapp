@@ -8,9 +8,9 @@ import {OutgoingWebhook} from 'mattermost-redux/types/integrations';
 import {ServerError} from 'mattermost-redux/types/errors';
 
 import {browserHistory} from 'src/utils/browser_history';
-import ConfirmModal from 'components/confirm_modal';
-import AbstractOutgoingWebhook from 'components/integrations/abstract_outgoing_webhook.jsx';
-import LoadingScreen from 'components/loading_screen';
+import ConfirmModal from 'src/components/confirm_modal';
+import AbstractOutgoingWebhook from 'src/components/integrations/abstract_outgoing_webhook.jsx';
+import LoadingScreen from 'src/components/loading_screen';
 
 const HEADER = {id: 'integrations.edit', defaultMessage: 'Edit'};
 const FOOTER = {id: 'update_outgoing_webhook.update', defaultMessage: 'Update'};

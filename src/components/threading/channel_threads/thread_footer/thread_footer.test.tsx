@@ -4,10 +4,10 @@
 import React, {ComponentProps} from 'react';
 import {shallow} from 'enzyme';
 
-import SimpleTooltip from 'components/widgets/simple_tooltip';
+import SimpleTooltip from 'src/components/widgets/simple_tooltip';
 
-import Timestamp from 'components/timestamp';
-import Avatars from 'components/widgets/users/avatars';
+import Timestamp from 'src/components/timestamp';
+import Avatars from 'src/components/widgets/users/avatars';
 import FollowButton from '../../common/follow_button';
 import Button from '../../common/button';
 

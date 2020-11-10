@@ -13,7 +13,7 @@ import {isEmpty} from 'lodash';
 import {trackEvent} from 'actions/telemetry_actions';
 
 import {t} from 'src/utils/i18n';
-import PurchaseModal from 'components/purchase_modal';
+import PurchaseModal from 'src/components/purchase_modal';
 
 import {
     Preferences,

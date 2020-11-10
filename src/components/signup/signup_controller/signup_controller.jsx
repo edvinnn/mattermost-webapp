@@ -10,12 +10,12 @@ import {Client4} from 'mattermost-redux/client';
 import {browserHistory} from 'src/utils/browser_history';
 import * as GlobalActions from 'actions/global_actions.jsx';
 import logoImage from 'images/logo.png';
-import AnnouncementBar from 'components/announcement_bar';
-import BackButton from 'components/common/back_button';
-import FormError from 'components/form_error';
-import LocalizedIcon from 'components/localized_icon';
+import AnnouncementBar from 'src/components/announcement_bar';
+import BackButton from 'src/components/common/back_button';
+import FormError from 'src/components/form_error';
+import LocalizedIcon from 'src/components/localized_icon';
 
-import LoadingScreen from 'components/loading_screen';
+import LoadingScreen from 'src/components/loading_screen';
 import {Constants} from 'src/utils/constants';
 import {t} from 'src/utils/i18n';
 

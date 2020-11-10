@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import FormattedMarkdownMessage, {CustomRenderer} from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage, {CustomRenderer} from 'src/components/formatted_markdown_message';
 
 export default class SchemaText extends React.PureComponent {
     static propTypes = {

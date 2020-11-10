@@ -9,8 +9,8 @@ import {PaymentMethod} from 'mattermost-redux/types/cloud';
 
 import {BillingDetails} from 'types/cloud/sku';
 
-import DropdownInput from 'components/dropdown_input';
-import Input from 'components/input';
+import DropdownInput from 'src/components/dropdown_input';
+import Input from 'src/components/input';
 import * as Utils from 'src/utils/utils';
 import {COUNTRIES} from 'src/utils/countries';
 
@@ -19,7 +19,7 @@ import CardInput, {CardInputType} from './card_input';
 import CardImage from './card_image';
 
 import './payment_form.scss';
-import 'components/input.css';
+import 'src/components/input.css';
 
 type Props = {
     className: string;

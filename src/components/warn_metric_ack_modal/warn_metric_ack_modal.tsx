@@ -21,8 +21,8 @@ const StatTypes = Constants.StatTypes;
 
 import * as Utils from 'src/utils/utils.jsx';
 
-import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
-import ErrorLink from 'components/error_page/error_link';
+import LoadingWrapper from 'src/components/widgets/loading/loading_wrapper';
+import ErrorLink from 'src/components/error_page/error_link';
 
 type Props = {
     user: UserProfile;

@@ -16,9 +16,9 @@ import {PreferenceType} from 'mattermost-redux/types/preferences';
 
 import {Preferences} from 'src/utils/constants';
 import {t} from 'src/utils/i18n';
-import LocalizedIcon from 'components/localized_icon';
-import MattermostLogo from 'components/widgets/icons/mattermost_logo';
-import {Notice} from 'components/system_notice/types';
+import LocalizedIcon from 'src/components/localized_icon';
+import MattermostLogo from 'src/components/widgets/icons/mattermost_logo';
+import {Notice} from 'src/components/system_notice/types';
 
 type Props = {
     currentUserId: string,

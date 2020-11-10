@@ -12,11 +12,11 @@ import {OAuthApp} from 'mattermost-redux/types/integrations';
 import Constants from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 import icon50 from 'images/icon50x50.png';
-import AccessHistoryModal from 'components/access_history_modal';
-import ActivityLogModal from 'components/activity_log_modal';
-import SettingItemMax from 'components/setting_item_max.jsx';
-import SettingItemMin from 'components/setting_item_min';
-import ToggleModalButton from 'components/toggle_modal_button.jsx';
+import AccessHistoryModal from 'src/components/access_history_modal';
+import ActivityLogModal from 'src/components/activity_log_modal';
+import SettingItemMax from 'src/components/setting_item_max.jsx';
+import SettingItemMin from 'src/components/setting_item_min';
+import ToggleModalButton from 'src/components/toggle_modal_button.jsx';
 
 import MfaSection from './mfa_section';
 import UserAccessTokenSection from './user_access_token_section';

@@ -5,12 +5,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import LoadingScreen from 'components/loading_screen';
+import LoadingScreen from 'src/components/loading_screen';
 import {PostRequestTypes} from 'src/utils/constants';
 
 import {getOldestPostId, getLatestPostId} from 'src/utils/post_utils.jsx';
 
-import VirtPostList from 'components/post_view/post_list_virtualized/post_list_virtualized';
+import VirtPostList from 'src/components/post_view/post_list_virtualized/post_list_virtualized';
 
 const MAX_NUMBER_OF_AUTO_RETRIES = 3;
 export const MAX_EXTRA_PAGES_LOADED = 10;

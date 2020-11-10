@@ -9,7 +9,7 @@ import {Channel} from 'mattermost-redux/types/channels';
 
 import {browserHistory} from 'src/utils/browser_history';
 import Constants from 'src/utils/constants';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
 type Props = {
     onHide: () => void;

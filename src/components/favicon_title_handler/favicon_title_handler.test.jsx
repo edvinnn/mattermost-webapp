@@ -8,7 +8,7 @@ import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 import {Constants} from 'src/utils/constants';
 import {isChrome, isFirefox} from 'src/utils/user_agent';
 
-import FaviconTitleHandler from 'components/favicon_title_handler/favicon_title_handler';
+import FaviconTitleHandler from 'src/components/favicon_title_handler/favicon_title_handler';
 
 jest.mock('utils/user_agent', () => {
     const original = jest.requireActual('utils/user_agent');

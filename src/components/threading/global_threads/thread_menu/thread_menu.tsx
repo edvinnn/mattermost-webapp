@@ -6,11 +6,11 @@ import {useIntl} from 'react-intl';
 
 import {t} from 'src/utils/i18n';
 
-import Menu from 'components/widgets/menu/menu';
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
+import Menu from 'src/components/widgets/menu/menu';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
 
-import Button from 'components/threading/common/button';
-import SimpleTooltip from 'components/widgets/simple_tooltip';
+import Button from 'src/components/threading/common/button';
+import SimpleTooltip from 'src/components/widgets/simple_tooltip';
 
 type Props = {
     isFollowing: boolean,

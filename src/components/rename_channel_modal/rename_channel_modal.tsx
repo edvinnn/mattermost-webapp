@@ -9,8 +9,8 @@ import {Channel} from 'mattermost-redux/src/types/channels';
 import {Team} from 'mattermost-redux/src/types/teams';
 import {ServerError} from 'mattermost-redux/types/errors';
 
-import LocalizedInput from 'components/localized_input/localized_input';
-import OverlayTrigger from 'components/overlay_trigger';
+import LocalizedInput from 'src/components/localized_input/localized_input';
+import OverlayTrigger from 'src/components/overlay_trigger';
 import {browserHistory} from 'src/utils/browser_history';
 import Constants from 'src/utils/constants.jsx';
 import {t} from 'src/utils/i18n';

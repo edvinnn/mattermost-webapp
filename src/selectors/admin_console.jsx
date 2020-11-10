@@ -7,7 +7,7 @@ import {cloneDeep} from 'lodash';
 import {getMySystemPermissions} from 'mattermost-redux/selectors/entities/roles_helpers';
 import {ResourceToSysConsolePermissionsTable} from 'mattermost-redux/constants/permissions_sysconsole';
 
-import AdminDefinition from 'components/admin_console/admin_definition.jsx';
+import AdminDefinition from 'src/components/admin_console/admin_definition.jsx';
 
 export const getAdminDefinition = createSelector(
     () => AdminDefinition,

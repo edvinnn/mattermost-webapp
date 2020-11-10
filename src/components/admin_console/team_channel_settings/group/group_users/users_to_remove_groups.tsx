@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 import {UserProfile} from 'mattermost-redux/types/users';
 import {Group} from 'mattermost-redux/types/groups';
 
-import OverlayTrigger from 'components/overlay_trigger';
+import OverlayTrigger from 'src/components/overlay_trigger';
 
 type ProfileWithGroups = Partial<UserProfile & {
     groups: Partial<Group>[];

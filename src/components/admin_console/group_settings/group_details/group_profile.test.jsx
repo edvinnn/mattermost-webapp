@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import GroupProfile from 'components/admin_console/group_settings/group_details/group_profile.jsx';
+import GroupProfile from 'src/components/admin_console/group_settings/group_details/group_profile.jsx';
 
 describe('components/admin_console/group_settings/group_details/GroupProfile', () => {
     test('should match snapshot', () => {

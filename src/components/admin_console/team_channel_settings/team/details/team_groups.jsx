@@ -6,11 +6,11 @@ import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
 import {t} from 'src/utils/i18n';
-import AdminPanel from 'components/widgets/admin_console/admin_panel';
+import AdminPanel from 'src/components/widgets/admin_console/admin_panel';
 
-import ToggleModalButton from 'components/toggle_modal_button.jsx';
+import ToggleModalButton from 'src/components/toggle_modal_button.jsx';
 
-import AddGroupsToTeamModal from 'components/add_groups_to_team_modal';
+import AddGroupsToTeamModal from 'src/components/add_groups_to_team_modal';
 
 import GroupList from '../../group';
 

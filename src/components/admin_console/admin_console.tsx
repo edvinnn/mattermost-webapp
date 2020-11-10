@@ -13,12 +13,12 @@ import {ConsoleAccess} from 'mattermost-redux/types/admin';
 import {Dictionary} from 'mattermost-redux/types/utilities';
 import {CloudState} from 'mattermost-redux/types/cloud';
 
-import AnnouncementBar from 'components/announcement_bar';
-import SystemNotice from 'components/system_notice';
-import ModalController from 'components/modal_controller';
+import AnnouncementBar from 'src/components/announcement_bar';
+import SystemNotice from 'src/components/system_notice';
+import ModalController from 'src/components/modal_controller';
 
-import SchemaAdminSettings from 'components/admin_console/schema_admin_settings';
-import DiscardChangesModal from 'components/discard_changes_modal';
+import SchemaAdminSettings from 'src/components/admin_console/schema_admin_settings';
+import DiscardChangesModal from 'src/components/discard_changes_modal';
 
 import AdminSidebar from './admin_sidebar';
 import Highlight from './highlight';

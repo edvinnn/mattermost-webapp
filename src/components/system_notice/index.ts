@@ -17,8 +17,8 @@ import {Preferences} from 'src/utils/constants';
 
 import {dismissNotice} from 'actions/views/notice';
 
-import Notices from 'components/system_notice/notices';
-import SystemNotice from 'components/system_notice/system_notice';
+import Notices from 'src/components/system_notice/notices';
+import SystemNotice from 'src/components/system_notice/system_notice';
 import {GlobalState} from 'types/store';
 
 function makeMapStateToProps() {

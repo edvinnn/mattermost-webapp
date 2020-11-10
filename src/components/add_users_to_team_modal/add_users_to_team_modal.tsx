@@ -11,11 +11,11 @@ import {Team} from 'mattermost-redux/types/teams';
 import {Client4} from 'mattermost-redux/client';
 
 import {displayEntireNameForUser, localizeMessage, isGuest} from 'src/utils/utils.jsx';
-import ProfilePicture from 'components/profile_picture';
-import GuestBadge from 'components/widgets/badges/guest_badge';
-import BotBadge from 'components/widgets/badges/bot_badge';
-import MultiSelect, {Value} from 'components/multiselect/multiselect';
-import AddIcon from 'components/widgets/icons/fa_add_icon';
+import ProfilePicture from 'src/components/profile_picture';
+import GuestBadge from 'src/components/widgets/badges/guest_badge';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
+import MultiSelect, {Value} from 'src/components/multiselect/multiselect';
+import AddIcon from 'src/components/widgets/icons/fa_add_icon';
 
 const USERS_PER_PAGE = 50;
 const MAX_SELECTABLE_VALUES = 20;

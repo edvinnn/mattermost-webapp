@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 import classNames from 'classnames';
 
-import NextIcon from 'components/widgets/icons/fa_next_icon';
-import PreviousIcon from 'components/widgets/icons/fa_previous_icon';
+import NextIcon from 'src/components/widgets/icons/fa_next_icon';
+import PreviousIcon from 'src/components/widgets/icons/fa_previous_icon';
 
 export const PAGE_SIZE = 10;
 

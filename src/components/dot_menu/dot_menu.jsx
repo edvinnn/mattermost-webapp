@@ -10,18 +10,18 @@ import {Tooltip} from 'react-bootstrap';
 import Permissions from 'mattermost-redux/constants/permissions';
 
 import {Locations, ModalIdentifiers, Constants} from 'src/utils/constants';
-import DeletePostModal from 'components/delete_post_modal';
-import OverlayTrigger from 'components/overlay_trigger';
+import DeletePostModal from 'src/components/delete_post_modal';
+import OverlayTrigger from 'src/components/overlay_trigger';
 import DelayedAction from 'src/utils/delayed_action';
 import * as PostUtils from 'src/utils/post_utils.jsx';
 import * as Utils from 'src/utils/utils.jsx';
-import ChannelPermissionGate from 'components/permissions_gates/channel_permission_gate';
+import ChannelPermissionGate from 'src/components/permissions_gates/channel_permission_gate';
 
 import Pluggable from 'src/plugins/pluggable';
 
-import Menu from 'components/widgets/menu/menu';
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
-import DotsHorizontalIcon from 'components/widgets/icons/dots_horizontal';
+import Menu from 'src/components/widgets/menu/menu';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
+import DotsHorizontalIcon from 'src/components/widgets/icons/dots_horizontal';
 
 const MENU_BOTTOM_MARGIN = 80;
 

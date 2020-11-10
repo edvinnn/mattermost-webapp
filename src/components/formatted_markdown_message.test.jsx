@@ -5,7 +5,7 @@ import React from 'react';
 import {mount} from 'enzyme';
 import {IntlProvider} from 'react-intl';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
 describe('components/FormattedMarkdownMessage', () => {
     test('should render message', () => {

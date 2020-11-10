@@ -9,10 +9,10 @@ import {saveSearchBarText, searchTextUpdate} from 'mattermost-redux/actions/gifs
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {changeOpacity, makeStyleFromTheme} from 'mattermost-redux/utils/theme_utils';
 
-import constants from 'components/gif_picker/utils/constants';
-import SearchBar from 'components/gif_picker/components/SearchBar';
-import GifTrendingIcon from 'components/widgets/icons/gif_trending_icon';
-import GifReactionsIcon from 'components/widgets/icons/gif_reactions_icon';
+import constants from 'src/components/gif_picker/utils/constants';
+import SearchBar from 'src/components/gif_picker/components/SearchBar';
+import GifTrendingIcon from 'src/components/widgets/icons/gif_trending_icon';
+import GifReactionsIcon from 'src/components/widgets/icons/gif_reactions_icon';
 import './Header.scss';
 
 function mapStateToProps(state) {

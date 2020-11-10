@@ -9,10 +9,10 @@ import {ChannelMembership} from 'mattermost-redux/types/channels';
 
 import * as Utils from 'src/utils/utils.jsx';
 
-import Menu from 'components/widgets/menu/menu';
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
+import Menu from 'src/components/widgets/menu/menu';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
 
-import DropdownIcon from 'components/widgets/icons/fa_dropdown_icon';
+import DropdownIcon from 'src/components/widgets/icons/fa_dropdown_icon';
 
 export type BaseMembership = {
     user_id: string;

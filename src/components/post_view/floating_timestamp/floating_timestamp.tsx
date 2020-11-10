@@ -4,7 +4,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import Timestamp, {RelativeRanges} from 'components/timestamp';
+import Timestamp, {RelativeRanges} from 'src/components/timestamp';
 
 const DATE_RANGES = [
     RelativeRanges.TODAY_TITLE_CASE,

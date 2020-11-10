@@ -4,7 +4,7 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 import {recycleDatabaseConnection} from 'actions/admin_actions.jsx';
 import * as Utils from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';

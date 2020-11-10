@@ -14,11 +14,11 @@ import {GenericAction} from 'mattermost-redux/types/actions';
 import {browserHistory} from 'src/utils/browser_history';
 import Constants from 'src/utils/constants';
 import {displayEntireNameForUser, localizeMessage, isGuest} from 'src/utils/utils.jsx';
-import MultiSelect, {Value} from 'components/multiselect/multiselect';
-import ProfilePicture from 'components/profile_picture';
-import AddIcon from 'components/widgets/icons/fa_add_icon';
-import GuestBadge from 'components/widgets/badges/guest_badge';
-import BotBadge from 'components/widgets/badges/bot_badge';
+import MultiSelect, {Value} from 'src/components/multiselect/multiselect';
+import ProfilePicture from 'src/components/profile_picture';
+import AddIcon from 'src/components/widgets/icons/fa_add_icon';
+import GuestBadge from 'src/components/widgets/badges/guest_badge';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
 
 import GroupMessageOption from './group_message_option';
 

@@ -9,11 +9,11 @@ import {WebsocketStatus} from 'mattermost-redux/types/websocket';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 
-import Markdown from 'components/markdown';
-import GenericModal from 'components/generic_modal';
-import NextIcon from 'components/widgets/icons/fa_next_icon';
-import PreviousIcon from 'components/widgets/icons/fa_previous_icon';
-import AdminEyeIcon from 'components/widgets/icons/admin_eye_icon';
+import Markdown from 'src/components/markdown';
+import GenericModal from 'src/components/generic_modal';
+import NextIcon from 'src/components/widgets/icons/fa_next_icon';
+import PreviousIcon from 'src/components/widgets/icons/fa_previous_icon';
+import AdminEyeIcon from 'src/components/widgets/icons/admin_eye_icon';
 
 import {isDesktopApp, getDesktopVersion} from 'src/utils/user_agent';
 

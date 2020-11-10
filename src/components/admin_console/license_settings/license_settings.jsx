@@ -12,9 +12,9 @@ import {format} from 'src/utils/markdown';
 import * as AdminActions from 'actions/admin_actions.jsx';
 import {trackEvent} from 'actions/telemetry_actions';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import FormattedAdminHeader from 'components/widgets/admin_console/formatted_admin_header';
-import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted_admin_header';
+import LoadingWrapper from 'src/components/widgets/loading/loading_wrapper';
 
 export default class LicenseSettings extends React.PureComponent {
     static propTypes = {

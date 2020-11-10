@@ -5,7 +5,7 @@ import React from 'react';
 
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
-import PostPreHeader from 'components/post_view/post_pre_header';
+import PostPreHeader from 'src/components/post_view/post_pre_header';
 
 import Post from './post';
 

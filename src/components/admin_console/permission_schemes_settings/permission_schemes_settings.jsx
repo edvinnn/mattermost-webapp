@@ -8,13 +8,13 @@ import {FormattedMessage} from 'react-intl';
 import {t} from 'src/utils/i18n';
 import * as Utils from 'src/utils/utils';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
-import LoadingScreen from 'components/loading_screen';
-import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
+import LoadingScreen from 'src/components/loading_screen';
+import LoadingWrapper from 'src/components/widgets/loading/loading_wrapper';
 
-import FormattedAdminHeader from 'components/widgets/admin_console/formatted_admin_header';
-import AdminPanelWithLink from 'components/widgets/admin_console/admin_panel_with_link';
+import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted_admin_header';
+import AdminPanelWithLink from 'src/components/widgets/admin_console/admin_panel_with_link';
 
 import PermissionsSchemeSummary from './permissions_scheme_summary';
 

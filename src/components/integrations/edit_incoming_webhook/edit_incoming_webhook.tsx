@@ -9,8 +9,8 @@ import {ActionResult} from 'mattermost-redux/types/actions';
 
 import {browserHistory} from 'src/utils/browser_history';
 import {t} from 'src/utils/i18n';
-import AbstractIncomingWebhook from 'components/integrations/abstract_incoming_webhook';
-import LoadingScreen from 'components/loading_screen';
+import AbstractIncomingWebhook from 'src/components/integrations/abstract_incoming_webhook';
+import LoadingScreen from 'src/components/loading_screen';
 
 const HEADER = {id: t('integrations.edit'), defaultMessage: 'Edit'};
 const FOOTER = {id: t('update_incoming_webhook.update'), defaultMessage: 'Update'};

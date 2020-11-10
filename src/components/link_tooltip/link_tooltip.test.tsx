@@ -5,7 +5,7 @@ import React, {ReactPortal} from 'react';
 import ReactDOM from 'react-dom';
 import {shallow} from 'enzyme';
 
-import LinkTooltip from 'components/link_tooltip/link_tooltip';
+import LinkTooltip from 'src/components/link_tooltip/link_tooltip';
 
 describe('components/link_tooltip/link_tooltip', () => {
     test('should match snapshot', () => {

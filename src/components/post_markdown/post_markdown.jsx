@@ -4,7 +4,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import Markdown from 'components/markdown';
+import Markdown from 'src/components/markdown';
 
 import {renderSystemMessage} from './system_message_helpers.jsx';
 

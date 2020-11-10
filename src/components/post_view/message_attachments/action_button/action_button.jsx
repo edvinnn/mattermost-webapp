@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {changeOpacity} from 'mattermost-redux/utils/theme_utils';
 
-import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
-import Markdown from 'components/markdown';
+import LoadingWrapper from 'src/components/widgets/loading/loading_wrapper';
+import Markdown from 'src/components/markdown';
 
 export default class ActionButton extends React.PureComponent {
     static propTypes = {

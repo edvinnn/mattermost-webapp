@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import GroupsList from 'components/admin_console/group_settings/groups_list/groups_list';
+import GroupsList from 'src/components/admin_console/group_settings/groups_list/groups_list';
 
 describe('components/admin_console/group_settings/GroupsList.tsx', () => {
     test('should match snapshot, while loading', () => {

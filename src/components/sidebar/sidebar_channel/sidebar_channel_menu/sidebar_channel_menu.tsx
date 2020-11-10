@@ -9,11 +9,11 @@ import {Channel} from 'mattermost-redux/types/channels';
 import {ChannelCategory} from 'mattermost-redux/types/channel_categories';
 
 import {trackEvent} from 'actions/telemetry_actions';
-import ChannelInviteModal from 'components/channel_invite_modal';
-import EditCategoryModal from 'components/edit_category_modal';
-import SidebarMenu from 'components/sidebar/sidebar_menu';
-import SidebarMenuType from 'components/sidebar/sidebar_menu/sidebar_menu';
-import Menu from 'components/widgets/menu/menu';
+import ChannelInviteModal from 'src/components/channel_invite_modal';
+import EditCategoryModal from 'src/components/edit_category_modal';
+import SidebarMenu from 'src/components/sidebar/sidebar_menu';
+import SidebarMenuType from 'src/components/sidebar/sidebar_menu/sidebar_menu';
+import Menu from 'src/components/widgets/menu/menu';
 import Constants, {ModalIdentifiers} from 'src/utils/constants';
 import {copyToClipboard} from 'src/utils/utils';
 

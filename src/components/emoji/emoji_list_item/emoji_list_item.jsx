@@ -7,8 +7,8 @@ import PropTypes from 'prop-types';
 import Permissions from 'mattermost-redux/constants/permissions';
 import {Client4} from 'mattermost-redux/client';
 
-import DeleteEmoji from 'components/emoji/delete_emoji_modal';
-import AnyTeamPermissionGate from 'components/permissions_gates/any_team_permission_gate';
+import DeleteEmoji from 'src/components/emoji/delete_emoji_modal';
+import AnyTeamPermissionGate from 'src/components/permissions_gates/any_team_permission_gate';
 
 export default class EmojiListItem extends React.PureComponent {
     static propTypes = {

@@ -4,7 +4,7 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 import {ProgressBar} from 'react-bootstrap';
 
-import FilenameOverlay from 'components/file_attachment/filename_overlay';
+import FilenameOverlay from 'src/components/file_attachment/filename_overlay';
 import {getFileTypeFromMime} from 'src/utils/file_utils';
 import * as Utils from 'src/utils/utils.jsx';
 

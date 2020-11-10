@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import EditCommand from 'components/integrations/edit_command/edit_command.jsx';
+import EditCommand from 'src/components/integrations/edit_command/edit_command.jsx';
 
 describe('components/integrations/EditCommand', () => {
     const getCustomTeamCommands = jest.fn(

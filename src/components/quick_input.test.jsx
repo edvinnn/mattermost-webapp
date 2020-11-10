@@ -4,7 +4,7 @@
 import React from 'react';
 import {mount} from 'enzyme';
 
-import QuickInput from 'components/quick_input';
+import QuickInput from 'src/components/quick_input';
 
 describe('components/QuickInput', () => {
     describe('should not render clear button', () => {

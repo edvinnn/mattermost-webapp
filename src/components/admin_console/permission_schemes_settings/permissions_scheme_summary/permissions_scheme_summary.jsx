@@ -7,9 +7,9 @@ import {Link} from 'react-router-dom';
 import {Tooltip} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
-import ConfirmModal from 'components/confirm_modal';
-import OverlayTrigger from 'components/overlay_trigger';
-import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
+import ConfirmModal from 'src/components/confirm_modal';
+import OverlayTrigger from 'src/components/overlay_trigger';
+import LoadingWrapper from 'src/components/widgets/loading/loading_wrapper';
 
 import * as Utils from 'src/utils/utils.jsx';
 import Constants from 'src/utils/constants';

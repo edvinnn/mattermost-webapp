@@ -5,9 +5,9 @@ import React from 'react';
 import {useIntl} from 'react-intl';
 import {getName} from 'country-list';
 
-import DropdownInput from 'components/dropdown_input';
+import DropdownInput from 'src/components/dropdown_input';
 
-import Input from 'components/input';
+import Input from 'src/components/input';
 
 import {US_STATES, CA_PROVINCES, StateCode} from 'src/utils/states';
 

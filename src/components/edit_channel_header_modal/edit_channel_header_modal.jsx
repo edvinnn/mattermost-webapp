@@ -7,8 +7,8 @@ import PropTypes from 'prop-types';
 import {Modal} from 'react-bootstrap';
 import {defineMessages, FormattedMessage, injectIntl} from 'react-intl';
 
-import Textbox from 'components/textbox';
-import TextboxLinks from 'components/textbox/textbox_links';
+import Textbox from 'src/components/textbox';
+import TextboxLinks from 'src/components/textbox/textbox_links';
 import Constants, {ModalIdentifiers} from 'src/utils/constants';
 import {intlShape} from 'src/utils/react_intl';
 import {isMobile} from 'src/utils/user_agent';

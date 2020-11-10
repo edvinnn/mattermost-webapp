@@ -5,7 +5,7 @@ import React from 'react';
 import {shallow} from 'enzyme';
 
 import {UploadStatuses} from 'src/utils/constants';
-import UploadButton from 'components/admin_console/brand_image_setting/upload_button.jsx';
+import UploadButton from 'src/components/admin_console/brand_image_setting/upload_button.jsx';
 
 describe('components/admin_console/brand_image_setting/UploadButton', () => {
     const baseProps = {

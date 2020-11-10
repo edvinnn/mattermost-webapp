@@ -16,10 +16,10 @@ import {
     removePublicLdapCertificate, uploadPublicLdapCertificate,
     invalidateAllEmailInvites, testSmtp, testSiteURL, getSamlMetadataFromIdp, setSamlIdpCertificateFromMetadata,
 } from 'actions/admin_actions';
-import SystemAnalytics from 'components/analytics/system_analytics';
-import TeamAnalytics from 'components/analytics/team_analytics';
-import PluginManagement from 'components/admin_console/plugin_management';
-import CustomPluginSettings from 'components/admin_console/custom_plugin_settings';
+import SystemAnalytics from 'src/components/analytics/system_analytics';
+import TeamAnalytics from 'src/components/analytics/team_analytics';
+import PluginManagement from 'src/components/admin_console/plugin_management';
+import CustomPluginSettings from 'src/components/admin_console/custom_plugin_settings';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 

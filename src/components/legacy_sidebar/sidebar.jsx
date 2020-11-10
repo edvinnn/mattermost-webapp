@@ -20,12 +20,12 @@ import {intlShape} from 'src/utils/react_intl';
 import * as Utils from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';
 
-import DataPrefetch from 'components/data_prefetch';
-import MoreChannels from 'components/more_channels';
-import MoreDirectChannels from 'components/more_direct_channels';
-import QuickSwitchModal from 'components/quick_switch_modal';
-import NewChannelFlow from 'components/new_channel_flow';
-import UnreadChannelIndicator from 'components/sidebar/unread_channel_indicator';
+import DataPrefetch from 'src/components/data_prefetch';
+import MoreChannels from 'src/components/more_channels';
+import MoreDirectChannels from 'src/components/more_direct_channels';
+import QuickSwitchModal from 'src/components/quick_switch_modal';
+import NewChannelFlow from 'src/components/new_channel_flow';
+import UnreadChannelIndicator from 'src/components/sidebar/unread_channel_indicator';
 import Pluggable from 'src/plugins/pluggable';
 
 import SidebarHeader from './header';

@@ -9,10 +9,10 @@ import {Dropdown, Tooltip} from 'react-bootstrap';
 import {RootCloseWrapper} from 'react-overlays';
 import {FormattedMessage} from 'react-intl';
 
-import HeaderIconWrapper from 'components/channel_header/components/header_icon_wrapper';
-import PluginChannelHeaderIcon from 'components/widgets/icons/plugin_channel_header_icon';
+import HeaderIconWrapper from 'src/components/channel_header/components/header_icon_wrapper';
+import PluginChannelHeaderIcon from 'src/components/widgets/icons/plugin_channel_header_icon';
 import {Constants} from 'src/utils/constants';
-import OverlayTrigger from 'components/overlay_trigger';
+import OverlayTrigger from 'src/components/overlay_trigger';
 
 class CustomMenu extends React.PureComponent {
     static propTypes = {

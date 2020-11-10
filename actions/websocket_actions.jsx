@@ -77,8 +77,8 @@ import {loadPlugin, loadPluginsIfNecessary, removePlugin} from 'src/plugins';
 import {ActionTypes, Constants, AnnouncementBarMessages, SocketEvents, UserStatuses, ModalIdentifiers, WarnMetricTypes} from 'src/utils/constants';
 import {getSiteURL} from 'src/utils/url';
 import {isGuest} from 'src/utils/utils';
-import RemovedFromChannelModal from 'components/removed_from_channel_modal';
-import InteractiveDialog from 'components/interactive_dialog';
+import RemovedFromChannelModal from 'src/components/removed_from_channel_modal';
+import InteractiveDialog from 'src/components/interactive_dialog';
 
 const dispatch = store.dispatch;
 const getState = store.getState;

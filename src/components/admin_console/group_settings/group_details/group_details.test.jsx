@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import GroupDetails from 'components/admin_console/group_settings/group_details/group_details.jsx';
+import GroupDetails from 'src/components/admin_console/group_settings/group_details/group_details.jsx';
 
 describe('components/admin_console/group_settings/group_details/GroupDetails', () => {
     const defaultProps = {

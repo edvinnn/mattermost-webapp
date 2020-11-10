@@ -7,7 +7,7 @@ import {shallow} from 'enzyme';
 import {UserProfile} from 'mattermost-redux/types/users';
 
 import {Constants} from 'src/utils/constants';
-import SystemUsersList from 'components/admin_console/system_users/list/system_users_list';
+import SystemUsersList from 'src/components/admin_console/system_users/list/system_users_list';
 
 describe('components/admin_console/system_users/list', () => {
     const defaultProps = {

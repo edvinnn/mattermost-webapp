@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import RemoveFromTeamButton from 'components/admin_console/manage_teams_modal/remove_from_team_button.jsx';
+import RemoveFromTeamButton from 'src/components/admin_console/manage_teams_modal/remove_from_team_button.jsx';
 
 describe('RemoveFromTeamButton', () => {
     const baseProps = {

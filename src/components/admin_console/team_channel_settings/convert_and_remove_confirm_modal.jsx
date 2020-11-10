@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
 import {t} from 'src/utils/i18n.jsx';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
-import ConfirmModal from 'components/confirm_modal';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
+import ConfirmModal from 'src/components/confirm_modal';
 
 export default class ConvertAndRemoveConfirmModal extends React.PureComponent {
     static propTypes = {

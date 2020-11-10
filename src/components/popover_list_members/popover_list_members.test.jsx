@@ -5,7 +5,7 @@ import React from 'react';
 import {shallow} from 'enzyme';
 
 import Constants from 'src/utils/constants';
-import PopoverListMembers from 'components/popover_list_members/popover_list_members.jsx';
+import PopoverListMembers from 'src/components/popover_list_members/popover_list_members.jsx';
 
 jest.mock('utils/browser_history', () => {
     const original = jest.requireActual('utils/browser_history');

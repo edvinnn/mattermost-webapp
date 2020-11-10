@@ -8,11 +8,11 @@ import {UserProfile} from 'mattermost-redux/types/users';
 import {Channel} from 'mattermost-redux/types/channels';
 import {ServerError} from 'mattermost-redux/types/errors';
 
-import MenuActionProvider from 'components/suggestion/menu_action_provider';
-import GenericUserProvider from 'components/suggestion/generic_user_provider.jsx';
-import GenericChannelProvider from 'components/suggestion/generic_channel_provider.jsx';
-import AutocompleteSelector from 'components/autocomplete_selector';
-import PostContext from 'components/post_view/post_context';
+import MenuActionProvider from 'src/components/suggestion/menu_action_provider';
+import GenericUserProvider from 'src/components/suggestion/generic_user_provider.jsx';
+import GenericChannelProvider from 'src/components/suggestion/generic_channel_provider.jsx';
+import AutocompleteSelector from 'src/components/autocomplete_selector';
+import PostContext from 'src/components/post_view/post_context';
 
 type Error = ServerError & {id: string};
 

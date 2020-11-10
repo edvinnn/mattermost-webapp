@@ -7,7 +7,7 @@ import {Router} from 'react-router-dom';
 
 import {addDecorator} from '@storybook/react';
 
-import IntlProvider from 'components/intl_provider';
+import IntlProvider from 'src/components/intl_provider';
 
 import {browserHistory} from 'src/utils/browser_history';
 

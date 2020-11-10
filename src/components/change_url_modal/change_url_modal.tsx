@@ -5,7 +5,7 @@ import React from 'react';
 import {Modal, Tooltip} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
-import OverlayTrigger from 'components/overlay_trigger';
+import OverlayTrigger from 'src/components/overlay_trigger';
 
 import Constants from 'src/utils/constants';
 import {getShortenedURL, validateChannelUrl} from 'src/utils/url';

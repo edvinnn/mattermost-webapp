@@ -6,7 +6,7 @@ import React from 'react';
 
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import QuickInput from 'components/quick_input.jsx';
+import QuickInput from 'src/components/quick_input.jsx';
 import Constants from 'src/utils/constants';
 import * as UserAgent from 'src/utils/user_agent';
 import * as Utils from 'src/utils/utils.jsx';

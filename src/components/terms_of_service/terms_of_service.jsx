@@ -9,11 +9,11 @@ import {FormattedMessage} from 'react-intl';
 import {memoizeResult} from 'mattermost-redux/utils/helpers';
 
 import * as GlobalActions from 'actions/global_actions.jsx';
-import AnnouncementBar from 'components/announcement_bar';
-import LoadingScreen from 'components/loading_screen';
-import LoadingSpinner from 'components/widgets/loading/loading_spinner';
-import LogoutIcon from 'components/widgets/icons/fa_logout_icon';
-import WarningIcon from 'components/widgets/icons/fa_warning_icon';
+import AnnouncementBar from 'src/components/announcement_bar';
+import LoadingScreen from 'src/components/loading_screen';
+import LoadingSpinner from 'src/components/widgets/loading/loading_spinner';
+import LogoutIcon from 'src/components/widgets/icons/fa_logout_icon';
+import WarningIcon from 'src/components/widgets/icons/fa_warning_icon';
 
 import {browserHistory} from 'src/utils/browser_history';
 import messageHtmlToComponent from 'src/utils/message_html_to_component';

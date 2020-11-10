@@ -7,7 +7,7 @@ import {Overlay} from 'react-bootstrap';
 import {Client4} from 'mattermost-redux/client';
 import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
-import ProfilePopover from 'components/profile_popover';
+import ProfilePopover from 'src/components/profile_popover';
 
 import {popOverOverlayPosition} from 'src/utils/position_utils.tsx';
 const spaceRequiredForPopOver = 300;

@@ -7,8 +7,8 @@ import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 import {OverlayTrigger, Tooltip} from 'react-bootstrap';
 
-import UnreadBelowIcon from 'components/widgets/icons/unread_below_icon';
-import CloseIcon from 'components/widgets/icons/close_icon';
+import UnreadBelowIcon from 'src/components/widgets/icons/unread_below_icon';
+import CloseIcon from 'src/components/widgets/icons/close_icon';
 import Constants from 'src/utils/constants';
 
 import './toast.scss';

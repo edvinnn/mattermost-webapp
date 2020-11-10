@@ -10,23 +10,23 @@ import {localizeMessage, isGuest} from 'src/utils/utils';
 
 import MobileChannelHeaderPlug from 'src/plugins/mobile_channel_header_plug';
 
-import ChannelNotificationsModal from 'components/channel_notifications_modal';
-import ChannelInviteModal from 'components/channel_invite_modal';
-import ChannelMembersModal from 'components/channel_members_modal';
-import ChannelInfoModal from 'components/channel_info_modal';
-import EditChannelHeaderModal from 'components/edit_channel_header_modal';
-import EditChannelPurposeModal from 'components/edit_channel_purpose_modal';
-import RenameChannelModal from 'components/rename_channel_modal';
-import ConvertChannelModal from 'components/convert_channel_modal';
-import DeleteChannelModal from 'components/delete_channel_modal';
-import UnarchiveChannelModal from 'components/unarchive_channel_modal';
-import MoreDirectChannels from 'components/more_direct_channels';
-import AddGroupsToChannelModal from 'components/add_groups_to_channel_modal';
-import ChannelGroupsManageModal from 'components/channel_groups_manage_modal';
+import ChannelNotificationsModal from 'src/components/channel_notifications_modal';
+import ChannelInviteModal from 'src/components/channel_invite_modal';
+import ChannelMembersModal from 'src/components/channel_members_modal';
+import ChannelInfoModal from 'src/components/channel_info_modal';
+import EditChannelHeaderModal from 'src/components/edit_channel_header_modal';
+import EditChannelPurposeModal from 'src/components/edit_channel_purpose_modal';
+import RenameChannelModal from 'src/components/rename_channel_modal';
+import ConvertChannelModal from 'src/components/convert_channel_modal';
+import DeleteChannelModal from 'src/components/delete_channel_modal';
+import UnarchiveChannelModal from 'src/components/unarchive_channel_modal';
+import MoreDirectChannels from 'src/components/more_direct_channels';
+import AddGroupsToChannelModal from 'src/components/add_groups_to_channel_modal';
+import ChannelGroupsManageModal from 'src/components/channel_groups_manage_modal';
 
-import ChannelPermissionGate from 'components/permissions_gates/channel_permission_gate';
+import ChannelPermissionGate from 'src/components/permissions_gates/channel_permission_gate';
 
-import Menu from 'components/widgets/menu/menu';
+import Menu from 'src/components/widgets/menu/menu';
 
 import MenuItemLeaveChannel from './menu_items/leave_channel';
 import MenuItemCloseChannel from './menu_items/close_channel';

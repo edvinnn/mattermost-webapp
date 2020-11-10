@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import {General} from 'mattermost-redux/constants';
 
-import AtMention from 'components/at_mention/at_mention.jsx';
+import AtMention from 'src/components/at_mention/at_mention.jsx';
 
 /* eslint-disable global-require */
 

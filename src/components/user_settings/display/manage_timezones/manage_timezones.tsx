@@ -8,11 +8,11 @@ import {FormattedMessage} from 'react-intl';
 import {UserProfile} from 'mattermost-redux/types/users';
 import {ActionResult} from 'mattermost-redux/types/actions';
 
-import SettingItemMax from 'components/setting_item_max.jsx';
+import SettingItemMax from 'src/components/setting_item_max.jsx';
 import {getBrowserTimezone} from 'src/utils/timezone';
-import SuggestionBox from 'components/suggestion/suggestion_box.jsx';
-import SuggestionList from 'components/suggestion/suggestion_list.jsx';
-import TimezoneProvider from 'components/suggestion/timezone_provider.jsx';
+import SuggestionBox from 'src/components/suggestion/suggestion_box.jsx';
+import SuggestionList from 'src/components/suggestion/suggestion_list.jsx';
+import TimezoneProvider from 'src/components/suggestion/timezone_provider.jsx';
 
 type Actions = {
     updateMe: (user: UserProfile) => Promise<ActionResult>;

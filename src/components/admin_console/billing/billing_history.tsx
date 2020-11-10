@@ -10,11 +10,11 @@ import {Client4} from 'mattermost-redux/client';
 import {Invoice} from 'mattermost-redux/types/cloud';
 import {GlobalState} from 'mattermost-redux/types/store';
 
-import LoadingSpinner from 'components/widgets/loading/loading_spinner';
+import LoadingSpinner from 'src/components/widgets/loading/loading_spinner';
 
 import {pageVisited, trackEvent} from 'actions/telemetry_actions';
-import FormattedAdminHeader from 'components/widgets/admin_console/formatted_admin_header';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted_admin_header';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 import noBillingHistoryGraphic from 'images/no_billing_history_graphic.svg';
 import {CloudLinks} from 'src/utils/constants';
 

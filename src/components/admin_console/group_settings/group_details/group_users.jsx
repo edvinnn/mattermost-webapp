@@ -5,10 +5,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
-import GroupUsersRow from 'components/admin_console/group_settings/group_details/group_users_row';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import NextIcon from 'components/widgets/icons/fa_next_icon';
-import PreviousIcon from 'components/widgets/icons/fa_previous_icon';
+import GroupUsersRow from 'src/components/admin_console/group_settings/group_details/group_users_row';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import NextIcon from 'src/components/widgets/icons/fa_next_icon';
+import PreviousIcon from 'src/components/widgets/icons/fa_previous_icon';
 
 import {getSiteURL} from 'src/utils/url';
 

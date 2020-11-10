@@ -8,10 +8,10 @@ import {Link} from 'react-router-dom';
 
 import {browserHistory} from 'src/utils/browser_history';
 import {Constants, ErrorPageTypes} from 'src/utils/constants.jsx';
-import CopyText from 'components/copy_text';
-import BackstageHeader from 'components/backstage/components/backstage_header.jsx';
+import CopyText from 'src/components/copy_text';
+import BackstageHeader from 'src/components/backstage/components/backstage_header.jsx';
 import {getSiteURL} from 'src/utils/url';
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
 export default class ConfirmIntegration extends React.PureComponent {
     static get propTypes() {

@@ -6,8 +6,8 @@ import {shallow} from 'enzyme';
 
 import {Post} from 'mattermost-redux/src/types/posts';
 
-import CommentedOn from 'components/post_view/commented_on/commented_on';
-import CommentedOnFilesMessage from 'components/post_view/commented_on_files_message';
+import CommentedOn from 'src/components/post_view/commented_on/commented_on';
+import CommentedOnFilesMessage from 'src/components/post_view/commented_on_files_message';
 
 describe('components/post_view/CommentedOn', () => {
     const baseProps = {

@@ -7,10 +7,10 @@ import {Posts} from 'mattermost-redux/constants';
 
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
-import RhsComment from 'components/rhs_comment/rhs_comment.jsx';
+import RhsComment from 'src/components/rhs_comment/rhs_comment.jsx';
 import EmojiMap from 'src/utils/emoji_map';
-import PostFlagIcon from 'components/post_view/post_flag_icon';
-import PostPreHeader from 'components/post_view/post_pre_header';
+import PostFlagIcon from 'src/components/post_view/post_flag_icon';
+import PostPreHeader from 'src/components/post_view/post_pre_header';
 import {Locations} from 'src/utils/constants';
 import {isSystemMessage} from 'src/utils/post_utils';
 

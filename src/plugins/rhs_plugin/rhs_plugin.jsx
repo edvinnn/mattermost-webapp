@@ -4,7 +4,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import SearchResultsHeader from 'components/search_results_header';
+import SearchResultsHeader from 'src/components/search_results_header';
 
 import Pluggable from 'src/plugins/pluggable';
 

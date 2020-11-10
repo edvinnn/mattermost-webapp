@@ -10,11 +10,11 @@ import {cmdOrCtrlPressed, isKeyPressed} from 'src/utils/utils';
 
 import SidebarHeaderDropdownButton from '../sidebar_header_dropdown_button.jsx';
 
-import UserSettingsModal from 'components/user_settings/modal';
+import UserSettingsModal from 'src/components/user_settings/modal';
 
-import MenuWrapper from 'components/widgets/menu/menu_wrapper';
+import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
 
-import MainMenu from 'components/main_menu';
+import MainMenu from 'src/components/main_menu';
 
 export default class SidebarHeaderDropdown extends React.PureComponent {
     static propTypes = {

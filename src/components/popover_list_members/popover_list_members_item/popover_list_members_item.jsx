@@ -6,12 +6,12 @@ import React from 'react';
 
 import {Client4} from 'mattermost-redux/client';
 
-import ProfilePicture from 'components/profile_picture';
-import MessageIcon from 'components/widgets/icons/message_icon';
+import ProfilePicture from 'src/components/profile_picture';
+import MessageIcon from 'src/components/widgets/icons/message_icon';
 import {UserStatuses} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
-import BotBadge from 'components/widgets/badges/bot_badge';
-import GuestBadge from 'components/widgets/badges/guest_badge';
+import BotBadge from 'src/components/widgets/badges/bot_badge';
+import GuestBadge from 'src/components/widgets/badges/guest_badge';
 
 export default class PopoverListMembersItem extends React.PureComponent {
     static propTypes = {

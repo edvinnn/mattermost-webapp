@@ -7,7 +7,7 @@ import {connect} from 'react-redux';
 
 import {saveAppProps} from 'mattermost-redux/actions/gifs';
 
-import Header from 'components/gif_picker/components/Header';
+import Header from 'src/components/gif_picker/components/Header';
 
 const mapDispatchToProps = ({
     saveAppProps,

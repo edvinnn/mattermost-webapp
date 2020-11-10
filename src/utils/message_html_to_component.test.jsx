@@ -6,8 +6,8 @@ import Constants from 'src/utils/constants.jsx';
 
 import messageHtmlToComponent from 'src/utils/message_html_to_component';
 import * as TextFormatting from 'src/utils/text_formatting';
-import MarkdownImage from 'components/markdown_image';
-import AtMention from 'components/at_mention';
+import MarkdownImage from 'src/components/markdown_image';
+import AtMention from 'src/components/at_mention';
 
 describe('messageHtmlToComponent', () => {
     test('plain text', () => {

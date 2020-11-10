@@ -6,9 +6,9 @@ import {FormattedMessage} from 'react-intl';
 
 import * as PropTypes from 'prop-types';
 
-import FormError from 'components/form_error';
+import FormError from 'src/components/form_error';
 
-import ToggleModalButton from 'components/toggle_modal_button.jsx';
+import ToggleModalButton from 'src/components/toggle_modal_button.jsx';
 
 import UsersToBeRemovedModal from './users_to_be_removed_modal';
 

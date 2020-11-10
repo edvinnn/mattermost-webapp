@@ -6,8 +6,8 @@ import {mount} from 'enzyme';
 import {Provider} from 'react-redux';
 import configureStore from 'redux-mock-store';
 
-import TeamPermissionGate from 'components/permissions_gates/team_permission_gate';
-import ChannelPermissionGate from 'components/permissions_gates/channel_permission_gate';
+import TeamPermissionGate from 'src/components/permissions_gates/team_permission_gate';
+import ChannelPermissionGate from 'src/components/permissions_gates/channel_permission_gate';
 
 describe('components/permissions_gates', () => {
     const mockStore = configureStore();

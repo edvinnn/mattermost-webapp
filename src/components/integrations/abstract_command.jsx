@@ -6,12 +6,12 @@ import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 import {Link} from 'react-router-dom';
 
-import BackstageHeader from 'components/backstage/components/backstage_header.jsx';
+import BackstageHeader from 'src/components/backstage/components/backstage_header.jsx';
 import Constants from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
-import FormError from 'components/form_error';
-import SpinnerButton from 'components/spinner_button';
-import LocalizedInput from 'components/localized_input/localized_input';
+import FormError from 'src/components/form_error';
+import SpinnerButton from 'src/components/spinner_button';
+import LocalizedInput from 'src/components/localized_input/localized_input';
 
 import {t} from 'src/utils/i18n.jsx';
 

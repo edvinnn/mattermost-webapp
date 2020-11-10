@@ -36,7 +36,7 @@ import WebSocketClient from 'client/web_websocket_client.jsx';
 import {ActionTypes, Constants, PostTypes, RHSStates, ModalIdentifiers} from 'src/utils/constants';
 import {filterAndSortTeamsByDisplayName} from 'src/utils/team_utils.jsx';
 import * as Utils from 'src/utils/utils.jsx';
-import SubMenuModal from '../components/widgets/menu/menu_modals/submenu_modal/submenu_modal';
+import SubMenuModal from 'src/components/widgets/menu/menu_modals/submenu_modal/submenu_modal';
 
 import {openModal} from './views/modals';
 

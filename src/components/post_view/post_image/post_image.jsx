@@ -4,9 +4,9 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import ExternalImage from 'components/external_image';
-import SizeAwareImage from 'components/size_aware_image';
-import ViewImageModal from 'components/view_image';
+import ExternalImage from 'src/components/external_image';
+import SizeAwareImage from 'src/components/size_aware_image';
+import ViewImageModal from 'src/components/view_image';
 
 export default class PostImage extends React.PureComponent {
     static propTypes = {

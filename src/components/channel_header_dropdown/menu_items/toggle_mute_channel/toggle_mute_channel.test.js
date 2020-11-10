@@ -6,8 +6,8 @@ import {shallow} from 'enzyme';
 
 import {Constants, NotificationLevels} from 'src/utils/constants';
 
-import Menu from 'components/widgets/menu/menu';
-import MenuItemAction from 'components/widgets/menu/menu_items/menu_item_action.tsx';
+import Menu from 'src/components/widgets/menu/menu';
+import MenuItemAction from 'src/components/widgets/menu/menu_items/menu_item_action.tsx';
 
 import MenuItemToggleMuteChannel from './toggle_mute_channel';
 

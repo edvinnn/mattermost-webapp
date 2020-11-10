@@ -7,8 +7,8 @@ import {FormattedMessage} from 'react-intl';
 
 import {localizeMessage} from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n.jsx';
-import SaveButton from 'components/save_button';
-import LocalizedInput from 'components/localized_input/localized_input';
+import SaveButton from 'src/components/save_button';
+import LocalizedInput from 'src/components/localized_input/localized_input';
 
 export default class LoginMfa extends React.PureComponent {
     static propTypes = {

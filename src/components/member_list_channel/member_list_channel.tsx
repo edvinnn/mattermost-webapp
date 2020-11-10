@@ -9,9 +9,9 @@ import {Channel, ChannelStats, ChannelMembership} from 'mattermost-redux/types/c
 import Constants from 'src/utils/constants';
 import * as UserAgent from 'src/utils/user_agent';
 
-import ChannelMembersDropdown from 'components/channel_members_dropdown';
-import SearchableUserList from 'components/searchable_user_list/searchable_user_list_container.jsx';
-import LoadingScreen from 'components/loading_screen';
+import ChannelMembersDropdown from 'src/components/channel_members_dropdown';
+import SearchableUserList from 'src/components/searchable_user_list/searchable_user_list_container.jsx';
+import LoadingScreen from 'src/components/loading_screen';
 
 const USERS_PER_PAGE = 50;
 

@@ -6,9 +6,9 @@ import React from 'react';
 import {Modal} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
-import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import MattermostLogo from 'components/widgets/icons/mattermost_logo';
-import Nbsp from 'components/html_entities/nbsp';
+import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
+import MattermostLogo from 'src/components/widgets/icons/mattermost_logo';
+import Nbsp from 'src/components/html_entities/nbsp';
 
 import {AboutLinks} from 'src/utils/constants';
 
