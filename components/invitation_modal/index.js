@@ -15,7 +15,7 @@ import {Permissions} from 'mattermost-redux/constants';
 
 import {closeModal} from 'actions/views/modals';
 import {isModalOpen} from 'selectors/views/modals';
-import {ModalIdentifiers, Constants} from 'utils/constants';
+import {ModalIdentifiers, Constants} from 'src/utils/constants';
 import {sendMembersInvites, sendGuestsInvites} from 'actions/invite_actions';
 
 import InvitationModal from './invitation_modal.jsx';

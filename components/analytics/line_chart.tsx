@@ -7,7 +7,7 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 import Chart, {ChartOptions} from 'chart.js';
 
-import * as Utils from 'utils/utils';
+import * as Utils from 'src/utils/utils';
 
 type Props = {
     title: React.ReactNode;

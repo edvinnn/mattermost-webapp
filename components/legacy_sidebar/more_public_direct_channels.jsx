@@ -9,7 +9,7 @@ import {FormattedMessage} from 'react-intl';
 import MorePublicChannels from 'components/more_channels';
 import MoreDirectMessages from 'components/more_direct_channels';
 
-import {localizeMessage} from 'utils/utils';
+import {localizeMessage} from 'src/utils/utils';
 
 export default class MorePublicDirectChannels extends React.PureComponent {
     static propTypes = {

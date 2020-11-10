@@ -8,13 +8,13 @@ import {ActionFunc} from 'mattermost-redux/types/actions';
 import {Channel} from 'mattermost-redux/types/channels';
 import {UserProfile} from 'mattermost-redux/types/users';
 
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
 
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
-// import {t} from 'utils/i18n';
-import {isKeyPressed} from 'utils/utils';
+// import {t} from 'src/utils/i18n';
+import {isKeyPressed} from 'src/utils/utils';
 
 type Props = {
     currentUser: UserProfile;

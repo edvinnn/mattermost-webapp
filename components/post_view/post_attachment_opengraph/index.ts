@@ -11,7 +11,7 @@ import {bindActionCreators, Dispatch} from 'redux';
 
 import {editPost} from 'actions/views/posts';
 import {GlobalState} from 'types/store';
-import {Preferences} from 'utils/constants';
+import {Preferences} from 'src/utils/constants';
 
 import PostAttachmentOpenGraph, {Props} from './post_attachment_opengraph';
 

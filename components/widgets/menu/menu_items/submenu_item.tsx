@@ -3,11 +3,11 @@
 
 import React, {CSSProperties} from 'react';
 
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 import {showMobileSubMenuModal} from 'actions/global_actions';
 
 import './menu_item.scss';
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
 // Requires an object conforming to a submenu structure passed to registerPostDropdownSubMenuAction
 // of the form:

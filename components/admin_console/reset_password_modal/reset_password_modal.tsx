@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 import {UserProfile} from 'mattermost-redux/types/users';
 import {ActionResult} from 'mattermost-redux/types/actions';
 
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 
 interface PasswordConfig {
     minimumLength: number;

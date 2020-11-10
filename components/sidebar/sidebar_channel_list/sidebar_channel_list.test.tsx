@@ -10,9 +10,9 @@ import {CategorySorting} from 'mattermost-redux/types/channel_categories';
 import {ChannelType} from 'mattermost-redux/types/channels';
 import {TeamType} from 'mattermost-redux/types/teams';
 
-import {TestHelper} from 'utils/test_helper';
+import {TestHelper} from 'src/utils/test_helper';
 
-import {DraggingStates, DraggingStateTypes} from 'utils/constants';
+import {DraggingStates, DraggingStateTypes} from 'src/utils/constants';
 
 import SidebarChannelList from './sidebar_channel_list';
 

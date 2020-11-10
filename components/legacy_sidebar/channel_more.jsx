@@ -7,7 +7,7 @@ import {PropTypes} from 'prop-types';
 import {Permissions} from 'mattermost-redux/constants';
 
 import TeamPermissionGate from 'components/permissions_gates/team_permission_gate';
-import {intlShape} from 'utils/react_intl';
+import {intlShape} from 'src/utils/react_intl';
 
 class ChannelMore extends React.PureComponent {
     static propTypes = {

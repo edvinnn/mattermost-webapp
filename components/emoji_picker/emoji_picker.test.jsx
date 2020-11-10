@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import EmojiMap from 'utils/emoji_map';
+import EmojiMap from 'src/utils/emoji_map';
 
 import EmojiPicker, {filterEmojiSearchInput} from 'components/emoji_picker/emoji_picker';
 

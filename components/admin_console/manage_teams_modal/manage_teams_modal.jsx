@@ -7,8 +7,8 @@ import {Modal} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 import {Client4} from 'mattermost-redux/client';
 
-import {filterAndSortTeamsByDisplayName} from 'utils/team_utils.jsx';
-import * as Utils from 'utils/utils.jsx';
+import {filterAndSortTeamsByDisplayName} from 'src/utils/team_utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 import LoadingScreen from 'components/loading_screen';
 import Avatar from 'components/widgets/users/avatar';
 

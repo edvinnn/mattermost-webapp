@@ -15,7 +15,7 @@ import {sortChannelsByTypeAndDisplayName} from 'mattermost-redux/utils/channel_u
 import {logError} from 'mattermost-redux/actions/errors';
 
 import store from 'stores/redux_store.jsx';
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 
 import Provider from './provider.jsx';
 import Suggestion from './suggestion.jsx';

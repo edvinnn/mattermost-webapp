@@ -6,9 +6,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import LoadingScreen from 'components/loading_screen';
-import {PostRequestTypes} from 'utils/constants';
+import {PostRequestTypes} from 'src/utils/constants';
 
-import {getOldestPostId, getLatestPostId} from 'utils/post_utils.jsx';
+import {getOldestPostId, getLatestPostId} from 'src/utils/post_utils.jsx';
 
 import VirtPostList from 'components/post_view/post_list_virtualized/post_list_virtualized';
 

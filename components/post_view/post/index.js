@@ -14,9 +14,9 @@ import {isSystemMessage} from 'mattermost-redux/utils/post_utils';
 import {markPostAsUnread} from 'actions/post_actions';
 import {selectPost, selectPostCard} from 'actions/views/rhs';
 
-import {isArchivedChannel} from 'utils/channel_utils';
-import {Preferences} from 'utils/constants';
-import {makeCreateAriaLabelForPost, makeGetReplyCount} from 'utils/post_utils.jsx';
+import {isArchivedChannel} from 'src/utils/channel_utils';
+import {Preferences} from 'src/utils/constants';
+import {makeCreateAriaLabelForPost, makeGetReplyCount} from 'src/utils/post_utils.jsx';
 
 import Post from './post.jsx';
 

@@ -6,8 +6,8 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 import {Link} from 'react-router-dom';
 
-import {getSiteURL} from 'utils/url';
-import {t} from 'utils/i18n';
+import {getSiteURL} from 'src/utils/url';
+import {t} from 'src/utils/i18n';
 
 import CopyText from 'components/copy_text';
 

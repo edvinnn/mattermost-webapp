@@ -9,7 +9,7 @@ import {OverlayTrigger, Tooltip} from 'react-bootstrap';
 
 import UnreadBelowIcon from 'components/widgets/icons/unread_below_icon';
 import CloseIcon from 'components/widgets/icons/close_icon';
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
 import './toast.scss';
 

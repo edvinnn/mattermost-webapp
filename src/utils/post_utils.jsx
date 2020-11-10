@@ -12,15 +12,15 @@ import {Permissions, Posts} from 'mattermost-redux/constants';
 import * as PostListUtils from 'mattermost-redux/utils/post_list';
 import {canEditPost as canEditPostRedux, isPostEphemeral} from 'mattermost-redux/utils/post_utils';
 
-import {allAtMentions} from 'utils/text_formatting';
+import {allAtMentions} from 'src/utils/text_formatting';
 
 import {getEmojiMap} from 'selectors/emojis';
 
-import Constants, {PostListRowListIds, Preferences} from 'utils/constants';
-import {formatWithRenderer} from 'utils/markdown';
-import MentionableRenderer from 'utils/markdown/mentionable_renderer';
-import * as Utils from 'utils/utils.jsx';
-import {isMobile} from 'utils/user_agent';
+import Constants, {PostListRowListIds, Preferences} from 'src/utils/constants';
+import {formatWithRenderer} from 'src/utils/markdown';
+import MentionableRenderer from 'src/utils/markdown/mentionable_renderer';
+import * as Utils from 'src/utils/utils.jsx';
+import {isMobile} from 'src/utils/user_agent';
 
 import * as Emoticons from './emoticons';
 

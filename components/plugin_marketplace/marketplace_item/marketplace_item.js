@@ -17,8 +17,8 @@ import OverlayTrigger from 'components/overlay_trigger';
 import LoadingWrapper from 'components/widgets/loading/loading_wrapper.tsx';
 import PluginIcon from 'components/widgets/icons/plugin_icon.jsx';
 
-import {localizeMessage} from 'utils/utils';
-import {Constants} from 'utils/constants';
+import {localizeMessage} from 'src/utils/utils';
+import {Constants} from 'src/utils/constants';
 
 // UpdateVersion renders the version text in the update details, linking out to release notes if available.
 export const UpdateVersion = ({version, releaseNotesUrl}) => {

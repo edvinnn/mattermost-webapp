@@ -10,16 +10,16 @@ import {Dictionary} from 'mattermost-redux/src/types/utilities';
 import {AnalyticsRow} from 'mattermost-redux/types/admin';
 import {ActionFunc} from 'mattermost-redux/types/actions';
 
-import {getSiteURL} from 'utils/url';
-import {t} from 'utils/i18n';
-import {Constants, ModalIdentifiers, WarnMetricTypes} from 'utils/constants';
+import {getSiteURL} from 'src/utils/url';
+import {t} from 'src/utils/i18n';
+import {Constants, ModalIdentifiers, WarnMetricTypes} from 'src/utils/constants';
 
 import {trackEvent} from 'actions/telemetry_actions';
 import * as AdminActions from 'actions/admin_actions.jsx';
 
 const StatTypes = Constants.StatTypes;
 
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 
 import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
 import ErrorLink from 'components/error_page/error_link';

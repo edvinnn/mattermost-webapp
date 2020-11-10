@@ -3,8 +3,8 @@
 
 import assert from 'assert';
 
-import * as Markdown from 'utils/markdown';
-import {formatText} from 'utils/text_formatting';
+import * as Markdown from 'src/utils/markdown';
+import {formatText} from 'src/utils/text_formatting';
 
 describe('Markdown.Imgs', () => {
     it('Inline mage', (done) => {

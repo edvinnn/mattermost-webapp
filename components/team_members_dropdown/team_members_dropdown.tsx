@@ -10,8 +10,8 @@ import {UserProfile} from 'mattermost-redux/types/users';
 
 import {ActionFunc} from 'mattermost-redux/types/actions';
 
-import {browserHistory} from 'utils/browser_history';
-import * as Utils from 'utils/utils.jsx';
+import {browserHistory} from 'src/utils/browser_history';
+import * as Utils from 'src/utils/utils.jsx';
 import ConfirmModal from 'components/confirm_modal';
 import DropdownIcon from 'components/widgets/icons/fa_dropdown_icon';
 

@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 
 import Menu from 'components/widgets/menu/menu';
 

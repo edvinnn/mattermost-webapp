@@ -7,9 +7,9 @@ import {FormattedMessage} from 'react-intl';
 import {Modal} from 'react-bootstrap';
 
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import {Constants} from 'utils/constants';
-import {localizeMessage} from 'utils/utils.jsx';
-import {t} from 'utils/i18n';
+import {Constants} from 'src/utils/constants';
+import {localizeMessage} from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n';
 
 const INT32_MAX = 2147483647;
 

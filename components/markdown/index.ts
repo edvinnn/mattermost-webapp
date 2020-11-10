@@ -14,8 +14,8 @@ import {getAllUserMentionKeys} from 'mattermost-redux/selectors/entities/search'
 import {GlobalState} from 'mattermost-redux/types/store';
 
 import {getEmojiMap} from 'selectors/emojis';
-import {getSiteURL} from 'utils/url';
-import {ChannelNamesMap} from 'utils/text_formatting';
+import {getSiteURL} from 'src/utils/url';
+import {ChannelNamesMap} from 'src/utils/text_formatting';
 
 import Markdown from './markdown';
 

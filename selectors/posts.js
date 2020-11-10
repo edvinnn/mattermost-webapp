@@ -7,7 +7,7 @@ import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {getBool as getBoolPreference} from 'mattermost-redux/selectors/entities/preferences';
 
 import {getGlobalItem} from 'selectors/storage';
-import {Preferences, StoragePrefixes} from 'utils/constants';
+import {Preferences, StoragePrefixes} from 'src/utils/constants';
 
 export const getEditingPost = createSelector(
     (state) => {

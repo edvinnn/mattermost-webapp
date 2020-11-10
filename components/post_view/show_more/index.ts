@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 import {get} from 'mattermost-redux/selectors/entities/preferences';
 
 import {getIsRhsExpanded, getIsRhsOpen} from 'selectors/rhs';
-import {Preferences} from 'utils/constants';
+import {Preferences} from 'src/utils/constants';
 
 import {GlobalState} from 'types/store';
 

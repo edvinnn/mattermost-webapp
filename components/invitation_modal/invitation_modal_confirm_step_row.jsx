@@ -12,7 +12,7 @@ import GuestBadge from 'components/widgets/badges/guest_badge';
 import BotBadge from 'components/widgets/badges/bot_badge';
 import Avatar from 'components/widgets/users/avatar';
 
-import {imageURLForUser, isGuest, getLongDisplayName} from 'utils/utils.jsx';
+import {imageURLForUser, isGuest, getLongDisplayName} from 'src/utils/utils.jsx';
 
 import './invitation_modal_confirm_step_row.scss';
 

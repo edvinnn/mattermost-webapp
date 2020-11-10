@@ -7,9 +7,9 @@ import React from 'react';
 import ProfilePicture from 'components/profile_picture';
 import MattermostLogo from 'components/widgets/icons/mattermost_logo';
 
-import Constants, {UserStatuses} from 'utils/constants';
-import * as PostUtils from 'utils/post_utils';
-import * as Utils from 'utils/utils';
+import Constants, {UserStatuses} from 'src/utils/constants';
+import * as PostUtils from 'src/utils/post_utils';
+import * as Utils from 'src/utils/utils';
 
 export default class PostProfilePicture extends React.PureComponent {
     static propTypes = {

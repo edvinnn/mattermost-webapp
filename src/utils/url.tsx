@@ -4,8 +4,8 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import {latinise} from 'utils/latinise';
-import {t} from 'utils/i18n';
+import {latinise} from 'src/utils/latinise';
+import {t} from 'src/utils/i18n';
 
 type WindowObject = {
     location: {

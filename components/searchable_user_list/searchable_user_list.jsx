@@ -12,7 +12,7 @@ import QuickInput from 'components/quick_input';
 import UserList from 'components/user_list.jsx';
 import LocalizedInput from 'components/localized_input/localized_input';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 
 const NEXT_BUTTON_TIMEOUT = 500;
 

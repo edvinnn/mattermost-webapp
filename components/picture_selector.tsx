@@ -4,8 +4,8 @@
 import React, {useState, useEffect} from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import {localizeMessage} from 'utils/utils';
-import * as FileUtils from 'utils/file_utils';
+import {localizeMessage} from 'src/utils/utils';
+import * as FileUtils from 'src/utils/file_utils';
 
 import './picture_selector.scss';
 

@@ -6,8 +6,8 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
-import {Constants, Preferences, ModalIdentifiers} from 'utils/constants.jsx';
-import {useSafeUrl} from 'utils/url';
+import {Constants, Preferences, ModalIdentifiers} from 'src/utils/constants.jsx';
+import {useSafeUrl} from 'src/utils/url';
 import AppIcons from 'images/appIcons.png';
 import ModalToggleButtonRedux from 'components/toggle_modal_button_redux';
 import InvitationModal from 'components/invitation_modal';

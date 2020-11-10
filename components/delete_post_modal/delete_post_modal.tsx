@@ -8,8 +8,8 @@ import {matchPath} from 'react-router-dom';
 
 import {Post} from 'mattermost-redux/types/posts';
 
-import * as UserAgent from 'utils/user_agent';
-import {browserHistory} from 'utils/browser_history';
+import * as UserAgent from 'src/utils/user_agent';
+import {browserHistory} from 'src/utils/browser_history';
 
 const urlFormatForDMGMPermalink = '/:teamName/messages/:username/:postid';
 const urlFormatForChannelPermalink = '/:teamName/channels/:channelname/:postid';

@@ -4,12 +4,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 
 import AdminPanel from 'components/widgets/admin_console/admin_panel';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
 
-import * as Utils from 'utils/utils';
+import * as Utils from 'src/utils/utils';
 
 import TeamIcon from 'components/widgets/team_icon/team_icon';
 

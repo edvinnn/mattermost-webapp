@@ -4,7 +4,7 @@
 import React, {memo, ComponentProps} from 'react';
 import {useIntl} from 'react-intl';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 
 import SimpleTooltip, {useSynchronizedImmediate} from 'components/widgets/simple_tooltip';
 

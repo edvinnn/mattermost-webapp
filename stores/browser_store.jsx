@@ -1,12 +1,12 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 import * as Selectors from 'selectors/storage';
 import * as Actions from 'actions/storage';
 import store from 'stores/redux_store.jsx';
-import {ErrorPageTypes, StoragePrefixes, LandingPreferenceTypes} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import {ErrorPageTypes, StoragePrefixes, LandingPreferenceTypes} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 
 const dispatch = store.dispatch;
 const getState = store.getState;

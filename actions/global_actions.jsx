@@ -17,7 +17,7 @@ import {getCurrentUser, getCurrentUserId} from 'mattermost-redux/selectors/entit
 import {getCurrentChannelStats, getCurrentChannelId, getMyChannelMember, getRedirectChannelNameForTeam, getChannelsNameMapInTeam, getAllDirectChannels} from 'mattermost-redux/selectors/entities/channels';
 import {ChannelTypes} from 'mattermost-redux/action_types';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 import {handleNewPost} from 'actions/post_actions.jsx';
 import {stopPeriodicStatusUpdates} from 'actions/status_actions.jsx';
 import {loadProfilesForSidebar} from 'actions/user_actions.jsx';
@@ -33,9 +33,9 @@ import store from 'stores/redux_store.jsx';
 import LocalStorageStore from 'stores/local_storage_store';
 import WebSocketClient from 'client/web_websocket_client.jsx';
 
-import {ActionTypes, Constants, PostTypes, RHSStates, ModalIdentifiers} from 'utils/constants';
-import {filterAndSortTeamsByDisplayName} from 'utils/team_utils.jsx';
-import * as Utils from 'utils/utils.jsx';
+import {ActionTypes, Constants, PostTypes, RHSStates, ModalIdentifiers} from 'src/utils/constants';
+import {filterAndSortTeamsByDisplayName} from 'src/utils/team_utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 import SubMenuModal from '../components/widgets/menu/menu_modals/submenu_modal/submenu_modal';
 
 import {openModal} from './views/modals';

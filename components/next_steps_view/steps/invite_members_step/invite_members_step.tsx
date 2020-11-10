@@ -14,8 +14,8 @@ import {pageVisited, trackEvent} from 'actions/telemetry_actions';
 import {getAnalyticsCategory} from 'components/next_steps_view/step_helpers';
 import MultiInput from 'components/multi_input';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import {getSiteURL} from 'utils/url';
-import * as Utils from 'utils/utils';
+import {getSiteURL} from 'src/utils/url';
+import * as Utils from 'src/utils/utils';
 
 import {StepComponentProps} from '../../steps';
 

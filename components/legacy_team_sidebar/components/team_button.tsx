@@ -9,9 +9,9 @@ import {Draggable} from 'react-beautiful-dnd';
 import classNames from 'classnames';
 
 import {mark, trackEvent} from 'actions/telemetry_actions.jsx';
-import Constants from 'utils/constants';
-import {isDesktopApp} from 'utils/user_agent';
-import {isMac, localizeMessage} from 'utils/utils.jsx';
+import Constants from 'src/utils/constants';
+import {isDesktopApp} from 'src/utils/user_agent';
+import {isMac, localizeMessage} from 'src/utils/utils.jsx';
 import CopyUrlContextMenu from 'components/copy_url_context_menu';
 import OverlayTrigger from 'components/overlay_trigger';
 import TeamIcon from '../../widgets/team_icon/team_icon';

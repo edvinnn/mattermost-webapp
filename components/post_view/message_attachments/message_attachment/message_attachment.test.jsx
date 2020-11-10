@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 
 import ExternalImage from 'components/external_image';
 import MessageAttachment from 'components/post_view/message_attachments/message_attachment/message_attachment.jsx';

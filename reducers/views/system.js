@@ -3,7 +3,7 @@
 
 import {combineReducers} from 'redux';
 
-import {ActionTypes} from 'utils/constants';
+import {ActionTypes} from 'src/utils/constants';
 
 function websocketConnectionErrorCount(state = 0, action) {
     switch (action.type) {

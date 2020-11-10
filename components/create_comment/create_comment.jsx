@@ -12,10 +12,10 @@ import {sortFileInfos} from 'mattermost-redux/utils/file_utils';
 
 import * as GlobalActions from 'actions/global_actions.jsx';
 
-import Constants, {Locations} from 'utils/constants';
-import {intlShape} from 'utils/react_intl';
-import * as UserAgent from 'utils/user_agent';
-import * as Utils from 'utils/utils.jsx';
+import Constants, {Locations} from 'src/utils/constants';
+import {intlShape} from 'src/utils/react_intl';
+import * as UserAgent from 'src/utils/user_agent';
+import * as Utils from 'src/utils/utils.jsx';
 import {
     containsAtChannel,
     postMessageOnKeyPress,
@@ -23,8 +23,8 @@ import {
     isErrorInvalidSlashCommand,
     splitMessageBasedOnCaretPosition,
     groupsMentionedInText,
-} from 'utils/post_utils.jsx';
-import {getTable, formatMarkdownTableMessage, isGitHubCodeBlock, formatGithubCodePaste} from 'utils/paste';
+} from 'src/utils/post_utils.jsx';
+import {getTable, formatMarkdownTableMessage, isGitHubCodeBlock, formatGithubCodePaste} from 'src/utils/paste';
 
 import ConfirmModal from 'components/confirm_modal';
 import EmojiPickerOverlay from 'components/emoji_picker/emoji_picker_overlay.jsx';

@@ -12,9 +12,9 @@ import * as ReduxPostUtils from 'mattermost-redux/utils/post_utils';
 import {Post} from 'mattermost-redux/types/posts';
 import {ExtendedPost} from 'mattermost-redux/actions/posts';
 
-import * as PostUtils from 'utils/post_utils.jsx';
-import * as Utils from 'utils/utils.jsx';
-import Constants, {Locations} from 'utils/constants';
+import * as PostUtils from 'src/utils/post_utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
+import Constants, {Locations} from 'src/utils/constants';
 import CommentIcon from 'components/common/comment_icon';
 import DotMenu from 'components/dot_menu';
 import OverlayTrigger from 'components/overlay_trigger';

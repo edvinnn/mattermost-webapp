@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 import PropTypes from 'prop-types';
 
 import SaveButton from 'components/save_button';
-import {localizeMessage} from 'utils/utils';
+import {localizeMessage} from 'src/utils/utils';
 import BlockableLink from 'components/admin_console/blockable_link';
 
 export default function SaveChangesPanel({saveNeeded, onClick, saving, serverError, cancelLink, isDisabled}) {

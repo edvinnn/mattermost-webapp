@@ -4,7 +4,7 @@
 import React from 'react';
 import {useIntl} from 'react-intl';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 
 export default function CloseIcon(props) {
     const {formatMessage} = useIntl();

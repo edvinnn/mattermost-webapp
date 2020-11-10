@@ -17,8 +17,8 @@ import {markPostAsUnread, emitShortcutReactToLastPostFrom} from 'actions/post_ac
 import {isEmbedVisible} from 'selectors/posts';
 import {getEmojiMap} from 'selectors/emojis';
 
-import {isArchivedChannel} from 'utils/channel_utils';
-import {Preferences} from 'utils/constants';
+import {isArchivedChannel} from 'src/utils/channel_utils';
+import {Preferences} from 'src/utils/constants';
 
 import {getShortcutReactToLastPostEmittedFrom} from 'selectors/emojis.js';
 

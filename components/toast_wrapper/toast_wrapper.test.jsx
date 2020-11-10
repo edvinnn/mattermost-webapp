@@ -7,8 +7,8 @@ import {DATE_LINE} from 'mattermost-redux/utils/post_list';
 
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
-import {PostListRowListIds} from 'utils/constants';
-import {browserHistory} from 'utils/browser_history';
+import {PostListRowListIds} from 'src/utils/constants';
+import {browserHistory} from 'src/utils/browser_history';
 
 import ToastWrapper from './toast_wrapper.jsx';
 

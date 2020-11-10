@@ -7,7 +7,7 @@ import {shallow} from 'enzyme';
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 
 import GenericModal from 'components/generic_modal';
-import {isDesktopApp, getDesktopVersion} from 'utils/user_agent';
+import {isDesktopApp, getDesktopVersion} from 'src/utils/user_agent';
 
 import ProductNoticesModal from './product_notices_modal';
 

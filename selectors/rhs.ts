@@ -10,8 +10,8 @@ import {Channel} from 'mattermost-redux/types/channels';
 import {$ID} from 'mattermost-redux/types/utilities';
 
 import {makeGetGlobalItem} from 'selectors/storage';
-import {PostTypes} from 'utils/constants';
-import {localizeMessage} from 'utils/utils.jsx';
+import {PostTypes} from 'src/utils/constants';
+import {localizeMessage} from 'src/utils/utils.jsx';
 import {GlobalState} from 'types/store';
 import {RhsState, FakePost, PostDraft} from 'types/store/rhs';
 

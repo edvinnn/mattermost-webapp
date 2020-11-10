@@ -7,10 +7,10 @@ import {Posts} from 'mattermost-redux/constants';
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
 import RhsRootPost from 'components/rhs_root_post/rhs_root_post.jsx';
-import EmojiMap from 'utils/emoji_map';
+import EmojiMap from 'src/utils/emoji_map';
 import PostFlagIcon from 'components/post_view/post_flag_icon';
 import PostPreHeader from 'components/post_view/post_pre_header';
-import {Locations} from 'utils/constants';
+import {Locations} from 'src/utils/constants';
 
 jest.mock('utils/post_utils.jsx', () => ({
     isEdited: jest.fn().mockReturnValue(true),

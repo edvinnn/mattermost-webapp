@@ -4,7 +4,7 @@
 import * as yup from 'yup';
 
 import adminDefinition from 'components/admin_console/admin_definition.jsx';
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 
 const baseShape = {
     label: yup.string().required(),

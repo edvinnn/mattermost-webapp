@@ -14,7 +14,7 @@ import {openModal, closeModal} from 'actions/views/modals';
 import {setShowNextStepsView} from 'actions/views/next_steps';
 import {showNextSteps, showNextStepsTips} from 'components/next_steps_view/steps';
 import {GlobalState} from 'types/store';
-import {Preferences} from 'utils/constants';
+import {Preferences} from 'src/utils/constants';
 
 import SidebarNextSteps from './sidebar_next_steps';
 

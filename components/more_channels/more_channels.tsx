@@ -9,14 +9,14 @@ import {Channel} from 'mattermost-redux/types/channels';
 import {ActionFunc, ActionResult} from 'mattermost-redux/types/actions';
 import Permissions from 'mattermost-redux/constants/permissions';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 
-import {getRelativeChannelURL} from 'utils/url';
+import {getRelativeChannelURL} from 'src/utils/url';
 
 import NewChannelFlow from 'components/new_channel_flow';
 import SearchableChannelList from 'components/searchable_channel_list.jsx';
 import TeamPermissionGate from 'components/permissions_gates/team_permission_gate';
-import {ModalIdentifiers} from 'utils/constants';
+import {ModalIdentifiers} from 'src/utils/constants';
 
 const CHANNELS_CHUNK_SIZE = 50;
 const CHANNELS_PER_PAGE = 50;

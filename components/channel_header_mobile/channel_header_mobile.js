@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import {MobileChannelHeaderDropdown} from 'components/channel_header_dropdown';
 import MobileChannelHeaderPlug from 'plugins/mobile_channel_header_plug';
 
-import * as Utils from 'utils/utils';
+import * as Utils from 'src/utils/utils';
 
 import CollapseLhsButton from './collapse_lhs_button';
 import CollapseRhsButton from './collapse_rhs_button';

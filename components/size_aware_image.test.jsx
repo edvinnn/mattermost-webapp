@@ -9,7 +9,7 @@ import LoadingImagePreview from 'components/loading_image_preview';
 
 jest.mock('utils/image_utils');
 
-import {loadImage} from 'utils/image_utils';
+import {loadImage} from 'src/utils/image_utils';
 
 describe('components/SizeAwareImage', () => {
     const baseProps = {

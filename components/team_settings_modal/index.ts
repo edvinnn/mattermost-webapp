@@ -3,7 +3,7 @@
 
 import {connect} from 'react-redux';
 
-import {ModalIdentifiers} from 'utils/constants';
+import {ModalIdentifiers} from 'src/utils/constants';
 import {isModalOpen} from 'selectors/views/modals';
 
 import {GlobalState} from 'types/store';

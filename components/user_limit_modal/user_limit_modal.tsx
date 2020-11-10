@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 
 import {trackEvent, pageVisited} from 'actions/telemetry_actions';
 
-import {ModalIdentifiers, TELEMETRY_CATEGORIES} from 'utils/constants';
+import {ModalIdentifiers, TELEMETRY_CATEGORIES} from 'src/utils/constants';
 import PurchaseModal from 'components/purchase_modal';
 
 import UpgradeUserLimitModalSvg from './user_limit_upgrade_svg';

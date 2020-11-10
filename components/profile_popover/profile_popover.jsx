@@ -11,12 +11,12 @@ import EventEmitter from 'mattermost-redux/utils/event_emitter';
 import Timestamp from 'components/timestamp';
 import OverlayTrigger from 'components/overlay_trigger';
 import UserSettingsModal from 'components/user_settings/modal';
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 import * as GlobalActions from 'actions/global_actions.jsx';
-import Constants, {ModalIdentifiers, UserStatuses} from 'utils/constants';
-import {t} from 'utils/i18n';
-import {intlShape} from 'utils/react_intl';
-import * as Utils from 'utils/utils.jsx';
+import Constants, {ModalIdentifiers, UserStatuses} from 'src/utils/constants';
+import {t} from 'src/utils/i18n';
+import {intlShape} from 'src/utils/react_intl';
+import * as Utils from 'src/utils/utils.jsx';
 import Pluggable from 'plugins/pluggable';
 
 import AddUserToChannelModal from 'components/add_user_to_channel_modal';

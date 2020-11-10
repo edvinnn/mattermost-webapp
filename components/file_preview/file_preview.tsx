@@ -7,8 +7,8 @@ import {getFileThumbnailUrl, getFileUrl} from 'mattermost-redux/utils/file_utils
 import {FileInfo} from 'mattermost-redux/types/files';
 
 import FilenameOverlay from 'components/file_attachment/filename_overlay';
-import Constants, {FileTypes} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import Constants, {FileTypes} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 
 import FileProgressPreview from './file_progress_preview';
 

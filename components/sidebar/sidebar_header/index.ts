@@ -7,8 +7,8 @@ import {getCurrentUser} from 'mattermost-redux/selectors/entities/users';
 import {getInt} from 'mattermost-redux/selectors/entities/preferences';
 
 import {GlobalState} from 'types/store';
-import {Preferences, TutorialSteps} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import {Preferences, TutorialSteps} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 
 import SidebarHeader from './sidebar_header';
 

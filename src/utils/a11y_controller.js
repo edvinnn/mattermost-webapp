@@ -1,9 +1,9 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import Constants, {EventTypes, A11yClassNames, A11yAttributeNames, A11yCustomEventTypes} from 'utils/constants';
-import {isKeyPressed, cmdOrCtrlPressed, isMac} from 'utils/utils';
-import {isDesktopApp} from 'utils/user_agent';
+import Constants, {EventTypes, A11yClassNames, A11yAttributeNames, A11yCustomEventTypes} from 'src/utils/constants';
+import {isKeyPressed, cmdOrCtrlPressed, isMac} from 'src/utils/utils';
+import {isDesktopApp} from 'src/utils/user_agent';
 
 const listenerOptions = {
     capture: true,

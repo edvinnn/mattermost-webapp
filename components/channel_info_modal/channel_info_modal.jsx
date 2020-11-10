@@ -12,9 +12,9 @@ import GlobeIcon from 'components/widgets/icons/globe_icon';
 import LockIcon from 'components/widgets/icons/lock_icon';
 import ArchiveIcon from 'components/widgets/icons/archive_icon';
 
-import Constants from 'utils/constants.jsx';
-import {getSiteURL} from 'utils/url';
-import * as Utils from 'utils/utils.jsx';
+import Constants from 'src/utils/constants.jsx';
+import {getSiteURL} from 'src/utils/url';
+import * as Utils from 'src/utils/utils.jsx';
 
 const headerMarkdownOptions = {singleline: false, mentionHighlight: false};
 

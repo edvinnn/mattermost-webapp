@@ -6,7 +6,7 @@ import {combineReducers} from 'redux';
 import {GenericAction} from 'mattermost-redux/types/actions';
 import {UserTypes} from 'mattermost-redux/action_types';
 
-import {ActionTypes} from 'utils/constants';
+import {ActionTypes} from 'src/utils/constants';
 
 export function show(state = false, action: GenericAction) {
     switch (action.type) {

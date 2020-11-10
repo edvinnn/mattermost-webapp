@@ -11,7 +11,7 @@ import {FormattedMessage} from 'react-intl';
 
 import HeaderIconWrapper from 'components/channel_header/components/header_icon_wrapper';
 import PluginChannelHeaderIcon from '../../components/widgets/icons/plugin_channel_header_icon';
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 import OverlayTrigger from 'components/overlay_trigger';
 
 class CustomMenu extends React.PureComponent {

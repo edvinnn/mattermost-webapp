@@ -1,8 +1,8 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {ErrorPageTypes} from 'utils/constants';
-import {isGuest} from 'utils/utils.jsx';
+import {ErrorPageTypes} from 'src/utils/constants';
+import {isGuest} from 'src/utils/utils.jsx';
 
 export function importComponentSuccess(callback) {
     return (comp) => callback(null, comp.default);

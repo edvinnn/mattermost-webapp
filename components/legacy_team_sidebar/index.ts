@@ -22,7 +22,7 @@ import {GenericAction} from 'mattermost-redux/types/actions';
 import {getCurrentLocale} from 'selectors/i18n';
 import {getIsLhsOpen} from 'selectors/lhs';
 import {switchTeam, updateTeamsOrderForUser} from 'actions/team_actions.jsx';
-import {Preferences} from 'utils/constants.jsx';
+import {Preferences} from 'src/utils/constants.jsx';
 import {GlobalState} from 'types/store';
 
 import LegacyTeamSidebar from './legacy_team_sidebar_controller';

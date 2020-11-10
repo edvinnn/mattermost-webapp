@@ -7,8 +7,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {FormattedMessage} from 'react-intl';
 
-import {isEmptyObject, windowHeight} from 'utils/utils.jsx';
-import {Constants} from 'utils/constants.jsx';
+import {isEmptyObject, windowHeight} from 'src/utils/utils.jsx';
+import {Constants} from 'src/utils/constants.jsx';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import LoadingSpinner from 'components/widgets/loading/loading_spinner';
 

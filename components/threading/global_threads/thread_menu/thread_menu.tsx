@@ -4,7 +4,7 @@
 import React, {memo, PropsWithChildren} from 'react';
 import {useIntl} from 'react-intl';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 
 import Menu from 'components/widgets/menu/menu';
 import MenuWrapper from 'components/widgets/menu/menu_wrapper';

@@ -9,8 +9,8 @@ import {OutgoingWebhook} from 'mattermost-redux/types/integrations';
 import EditOutgoingWebhook
     from 'components/integrations/edit_outgoing_webhook/edit_outgoing_webhook';
 
-import {browserHistory} from 'utils/browser_history';
-import {TestHelper} from 'utils/test_helper';
+import {browserHistory} from 'src/utils/browser_history';
+import {TestHelper} from 'src/utils/test_helper';
 
 describe('components/integrations/EditOutgoingWebhook', () => {
     const team = TestHelper.getTeamMock();

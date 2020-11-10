@@ -14,9 +14,9 @@ import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import OverlayTrigger from 'components/overlay_trigger';
 import {getCurrentLocale} from 'selectors/i18n';
 import {GlobalState} from 'types/store';
-import {getMonthLong} from 'utils/i18n';
-import {CloudLinks} from 'utils/constants';
-import {localizeMessage} from 'utils/utils';
+import {getMonthLong} from 'src/utils/i18n';
+import {CloudLinks} from 'src/utils/constants';
+import {localizeMessage} from 'src/utils/utils';
 
 import './plan_details.scss';
 

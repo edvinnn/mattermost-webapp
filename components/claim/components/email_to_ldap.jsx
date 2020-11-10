@@ -6,8 +6,8 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
 import {emailToLdap} from 'actions/admin_actions.jsx';
-import * as Utils from 'utils/utils.jsx';
-import {t} from 'utils/i18n.jsx';
+import * as Utils from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n.jsx';
 import LoginMfa from 'components/login/login_mfa.jsx';
 import LocalizedInput from 'components/localized_input/localized_input';
 

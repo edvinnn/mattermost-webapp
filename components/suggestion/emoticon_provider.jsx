@@ -10,8 +10,8 @@ import {getEmojiMap, getRecentEmojis} from 'selectors/emojis';
 
 import store from 'stores/redux_store.jsx';
 
-import * as Emoticons from 'utils/emoticons';
-import {compareEmojis} from 'utils/emoji_utils';
+import * as Emoticons from 'src/utils/emoticons';
+import {compareEmojis} from 'src/utils/emoji_utils';
 
 import Suggestion from './suggestion.jsx';
 import Provider from './provider.jsx';

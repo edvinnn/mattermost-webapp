@@ -8,8 +8,8 @@ import {Client4} from 'mattermost-redux/client';
 
 import Root from 'components/root/root';
 import * as GlobalActions from 'actions/global_actions.jsx';
-import * as Utils from 'utils/utils';
-import Constants, {StoragePrefixes} from 'utils/constants';
+import * as Utils from 'src/utils/utils';
+import Constants, {StoragePrefixes} from 'src/utils/constants';
 
 jest.mock('fastclick', () => ({
     attach: () => {}, // eslint-disable-line no-empty-function

@@ -12,7 +12,7 @@ import PDFJS from 'pdfjs-dist';
 import 'sass/styles.scss';
 import 'katex/dist/katex.min.css';
 
-import {isDevMode, setCSRFFromCookie} from 'utils/utils';
+import {isDevMode, setCSRFFromCookie} from 'src/utils/utils';
 import store from 'stores/redux_store.jsx';
 import App from 'components/app';
 

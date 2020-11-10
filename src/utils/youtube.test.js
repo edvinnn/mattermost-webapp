@@ -1,7 +1,7 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {handleYoutubeTime} from 'utils/youtube';
+import {handleYoutubeTime} from 'src/utils/youtube';
 
 describe('Utils.YOUTUBE', () => {
     test('should correctly parse youtube start time formats', () => {

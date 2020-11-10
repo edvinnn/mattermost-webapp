@@ -6,16 +6,16 @@ import React, {PureComponent} from 'react';
 import ReactDOM from 'react-dom';
 import {defineMessages, FormattedMessage, injectIntl} from 'react-intl';
 
-import dragster from 'utils/dragster';
-import Constants from 'utils/constants';
-import DelayedAction from 'utils/delayed_action';
-import {t} from 'utils/i18n';
+import dragster from 'src/utils/dragster';
+import Constants from 'src/utils/constants';
+import DelayedAction from 'src/utils/delayed_action';
+import {t} from 'src/utils/i18n';
 import {
     isIosChrome,
     isMobileApp,
-} from 'utils/user_agent';
-import {getTable} from 'utils/paste';
-import {intlShape} from 'utils/react_intl';
+} from 'src/utils/user_agent';
+import {getTable} from 'src/utils/paste';
+import {intlShape} from 'src/utils/react_intl';
 import {
     clearFileInput,
     cmdOrCtrlPressed,
@@ -24,7 +24,7 @@ import {
     isFileTransfer,
     isUriDrop,
     localizeMessage,
-} from 'utils/utils.jsx';
+} from 'src/utils/utils.jsx';
 
 import MenuWrapper from 'components/widgets/menu/menu_wrapper';
 import Menu from 'components/widgets/menu/menu';

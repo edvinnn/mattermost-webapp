@@ -3,7 +3,7 @@
 
 import {combineReducers} from 'redux';
 
-import {ActionTypes, ModalIdentifiers} from 'utils/constants';
+import {ActionTypes, ModalIdentifiers} from 'src/utils/constants';
 
 // plugins tracks the set of marketplace plugins returned by the server
 function plugins(state = [], action) {

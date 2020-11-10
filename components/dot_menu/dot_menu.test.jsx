@@ -4,7 +4,7 @@
 import {shallow} from 'enzyme';
 import React from 'react';
 
-import {Locations, PostTypes} from 'utils/constants';
+import {Locations, PostTypes} from 'src/utils/constants';
 
 import DotMenu, {PLUGGABLE_COMPONENT} from './dot_menu';
 

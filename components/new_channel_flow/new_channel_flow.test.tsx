@@ -7,8 +7,8 @@ import assert from 'assert';
 
 import {ChannelType, Channel} from 'mattermost-redux/types/channels';
 
-import * as Utils from 'utils/utils';
-import Constants from 'utils/constants';
+import * as Utils from 'src/utils/utils';
+import Constants from 'src/utils/constants';
 import NewChannelFlow, {
     SHOW_NEW_CHANNEL,
     SHOW_EDIT_URL,

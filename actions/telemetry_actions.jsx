@@ -3,7 +3,7 @@
 
 import {Client4} from 'mattermost-redux/client';
 
-import {isDevMode} from 'utils/utils';
+import {isDevMode} from 'src/utils/utils';
 
 const SUPPORTS_CLEAR_MARKS = isSupported([performance.clearMarks]);
 const SUPPORTS_MARK = isSupported([performance.mark]);

@@ -7,7 +7,7 @@ import React from 'react';
 import MenuWrapper from 'components/widgets/menu/menu_wrapper';
 import Menu from 'components/widgets/menu/menu';
 
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 
 export default class ManageTeamsDropdown extends React.PureComponent {
     static propTypes = {

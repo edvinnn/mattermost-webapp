@@ -11,9 +11,9 @@ import {isEmail} from 'mattermost-redux/utils/helpers';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 import * as GlobalActions from 'actions/global_actions.jsx';
-import {browserHistory} from 'utils/browser_history';
-import Constants, {ValidationErrors} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import {browserHistory} from 'src/utils/browser_history';
+import Constants, {ValidationErrors} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 
 import logoImage from 'images/logo.png';
 

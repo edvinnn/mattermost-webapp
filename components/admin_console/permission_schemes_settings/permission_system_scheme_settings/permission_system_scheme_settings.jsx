@@ -9,9 +9,9 @@ import GeneralConstants from 'mattermost-redux/constants/general';
 
 import ConfirmModal from 'components/confirm_modal';
 
-import {PermissionsScope, DefaultRolePermissions} from 'utils/constants';
-import {localizeMessage} from 'utils/utils.jsx';
-import {t} from 'utils/i18n';
+import {PermissionsScope, DefaultRolePermissions} from 'src/utils/constants';
+import {localizeMessage} from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n';
 
 import SaveButton from 'components/save_button';
 import LoadingScreen from 'components/loading_screen';

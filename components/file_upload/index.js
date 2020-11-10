@@ -9,7 +9,7 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
 import {uploadFile, handleFileUploadEnd} from 'actions/file_actions.jsx';
 import {getCurrentLocale} from 'selectors/i18n';
-import {canUploadFiles} from 'utils/file_utils';
+import {canUploadFiles} from 'src/utils/file_utils';
 
 import FileUpload from './file_upload.jsx';
 

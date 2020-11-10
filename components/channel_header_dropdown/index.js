@@ -22,8 +22,8 @@ import {
 
 import {getPenultimateViewedChannelName} from 'selectors/local_storage';
 
-import {Constants} from 'utils/constants';
-import * as Utils from 'utils/utils';
+import {Constants} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils';
 
 import Desktop from './channel_header_dropdown';
 import Items from './channel_header_dropdown_items';

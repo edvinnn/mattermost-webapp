@@ -4,8 +4,8 @@
 import React from 'react';
 
 import ChannelView from 'components/channel_view/index';
-import {browserHistory} from 'utils/browser_history';
-import Constants from 'utils/constants.jsx';
+import {browserHistory} from 'src/utils/browser_history';
+import Constants from 'src/utils/constants.jsx';
 
 export interface Match {
     params: {

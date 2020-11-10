@@ -5,7 +5,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 import AdminPanel from 'components/widgets/admin_console/admin_panel';
 
 import ToggleModalButton from 'components/toggle_modal_button.jsx';

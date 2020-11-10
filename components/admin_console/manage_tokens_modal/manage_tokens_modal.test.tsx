@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import {TestHelper} from 'utils/test_helper';
+import {TestHelper} from 'src/utils/test_helper';
 
 import ManageTokensModal from './manage_tokens_modal';
 

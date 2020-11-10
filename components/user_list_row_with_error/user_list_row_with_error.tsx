@@ -10,7 +10,7 @@ import {Channel, ChannelMembership} from 'mattermost-redux/types/channels';
 import {ConnectedComponent} from 'react-redux';
 import {ServerError} from 'mattermost-redux/types/errors';
 
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 import ProfilePicture from 'components/profile_picture';
 import BotBadge from 'components/widgets/badges/bot_badge';
 

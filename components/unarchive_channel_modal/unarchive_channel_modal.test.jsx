@@ -5,7 +5,7 @@ import React from 'react';
 import {shallow} from 'enzyme';
 import {Modal} from 'react-bootstrap';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 
 import UnarchiveChannelModal from './unarchive_channel_modal';
 

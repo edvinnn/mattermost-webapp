@@ -1,7 +1,7 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {SearchTypes} from 'utils/constants';
+import {SearchTypes} from 'src/utils/constants';
 
 export function setModalSearchTerm(term) {
     return {

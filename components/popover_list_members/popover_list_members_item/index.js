@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 import {connect} from 'react-redux';
 
-import {getDisplayNameByUser} from 'utils/utils.jsx';
+import {getDisplayNameByUser} from 'src/utils/utils.jsx';
 
 import PopoverListMembersItem from './popover_list_members_item.jsx';
 

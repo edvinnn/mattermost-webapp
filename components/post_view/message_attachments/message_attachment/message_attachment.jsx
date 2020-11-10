@@ -6,10 +6,10 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import truncate from 'lodash/truncate';
 
-import {isUrlSafe} from 'utils/url';
-import {Constants} from 'utils/constants';
-import * as Utils from 'utils/utils';
-import LinkOnlyRenderer from 'utils/markdown/link_only_renderer';
+import {isUrlSafe} from 'src/utils/url';
+import {Constants} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils';
+import LinkOnlyRenderer from 'src/utils/markdown/link_only_renderer';
 
 import ExternalImage from 'components/external_image';
 import Markdown from 'components/markdown';

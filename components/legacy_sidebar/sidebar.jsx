@@ -14,11 +14,11 @@ import {SpringSystem, MathUtil} from 'rebound';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 import {redirectUserToDefaultTeam} from 'actions/global_actions';
-import * as ChannelUtils from 'utils/channel_utils.jsx';
-import {Constants, ModalIdentifiers, SidebarChannelGroups} from 'utils/constants';
-import {intlShape} from 'utils/react_intl';
-import * as Utils from 'utils/utils.jsx';
-import {t} from 'utils/i18n';
+import * as ChannelUtils from 'src/utils/channel_utils.jsx';
+import {Constants, ModalIdentifiers, SidebarChannelGroups} from 'src/utils/constants';
+import {intlShape} from 'src/utils/react_intl';
+import * as Utils from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n';
 
 import DataPrefetch from 'components/data_prefetch';
 import MoreChannels from 'components/more_channels';

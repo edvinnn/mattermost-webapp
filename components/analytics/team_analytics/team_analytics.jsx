@@ -12,13 +12,13 @@ import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 
 import * as AdminActions from 'actions/admin_actions';
 import BrowserStore from 'stores/browser_store';
-import {StatTypes} from 'utils/constants';
+import {StatTypes} from 'src/utils/constants';
 import Banner from 'components/admin_console/banner';
 import LineChart from 'components/analytics/line_chart';
 import StatisticCount from 'components/analytics/statistic_count';
 import TableChart from 'components/analytics/table_chart';
 
-import {getMonthLong} from 'utils/i18n';
+import {getMonthLong} from 'src/utils/i18n';
 
 import {formatPostsPerDayData, formatUsersWithPostsPerDayData} from '../format';
 

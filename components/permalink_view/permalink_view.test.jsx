@@ -8,8 +8,8 @@ import configureStore from 'redux-mock-store';
 
 import {getPostThread} from 'mattermost-redux/actions/posts';
 
-import {ErrorPageTypes} from 'utils/constants';
-import {browserHistory} from 'utils/browser_history';
+import {ErrorPageTypes} from 'src/utils/constants';
+import {browserHistory} from 'src/utils/browser_history';
 
 import {focusPost} from 'components/permalink_view/actions';
 import PermalinkView from 'components/permalink_view/permalink_view.jsx';

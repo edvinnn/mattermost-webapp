@@ -65,7 +65,7 @@ import {incrementWsErrorCount, resetWsErrorCount} from 'actions/views/system';
 import {closeRightHandSide} from 'actions/views/rhs';
 import {syncPostsInChannel} from 'actions/views/channel';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 import {loadChannelsForCurrentUser} from 'actions/channel_actions.jsx';
 import {redirectUserToDefaultTeam} from 'actions/global_actions.jsx';
 import {handleNewPost} from 'actions/post_actions.jsx';
@@ -74,9 +74,9 @@ import {loadProfilesForSidebar} from 'actions/user_actions.jsx';
 import store from 'stores/redux_store.jsx';
 import WebSocketClient from 'client/web_websocket_client.jsx';
 import {loadPlugin, loadPluginsIfNecessary, removePlugin} from 'plugins';
-import {ActionTypes, Constants, AnnouncementBarMessages, SocketEvents, UserStatuses, ModalIdentifiers, WarnMetricTypes} from 'utils/constants';
-import {getSiteURL} from 'utils/url';
-import {isGuest} from 'utils/utils';
+import {ActionTypes, Constants, AnnouncementBarMessages, SocketEvents, UserStatuses, ModalIdentifiers, WarnMetricTypes} from 'src/utils/constants';
+import {getSiteURL} from 'src/utils/url';
+import {isGuest} from 'src/utils/utils';
 import RemovedFromChannelModal from 'components/removed_from_channel_modal';
 import InteractiveDialog from 'components/interactive_dialog';
 

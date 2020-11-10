@@ -4,9 +4,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {NotificationLevels} from 'utils/constants';
+import {NotificationLevels} from 'src/utils/constants';
 
-import {localizeMessage} from 'utils/utils';
+import {localizeMessage} from 'src/utils/utils';
 
 import Menu from 'components/widgets/menu/menu';
 

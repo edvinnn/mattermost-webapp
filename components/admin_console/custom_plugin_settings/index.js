@@ -6,8 +6,8 @@ import {createSelector} from 'reselect';
 
 import {getRoles} from 'mattermost-redux/selectors/entities/roles';
 
-import {Constants} from 'utils/constants';
-import {localizeMessage} from 'utils/utils.jsx';
+import {Constants} from 'src/utils/constants';
+import {localizeMessage} from 'src/utils/utils.jsx';
 
 import {getAdminConsoleCustomComponents} from 'selectors/admin_console';
 import SchemaAdminSettings from '../schema_admin_settings';

@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import SystemUserDetail from 'components/admin_console/system_user_detail/system_user_detail';
 
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 
 jest.mock('actions/admin_actions.jsx');
 

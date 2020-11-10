@@ -6,9 +6,9 @@ import React from 'react';
 import {Client4} from 'mattermost-redux/client';
 import {FormattedDate, FormattedMessage, FormattedTime, injectIntl} from 'react-intl';
 
-import {JobStatuses, exportFormats, JobTypes} from 'utils/constants';
-import {intlShape} from 'utils/react_intl';
-import * as Utils from 'utils/utils.jsx';
+import {JobStatuses, exportFormats, JobTypes} from 'src/utils/constants';
+import {intlShape} from 'src/utils/react_intl';
+import * as Utils from 'src/utils/utils.jsx';
 
 class JobTable extends React.PureComponent {
     static propTypes = {

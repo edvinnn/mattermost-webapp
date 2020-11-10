@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 
 import OverlayTrigger from 'components/overlay_trigger';
 
-import Constants, {RHSStates} from 'utils/constants';
+import Constants, {RHSStates} from 'src/utils/constants';
 
 export default class RhsCardHeader extends React.PureComponent {
     static propTypes = {

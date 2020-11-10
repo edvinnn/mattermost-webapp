@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import {ModalIdentifiers} from 'utils/constants';
-import * as Utils from 'utils/utils';
+import {ModalIdentifiers} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils';
 
 import EditChannelHeaderModal from 'components/edit_channel_header_modal';
 import Markdown from 'components/markdown';

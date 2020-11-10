@@ -6,11 +6,11 @@ import PropTypes from 'prop-types';
 
 import {FormattedMessage, injectIntl} from 'react-intl';
 
-import {isLicenseExpired, isLicenseExpiring, isLicensePastGracePeriod} from 'utils/license_utils.jsx';
-import {AnnouncementBarTypes, AnnouncementBarMessages, WarnMetricTypes} from 'utils/constants';
-import {intlShape} from 'utils/react_intl';
+import {isLicenseExpired, isLicenseExpiring, isLicensePastGracePeriod} from 'src/utils/license_utils.jsx';
+import {AnnouncementBarTypes, AnnouncementBarMessages, WarnMetricTypes} from 'src/utils/constants';
+import {intlShape} from 'src/utils/react_intl';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 

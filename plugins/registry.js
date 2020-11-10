@@ -24,8 +24,8 @@ import {
 } from 'actions/admin_actions';
 
 import store from 'stores/redux_store.jsx';
-import {ActionTypes} from 'utils/constants';
-import {generateId} from 'utils/utils.jsx';
+import {ActionTypes} from 'src/utils/constants';
+import {generateId} from 'src/utils/utils.jsx';
 
 function dispatchPluginComponentAction(name, pluginId, component, id = generateId()) {
     store.dispatch({

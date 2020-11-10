@@ -4,7 +4,7 @@
 import assert from 'assert';
 
 import storageReducer from 'reducers/storage';
-import {StorageTypes} from 'utils/constants';
+import {StorageTypes} from 'src/utils/constants';
 
 describe('Reducers.Storage', () => {
     const now = new Date();

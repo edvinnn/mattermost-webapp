@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import {searchHintOptions} from 'utils/constants';
+import {searchHintOptions} from 'src/utils/constants';
 
 import SearchHint from 'components/search_hint/search_hint';
 

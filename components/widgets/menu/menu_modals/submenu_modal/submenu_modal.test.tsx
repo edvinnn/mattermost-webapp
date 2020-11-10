@@ -5,7 +5,7 @@ import React from 'react';
 import {shallow, mount} from 'enzyme';
 import {Modal} from 'react-bootstrap';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 
 import SubMenuModal from 'components/widgets/menu/menu_modals/submenu_modal/submenu_modal';
 

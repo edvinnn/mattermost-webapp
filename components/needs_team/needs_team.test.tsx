@@ -5,7 +5,7 @@ import React from 'react';
 import {shallow, ShallowWrapper} from 'enzyme';
 import {TeamType} from 'mattermost-redux/types/teams';
 
-import {TestHelper} from 'utils/test_helper';
+import {TestHelper} from 'src/utils/test_helper';
 
 import NeedsTeam from 'components/needs_team/needs_team';
 

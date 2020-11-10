@@ -6,9 +6,9 @@ import React, {Component} from 'react';
 import {FormattedMessage} from 'react-intl';
 import {Tooltip} from 'react-bootstrap';
 
-import {Constants} from 'utils/constants';
-import {localizeMessage} from 'utils/utils.jsx';
-import * as FileUtils from 'utils/file_utils.jsx';
+import {Constants} from 'src/utils/constants';
+import {localizeMessage} from 'src/utils/utils.jsx';
+import * as FileUtils from 'src/utils/file_utils.jsx';
 
 import FormError from 'components/form_error';
 import OverlayTrigger from 'components/overlay_trigger';

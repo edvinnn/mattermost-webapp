@@ -1,7 +1,7 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {latinise} from 'utils/latinise';
+import {latinise} from 'src/utils/latinise';
 
 describe('Latinise', () => {
     test('should return ascii version of Dév Spé', () => {

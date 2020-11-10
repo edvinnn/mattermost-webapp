@@ -6,11 +6,11 @@ import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom';
 import {Tooltip} from 'react-bootstrap';
 
-import {localizeMessage} from 'utils/utils.jsx';
-import {browserHistory} from 'utils/browser_history';
+import {localizeMessage} from 'src/utils/utils.jsx';
+import {browserHistory} from 'src/utils/browser_history';
 import {mark, trackEvent} from 'actions/telemetry_actions.jsx';
-import {isDesktopApp} from 'utils/user_agent';
-import Constants from 'utils/constants';
+import {isDesktopApp} from 'src/utils/user_agent';
+import Constants from 'src/utils/constants';
 import CopyUrlContextMenu from 'components/copy_url_context_menu';
 import OverlayTrigger from 'components/overlay_trigger';
 

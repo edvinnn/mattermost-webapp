@@ -8,7 +8,7 @@ import {Team} from 'mattermost-redux/types/teams';
 import {CustomEmoji} from 'mattermost-redux/types/emojis';
 import {UserProfile} from 'mattermost-redux/types/users';
 
-import EmojiMap from 'utils/emoji_map.js';
+import EmojiMap from 'src/utils/emoji_map.js';
 
 import AddEmoji, {AddEmojiProps} from './add_emoji';
 

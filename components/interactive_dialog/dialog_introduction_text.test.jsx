@@ -4,7 +4,7 @@
 import React from 'react';
 import {mount} from 'enzyme';
 
-import EmojiMap from 'utils/emoji_map';
+import EmojiMap from 'src/utils/emoji_map';
 
 import DialogIntroductionText from './dialog_introduction_text.jsx';
 

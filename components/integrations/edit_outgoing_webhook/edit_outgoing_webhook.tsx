@@ -7,7 +7,7 @@ import {Team} from 'mattermost-redux/types/teams';
 import {OutgoingWebhook} from 'mattermost-redux/types/integrations';
 import {ServerError} from 'mattermost-redux/types/errors';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 import ConfirmModal from 'components/confirm_modal';
 import AbstractOutgoingWebhook from 'components/integrations/abstract_outgoing_webhook.jsx';
 import LoadingScreen from 'components/loading_screen';

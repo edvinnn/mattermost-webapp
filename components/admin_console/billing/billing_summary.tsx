@@ -13,7 +13,7 @@ import BlockableLink from 'components/admin_console/blockable_link';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import OverlayTrigger from 'components/overlay_trigger';
 import {GlobalState} from 'types/store';
-import {CloudLinks} from 'utils/constants';
+import {CloudLinks} from 'src/utils/constants';
 
 import noBillingHistoryGraphic from 'images/no_billing_history_graphic.svg';
 

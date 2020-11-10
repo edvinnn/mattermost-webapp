@@ -1,8 +1,8 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {StorageTypes} from 'utils/constants';
-import {getPrefix} from 'utils/storage_utils';
+import {StorageTypes} from 'src/utils/constants';
+import {getPrefix} from 'src/utils/storage_utils';
 
 export function setItem(name, value) {
     return (dispatch, getState) => {

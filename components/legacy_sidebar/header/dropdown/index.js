@@ -10,8 +10,8 @@ import {getInt} from 'mattermost-redux/selectors/entities/preferences';
 
 import {openModal} from 'actions/views/modals';
 
-import {Preferences, TutorialSteps} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import {Preferences, TutorialSteps} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 
 import SidebarHeaderDropdown from './sidebar_header_dropdown.jsx';
 

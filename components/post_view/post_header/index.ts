@@ -8,7 +8,7 @@ import {getUser} from 'mattermost-redux/selectors/entities/users';
 import {Client4} from 'mattermost-redux/client';
 
 import {GlobalState} from 'types/store';
-import {isGuest} from 'utils/utils.jsx';
+import {isGuest} from 'src/utils/utils.jsx';
 
 import PostHeader, {Props} from './post_header';
 

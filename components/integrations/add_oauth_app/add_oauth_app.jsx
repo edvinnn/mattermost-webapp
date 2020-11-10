@@ -4,8 +4,8 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import {browserHistory} from 'utils/browser_history';
-import {t} from 'utils/i18n';
+import {browserHistory} from 'src/utils/browser_history';
+import {t} from 'src/utils/i18n';
 import AbstractOAuthApp from '../abstract_oauth_app.jsx';
 
 const HEADER = {id: t('add_oauth_app.header'), defaultMessage: 'Add'};

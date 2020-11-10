@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import ErrorMessage from 'components/error_page/error_message';
 
-import {ErrorPageTypes} from 'utils/constants';
+import {ErrorPageTypes} from 'src/utils/constants';
 
 describe('components/error_page/ErrorMessage', () => {
     const baseProps = {

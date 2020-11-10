@@ -3,7 +3,7 @@
 
 import {combineReducers} from 'redux';
 
-import {SearchTypes} from 'utils/constants';
+import {SearchTypes} from 'src/utils/constants';
 
 function modalSearch(state = '', action) {
     switch (action.type) {

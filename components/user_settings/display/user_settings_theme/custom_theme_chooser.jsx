@@ -7,9 +7,9 @@ import React from 'react';
 import {defineMessages, FormattedMessage} from 'react-intl';
 import {setThemeDefaults} from 'mattermost-redux/utils/theme_utils';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
 import LocalizedIcon from 'components/localized_icon';
 import OverlayTrigger from 'components/overlay_trigger';

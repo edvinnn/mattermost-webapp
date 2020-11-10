@@ -16,7 +16,7 @@ import {BillingDetails} from 'types/cloud/sku';
 import {isModalOpen} from 'selectors/views/modals';
 import {getCloudContactUsLink, InquiryType} from 'selectors/cloud';
 
-import {ModalIdentifiers} from 'utils/constants';
+import {ModalIdentifiers} from 'src/utils/constants';
 
 import {closeModal} from 'actions/views/modals';
 import {completeStripeAddPaymentMethod} from 'actions/cloud';

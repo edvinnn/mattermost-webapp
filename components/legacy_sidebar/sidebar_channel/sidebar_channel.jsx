@@ -6,9 +6,9 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {injectIntl} from 'react-intl';
 
-import {browserHistory} from 'utils/browser_history';
-import {Constants} from 'utils/constants';
-import {intlShape} from 'utils/react_intl';
+import {browserHistory} from 'src/utils/browser_history';
+import {Constants} from 'src/utils/constants';
+import {intlShape} from 'src/utils/react_intl';
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 import * as GlobalActions from 'actions/global_actions.jsx';
 import SidebarChannelButtonOrLink from '../sidebar_channel_button_or_link/sidebar_channel_button_or_link.jsx';

@@ -19,16 +19,16 @@ import MenuWrapper from 'components/widgets/menu/menu_wrapper';
 import RemoveNextStepsModal from 'components/sidebar/sidebar_next_steps/remove_next_steps_modal';
 import Menu from 'components/widgets/menu/menu';
 import downloadApps from 'images/download-app.svg';
-import {browserHistory} from 'utils/browser_history';
-import * as UserAgent from 'utils/user_agent';
+import {browserHistory} from 'src/utils/browser_history';
+import * as UserAgent from 'src/utils/user_agent';
 import NewChannelFlow from 'components/new_channel_flow';
 import {
     ModalIdentifiers,
     RecommendedNextSteps,
     Preferences,
-} from 'utils/constants';
+} from 'src/utils/constants';
 import CloseIcon from 'components/widgets/icons/close_icon';
-import * as Utils from 'utils/utils';
+import * as Utils from 'src/utils/utils';
 
 import {getAnalyticsCategory} from './step_helpers';
 

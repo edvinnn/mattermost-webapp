@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 import {Dictionary} from 'mattermost-redux/types/utilities';
 import {AnalyticsRow} from 'mattermost-redux/types/admin';
 
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 
 import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
 import LoadingWrapper from 'components/widgets/loading/loading_wrapper';

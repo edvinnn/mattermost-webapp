@@ -20,15 +20,15 @@ import PostBodyAdditionalContent from 'components/post_view/post_body_additional
 import PostFlagIcon from 'components/post_view/post_flag_icon';
 import ArchiveIcon from 'components/widgets/icons/archive_icon';
 import PostTime from 'components/post_view/post_time';
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 import BotBadge from 'components/widgets/badges/bot_badge';
 import InfoSmallIcon from 'components/widgets/icons/info_small_icon';
 import PostPreHeader from 'components/post_view/post_pre_header';
 
-import Constants, {Locations} from 'utils/constants';
-import * as PostUtils from 'utils/post_utils.jsx';
-import {intlShape} from 'utils/react_intl';
-import * as Utils from 'utils/utils.jsx';
+import Constants, {Locations} from 'src/utils/constants';
+import * as PostUtils from 'src/utils/post_utils.jsx';
+import {intlShape} from 'src/utils/react_intl';
+import * as Utils from 'src/utils/utils.jsx';
 
 class SearchResultsItem extends React.PureComponent {
     static propTypes = {

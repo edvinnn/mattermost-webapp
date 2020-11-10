@@ -9,10 +9,10 @@ import {Tooltip} from 'react-bootstrap';
 import {Posts} from 'mattermost-redux/constants';
 import * as ReduxPostUtils from 'mattermost-redux/utils/post_utils';
 
-import Constants, {Locations} from 'utils/constants';
-import * as PostUtils from 'utils/post_utils.jsx';
-import {intlShape} from 'utils/react_intl';
-import * as Utils from 'utils/utils.jsx';
+import Constants, {Locations} from 'src/utils/constants';
+import * as PostUtils from 'src/utils/post_utils.jsx';
+import {intlShape} from 'src/utils/react_intl';
+import * as Utils from 'src/utils/utils.jsx';
 import DotMenu from 'components/dot_menu';
 import FileAttachmentListContainer from 'components/file_attachment_list';
 import OverlayTrigger from 'components/overlay_trigger';

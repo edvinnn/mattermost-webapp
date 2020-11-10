@@ -9,7 +9,7 @@ import {getUser, getCurrentUser} from 'mattermost-redux/selectors/entities/users
 import {getChannelByName} from 'mattermost-redux/selectors/entities/channels';
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {getDirectTeammate} from 'utils/utils.jsx';
+import {getDirectTeammate} from 'src/utils/utils.jsx';
 
 import {GlobalState} from 'types/store';
 

@@ -9,8 +9,8 @@ import {getUserAccessTokensForUser} from 'mattermost-redux/actions/users';
 
 import {Team} from 'mattermost-redux/types/teams';
 
-import {Constants} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import {Constants} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 import ManageRolesModal from 'components/admin_console/manage_roles_modal';
 import ManageTeamsModal from 'components/admin_console/manage_teams_modal';
 import ManageTokensModal from 'components/admin_console/manage_tokens_modal';

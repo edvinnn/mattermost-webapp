@@ -7,8 +7,8 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
-import Constants from 'utils/constants.jsx';
-import {cleanUpUrlable} from 'utils/url';
+import Constants from 'src/utils/constants.jsx';
+import {cleanUpUrlable} from 'src/utils/url';
 import logoImage from 'images/logo.png';
 import NextIcon from 'components/widgets/icons/fa_next_icon';
 

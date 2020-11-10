@@ -10,7 +10,7 @@ import * as userActions from 'mattermost-redux/actions/users';
 import {ChannelTypes} from 'mattermost-redux/action_types';
 
 import * as Actions from 'actions/team_actions.jsx';
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 
 jest.mock('mattermost-redux/actions/teams', () => ({
     addUsersToTeamGracefully: jest.fn(() => {

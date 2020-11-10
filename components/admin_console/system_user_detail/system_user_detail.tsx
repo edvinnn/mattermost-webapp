@@ -19,9 +19,9 @@ import {ServerError} from 'mattermost-redux/types/errors';
 
 import {adminResetMfa, adminResetEmail} from 'actions/admin_actions.jsx';
 
-import {Constants} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
-import {t} from 'utils/i18n';
+import {Constants} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n';
 
 import BlockableLink from 'components/admin_console/blockable_link';
 import ResetPasswordModal from 'components/admin_console/reset_password_modal';

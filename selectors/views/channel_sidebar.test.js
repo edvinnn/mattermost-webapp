@@ -5,7 +5,7 @@ import {setCategoryCollapsed} from 'actions/views/channel_sidebar';
 
 import configureStore from 'store';
 
-import {TestHelper} from 'utils/test_helper';
+import {TestHelper} from 'src/utils/test_helper';
 
 import * as Selectors from './channel_sidebar';
 

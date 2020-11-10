@@ -7,7 +7,7 @@ import {Modal} from 'react-bootstrap';
 import {Provider} from 'react-redux';
 import configureStore from 'redux-mock-store';
 
-import EmojiMap from 'utils/emoji_map';
+import EmojiMap from 'src/utils/emoji_map';
 
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
 

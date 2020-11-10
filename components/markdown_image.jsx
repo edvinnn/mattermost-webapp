@@ -4,7 +4,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import Constants from 'utils/constants.jsx';
+import Constants from 'src/utils/constants.jsx';
 
 import ExternalImage from 'components/external_image';
 import SizeAwareImage from 'components/size_aware_image';

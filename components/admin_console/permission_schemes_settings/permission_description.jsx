@@ -8,9 +8,9 @@ import {FormattedMessage, injectIntl} from 'react-intl';
 import {Overlay, Tooltip} from 'react-bootstrap';
 
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import {generateId} from 'utils/utils.jsx';
-import {intlShape} from 'utils/react_intl';
-import Constants from 'utils/constants';
+import {generateId} from 'src/utils/utils.jsx';
+import {intlShape} from 'src/utils/react_intl';
+import Constants from 'src/utils/constants';
 
 export class PermissionDescription extends React.PureComponent {
     static propTypes = {

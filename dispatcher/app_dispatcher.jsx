@@ -3,7 +3,7 @@
 
 import * as Flux from 'flux';
 
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
 const PayloadSources = Constants.PayloadSources;
 

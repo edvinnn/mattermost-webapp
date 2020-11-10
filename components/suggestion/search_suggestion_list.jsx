@@ -6,7 +6,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {FormattedMessage} from 'react-intl';
 
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
 import Popover from 'components/widgets/popover';
 

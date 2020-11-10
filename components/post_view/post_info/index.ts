@@ -14,8 +14,8 @@ import {Post} from 'mattermost-redux/types/posts';
 import {GlobalState} from 'types/store';
 
 import {emitShortcutReactToLastPostFrom} from 'actions/post_actions.jsx';
-import {Preferences} from 'utils/constants';
-import * as PostUtils from 'utils/post_utils.jsx';
+import {Preferences} from 'src/utils/constants';
+import * as PostUtils from 'src/utils/post_utils.jsx';
 import {getSelectedPostCard} from 'selectors/rhs';
 import {getShortcutReactToLastPostEmittedFrom} from 'selectors/emojis';
 

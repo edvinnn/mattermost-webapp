@@ -8,8 +8,8 @@ import {UserProfile} from 'mattermost-redux/types/users';
 import {TeamMembership, TeamStats, GetTeamMembersOpts} from 'mattermost-redux/types/teams';
 import {Teams} from 'mattermost-redux/constants';
 
-import Constants from 'utils/constants';
-import * as UserAgent from 'utils/user_agent';
+import Constants from 'src/utils/constants';
+import * as UserAgent from 'src/utils/user_agent';
 
 import SearchableUserList from 'components/searchable_user_list/searchable_user_list_container.jsx';
 import TeamMembersDropdown from 'components/team_members_dropdown';

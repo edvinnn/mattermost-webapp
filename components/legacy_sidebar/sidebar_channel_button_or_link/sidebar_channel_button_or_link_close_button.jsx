@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 
 import OverlayTrigger from 'components/overlay_trigger';
 
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 
 export default class SidebarChannelButtonOrLinkCloseButton extends React.PureComponent {
     static propTypes = {

@@ -8,7 +8,7 @@ import {shallow} from 'enzyme';
 import {mountWithIntl} from 'tests/helpers/intl-test-helper';
 import AboutBuildModal from 'components/about_build_modal/about_build_modal.jsx';
 
-import {AboutLinks} from 'utils/constants';
+import {AboutLinks} from 'src/utils/constants';
 
 import AboutBuildModalCloud from './about_build_modal_cloud/about_build_modal_cloud';
 

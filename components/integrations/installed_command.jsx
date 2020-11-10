@@ -6,7 +6,7 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 import {Link} from 'react-router-dom';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 import CopyText from '../copy_text';
 
 import DeleteIntegration from './delete_integration.jsx';

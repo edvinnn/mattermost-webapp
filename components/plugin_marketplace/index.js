@@ -7,8 +7,8 @@ import {bindActionCreators} from 'redux';
 import {getPlugins, getInstalledPlugins} from 'selectors/views/marketplace';
 
 import {isModalOpen} from 'selectors/views/modals';
-import {ModalIdentifiers} from 'utils/constants';
-import {getSiteURL} from 'utils/url';
+import {ModalIdentifiers} from 'src/utils/constants';
+import {getSiteURL} from 'src/utils/url';
 
 import {closeModal} from 'actions/views/modals';
 import {fetchPlugins, filterPlugins} from 'actions/marketplace';

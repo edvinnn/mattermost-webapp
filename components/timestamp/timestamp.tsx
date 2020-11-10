@@ -13,9 +13,9 @@ import {isValidElementType} from 'react-is';
 import {Unit} from '@formatjs/intl-relativetimeformat';
 import moment, {Moment} from 'moment-timezone';
 
-import {isSameYear, isWithin, isEqual, getDiff} from 'utils/datetime';
-import {Resolvable, resolve} from 'utils/resolvable';
-import {RequireOnlyOne} from 'utils/conditional_types';
+import {isSameYear, isWithin, isEqual, getDiff} from 'src/utils/datetime';
+import {Resolvable, resolve} from 'src/utils/resolvable';
+import {RequireOnlyOne} from 'src/utils/conditional_types';
 
 import SemanticTime from './semantic_time';
 

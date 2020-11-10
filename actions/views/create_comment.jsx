@@ -24,11 +24,11 @@ import * as PostActions from 'actions/post_actions.jsx';
 import {executeCommand} from 'actions/command';
 import {runMessageWillBePostedHooks, runSlashCommandWillBePostedHooks} from 'actions/hooks';
 import {setGlobalItem, actionOnGlobalItemsWithPrefix} from 'actions/storage';
-import EmojiMap from 'utils/emoji_map';
+import EmojiMap from 'src/utils/emoji_map';
 import {getPostDraft} from 'selectors/rhs';
 
-import * as Utils from 'utils/utils.jsx';
-import {Constants, StoragePrefixes} from 'utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
+import {Constants, StoragePrefixes} from 'src/utils/constants';
 
 export function clearCommentDraftUploads() {
     return actionOnGlobalItemsWithPrefix(StoragePrefixes.COMMENT_DRAFT, (key, value) => {

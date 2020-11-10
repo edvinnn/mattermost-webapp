@@ -9,7 +9,7 @@ import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
 import ProfilePopover from 'components/profile_popover';
 
-import {popOverOverlayPosition} from 'utils/position_utils.tsx';
+import {popOverOverlayPosition} from 'src/utils/position_utils.tsx';
 const spaceRequiredForPopOver = 300;
 
 export default class AtMention extends React.PureComponent {

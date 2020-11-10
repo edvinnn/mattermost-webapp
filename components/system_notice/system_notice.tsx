@@ -14,8 +14,8 @@ import {ClientLicense} from 'mattermost-redux/src/types/config';
 
 import {PreferenceType} from 'mattermost-redux/types/preferences';
 
-import {Preferences} from 'utils/constants';
-import {t} from 'utils/i18n';
+import {Preferences} from 'src/utils/constants';
+import {t} from 'src/utils/i18n';
 import LocalizedIcon from 'components/localized_icon';
 import MattermostLogo from 'components/widgets/icons/mattermost_logo';
 import {Notice} from 'components/system_notice/types';

@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-import {imageURLForTeam} from 'utils/utils.jsx';
+import {imageURLForTeam} from 'src/utils/utils.jsx';
 
 import './team_icon.scss';
 

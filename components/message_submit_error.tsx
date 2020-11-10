@@ -4,7 +4,7 @@
 import React, {ReactFragment} from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import {isErrorInvalidSlashCommand} from 'utils/post_utils.jsx';
+import {isErrorInvalidSlashCommand} from 'src/utils/post_utils.jsx';
 
 interface ErrorMessage {
     message: string | ReactFragment;

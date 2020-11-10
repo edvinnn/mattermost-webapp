@@ -10,7 +10,7 @@ import {setLocalizeFunction} from 'mattermost-redux/utils/i18n_utils';
 
 import * as I18n from 'i18n/i18n';
 
-import {localizeMessage} from 'utils/utils';
+import {localizeMessage} from 'src/utils/utils';
 
 export default class IntlProvider extends React.PureComponent {
     static propTypes = {

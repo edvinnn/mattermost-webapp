@@ -7,10 +7,10 @@ import {Modal} from 'react-bootstrap';
 import {defineMessages, injectIntl} from 'react-intl';
 
 import ModalStore from 'stores/modal_store.jsx';
-import Constants from 'utils/constants';
-import {intlShape} from 'utils/react_intl';
-import {t} from 'utils/i18n';
-import * as Utils from 'utils/utils';
+import Constants from 'src/utils/constants';
+import {intlShape} from 'src/utils/react_intl';
+import {t} from 'src/utils/i18n';
+import * as Utils from 'src/utils/utils';
 
 const allShortcuts = defineMessages({
     mainHeader: {

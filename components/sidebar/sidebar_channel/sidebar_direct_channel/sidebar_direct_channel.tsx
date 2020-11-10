@@ -10,8 +10,8 @@ import {UserProfile} from 'mattermost-redux/types/users';
 import {PreferenceType} from 'mattermost-redux/types/preferences';
 
 import {trackEvent} from 'actions/telemetry_actions';
-import {browserHistory} from 'utils/browser_history';
-import {Constants} from 'utils/constants';
+import {browserHistory} from 'src/utils/browser_history';
+import {Constants} from 'src/utils/constants';
 
 import StatusIconNew from 'components/status_icon_new';
 import SidebarChannelLink from '../sidebar_channel_link';

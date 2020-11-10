@@ -4,7 +4,7 @@
 import React from 'react';
 
 import LocalizedIcon from 'components/localized_icon';
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 
 export default function SearchIcon() {
     return (

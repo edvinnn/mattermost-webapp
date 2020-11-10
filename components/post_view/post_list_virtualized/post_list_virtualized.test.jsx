@@ -8,7 +8,7 @@ import {DATE_LINE} from 'mattermost-redux/utils/post_list';
 
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
-import {PostListRowListIds, PostRequestTypes} from 'utils/constants';
+import {PostListRowListIds, PostRequestTypes} from 'src/utils/constants';
 
 import PostListRow from 'components/post_view/post_list_row';
 

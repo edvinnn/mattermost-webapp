@@ -13,10 +13,10 @@ import {mark, trackEvent} from 'actions/telemetry_actions';
 import CopyUrlContextMenu from 'components/copy_url_context_menu';
 import OverlayTrigger from 'components/overlay_trigger';
 
-import Constants from 'utils/constants';
-import {wrapEmojis} from 'utils/emoji_utils';
-import {isDesktopApp} from 'utils/user_agent';
-import {localizeMessage} from 'utils/utils';
+import Constants from 'src/utils/constants';
+import {wrapEmojis} from 'src/utils/emoji_utils';
+import {isDesktopApp} from 'src/utils/user_agent';
+import {localizeMessage} from 'src/utils/utils';
 
 import ChannelMentionBadge from '../channel_mention_badge';
 import SidebarChannelIcon from '../sidebar_channel_icon';

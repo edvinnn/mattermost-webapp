@@ -8,7 +8,7 @@ import {cloneDeep} from 'lodash';
 
 import {Groups} from 'mattermost-redux/constants';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 import BlockableLink from 'components/admin_console/blockable_link';

@@ -11,10 +11,10 @@ import {GlobalState} from 'mattermost-redux/types/store';
 import {Channel} from 'mattermost-redux/types/channels';
 import {History} from 'history';
 
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 import {openDirectChannelToUserId} from 'actions/channel_actions';
 import * as GlobalActions from 'actions/global_actions.jsx';
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 
 import {Match, MatchAndHistory} from './channel_identifier_router';
 

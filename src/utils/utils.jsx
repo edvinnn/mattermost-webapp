@@ -20,18 +20,18 @@ import cssVars from 'css-vars-ponyfill';
 
 import moment from 'moment';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 import {searchForTerm} from 'actions/post_actions';
-import Constants, {FileTypes, UserStatuses, ValidationErrors} from 'utils/constants.jsx';
-import * as UserAgent from 'utils/user_agent';
-import * as Utils from 'utils/utils';
+import Constants, {FileTypes, UserStatuses, ValidationErrors} from 'src/utils/constants.jsx';
+import * as UserAgent from 'src/utils/user_agent';
+import * as Utils from 'src/utils/utils';
 import bing from 'sounds/bing.mp3';
 import crackle from 'sounds/crackle.mp3';
 import down from 'sounds/down.mp3';
 import hello from 'sounds/hello.mp3';
 import ripple from 'sounds/ripple.mp3';
 import upstairs from 'sounds/upstairs.mp3';
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 import store from 'stores/redux_store.jsx';
 import {getCurrentLocale, getTranslations} from 'selectors/i18n';
 

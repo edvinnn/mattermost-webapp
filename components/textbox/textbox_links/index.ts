@@ -5,8 +5,8 @@ import {connect} from 'react-redux';
 
 import {GlobalState} from 'mattermost-redux/types/store';
 
-import Constants from 'utils/constants';
-import {isFeatureEnabled} from 'utils/utils';
+import Constants from 'src/utils/constants';
+import {isFeatureEnabled} from 'src/utils/utils';
 
 import TextboxLinks from './textbox_links';
 

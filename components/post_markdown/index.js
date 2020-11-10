@@ -6,7 +6,7 @@ import {getChannel} from 'mattermost-redux/selectors/entities/channels';
 import {getMyGroupMentionKeysForChannel, getMyGroupMentionKeys} from 'mattermost-redux/selectors/entities/groups';
 import {getCurrentUserMentionKeys} from 'mattermost-redux/selectors/entities/users';
 
-import {canManageMembers} from 'utils/channel_utils.jsx';
+import {canManageMembers} from 'src/utils/channel_utils.jsx';
 
 import PostMarkdown from './post_markdown';
 

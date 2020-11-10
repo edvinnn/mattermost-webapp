@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 import StatusDropdown from 'components/status_dropdown/index.jsx';
 
 import SidebarHeaderDropdown from 'components/legacy_sidebar/header/dropdown';

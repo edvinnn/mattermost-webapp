@@ -14,8 +14,8 @@ import {withRouter} from 'react-router-dom';
 
 import {getProfiles} from 'mattermost-redux/actions/users';
 
-import {getDirectTeammate} from 'utils/utils.jsx';
-import {TutorialSteps, Preferences} from 'utils/constants';
+import {getDirectTeammate} from 'src/utils/utils.jsx';
+import {TutorialSteps, Preferences} from 'src/utils/constants';
 
 import {goToLastViewedChannel} from 'actions/views/channel';
 import {setShowNextStepsView} from 'actions/views/next_steps';

@@ -10,8 +10,8 @@ import LocalizedIcon from 'components/localized_icon';
 import OverlayTrigger from 'components/overlay_trigger';
 import TeamInfoIcon from 'components/widgets/icons/team_info_icon';
 
-import {t} from 'utils/i18n';
-import * as Utils from 'utils/utils.jsx';
+import {t} from 'src/utils/i18n';
+import * as Utils from 'src/utils/utils.jsx';
 
 type Props = {
     team: Team,

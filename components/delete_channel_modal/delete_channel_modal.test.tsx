@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 import {Modal} from 'react-bootstrap';
 import {ChannelType} from 'mattermost-redux/types/channels';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 
 import DeleteChannelModal from 'components/delete_channel_modal/delete_channel_modal';
 

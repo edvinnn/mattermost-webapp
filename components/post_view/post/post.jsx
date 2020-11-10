@@ -8,9 +8,9 @@ import {injectIntl} from 'react-intl';
 import {Posts} from 'mattermost-redux/constants';
 import {isMeMessage as checkIsMeMessage} from 'mattermost-redux/utils/post_utils';
 
-import * as PostUtils from 'utils/post_utils.jsx';
-import Constants, {A11yCustomEventTypes} from 'utils/constants';
-import {intlShape} from 'utils/react_intl';
+import * as PostUtils from 'src/utils/post_utils.jsx';
+import Constants, {A11yCustomEventTypes} from 'src/utils/constants';
+import {intlShape} from 'src/utils/react_intl';
 import PostProfilePicture from 'components/post_profile_picture';
 import PostBody from 'components/post_view/post_body';
 import PostHeader from 'components/post_view/post_header';

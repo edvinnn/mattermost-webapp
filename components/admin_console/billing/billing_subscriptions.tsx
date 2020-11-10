@@ -28,8 +28,8 @@ import {
     CloudBanners,
     ModalIdentifiers,
     TELEMETRY_CATEGORIES,
-} from 'utils/constants';
-import {isCustomerCardExpired} from 'utils/cloud_utils';
+} from 'src/utils/constants';
+import {isCustomerCardExpired} from 'src/utils/cloud_utils';
 
 import privateCloudImage from 'images/private-cloud-image.svg';
 import upgradeMattermostCloudImage from 'images/upgrade-mattermost-cloud-image.svg';

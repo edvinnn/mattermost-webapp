@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {injectIntl} from 'react-intl';
 
-import {intlShape} from 'utils/react_intl';
+import {intlShape} from 'src/utils/react_intl';
 
 import MenuWrapper from 'components/widgets/menu/menu_wrapper';
 import Menu from 'components/widgets/menu/menu';

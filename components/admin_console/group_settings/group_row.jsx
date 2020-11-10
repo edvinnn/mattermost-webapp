@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom';
 import {FormattedMessage} from 'react-intl';
 
-import {localizeMessage} from 'utils/utils.jsx';
+import {localizeMessage} from 'src/utils/utils.jsx';
 
 import CheckboxCheckedIcon from 'components/widgets/icons/checkbox_checked_icon.jsx';
 import LoadingSpinner from 'components/widgets/loading/loading_spinner';

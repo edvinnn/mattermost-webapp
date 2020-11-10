@@ -27,8 +27,8 @@ import {
     openAtPrevious,
 } from 'actions/views/rhs';
 import {trackEvent} from 'actions/telemetry_actions.jsx';
-import {ActionTypes, RHSStates} from 'utils/constants';
-import {getBrowserUtcOffset} from 'utils/timezone.jsx';
+import {ActionTypes, RHSStates} from 'src/utils/constants';
+import {getBrowserUtcOffset} from 'src/utils/timezone.jsx';
 
 const mockStore = configureStore([thunk]);
 

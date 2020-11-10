@@ -9,9 +9,9 @@ import {Post, PostType} from 'mattermost-redux/types/posts';
 
 import PostInfo from 'components/post_view/post_info/post_info';
 
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 import PostFlagIcon from 'components/post_view/post_flag_icon';
-import {TestHelper} from 'utils/test_helper';
+import {TestHelper} from 'src/utils/test_helper';
 
 describe('components/post_view/PostInfo', () => {
     const post: Post = TestHelper.getPostMock({

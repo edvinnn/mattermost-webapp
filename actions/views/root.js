@@ -5,7 +5,7 @@ import {getClientConfig, getLicenseConfig} from 'mattermost-redux/actions/genera
 import * as UserActions from 'mattermost-redux/actions/users';
 import {Client4} from 'mattermost-redux/client';
 
-import {ActionTypes} from 'utils/constants';
+import {ActionTypes} from 'src/utils/constants';
 import en from 'i18n/en.json';
 import {getCurrentLocale, getTranslations} from 'selectors/i18n';
 

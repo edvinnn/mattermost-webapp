@@ -17,7 +17,7 @@ import {openModal} from 'actions/views/modals';
 
 import {GlobalState} from 'types/store';
 
-import {Preferences} from 'utils/constants';
+import {Preferences} from 'src/utils/constants';
 
 import UserLimitAnnouncementBar from './user_limit_announcement_bar';
 

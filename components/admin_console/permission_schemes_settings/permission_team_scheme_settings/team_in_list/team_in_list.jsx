@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 
 import TeamIcon from 'components/widgets/team_icon/team_icon';
 
-import {imageURLForTeam} from 'utils/utils';
+import {imageURLForTeam} from 'src/utils/utils';
 
 export default class TeamInList extends React.PureComponent {
     static propTypes = {

@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {Client4} from 'mattermost-redux/client';
 
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 import ProfilePicture from 'components/profile_picture';
 import UserProfile from 'components/user_profile';
 

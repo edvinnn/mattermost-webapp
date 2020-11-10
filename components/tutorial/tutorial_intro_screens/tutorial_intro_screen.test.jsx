@@ -5,7 +5,7 @@ import {shallow} from 'enzyme';
 import React from 'react';
 
 import TutorialIntroScreens from 'components/tutorial/tutorial_intro_screens/tutorial_intro_screens.jsx';
-import {Constants, Preferences} from 'utils/constants';
+import {Constants, Preferences} from 'src/utils/constants';
 
 describe('components/tutorial/tutorial_intro_screens/TutorialIntroScreens', () => {
     jest.mock('actions/telemetry_actions.jsx');

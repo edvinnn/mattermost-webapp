@@ -9,7 +9,7 @@ import {CategorySorting} from 'mattermost-redux/types/channel_categories';
 import {ChannelType} from 'mattermost-redux/types/channels';
 
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
 import SidebarChannelMenu, {SidebarChannelMenu as SidebarChannelMenuType} from './sidebar_channel_menu';
 

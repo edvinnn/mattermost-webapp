@@ -8,7 +8,7 @@ import AsyncSelect from 'react-select/lib/Async';
 import {components} from 'react-select';
 import classNames from 'classnames';
 
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import PublicChannelIcon from 'components/widgets/icons/globe_icon.jsx';
@@ -16,7 +16,7 @@ import PrivateChannelIcon from 'components/widgets/icons/lock_icon.jsx';
 import CloseCircleSolidIcon from 'components/widgets/icons/close_circle_solid_icon';
 import LoadingSpinner from 'components/widgets/loading/loading_spinner';
 
-import {t} from 'utils/i18n.jsx';
+import {t} from 'src/utils/i18n.jsx';
 
 import './channels_input.scss';
 

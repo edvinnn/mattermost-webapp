@@ -7,7 +7,7 @@ import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 import ChannelHeader from 'components/channel_header/channel_header';
 import Markdown from 'components/markdown';
 import GuestBadge from 'components/widgets/badges/guest_badge';
-import Constants, {RHSStates} from 'utils/constants';
+import Constants, {RHSStates} from 'src/utils/constants';
 
 describe('components/ChannelHeader', () => {
     const baseProps = {

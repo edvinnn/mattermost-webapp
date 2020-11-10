@@ -7,7 +7,7 @@ import {bindActionCreators} from 'redux';
 import {switchLdapToEmail} from 'mattermost-redux/actions/users';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {getPasswordConfig} from 'utils/utils.jsx';
+import {getPasswordConfig} from 'src/utils/utils.jsx';
 
 import ClaimController from './claim_controller.jsx';
 

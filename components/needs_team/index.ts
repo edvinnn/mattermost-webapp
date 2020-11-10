@@ -23,7 +23,7 @@ import {getPreviousTeamId} from 'selectors/local_storage';
 import {loadStatusesForChannelAndSidebar} from 'actions/status_actions';
 import {addUserToTeam} from 'actions/team_actions';
 import {markChannelAsReadOnFocus} from 'actions/views/channel';
-import {checkIfMFARequired} from 'utils/route';
+import {checkIfMFARequired} from 'src/utils/route';
 
 import NeedsTeam from './needs_team';
 

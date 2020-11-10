@@ -7,9 +7,9 @@ import {FormattedMessage} from 'react-intl';
 import {Preferences} from 'mattermost-redux/constants';
 
 import ConfirmModal from 'components/confirm_modal';
-import {toTitleCase} from 'utils/utils.jsx';
-import {UserStatuses} from 'utils/constants';
-import {t} from 'utils/i18n';
+import {toTitleCase} from 'src/utils/utils.jsx';
+import {UserStatuses} from 'src/utils/constants';
+import {t} from 'src/utils/i18n';
 
 export default class ResetStatusModal extends React.PureComponent {
     static propTypes = {

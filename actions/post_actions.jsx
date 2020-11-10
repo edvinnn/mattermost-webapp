@@ -20,9 +20,9 @@ import {
     Constants,
     RHSStates,
     StoragePrefixes,
-} from 'utils/constants';
-import {matchEmoticons} from 'utils/emoticons';
-import * as UserAgent from 'utils/user_agent';
+} from 'src/utils/constants';
+import {matchEmoticons} from 'src/utils/emoticons';
+import * as UserAgent from 'src/utils/user_agent';
 
 import {completePostReceive} from './new_post';
 

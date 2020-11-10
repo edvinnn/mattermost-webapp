@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {injectIntl} from 'react-intl';
 
-import {intlShape} from 'utils/react_intl';
+import {intlShape} from 'src/utils/react_intl';
 
 class ModalToggleButtonRedux extends React.PureComponent {
     static propTypes = {

@@ -6,7 +6,7 @@ import {FormattedMessage} from 'react-intl';
 
 import {General, Posts} from 'mattermost-redux/constants';
 
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 
 import Markdown from 'components/markdown';
 import CombinedSystemMessage from 'components/post_view/combined_system_message';

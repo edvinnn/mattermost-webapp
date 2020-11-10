@@ -5,11 +5,11 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import {browserHistory} from 'utils/browser_history';
-import Constants from 'utils/constants';
+import {browserHistory} from 'src/utils/browser_history';
+import Constants from 'src/utils/constants';
 import LocalizedInput from 'components/localized_input/localized_input';
 
-import {t} from 'utils/i18n.jsx';
+import {t} from 'src/utils/i18n.jsx';
 
 export default class PasswordResetForm extends React.PureComponent {
     static propTypes = {

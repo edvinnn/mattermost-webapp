@@ -6,7 +6,7 @@ import {Tooltip} from 'react-bootstrap';
 
 import OverlayTrigger from 'components/overlay_trigger';
 
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
 type TableItem = {
     name: string;

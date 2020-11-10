@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow, ShallowWrapper} from 'enzyme';
 
-import {TestHelper} from 'utils/test_helper';
+import {TestHelper} from 'src/utils/test_helper';
 
 import TeamProfileStep from './team_profile_step';
 

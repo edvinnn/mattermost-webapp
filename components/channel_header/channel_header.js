@@ -37,9 +37,9 @@ import {
     ModalIdentifiers,
     NotificationLevels,
     RHSStates,
-} from 'utils/constants';
-import {intlShape} from 'utils/react_intl';
-import * as Utils from 'utils/utils';
+} from 'src/utils/constants';
+import {intlShape} from 'src/utils/react_intl';
+import * as Utils from 'src/utils/utils';
 
 import ChannelHeaderPlug from 'plugins/channel_header_plug';
 

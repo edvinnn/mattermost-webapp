@@ -11,11 +11,11 @@ import {isDateLine, isStartOfNewMessages} from 'mattermost-redux/utils/post_list
 
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import Constants, {PostListRowListIds, EventTypes, PostRequestTypes} from 'utils/constants';
-import DelayedAction from 'utils/delayed_action';
-import {getPreviousPostId, getLatestPostId, getNewMessageIndex} from 'utils/post_utils.jsx';
-import {intlShape} from 'utils/react_intl';
-import * as Utils from 'utils/utils.jsx';
+import Constants, {PostListRowListIds, EventTypes, PostRequestTypes} from 'src/utils/constants';
+import DelayedAction from 'src/utils/delayed_action';
+import {getPreviousPostId, getLatestPostId, getNewMessageIndex} from 'src/utils/post_utils.jsx';
+import {intlShape} from 'src/utils/react_intl';
+import * as Utils from 'src/utils/utils.jsx';
 
 import FloatingTimestamp from 'components/post_view/floating_timestamp';
 import PostListRow from 'components/post_view/post_list_row';

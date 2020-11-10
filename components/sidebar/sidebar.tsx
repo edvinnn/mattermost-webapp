@@ -11,8 +11,8 @@ import DataPrefetch from 'components/data_prefetch';
 import MoreChannels from 'components/more_channels';
 import NewChannelFlow from 'components/new_channel_flow';
 import Pluggable from 'plugins/pluggable';
-import {ModalIdentifiers} from 'utils/constants';
-import * as Utils from 'utils/utils';
+import {ModalIdentifiers} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils';
 
 import AddChannelDropdown from './add_channel_dropdown';
 import ChannelNavigator from './channel_navigator';

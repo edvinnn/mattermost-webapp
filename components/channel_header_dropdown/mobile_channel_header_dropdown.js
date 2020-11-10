@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 
 import StatusIcon from 'components/status_icon';
 
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 
 import {ChannelHeaderDropdownItems} from 'components/channel_header_dropdown';
 

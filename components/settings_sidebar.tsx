@@ -4,7 +4,7 @@
 import $ from 'jquery';
 import React from 'react';
 
-import * as UserAgent from 'utils/user_agent';
+import * as UserAgent from 'src/utils/user_agent';
 
 export type Tab = {
     icon: string;

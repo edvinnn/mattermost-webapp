@@ -2,10 +2,10 @@
 // See LICENSE.txt for license information.
 import {shallow} from 'enzyme';
 
-import Constants from 'utils/constants.jsx';
+import Constants from 'src/utils/constants.jsx';
 
-import messageHtmlToComponent from 'utils/message_html_to_component';
-import * as TextFormatting from 'utils/text_formatting';
+import messageHtmlToComponent from 'src/utils/message_html_to_component';
+import * as TextFormatting from 'src/utils/text_formatting';
 import MarkdownImage from 'components/markdown_image';
 import AtMention from 'components/at_mention';
 

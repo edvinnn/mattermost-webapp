@@ -3,7 +3,7 @@
 
 import {connect} from 'react-redux';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 
 import List from './group_list';
 

@@ -18,9 +18,9 @@ import OverlayTrigger from 'components/overlay_trigger';
 
 import {DraggingState} from 'types/store';
 
-import Constants, {A11yCustomEventTypes, DraggingStateTypes, DraggingStates} from 'utils/constants';
-import {t} from 'utils/i18n';
-import {isKeyPressed} from 'utils/utils';
+import Constants, {A11yCustomEventTypes, DraggingStateTypes, DraggingStates} from 'src/utils/constants';
+import {t} from 'src/utils/i18n';
+import {isKeyPressed} from 'src/utils/utils';
 
 import SidebarChannel from '../sidebar_channel';
 import {SidebarCategoryHeader} from '../sidebar_category_header';

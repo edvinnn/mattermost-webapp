@@ -9,7 +9,7 @@ import {UserProfile} from 'mattermost-redux/types/users';
 import {ActionResult} from 'mattermost-redux/types/actions';
 
 import SettingItemMax from 'components/setting_item_max.jsx';
-import {getBrowserTimezone} from 'utils/timezone';
+import {getBrowserTimezone} from 'src/utils/timezone';
 import SuggestionBox from 'components/suggestion/suggestion_box.jsx';
 import SuggestionList from 'components/suggestion/suggestion_list.jsx';
 import TimezoneProvider from 'components/suggestion/timezone_provider.jsx';

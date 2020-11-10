@@ -4,7 +4,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import {getVideoId, ytRegex, handleYoutubeTime} from 'utils/youtube';
+import {getVideoId, ytRegex, handleYoutubeTime} from 'src/utils/youtube';
 
 import ExternalImage from 'components/external_image';
 

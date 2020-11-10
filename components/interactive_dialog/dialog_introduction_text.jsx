@@ -4,8 +4,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import * as Markdown from 'utils/markdown';
-import {getSiteURL} from 'utils/url';
+import * as Markdown from 'src/utils/markdown';
+import {getSiteURL} from 'src/utils/url';
 
 export default class DialogIntroductionText extends React.PureComponent {
     static propTypes = {

@@ -4,8 +4,8 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import {ErrorPageTypes} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import {ErrorPageTypes} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 
 type Props = {
     type?: string | null;

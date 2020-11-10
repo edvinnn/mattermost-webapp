@@ -8,7 +8,7 @@ import {receivedNewPost} from 'mattermost-redux/actions/posts';
 import {Posts} from 'mattermost-redux/constants';
 
 import * as NewPostActions from 'actions/new_post';
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 
 const mockStore = configureStore([thunk]);
 

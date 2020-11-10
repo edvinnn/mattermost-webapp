@@ -8,7 +8,7 @@ import {Team} from 'mattermost-redux/types/teams';
 import {FormattedMessage} from 'react-intl';
 import classNames from 'classnames';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 
 import AdminPanel from 'components/widgets/admin_console/admin_panel';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';

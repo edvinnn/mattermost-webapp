@@ -5,8 +5,8 @@ import classNames from 'classnames';
 import React from 'react';
 import {DraggableProvidedDragHandleProps} from 'react-beautiful-dnd';
 
-import {wrapEmojis} from 'utils/emoji_utils';
-import * as UserAgent from 'utils/user_agent';
+import {wrapEmojis} from 'src/utils/emoji_utils';
+import * as UserAgent from 'src/utils/user_agent';
 
 type StaticProps = {
     children?: React.ReactNode;

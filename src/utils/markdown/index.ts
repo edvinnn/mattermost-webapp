@@ -3,11 +3,11 @@
 
 import marked from 'marked';
 
-import {convertEntityToCharacter} from 'utils/text_formatting';
+import {convertEntityToCharacter} from 'src/utils/text_formatting';
 
-import RemoveMarkdown from 'utils/markdown/remove_markdown';
+import RemoveMarkdown from 'src/utils/markdown/remove_markdown';
 
-import EmojiMap from 'utils/emoji_map';
+import EmojiMap from 'src/utils/emoji_map';
 
 import Renderer from './renderer';
 

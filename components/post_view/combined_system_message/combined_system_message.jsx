@@ -7,8 +7,8 @@ import {injectIntl} from 'react-intl';
 
 import {Posts} from 'mattermost-redux/constants';
 
-import {t} from 'utils/i18n';
-import {intlShape} from 'utils/react_intl';
+import {t} from 'src/utils/i18n';
+import {intlShape} from 'src/utils/react_intl';
 
 import Markdown from 'components/markdown';
 

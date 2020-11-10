@@ -9,7 +9,7 @@ import {getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 
 import {deleteCustomEmoji} from 'mattermost-redux/actions/emojis';
 
-import {getDisplayNameByUser} from 'utils/utils.jsx';
+import {getDisplayNameByUser} from 'src/utils/utils.jsx';
 
 import EmojiListItem from './emoji_list_item.jsx';
 

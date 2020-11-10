@@ -5,9 +5,9 @@ import {FormattedMessage} from 'react-intl';
 
 import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
 
-import {JobTypes, exportFormats} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
-import {getSiteURL} from 'utils/url';
+import {JobTypes, exportFormats} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
+import {getSiteURL} from 'src/utils/url';
 
 import AdminSettings from './admin_settings';
 import BooleanSetting from './boolean_setting';

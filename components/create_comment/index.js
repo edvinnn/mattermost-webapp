@@ -16,7 +16,7 @@ import {getAssociatedGroupsForReferenceByMention} from 'mattermost-redux/selecto
 
 import {connectionErrorCount} from 'selectors/views/system';
 
-import {Constants, StoragePrefixes} from 'utils/constants';
+import {Constants, StoragePrefixes} from 'src/utils/constants';
 import {getCurrentLocale} from 'selectors/i18n';
 
 import {

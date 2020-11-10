@@ -8,7 +8,7 @@ import {ChannelType} from 'mattermost-redux/types/channels';
 
 import {loadProfilesForSidebar} from 'actions/user_actions.jsx';
 
-import {TestHelper} from 'utils/test_helper';
+import {TestHelper} from 'src/utils/test_helper';
 
 import DataPrefetch from './data_prefetch';
 

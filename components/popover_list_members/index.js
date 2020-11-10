@@ -12,8 +12,8 @@ import {getTeammateNameDisplaySetting} from 'mattermost-redux/selectors/entities
 import {openDirectChannelToUserId} from 'actions/channel_actions.jsx';
 import {loadProfilesAndStatusesInChannel} from 'actions/user_actions.jsx';
 import {openModal} from 'actions/views/modals';
-import {canManageMembers} from 'utils/channel_utils.jsx';
-import {sortUsersByStatusAndDisplayName} from 'utils/utils.jsx';
+import {canManageMembers} from 'src/utils/channel_utils.jsx';
+import {sortUsersByStatusAndDisplayName} from 'src/utils/utils.jsx';
 
 import PopoverListMembers from './popover_list_members.jsx';
 

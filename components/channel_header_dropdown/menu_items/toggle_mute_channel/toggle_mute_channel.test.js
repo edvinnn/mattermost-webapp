@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import {Constants, NotificationLevels} from 'utils/constants';
+import {Constants, NotificationLevels} from 'src/utils/constants';
 
 import Menu from 'components/widgets/menu/menu';
 import MenuItemAction from 'components/widgets/menu/menu_items/menu_item_action.tsx';

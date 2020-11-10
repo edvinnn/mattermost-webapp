@@ -6,7 +6,7 @@ import {injectIntl} from 'react-intl';
 import PropTypes from 'prop-types';
 import marked from 'marked';
 
-import {intlShape} from 'utils/react_intl';
+import {intlShape} from 'src/utils/react_intl';
 
 const TARGET_BLANK_URL_PREFIX = '!';
 

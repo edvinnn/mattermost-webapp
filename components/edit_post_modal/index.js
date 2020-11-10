@@ -18,7 +18,7 @@ import {showPreviewOnEditPostModal} from 'selectors/views/textbox';
 import {hideEditPostModal} from 'actions/post_actions';
 import {editPost} from 'actions/views/posts';
 import {getEditingPost} from 'selectors/posts';
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
 import EditPostModal from './edit_post_modal.jsx';
 

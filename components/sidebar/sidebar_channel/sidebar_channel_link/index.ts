@@ -10,7 +10,7 @@ import {GlobalState} from 'mattermost-redux/types/store';
 import {GenericAction} from 'mattermost-redux/types/actions';
 import {isChannelMuted} from 'mattermost-redux/utils/channel_utils';
 
-import {NotificationLevels} from 'utils/constants';
+import {NotificationLevels} from 'src/utils/constants';
 
 import SidebarChannelLink from './sidebar_channel_link';
 

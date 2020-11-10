@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-import {stripMarkdown} from 'utils/markdown';
+import {stripMarkdown} from 'src/utils/markdown';
 
 describe('stripMarkdown | RemoveMarkdown', () => {
     const testCases = [

@@ -8,11 +8,11 @@ import {Modal} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
-import {browserHistory} from 'utils/browser_history';
-import Constants from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
-import * as UserAgent from 'utils/user_agent';
-import {t} from 'utils/i18n';
+import {browserHistory} from 'src/utils/browser_history';
+import Constants from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
+import * as UserAgent from 'src/utils/user_agent';
+import {t} from 'src/utils/i18n';
 import SuggestionBox from 'components/suggestion/suggestion_box.jsx';
 import SuggestionList from 'components/suggestion/suggestion_list.jsx';
 import SwitchChannelProvider from 'components/suggestion/switch_channel_provider.jsx';

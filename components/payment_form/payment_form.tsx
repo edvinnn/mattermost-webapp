@@ -11,8 +11,8 @@ import {BillingDetails} from 'types/cloud/sku';
 
 import DropdownInput from 'components/dropdown_input';
 import Input from 'components/input';
-import * as Utils from 'utils/utils';
-import {COUNTRIES} from 'utils/countries';
+import * as Utils from 'src/utils/utils';
+import {COUNTRIES} from 'src/utils/countries';
 
 import StateSelector from './state_selector';
 import CardInput, {CardInputType} from './card_input';

@@ -3,11 +3,11 @@
 
 import marked, {MarkedOptions} from 'marked';
 
-import * as PostUtils from 'utils/post_utils';
-import * as SyntaxHighlighting from 'utils/syntax_highlighting';
-import * as TextFormatting from 'utils/text_formatting';
-import {getScheme, isUrlSafe} from 'utils/url';
-import EmojiMap from 'utils/emoji_map';
+import * as PostUtils from 'src/utils/post_utils';
+import * as SyntaxHighlighting from 'src/utils/syntax_highlighting';
+import * as TextFormatting from 'src/utils/text_formatting';
+import {getScheme, isUrlSafe} from 'src/utils/url';
+import EmojiMap from 'src/utils/emoji_map';
 
 export default class Renderer extends marked.Renderer {
     private formattingOptions: TextFormatting.TextFormattingOptions;

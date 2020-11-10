@@ -24,7 +24,7 @@ import {setGlobalItem, actionOnGlobalItemsWithPrefix} from 'actions/storage';
 import * as PostActions from 'actions/post_actions.jsx';
 import {executeCommand} from 'actions/command';
 import * as HookActions from 'actions/hooks';
-import {StoragePrefixes} from 'utils/constants';
+import {StoragePrefixes} from 'src/utils/constants';
 
 /* eslint-disable global-require */
 

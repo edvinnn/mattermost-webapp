@@ -8,8 +8,8 @@ import {PropTypes} from 'prop-types';
 
 import OverlayTrigger from 'components/overlay_trigger';
 
-import * as Utils from 'utils/utils.jsx';
-import {t} from 'utils/i18n';
+import * as Utils from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n';
 
 const clickableChannelHeader = ['recent', 'alpha'];
 

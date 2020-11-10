@@ -6,12 +6,12 @@ import {Stripe} from '@stripe/stripe-js';
 
 import {BillingDetails} from 'types/cloud/sku';
 import {pageVisited} from 'actions/telemetry_actions';
-import {TELEMETRY_CATEGORIES} from 'utils/constants';
+import {TELEMETRY_CATEGORIES} from 'src/utils/constants';
 
 import successSvg from 'images/cloud/payment_success.svg';
 import failedSvg from 'images/cloud/payment_fail.svg';
-import {t} from 'utils/i18n';
-import {getNextBillingDate} from 'utils/utils';
+import {t} from 'src/utils/i18n';
+import {getNextBillingDate} from 'src/utils/utils';
 
 import processSvg from 'images/cloud/processing_payment.svg';
 

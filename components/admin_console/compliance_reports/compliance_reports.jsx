@@ -9,7 +9,7 @@ import {Client4} from 'mattermost-redux/client';
 import LoadingScreen from 'components/loading_screen';
 import ReloadIcon from 'components/widgets/icons/fa_reload_icon';
 import LocalizedInput from 'components/localized_input/localized_input';
-import {t} from 'utils/i18n.jsx';
+import {t} from 'src/utils/i18n.jsx';
 
 export default class ComplianceReports extends React.PureComponent {
     static propTypes = {

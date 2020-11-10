@@ -4,7 +4,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {localizeMessage} from 'utils/utils';
+import {localizeMessage} from 'src/utils/utils';
 
 import Menu from 'components/widgets/menu/menu';
 

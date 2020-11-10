@@ -9,8 +9,8 @@ import {trackEvent} from 'actions/telemetry_actions';
 import * as GlobalActions from 'actions/global_actions';
 
 import SidebarChannelLink from 'components/sidebar/sidebar_channel/sidebar_channel_link';
-import {localizeMessage} from 'utils/utils';
-import Constants from 'utils/constants';
+import {localizeMessage} from 'src/utils/utils';
+import Constants from 'src/utils/constants';
 
 type Props = {
     channel: Channel;

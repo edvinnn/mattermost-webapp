@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 import {Link} from 'react-router-dom';
 import {Client4} from 'mattermost-redux/client';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 import * as GlobalActions from 'actions/global_actions.jsx';
 import logoImage from 'images/logo.png';
 import AnnouncementBar from 'components/announcement_bar';
@@ -16,8 +16,8 @@ import FormError from 'components/form_error';
 import LocalizedIcon from 'components/localized_icon';
 
 import LoadingScreen from 'components/loading_screen';
-import {Constants} from 'utils/constants';
-import {t} from 'utils/i18n';
+import {Constants} from 'src/utils/constants';
+import {t} from 'src/utils/i18n';
 
 export default class SignupController extends React.PureComponent {
     static propTypes = {

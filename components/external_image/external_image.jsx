@@ -4,7 +4,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import {getImageSrc} from 'utils/post_utils.jsx';
+import {getImageSrc} from 'src/utils/post_utils.jsx';
 
 export default class ExternalImage extends React.PureComponent {
     static propTypes = {

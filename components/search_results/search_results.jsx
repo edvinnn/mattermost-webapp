@@ -11,9 +11,9 @@ import classNames from 'classnames';
 
 import {debounce} from 'mattermost-redux/actions/helpers';
 
-import {intlShape} from 'utils/react_intl';
-import * as Utils from 'utils/utils.jsx';
-import {searchHintOptions} from 'utils/constants';
+import {intlShape} from 'src/utils/react_intl';
+import * as Utils from 'src/utils/utils.jsx';
+import {searchHintOptions} from 'src/utils/constants';
 
 import SearchResultsHeader from 'components/search_results_header';
 import SearchResultsItem from 'components/search_results_item';

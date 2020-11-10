@@ -25,7 +25,7 @@ import {GlobalState} from 'types/store';
 import {loadProfilesAndTeamMembers, loadProfilesWithoutTeam} from 'actions/user_actions';
 
 import {setSystemUsersSearch} from 'actions/views/search';
-import {SearchUserTeamFilter} from 'utils/constants';
+import {SearchUserTeamFilter} from 'src/utils/constants';
 
 import SystemUsers from './system_users';
 

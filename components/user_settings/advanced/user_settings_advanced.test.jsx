@@ -5,7 +5,7 @@ import React from 'react';
 import {shallow} from 'enzyme';
 
 import AdvancedSettingsDisplay from 'components/user_settings/advanced/user_settings_advanced.jsx';
-import * as Utils from 'utils/utils';
+import * as Utils from 'src/utils/utils';
 
 jest.mock('actions/global_actions.jsx');
 jest.mock('utils/utils');

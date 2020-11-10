@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import * as Utils from 'utils/utils.jsx';
-import Constants from 'utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
+import Constants from 'src/utils/constants';
 import BackstageList from 'components/backstage/components/backstage_list.jsx';
 import InstalledOutgoingWebhook, {matchesFilter} from 'components/integrations/installed_outgoing_webhook.jsx';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';

@@ -6,8 +6,8 @@ import {FormattedMessage} from 'react-intl';
 
 import {Post} from 'mattermost-redux/types/posts';
 
-import Constants from 'utils/constants';
-import * as PostUtils from 'utils/post_utils.jsx';
+import Constants from 'src/utils/constants';
+import * as PostUtils from 'src/utils/post_utils.jsx';
 import PostInfo from 'components/post_view/post_info';
 import UserProfile from 'components/user_profile';
 import BotBadge from 'components/widgets/badges/bot_badge';

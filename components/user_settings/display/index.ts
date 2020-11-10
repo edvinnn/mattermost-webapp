@@ -14,7 +14,7 @@ import {get} from 'mattermost-redux/selectors/entities/preferences';
 import {getUserTimezone} from 'mattermost-redux/selectors/entities/timezone';
 import {getUserCurrentTimezone} from 'mattermost-redux/utils/timezone_utils';
 
-import {Preferences} from 'utils/constants';
+import {Preferences} from 'src/utils/constants';
 
 import {GlobalState} from 'types/store';
 

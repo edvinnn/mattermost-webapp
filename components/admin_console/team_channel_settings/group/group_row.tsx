@@ -10,7 +10,7 @@ import MenuWrapper from 'components/widgets/menu/menu_wrapper';
 import Menu from 'components/widgets/menu/menu';
 import GroupMembersModal from 'components/admin_console/team_channel_settings/group/group_members_modal';
 
-import {localizeMessage} from 'utils/utils.jsx';
+import {localizeMessage} from 'src/utils/utils.jsx';
 
 interface GroupRowProps {
     group: Partial<Group>;

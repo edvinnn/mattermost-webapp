@@ -6,8 +6,8 @@ import React from 'react';
 
 import {sortFileInfos} from 'mattermost-redux/utils/file_utils';
 
-import {FileTypes} from 'utils/constants';
-import {getFileType} from 'utils/utils';
+import {FileTypes} from 'src/utils/constants';
+import {getFileType} from 'src/utils/utils';
 
 import FileAttachment from 'components/file_attachment';
 import SingleImageView from 'components/single_image_view';

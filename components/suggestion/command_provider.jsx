@@ -9,8 +9,8 @@ import {getChannel, getCurrentChannel} from 'mattermost-redux/selectors/entities
 
 import store from 'stores/redux_store.jsx';
 
-import * as UserAgent from 'utils/user_agent';
-import * as Utils from 'utils/utils.jsx';
+import * as UserAgent from 'src/utils/user_agent';
+import * as Utils from 'src/utils/utils.jsx';
 import {getSelectedPost} from 'selectors/rhs';
 
 import Suggestion from './suggestion.jsx';

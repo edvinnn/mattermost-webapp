@@ -7,7 +7,7 @@ import {Tooltip} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
 import OverlayTrigger from 'components/overlay_trigger';
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
 export default class SearchResultsHeader extends React.PureComponent {
     static propTypes = {

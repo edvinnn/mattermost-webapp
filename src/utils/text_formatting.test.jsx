@@ -6,8 +6,8 @@ import emojiRegex from 'emoji-regex';
 import {getEmojiMap} from 'selectors/emojis';
 import store from 'stores/redux_store.jsx';
 
-import {formatText, autolinkAtMentions, highlightSearchTerms, handleUnicodeEmoji, parseSearchTerms} from 'utils/text_formatting';
-import LinkOnlyRenderer from 'utils/markdown/link_only_renderer';
+import {formatText, autolinkAtMentions, highlightSearchTerms, handleUnicodeEmoji, parseSearchTerms} from 'src/utils/text_formatting';
+import LinkOnlyRenderer from 'src/utils/markdown/link_only_renderer';
 
 describe('formatText', () => {
     test('jumbo emoji should be able to handle up to 3 spaces before the emoji character', () => {

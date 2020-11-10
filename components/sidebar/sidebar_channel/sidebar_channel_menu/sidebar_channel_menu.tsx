@@ -14,8 +14,8 @@ import EditCategoryModal from 'components/edit_category_modal';
 import SidebarMenu from 'components/sidebar/sidebar_menu';
 import SidebarMenuType from 'components/sidebar/sidebar_menu/sidebar_menu';
 import Menu from 'components/widgets/menu/menu';
-import Constants, {ModalIdentifiers} from 'utils/constants';
-import {copyToClipboard} from 'utils/utils';
+import Constants, {ModalIdentifiers} from 'src/utils/constants';
+import {copyToClipboard} from 'src/utils/utils';
 
 type Props = {
     channel: Channel;

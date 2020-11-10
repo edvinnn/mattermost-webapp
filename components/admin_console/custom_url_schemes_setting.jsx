@@ -4,8 +4,8 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import * as Utils from 'utils/utils';
-import {t} from 'utils/i18n.jsx';
+import * as Utils from 'src/utils/utils';
+import {t} from 'src/utils/i18n.jsx';
 
 import LocalizedInput from 'components/localized_input/localized_input';
 

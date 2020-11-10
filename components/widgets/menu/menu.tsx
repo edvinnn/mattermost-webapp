@@ -3,7 +3,7 @@
 
 import React, {CSSProperties} from 'react';
 
-import {isMobile} from 'utils/utils';
+import {isMobile} from 'src/utils/utils';
 
 import SubMenuItem from './menu_items/submenu_item';
 

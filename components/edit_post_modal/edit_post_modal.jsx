@@ -8,12 +8,12 @@ import {FormattedMessage, injectIntl} from 'react-intl';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import {Constants, ModalIdentifiers} from 'utils/constants';
-import {splitMessageBasedOnCaretPosition, postMessageOnKeyPress} from 'utils/post_utils.jsx';
+import {Constants, ModalIdentifiers} from 'src/utils/constants';
+import {splitMessageBasedOnCaretPosition, postMessageOnKeyPress} from 'src/utils/post_utils.jsx';
 
-import {intlShape} from 'utils/react_intl';
-import * as Utils from 'utils/utils.jsx';
-import {getTable, formatMarkdownTableMessage, isGitHubCodeBlock, formatGithubCodePaste} from 'utils/paste';
+import {intlShape} from 'src/utils/react_intl';
+import * as Utils from 'src/utils/utils.jsx';
+import {getTable, formatMarkdownTableMessage, isGitHubCodeBlock, formatGithubCodePaste} from 'src/utils/paste';
 
 import DeletePostModal from 'components/delete_post_modal';
 import EmojiPickerOverlay from 'components/emoji_picker/emoji_picker_overlay.jsx';

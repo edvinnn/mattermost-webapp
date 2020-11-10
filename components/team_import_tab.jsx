@@ -6,8 +6,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {defineMessages, FormattedMessage, injectIntl} from 'react-intl';
 
-import * as utils from 'utils/utils.jsx';
-import {t} from 'utils/i18n';
+import * as utils from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n';
 
 import LoadingSpinner from 'components/widgets/loading/loading_spinner';
 

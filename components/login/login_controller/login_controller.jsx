@@ -11,12 +11,12 @@ import {Client4} from 'mattermost-redux/client';
 import * as GlobalActions from 'actions/global_actions.jsx';
 import LocalStorageStore from 'stores/local_storage_store';
 
-import {browserHistory} from 'utils/browser_history';
-import Constants from 'utils/constants.jsx';
-import {intlShape} from 'utils/react_intl';
-import * as Utils from 'utils/utils.jsx';
-import {showNotification} from 'utils/notifications';
-import {t} from 'utils/i18n.jsx';
+import {browserHistory} from 'src/utils/browser_history';
+import Constants from 'src/utils/constants.jsx';
+import {intlShape} from 'src/utils/react_intl';
+import * as Utils from 'src/utils/utils.jsx';
+import {showNotification} from 'src/utils/notifications';
+import {t} from 'src/utils/i18n.jsx';
 
 import logoImage from 'images/logo.png';
 

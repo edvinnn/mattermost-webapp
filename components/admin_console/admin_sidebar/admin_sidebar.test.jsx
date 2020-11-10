@@ -8,7 +8,7 @@ import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
 import AdminSidebar from 'components/admin_console/admin_sidebar/admin_sidebar.jsx';
 import AdminDefinition from 'components/admin_console/admin_definition';
-import {generateIndex} from 'utils/admin_console_index';
+import {generateIndex} from 'src/utils/admin_console_index';
 
 jest.mock('utils/utils', () => {
     const original = jest.requireActual('utils/utils');

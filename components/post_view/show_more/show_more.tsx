@@ -4,7 +4,7 @@
 
 import React from 'react';
 
-import {localizeMessage} from 'utils/utils.jsx';
+import {localizeMessage} from 'src/utils/utils.jsx';
 
 const MAX_POST_HEIGHT = 600;
 const MAX_ATTACHMENT_TEXT_HEIGHT = 200;

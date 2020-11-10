@@ -15,8 +15,8 @@ import {storageRehydrate} from 'actions/storage';
 import {clearUserCookie} from 'actions/views/cookie';
 import appReducer from 'reducers';
 import {transformSet} from 'store/utils';
-import {detect} from 'utils/network.js';
-import {ActionTypes} from 'utils/constants';
+import {detect} from 'src/utils/network.js';
+import {ActionTypes} from 'src/utils/constants';
 import {getBasePath} from 'selectors/general';
 
 function getAppReducer() {

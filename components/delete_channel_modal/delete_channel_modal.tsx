@@ -7,8 +7,8 @@ import {FormattedMessage} from 'react-intl';
 
 import {Channel} from 'mattermost-redux/types/channels';
 
-import {browserHistory} from 'utils/browser_history';
-import Constants from 'utils/constants';
+import {browserHistory} from 'src/utils/browser_history';
+import Constants from 'src/utils/constants';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 
 type Props = {

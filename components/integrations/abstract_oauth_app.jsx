@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 import {Link} from 'react-router-dom';
 import {Permissions} from 'mattermost-redux/constants';
 
-import {localizeMessage} from 'utils/utils.jsx';
+import {localizeMessage} from 'src/utils/utils.jsx';
 import BackstageHeader from 'components/backstage/components/backstage_header.jsx';
 import FormError from 'components/form_error';
 import SpinnerButton from 'components/spinner_button';

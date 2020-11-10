@@ -16,8 +16,8 @@ import UsersEmailsInput from 'components/widgets/inputs/users_emails_input.jsx';
 
 import './invitation_modal_guests_step.scss';
 
-import {t} from 'utils/i18n.jsx';
-import {localizeMessage} from 'utils/utils.jsx';
+import {t} from 'src/utils/i18n.jsx';
+import {localizeMessage} from 'src/utils/utils.jsx';
 
 export default class InvitationModalGuestsStep extends React.PureComponent {
     static propTypes = {

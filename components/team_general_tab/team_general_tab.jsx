@@ -7,8 +7,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {FormattedMessage, FormattedDate} from 'react-intl';
 
-import Constants from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import Constants from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 import SettingItemMax from 'components/setting_item_max.jsx';
 import SettingItemMin from 'components/setting_item_min';
 import SettingPicture from 'components/setting_picture.jsx';
@@ -16,7 +16,7 @@ import BackIcon from 'components/widgets/icons/fa_back_icon';
 import LocalizedInput from 'components/localized_input/localized_input';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 
-import {t} from 'utils/i18n.jsx';
+import {t} from 'src/utils/i18n.jsx';
 
 const ACCEPTED_TEAM_IMAGE_TYPES = ['image/jpeg', 'image/png', 'image/bmp'];
 

@@ -14,7 +14,7 @@ import {getCloudSubscription} from 'mattermost-redux/actions/cloud';
 
 import {GlobalState} from 'types/store';
 
-import {isAdmin} from 'utils/utils.jsx';
+import {isAdmin} from 'src/utils/utils.jsx';
 
 import InvitationModalGuestsStep from './invitation_modal_guests_step';
 

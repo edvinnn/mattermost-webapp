@@ -10,7 +10,7 @@ import {getTeamInviteInfo} from 'mattermost-redux/actions/teams';
 
 import {setGlobalItem} from 'actions/storage';
 import {loginById} from 'actions/views/login';
-import {getPasswordConfig} from 'utils/utils.jsx';
+import {getPasswordConfig} from 'src/utils/utils.jsx';
 
 import SignupEmail from './signup_email.jsx';
 

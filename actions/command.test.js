@@ -10,10 +10,10 @@ import {Client4} from 'mattermost-redux/client';
 import * as Channels from 'mattermost-redux/selectors/entities/channels';
 import * as Teams from 'mattermost-redux/selectors/entities/teams';
 
-import {ActionTypes, Constants} from 'utils/constants';
-import * as UserAgent from 'utils/user_agent';
+import {ActionTypes, Constants} from 'src/utils/constants';
+import * as UserAgent from 'src/utils/user_agent';
 import * as GlobalActions from 'actions/global_actions.jsx';
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 import UserSettingsModal from 'components/user_settings/modal';
 
 import {executeCommand} from './command';

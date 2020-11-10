@@ -9,7 +9,7 @@ import {getLicense} from 'mattermost-redux/selectors/entities/general';
 import {Permissions} from 'mattermost-redux/constants';
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
-import {canManageMembers} from 'utils/channel_utils.jsx';
+import {canManageMembers} from 'src/utils/channel_utils.jsx';
 
 import ChannelMembersDropdown from './channel_members_dropdown.jsx';
 

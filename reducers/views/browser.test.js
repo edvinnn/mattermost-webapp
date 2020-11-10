@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 
 import browserReducer from 'reducers/views/browser';
-import {ActionTypes} from 'utils/constants';
+import {ActionTypes} from 'src/utils/constants';
 
 describe('Reducers.Browser', () => {
     const initialState = {

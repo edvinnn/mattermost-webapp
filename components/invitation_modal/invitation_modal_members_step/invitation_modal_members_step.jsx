@@ -12,13 +12,13 @@ import {trackEvent} from 'actions/telemetry_actions';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import InviteMembersIcon from 'components/widgets/icons/invite_members_icon';
 import UsersEmailsInput from 'components/widgets/inputs/users_emails_input.jsx';
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 
 import LinkIcon from 'components/widgets/icons/link_icon';
 
-import {getSiteURL} from 'utils/url';
-import {t} from 'utils/i18n.jsx';
-import {localizeMessage} from 'utils/utils.jsx';
+import {getSiteURL} from 'src/utils/url';
+import {t} from 'src/utils/i18n.jsx';
+import {localizeMessage} from 'src/utils/utils.jsx';
 
 import './invitation_modal_members_step.scss';
 

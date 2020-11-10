@@ -8,8 +8,8 @@ import {shallow} from 'enzyme';
 import PopoverBar from 'components/view_image/popover_bar';
 import ViewImageModal from 'components/view_image/view_image';
 
-import Constants from 'utils/constants';
-import {generateId} from 'utils/utils';
+import Constants from 'src/utils/constants';
+import {generateId} from 'src/utils/utils';
 
 describe('components/ViewImageModal', () => {
     const onModalDismissed = jest.fn();

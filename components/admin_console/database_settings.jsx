@@ -6,8 +6,8 @@ import {FormattedMessage} from 'react-intl';
 
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import {recycleDatabaseConnection} from 'actions/admin_actions.jsx';
-import * as Utils from 'utils/utils.jsx';
-import {t} from 'utils/i18n';
+import * as Utils from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n';
 
 import AdminSettings from './admin_settings';
 import BooleanSetting from './boolean_setting';

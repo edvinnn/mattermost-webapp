@@ -7,7 +7,7 @@ import {Tooltip} from 'react-bootstrap';
 
 import OverlayTrigger from 'components/overlay_trigger';
 
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 
 import SidebarChannelButtonOrLink from './sidebar_channel_button_or_link.jsx';
 

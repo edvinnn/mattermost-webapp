@@ -4,8 +4,8 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import {browserHistory} from 'utils/browser_history';
-import {t} from 'utils/i18n';
+import {browserHistory} from 'src/utils/browser_history';
+import {t} from 'src/utils/i18n';
 import AbstractIncomingWebhook from 'components/integrations/abstract_incoming_webhook.jsx';
 
 const HEADER = {id: t('integrations.add'), defaultMessage: 'Add'};

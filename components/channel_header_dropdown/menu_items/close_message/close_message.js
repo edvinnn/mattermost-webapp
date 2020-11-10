@@ -4,9 +4,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {localizeMessage} from 'utils/utils';
-import {Constants} from 'utils/constants';
-import {browserHistory} from 'utils/browser_history';
+import {localizeMessage} from 'src/utils/utils';
+import {Constants} from 'src/utils/constants';
+import {browserHistory} from 'src/utils/browser_history';
 import Menu from 'components/widgets/menu/menu';
 
 export default class CloseMessage extends React.PureComponent {

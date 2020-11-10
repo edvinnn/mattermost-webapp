@@ -17,8 +17,8 @@ import LoadingScreen from 'components/loading_screen';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
-import {t} from 'utils/i18n';
-import {localizeMessage} from 'utils/utils';
+import {t} from 'src/utils/i18n';
+import {localizeMessage} from 'src/utils/utils';
 
 import './marketplace_modal.scss';
 import MarketplaceList from './marketplace_list/marketplace_list';

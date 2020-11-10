@@ -10,7 +10,7 @@ import {GlobalState} from 'mattermost-redux/types/store';
 
 import {Post} from 'mattermost-redux/types/posts';
 
-import {getDisplayNameByUser} from 'utils/utils.jsx';
+import {getDisplayNameByUser} from 'src/utils/utils.jsx';
 
 import CommentedOn from './commented_on';
 

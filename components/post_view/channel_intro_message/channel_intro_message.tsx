@@ -11,7 +11,7 @@ import {Channel} from 'mattermost-redux/types/channels';
 
 import React from 'react';
 
-import {Constants, ModalIdentifiers} from 'utils/constants';
+import {Constants, ModalIdentifiers} from 'src/utils/constants';
 import ChannelInviteModal from 'components/channel_invite_modal';
 import EditChannelHeaderModal from 'components/edit_channel_header_modal';
 import ProfilePicture from 'components/profile_picture';
@@ -26,8 +26,8 @@ import InvitationModal from 'components/invitation_modal';
 import AddGroupsToChannelModal from 'components/add_groups_to_channel_modal';
 import AddGroupsToTeamModal from 'components/add_groups_to_team_modal';
 
-import {getMonthLong} from 'utils/i18n.jsx';
-import * as Utils from 'utils/utils.jsx';
+import {getMonthLong} from 'src/utils/i18n.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 
 type Props = {
     currentUserId: string;

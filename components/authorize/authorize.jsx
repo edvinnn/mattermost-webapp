@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 
 import icon50 from 'images/icon50x50.png';
 import FormError from 'components/form_error';
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 
 import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
 

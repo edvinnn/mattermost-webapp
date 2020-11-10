@@ -5,7 +5,7 @@ import React from 'react';
 import {shallow} from 'enzyme';
 import {Router} from 'react-router-dom';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 import {renderWithIntl} from 'tests/react_testing_utils';
 
 import ConfirmIntegration from 'components/integrations/confirm_integration/confirm_integration.jsx';

@@ -10,8 +10,8 @@ import {getInt} from 'mattermost-redux/selectors/entities/preferences';
 
 import {openMenu as openRhsMenu} from 'actions/views/rhs';
 import {getIsRhsMenuOpen} from 'selectors/rhs';
-import {Preferences, TutorialSteps} from 'utils/constants';
-import {isMobile} from 'utils/utils.jsx';
+import {Preferences, TutorialSteps} from 'src/utils/constants';
+import {isMobile} from 'src/utils/utils.jsx';
 
 import SidebarRightMenu from './sidebar_right_menu.jsx';
 

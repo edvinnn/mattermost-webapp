@@ -8,12 +8,12 @@ import {FormattedMessage} from 'react-intl';
 
 import semver from 'semver';
 
-import {NotificationLevels} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
-import {t} from 'utils/i18n.jsx';
+import {NotificationLevels} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n.jsx';
 import SettingItemMax from 'components/setting_item_max.jsx';
 import SettingItemMin from 'components/setting_item_min';
-import {isDesktopApp} from 'utils/user_agent';
+import {isDesktopApp} from 'src/utils/user_agent';
 
 export default class DesktopNotificationSettings extends React.PureComponent {
     constructor(props) {

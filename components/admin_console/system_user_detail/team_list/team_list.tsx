@@ -7,8 +7,8 @@ import {ActionFunc} from 'mattermost-redux/types/actions';
 
 import {TeamMembership} from 'mattermost-redux/types/teams';
 
-import {filterAndSortTeamsByDisplayName} from 'utils/team_utils.jsx';
-import {t} from 'utils/i18n';
+import {filterAndSortTeamsByDisplayName} from 'src/utils/team_utils.jsx';
+import {t} from 'src/utils/i18n';
 
 import AbstractList from './abstract_list';
 import TeamRow from './team_row';

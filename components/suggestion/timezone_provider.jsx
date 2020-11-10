@@ -5,7 +5,7 @@ import React from 'react';
 
 import {getTimezoneRegion} from 'mattermost-redux/utils/timezone_utils';
 
-import {getSupportedTimezones} from 'utils/timezone';
+import {getSupportedTimezones} from 'src/utils/timezone';
 
 import Provider from './provider.jsx';
 import Suggestion from './suggestion.jsx';

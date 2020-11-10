@@ -11,7 +11,7 @@ import {GlobalState} from 'mattermost-redux/types/store';
 import {ActionFunc, GenericAction} from 'mattermost-redux/types/actions';
 import {Channel} from 'mattermost-redux/types/channels';
 
-import {getSiteURL} from 'utils/url';
+import {getSiteURL} from 'src/utils/url';
 
 import RenameChannelModal from './rename_channel_modal';
 

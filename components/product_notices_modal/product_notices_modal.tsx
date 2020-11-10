@@ -15,7 +15,7 @@ import NextIcon from 'components/widgets/icons/fa_next_icon';
 import PreviousIcon from 'components/widgets/icons/fa_previous_icon';
 import AdminEyeIcon from 'components/widgets/icons/admin_eye_icon';
 
-import {isDesktopApp, getDesktopVersion} from 'utils/user_agent';
+import {isDesktopApp, getDesktopVersion} from 'src/utils/user_agent';
 
 import './product_notices_modal.scss';
 

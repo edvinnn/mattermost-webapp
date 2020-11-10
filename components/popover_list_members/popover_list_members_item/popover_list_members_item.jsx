@@ -8,8 +8,8 @@ import {Client4} from 'mattermost-redux/client';
 
 import ProfilePicture from 'components/profile_picture';
 import MessageIcon from 'components/widgets/icons/message_icon';
-import {UserStatuses} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import {UserStatuses} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 import BotBadge from 'components/widgets/badges/bot_badge';
 import GuestBadge from 'components/widgets/badges/guest_badge';
 

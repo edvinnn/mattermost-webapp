@@ -4,7 +4,7 @@
 import {Client4} from 'mattermost-redux/client';
 
 import {getFilter, getPlugin} from 'selectors/views/marketplace';
-import {ActionTypes} from 'utils/constants';
+import {ActionTypes} from 'src/utils/constants';
 
 // fetchPlugins fetches the latest marketplace plugins, subject to any existing search filter.
 export function fetchPlugins(localOnly = false) {

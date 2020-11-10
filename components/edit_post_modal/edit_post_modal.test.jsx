@@ -4,11 +4,11 @@
 import React from 'react';
 import ReactRouterEnzymeContext from 'react-router-enzyme-context';
 
-import {isMobile} from 'utils/user_agent';
+import {isMobile} from 'src/utils/user_agent';
 
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 import {testComponentForLineBreak} from 'tests/helpers/line_break_helpers';
-import {Constants, ModalIdentifiers} from 'utils/constants';
+import {Constants, ModalIdentifiers} from 'src/utils/constants';
 import DeletePostModal from 'components/delete_post_modal';
 import EditPostModal from 'components/edit_post_modal/edit_post_modal.jsx';
 import {testComponentForMarkdownHotkeys, makeSelectionEvent} from 'tests/helpers/markdown_hotkey_helpers.js';

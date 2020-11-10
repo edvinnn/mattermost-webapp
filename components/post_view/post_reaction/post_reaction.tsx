@@ -11,8 +11,8 @@ import {Dispatch} from 'redux';
 
 import {CustomEmoji, Emoji, SystemEmoji} from 'mattermost-redux/types/emojis';
 
-import {Locations} from 'utils/constants';
-import {localizeMessage} from 'utils/utils.jsx';
+import {Locations} from 'src/utils/constants';
+import {localizeMessage} from 'src/utils/utils.jsx';
 
 import OverlayTrigger from 'components/overlay_trigger';
 import ChannelPermissionGate from 'components/permissions_gates/channel_permission_gate';

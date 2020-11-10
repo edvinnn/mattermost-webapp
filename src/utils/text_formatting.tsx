@@ -10,7 +10,7 @@ import {Renderer} from 'marked';
 
 import {Channel} from 'mattermost-redux/types/channels';
 
-import {formatWithRenderer} from 'utils/markdown';
+import {formatWithRenderer} from 'src/utils/markdown';
 
 import * as Emoticons from './emoticons';
 import * as Markdown from './markdown';

@@ -5,7 +5,7 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 import {Client4} from 'mattermost-redux/client';
 
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 
 import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
 import WarningIcon from 'components/widgets/icons/fa_warning_icon';

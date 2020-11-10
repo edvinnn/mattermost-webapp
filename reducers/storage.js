@@ -4,7 +4,7 @@
 import {combineReducers} from 'redux';
 import {General} from 'mattermost-redux/constants';
 
-import {StorageTypes} from 'utils/constants';
+import {StorageTypes} from 'src/utils/constants';
 
 function storage(state = {}, action) {
     var key;

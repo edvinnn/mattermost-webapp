@@ -5,8 +5,8 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
 import {blevePurgeIndexes} from 'actions/admin_actions.jsx';
-import {JobStatuses, JobTypes} from 'utils/constants';
-import {t} from 'utils/i18n';
+import {JobStatuses, JobTypes} from 'src/utils/constants';
+import {t} from 'src/utils/i18n';
 
 import AdminSettings from './admin_settings';
 import BooleanSetting from './boolean_setting';

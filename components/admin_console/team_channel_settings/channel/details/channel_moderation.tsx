@@ -12,7 +12,7 @@ import {ChannelModerationRoles} from 'mattermost-redux/types/roles';
 
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 
 import AdminPanel from 'components/widgets/admin_console/admin_panel';
 import CheckboxCheckedIcon from 'components/widgets/icons/checkbox_checked_icon.jsx';

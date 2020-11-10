@@ -9,11 +9,11 @@ import {Permissions} from 'mattermost-redux/constants';
 import {isEmpty} from 'lodash';
 
 import * as GlobalActions from 'actions/global_actions.jsx';
-import {Constants, ModalIdentifiers} from 'utils/constants';
-import {intlShape} from 'utils/react_intl';
-import {cmdOrCtrlPressed, isKeyPressed} from 'utils/utils';
-import {useSafeUrl} from 'utils/url';
-import * as UserAgent from 'utils/user_agent';
+import {Constants, ModalIdentifiers} from 'src/utils/constants';
+import {intlShape} from 'src/utils/react_intl';
+import {cmdOrCtrlPressed, isKeyPressed} from 'src/utils/utils';
+import {useSafeUrl} from 'src/utils/url';
+import * as UserAgent from 'src/utils/user_agent';
 import InvitationModal from 'components/invitation_modal';
 import UserLimitModal from 'components/user_limit_modal';
 

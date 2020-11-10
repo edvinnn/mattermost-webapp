@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 import {Group} from 'mattermost-redux/types/groups';
 import {Channel} from 'mattermost-redux/types/channels';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 
 import AdminPanel from 'components/widgets/admin_console/admin_panel';
 import ToggleModalButton from 'components/toggle_modal_button';

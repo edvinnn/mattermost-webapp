@@ -9,7 +9,7 @@ import {setThemeDefaults} from 'mattermost-redux/utils/theme_utils';
 import {Theme} from 'mattermost-redux/types/preferences';
 
 import ModalStore from 'stores/modal_store.jsx';
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
 const ActionTypes = Constants.ActionTypes;
 

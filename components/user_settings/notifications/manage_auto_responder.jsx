@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 
 import AutosizeTextarea from 'components/autosize_textarea';
 import SettingItemMax from 'components/setting_item_max.jsx';
-import {localizeMessage} from 'utils/utils.jsx';
+import {localizeMessage} from 'src/utils/utils.jsx';
 
 const MESSAGE_MAX_LENGTH = 200;
 

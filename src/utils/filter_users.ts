@@ -1,6 +1,6 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
-import {UserSearchOptions, UserListOptions, UserFilters} from 'utils/constants';
+import {UserSearchOptions, UserListOptions, UserFilters} from 'src/utils/constants';
 
 export type FilterOptions = Record<string, string | boolean>
 const NEVER = 0;

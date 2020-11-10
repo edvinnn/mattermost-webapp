@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import {browserHistory} from 'utils/browser_history.jsx';
+import {browserHistory} from 'src/utils/browser_history.jsx';
 
 import ChannelIdentifierRouter from './channel_identifier_router';
 

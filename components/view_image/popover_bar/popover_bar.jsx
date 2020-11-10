@@ -9,7 +9,7 @@ import {Tooltip} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
 import OverlayTrigger from 'components/overlay_trigger';
-import {Constants, ZoomSettings} from 'utils/constants';
+import {Constants, ZoomSettings} from 'src/utils/constants';
 
 export default class PopoverBar extends React.PureComponent {
     static propTypes = {

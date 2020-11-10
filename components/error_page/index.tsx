@@ -8,7 +8,7 @@ import {getCurrentUser} from 'mattermost-redux/selectors/entities/common';
 
 import {GlobalState} from 'types/store';
 
-import {isGuest} from 'utils/utils.jsx';
+import {isGuest} from 'src/utils/utils.jsx';
 
 import ErrorPage from './error_page';
 

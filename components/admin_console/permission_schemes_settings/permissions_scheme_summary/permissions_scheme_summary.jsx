@@ -11,8 +11,8 @@ import ConfirmModal from 'components/confirm_modal';
 import OverlayTrigger from 'components/overlay_trigger';
 import LoadingWrapper from 'components/widgets/loading/loading_wrapper';
 
-import * as Utils from 'utils/utils.jsx';
-import Constants from 'utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
+import Constants from 'src/utils/constants';
 
 const MAX_TEAMS_PER_SCHEME_SUMMARY = 8;
 

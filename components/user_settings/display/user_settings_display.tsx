@@ -8,12 +8,12 @@ import {FormattedMessage} from 'react-intl';
 import {PreferenceType} from 'mattermost-redux/types/preferences';
 import {UserProfile, UserTimezone} from 'mattermost-redux/types/users';
 
-import Constants from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
-import {getBrowserTimezone} from 'utils/timezone.jsx';
+import Constants from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
+import {getBrowserTimezone} from 'src/utils/timezone.jsx';
 
 import * as I18n from 'i18n/i18n.jsx';
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 
 import SettingItemMax from 'components/setting_item_max.jsx';
 import SettingItemMin from 'components/setting_item_min';

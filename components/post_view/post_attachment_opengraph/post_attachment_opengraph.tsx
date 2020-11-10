@@ -12,9 +12,9 @@ import React from 'react';
 
 import SizeAwareImage from 'components/size_aware_image';
 import ExternalImage from 'components/external_image';
-import {PostTypes} from 'utils/constants';
-import {isSystemMessage} from 'utils/post_utils.jsx';
-import {useSafeUrl} from 'utils/url';
+import {PostTypes} from 'src/utils/constants';
+import {isSystemMessage} from 'src/utils/post_utils.jsx';
+import {useSafeUrl} from 'src/utils/url';
 
 import {getNearestPoint} from './get_nearest_point';
 

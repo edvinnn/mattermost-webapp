@@ -8,9 +8,9 @@ import {getCurrentChannelId} from 'mattermost-redux/selectors/entities/channels'
 import {getLicense, getConfig} from 'mattermost-redux/selectors/entities/general';
 import {getCurrentUser, shouldShowTermsOfService} from 'mattermost-redux/selectors/entities/users';
 
-import {browserHistory} from 'utils/browser_history';
-import {checkIfMFARequired} from 'utils/route';
-import {getChannelURL} from 'utils/utils';
+import {browserHistory} from 'src/utils/browser_history';
+import {checkIfMFARequired} from 'src/utils/route';
+import {getChannelURL} from 'src/utils/utils';
 
 import LoggedIn from './logged_in.jsx';
 

@@ -14,8 +14,8 @@ import Post from 'components/post_view/post';
 import DateSeparator from 'components/post_view/date_separator';
 import NewMessageSeparator from 'components/post_view/new_message_separator/new_message_separator';
 import ChannelIntroMessage from 'components/post_view/channel_intro_message/';
-import {isIdNotPost} from 'utils/post_utils';
-import {PostListRowListIds, Locations} from 'utils/constants';
+import {isIdNotPost} from 'src/utils/post_utils';
+import {PostListRowListIds, Locations} from 'src/utils/constants';
 
 export type PostListRowProps = {
     channel?: Channel;

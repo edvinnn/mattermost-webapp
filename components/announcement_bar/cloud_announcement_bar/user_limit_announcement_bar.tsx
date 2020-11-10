@@ -12,7 +12,7 @@ import {isEmpty} from 'lodash';
 
 import {trackEvent} from 'actions/telemetry_actions';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 import PurchaseModal from 'components/purchase_modal';
 
 import {
@@ -21,7 +21,7 @@ import {
     AnnouncementBarTypes,
     ModalIdentifiers,
     TELEMETRY_CATEGORIES,
-} from 'utils/constants';
+} from 'src/utils/constants';
 
 import AnnouncementBar from '../default_announcement_bar';
 

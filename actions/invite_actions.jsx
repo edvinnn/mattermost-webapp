@@ -8,8 +8,8 @@ import {joinChannel} from 'mattermost-redux/actions/channels';
 
 import {addUsersToTeam} from 'actions/team_actions';
 
-import {t} from 'utils/i18n';
-import {isGuest, localizeMessage} from 'utils/utils';
+import {t} from 'src/utils/i18n';
+import {isGuest, localizeMessage} from 'src/utils/utils';
 
 export function sendMembersInvites(teamId, users, emails) {
     return async (dispatch, getState) => {

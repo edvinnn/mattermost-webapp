@@ -6,10 +6,10 @@ import {shallow} from 'enzyme';
 
 import {TeamType} from 'mattermost-redux/types/teams';
 
-import {TestHelper} from 'utils/test_helper';
+import {TestHelper} from 'src/utils/test_helper';
 
 import Markdown from 'components/markdown/markdown';
-import EmojiMap from 'utils/emoji_map';
+import EmojiMap from 'src/utils/emoji_map';
 
 describe('components/Markdown', () => {
     const baseProps = {

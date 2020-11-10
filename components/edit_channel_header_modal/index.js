@@ -12,7 +12,7 @@ import {setShowPreviewOnEditChannelHeaderModal} from 'actions/views/textbox';
 import {showPreviewOnEditChannelHeaderModal} from 'selectors/views/textbox';
 
 import {isModalOpen} from '../../selectors/views/modals';
-import {ModalIdentifiers} from '../../utils/constants';
+import {ModalIdentifiers} from 'src/utils/constants';
 
 import EditChannelHeaderModal from './edit_channel_header_modal.jsx';
 

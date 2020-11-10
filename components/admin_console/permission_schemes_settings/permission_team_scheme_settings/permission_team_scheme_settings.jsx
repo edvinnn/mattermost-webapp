@@ -5,9 +5,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
-import {PermissionsScope, ModalIdentifiers} from 'utils/constants';
-import {localizeMessage} from 'utils/utils.jsx';
-import {t} from 'utils/i18n';
+import {PermissionsScope, ModalIdentifiers} from 'src/utils/constants';
+import {localizeMessage} from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n';
 
 import SaveButton from 'components/save_button';
 import LoadingScreen from 'components/loading_screen';

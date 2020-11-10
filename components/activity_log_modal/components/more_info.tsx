@@ -4,7 +4,7 @@
 import React from 'react';
 import {FormattedDate, FormattedMessage, FormattedTime} from 'react-intl';
 
-import {getMonthLong} from 'utils/i18n';
+import {getMonthLong} from 'src/utils/i18n';
 
 type Props = {
     locale: string;

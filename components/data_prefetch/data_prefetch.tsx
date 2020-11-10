@@ -6,7 +6,7 @@ import PQueue from 'p-queue';
 import {Channel} from 'mattermost-redux/types/channels';
 import {Dictionary} from 'mattermost-redux/types/utilities';
 
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 import {loadProfilesForSidebar} from 'actions/user_actions.jsx';
 
 const queue = new PQueue({concurrency: 2});

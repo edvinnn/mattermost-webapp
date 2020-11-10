@@ -16,7 +16,7 @@ import {pageVisited, trackEvent} from 'actions/telemetry_actions';
 import FormattedAdminHeader from 'components/widgets/admin_console/formatted_admin_header';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import noBillingHistoryGraphic from 'images/no_billing_history_graphic.svg';
-import {CloudLinks} from 'utils/constants';
+import {CloudLinks} from 'src/utils/constants';
 
 import './billing_history.scss';
 

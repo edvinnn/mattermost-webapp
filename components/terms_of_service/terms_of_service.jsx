@@ -15,10 +15,10 @@ import LoadingSpinner from 'components/widgets/loading/loading_spinner';
 import LogoutIcon from 'components/widgets/icons/fa_logout_icon';
 import WarningIcon from 'components/widgets/icons/fa_warning_icon';
 
-import {browserHistory} from 'utils/browser_history';
-import messageHtmlToComponent from 'utils/message_html_to_component';
-import {formatText} from 'utils/text_formatting';
-import {Constants} from 'utils/constants.jsx';
+import {browserHistory} from 'src/utils/browser_history';
+import messageHtmlToComponent from 'src/utils/message_html_to_component';
+import {formatText} from 'src/utils/text_formatting';
+import {Constants} from 'src/utils/constants.jsx';
 
 export default class TermsOfService extends React.PureComponent {
     static propTypes = {

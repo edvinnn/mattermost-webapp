@@ -5,14 +5,14 @@ import React from 'react';
 import {getFileThumbnailUrl, getFileUrl} from 'mattermost-redux/utils/file_utils';
 import {FileInfo} from 'mattermost-redux/types/files';
 
-import {FileTypes} from 'utils/constants';
-import {trimFilename} from 'utils/file_utils';
+import {FileTypes} from 'src/utils/constants';
+import {trimFilename} from 'src/utils/file_utils';
 import {
     fileSizeToString,
     getFileType,
     loadImage,
     localizeMessage,
-} from 'utils/utils.jsx';
+} from 'src/utils/utils.jsx';
 
 import FilenameOverlay from './filename_overlay';
 import FileThumbnail from './file_thumbnail';

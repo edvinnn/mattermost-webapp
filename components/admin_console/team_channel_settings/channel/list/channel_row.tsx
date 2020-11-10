@@ -6,7 +6,7 @@ import {ChannelWithTeamData} from 'mattermost-redux/types/channels';
 import {Link} from 'react-router-dom';
 import {FormattedMessage} from 'react-intl';
 
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 import GlobeIcon from 'components/widgets/icons/globe_icon';
 import LockIcon from 'components/widgets/icons/lock_icon';
 import ArchiveIcon from 'components/widgets/icons/archive_icon';

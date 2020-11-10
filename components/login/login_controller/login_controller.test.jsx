@@ -5,7 +5,7 @@ import React from 'react';
 
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 import LocalStorageStore from 'stores/local_storage_store';
 import LoginController from 'components/login/login_controller/login_controller';
 

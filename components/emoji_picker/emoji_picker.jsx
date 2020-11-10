@@ -6,9 +6,9 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 import throttle from 'lodash/throttle';
 
-import * as Emoji from 'utils/emoji.jsx';
-import {compareEmojis} from 'utils/emoji_utils';
-import {t} from 'utils/i18n';
+import * as Emoji from 'src/utils/emoji.jsx';
+import {compareEmojis} from 'src/utils/emoji_utils';
+import {t} from 'src/utils/i18n';
 import imgTrans from 'images/img_trans.gif';
 
 import LocalizedInput from 'components/localized_input/localized_input';

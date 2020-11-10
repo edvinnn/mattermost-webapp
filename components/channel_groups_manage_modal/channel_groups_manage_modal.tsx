@@ -12,7 +12,7 @@ import {Channel} from 'mattermost-redux/types/channels';
 
 import AddGroupsToChannelModal from 'components/add_groups_to_channel_modal';
 
-import {ModalIdentifiers} from 'utils/constants';
+import {ModalIdentifiers} from 'src/utils/constants';
 
 import ListModal, {DEFAULT_NUM_PER_PAGE} from 'components/list_modal.jsx';
 
@@ -23,7 +23,7 @@ import groupsAvatar from 'images/groups-avatar.png';
 import MenuWrapper from 'components/widgets/menu/menu_wrapper';
 import Menu from 'components/widgets/menu/menu';
 
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 
 type Props = {
     channel: Channel;

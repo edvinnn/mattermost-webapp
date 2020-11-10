@@ -14,10 +14,10 @@ import {ActionResult} from 'mattermost-redux/types/actions';
 import BackstageHeader from 'components/backstage/components/backstage_header.jsx';
 import FormError from 'components/form_error';
 import SpinnerButton from 'components/spinner_button';
-import {browserHistory} from 'utils/browser_history';
-import {localizeMessage} from 'utils/utils.jsx';
+import {browserHistory} from 'src/utils/browser_history';
+import {localizeMessage} from 'src/utils/utils.jsx';
 
-import EmojiMap from 'utils/emoji_map';
+import EmojiMap from 'src/utils/emoji_map';
 
 export interface AddEmojiProps {
     actions: {

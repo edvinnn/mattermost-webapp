@@ -6,7 +6,7 @@ import React from 'react';
 import {Modal} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 
 export default class UnarchiveChannelModal extends React.PureComponent {

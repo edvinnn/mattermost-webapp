@@ -7,8 +7,8 @@ import {FormattedMessage} from 'react-intl';
 
 import OverlayTrigger from 'components/overlay_trigger';
 
-import Constants from 'utils/constants';
-import {getShortenedURL, validateChannelUrl} from 'utils/url';
+import Constants from 'src/utils/constants';
+import {getShortenedURL, validateChannelUrl} from 'src/utils/url';
 
 type Props = {
 

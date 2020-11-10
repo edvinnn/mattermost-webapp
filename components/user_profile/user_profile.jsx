@@ -4,7 +4,7 @@
 import PropTypes from 'prop-types';
 import React, {PureComponent} from 'react';
 
-import {imageURLForUser, isMobile, isGuest} from 'utils/utils.jsx';
+import {imageURLForUser, isMobile, isGuest} from 'src/utils/utils.jsx';
 
 import OverlayTrigger from 'components/overlay_trigger';
 import ProfilePopover from 'components/profile_popover';

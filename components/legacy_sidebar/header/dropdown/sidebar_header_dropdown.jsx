@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 import * as GlobalActions from 'actions/global_actions.jsx';
-import {Constants, ModalIdentifiers} from 'utils/constants';
-import {cmdOrCtrlPressed, isKeyPressed} from 'utils/utils';
+import {Constants, ModalIdentifiers} from 'src/utils/constants';
+import {cmdOrCtrlPressed, isKeyPressed} from 'src/utils/utils';
 
 import SidebarHeaderDropdownButton from '../sidebar_header_dropdown_button.jsx';
 

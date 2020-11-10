@@ -3,7 +3,7 @@
 
 import {Permissions} from 'mattermost-redux/constants/index';
 
-import {rolesFromMapping, mappingValueFromRoles} from 'utils/policy_roles_adapter';
+import {rolesFromMapping, mappingValueFromRoles} from 'src/utils/policy_roles_adapter';
 
 describe('PolicyRolesAdapter', () => {
     let roles = {};

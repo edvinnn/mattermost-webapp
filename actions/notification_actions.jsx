@@ -12,12 +12,12 @@ import {isChannelMuted} from 'mattermost-redux/utils/channel_utils';
 import {isSystemMessage} from 'mattermost-redux/utils/post_utils';
 import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
-import {browserHistory} from 'utils/browser_history';
-import Constants, {NotificationLevels, UserStatuses} from 'utils/constants';
-import {showNotification} from 'utils/notifications';
-import {isDesktopApp, isMacApp, isMobileApp, isWindowsApp} from 'utils/user_agent';
-import * as Utils from 'utils/utils.jsx';
-import {stripMarkdown} from 'utils/markdown';
+import {browserHistory} from 'src/utils/browser_history';
+import Constants, {NotificationLevels, UserStatuses} from 'src/utils/constants';
+import {showNotification} from 'src/utils/notifications';
+import {isDesktopApp, isMacApp, isMobileApp, isWindowsApp} from 'src/utils/user_agent';
+import * as Utils from 'src/utils/utils.jsx';
+import {stripMarkdown} from 'src/utils/markdown';
 
 const NOTIFY_TEXT_MAX_LENGTH = 50;
 

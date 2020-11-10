@@ -8,7 +8,7 @@ import {PropTypes} from 'prop-types';
 
 import OverlayTrigger from 'components/overlay_trigger';
 
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 
 export default class ChannelCreate extends React.PureComponent {
     static propTypes = {

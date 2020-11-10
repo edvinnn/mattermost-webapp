@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 
 import SignupEmail from 'components/signup/signup_email/signup_email.jsx';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 
 describe('components/SignupEmail', () => {
     const requiredProps = {

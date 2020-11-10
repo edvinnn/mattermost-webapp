@@ -3,7 +3,7 @@
 
 import configureStore from 'redux-mock-store';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 import {closeRightHandSide, closeMenu as closeRhsMenu} from 'actions/views/rhs';
 import {close as closeLhs} from 'actions/views/lhs';
 import LocalStorageStore from 'stores/local_storage_store';

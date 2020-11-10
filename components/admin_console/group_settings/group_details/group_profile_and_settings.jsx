@@ -9,7 +9,7 @@ import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx'
 import AdminPanel from 'components/widgets/admin_console/admin_panel';
 import GroupProfile from 'components/admin_console/group_settings/group_details/group_profile';
 
-import {t} from 'utils/i18n';
+import {t} from 'src/utils/i18n';
 
 import LineSwitch from 'components/admin_console/team_channel_settings/line_switch.jsx';
 

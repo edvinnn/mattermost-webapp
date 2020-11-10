@@ -6,7 +6,7 @@ import React from 'react';
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 import {testComponentForLineBreak} from 'tests/helpers/line_break_helpers';
 import {testComponentForMarkdownHotkeys, makeSelectionEvent} from 'tests/helpers/markdown_hotkey_helpers.js';
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
 import CreateComment from 'components/create_comment/create_comment.jsx';
 import FileUpload from 'components/file_upload';

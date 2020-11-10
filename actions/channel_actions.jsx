@@ -13,9 +13,9 @@ import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 import {loadNewDMIfNeeded, loadNewGMIfNeeded, loadProfilesForSidebar} from 'actions/user_actions.jsx';
-import {browserHistory} from 'utils/browser_history';
-import {Constants, Preferences, NotificationLevels} from 'utils/constants';
-import {getDirectChannelName} from 'utils/utils';
+import {browserHistory} from 'src/utils/browser_history';
+import {Constants, Preferences, NotificationLevels} from 'src/utils/constants';
+import {getDirectChannelName} from 'src/utils/utils';
 
 export function openDirectChannelToUserId(userId) {
     return async (dispatch, getState) => {

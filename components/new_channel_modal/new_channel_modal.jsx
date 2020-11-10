@@ -9,10 +9,10 @@ import {FormattedMessage} from 'react-intl';
 import GlobeIcon from 'components/widgets/icons/globe_icon';
 import LockIcon from 'components/widgets/icons/lock_icon';
 import LocalizedInput from 'components/localized_input/localized_input';
-import Constants from 'utils/constants.jsx';
-import {getShortenedURL} from 'utils/url';
-import * as Utils from 'utils/utils.jsx';
-import {t} from 'utils/i18n.jsx';
+import Constants from 'src/utils/constants.jsx';
+import {getShortenedURL} from 'src/utils/url';
+import * as Utils from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n.jsx';
 
 export default class NewChannelModal extends React.PureComponent {
     static propTypes = {

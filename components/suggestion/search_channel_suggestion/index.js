@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
-import {getDirectTeammate} from 'utils/utils';
+import {getDirectTeammate} from 'src/utils/utils';
 
 import SearchChannelSuggestion from './search_channel_suggestion';
 

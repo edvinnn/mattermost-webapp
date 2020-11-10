@@ -19,8 +19,8 @@ import {
     setRhsExpanded,
 } from 'actions/views/rhs';
 
-import {makeCreateAriaLabelForPost, makeGetReplyCount} from 'utils/post_utils.jsx';
-import {getDirectTeammate, getDisplayNameByUser} from 'utils/utils.jsx';
+import {makeCreateAriaLabelForPost, makeGetReplyCount} from 'src/utils/post_utils.jsx';
+import {getDirectTeammate, getDisplayNameByUser} from 'src/utils/utils.jsx';
 
 import SearchResultsItem from './search_results_item.jsx';
 

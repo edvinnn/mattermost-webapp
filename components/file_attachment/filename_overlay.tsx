@@ -8,8 +8,8 @@ import {FileInfo} from 'mattermost-redux/types/files';
 
 import OverlayTrigger from 'components/overlay_trigger';
 import AttachmentIcon from 'components/widgets/icons/attachment_icon';
-import {trimFilename} from 'utils/file_utils';
-import {localizeMessage} from 'utils/utils.jsx';
+import {trimFilename} from 'src/utils/file_utils';
+import {localizeMessage} from 'src/utils/utils.jsx';
 
 type Props = {
 

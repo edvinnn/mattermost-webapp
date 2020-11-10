@@ -8,9 +8,9 @@ import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
 import LocalStorageStore from 'stores/local_storage_store';
 
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 import {getItemFromStorage} from 'selectors/storage';
-import EmojiMap from 'utils/emoji_map';
+import EmojiMap from 'src/utils/emoji_map';
 
 export const getEmojiMap = createSelector(
     getCustomEmojisByName,

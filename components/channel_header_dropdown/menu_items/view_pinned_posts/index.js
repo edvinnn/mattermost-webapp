@@ -6,7 +6,7 @@ import {connect} from 'react-redux';
 
 import {closeRightHandSide, showPinnedPosts} from 'actions/views/rhs';
 import {getRhsState} from 'selectors/rhs';
-import {RHSStates} from 'utils/constants';
+import {RHSStates} from 'src/utils/constants';
 
 import ViewPinnedPosts from './view_pinned_posts';
 

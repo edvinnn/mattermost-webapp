@@ -8,7 +8,7 @@ import configureStore from 'redux-mock-store';
 
 import {Provider} from 'react-redux';
 
-import {TestHelper} from 'utils/test_helper';
+import {TestHelper} from 'src/utils/test_helper';
 
 import SetupPreferencesStep from './setup_preferences_step';
 

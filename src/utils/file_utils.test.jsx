@@ -7,8 +7,8 @@ import {
     trimFilename,
     canUploadFiles,
     getFileTypeFromMime,
-} from 'utils/file_utils.jsx';
-import * as UserAgent from 'utils/user_agent';
+} from 'src/utils/file_utils.jsx';
+import * as UserAgent from 'src/utils/user_agent';
 
 describe('FileUtils.trimFilename', () => {
     it('trimFilename', () => {

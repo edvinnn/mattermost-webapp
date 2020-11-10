@@ -14,9 +14,9 @@ import {startPeriodicStatusUpdates, stopPeriodicStatusUpdates} from 'actions/sta
 import {startPeriodicSync, stopPeriodicSync, reconnect} from 'actions/websocket_actions.jsx';
 import * as GlobalActions from 'actions/global_actions.jsx';
 
-import Constants from 'utils/constants';
-import * as UserAgent from 'utils/user_agent';
-import * as Utils from 'utils/utils.jsx';
+import Constants from 'src/utils/constants';
+import * as UserAgent from 'src/utils/user_agent';
+import * as Utils from 'src/utils/utils.jsx';
 
 import {makeAsyncComponent} from 'components/async_load';
 const LazyBackstageController = React.lazy(() => import('components/backstage'));

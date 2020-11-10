@@ -10,7 +10,7 @@ import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {changeOpacity, makeStyleFromTheme} from 'mattermost-redux/utils/theme_utils';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
-import * as PostUtils from 'utils/post_utils.jsx';
+import * as PostUtils from 'src/utils/post_utils.jsx';
 
 import InfiniteScroll from 'components/gif_picker/components/InfiniteScroll';
 

@@ -9,7 +9,7 @@ import {getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 
 import {getDraggingState} from 'selectors/views/channel_sidebar';
 import {GlobalState} from 'types/store';
-import {NotificationLevels} from 'utils/constants';
+import {NotificationLevels} from 'src/utils/constants';
 
 import SidebarChannel from './sidebar_channel';
 

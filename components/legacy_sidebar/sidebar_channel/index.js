@@ -24,7 +24,7 @@ import {isChannelMuted} from 'mattermost-redux/utils/channel_utils';
 
 import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
-import {Constants, NotificationLevels, StoragePrefixes} from 'utils/constants';
+import {Constants, NotificationLevels, StoragePrefixes} from 'src/utils/constants';
 
 import {leaveChannel, leaveDirectChannel} from 'actions/views/channel';
 import {open as openLhs} from 'actions/views/lhs.js';

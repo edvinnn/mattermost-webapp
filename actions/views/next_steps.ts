@@ -5,7 +5,7 @@ import {savePreferences} from 'mattermost-redux/actions/preferences';
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {DispatchFunc, GetStateFunc} from 'mattermost-redux/types/actions';
 
-import {ActionTypes, Preferences, RecommendedNextSteps} from 'utils/constants';
+import {ActionTypes, Preferences, RecommendedNextSteps} from 'src/utils/constants';
 
 export function setShowNextStepsView(show: boolean) {
     return {

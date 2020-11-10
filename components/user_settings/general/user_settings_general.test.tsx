@@ -7,7 +7,7 @@ import configureStore from 'redux-mock-store';
 import {UserProfile} from 'mattermost-redux/types/users';
 
 import {shallowWithIntl, mountWithIntl} from 'tests/helpers/intl-test-helper';
-import {TestHelper} from 'utils/test_helper';
+import {TestHelper} from 'src/utils/test_helper';
 
 import UserSettingsGeneral, {UserSettingsGeneralTab} from './user_settings_general';
 

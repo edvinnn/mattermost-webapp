@@ -3,7 +3,7 @@
 
 import assert from 'assert';
 
-import {getPrefix} from 'utils/storage_utils';
+import {getPrefix} from 'src/utils/storage_utils';
 import * as Selectors from 'selectors/storage';
 
 describe('Selectors.Storage', () => {

@@ -12,8 +12,8 @@ import {Team} from 'mattermost-redux/types/teams';
 import {emitUserLoggedOutEvent} from 'actions/global_actions.jsx';
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 
-import * as UserAgent from 'utils/user_agent';
-import Constants from 'utils/constants';
+import * as UserAgent from 'src/utils/user_agent';
+import Constants from 'src/utils/constants';
 
 import logoImage from 'images/logo.png';
 

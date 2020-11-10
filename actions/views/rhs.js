@@ -21,10 +21,10 @@ import {getUserCurrentTimezone} from 'mattermost-redux/utils/timezone_utils';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 import {getSearchTerms, getRhsState, getPluggableId} from 'selectors/rhs';
-import {ActionTypes, RHSStates} from 'utils/constants';
-import * as Utils from 'utils/utils';
+import {ActionTypes, RHSStates} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils';
 
-import {getBrowserUtcOffset, getUtcOffsetForTimeZone} from 'utils/timezone';
+import {getBrowserUtcOffset, getUtcOffsetForTimeZone} from 'src/utils/timezone';
 
 function selectPostFromRightHandSideSearchWithPreviousState(post, previousRhsState) {
     return async (dispatch, getState) => {

@@ -9,7 +9,7 @@ import {insertWithoutDuplicates} from 'mattermost-redux/utils/array_utils';
 
 import {setItem} from 'actions/storage';
 import {DraggingState} from 'types/store';
-import {ActionTypes, StoragePrefixes} from 'utils/constants';
+import {ActionTypes, StoragePrefixes} from 'src/utils/constants';
 
 export function collapseCategory(categoryId: string) {
     return setItem(StoragePrefixes.CHANNEL_CATEGORY_COLLAPSED + categoryId, true);

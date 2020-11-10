@@ -10,10 +10,10 @@ import MattermostLogoSvg from 'images/logo.svg';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import CheckboxCheckedIcon from 'components/widgets/icons/checkbox_checked_icon';
 import BrowserStore from 'stores/browser_store';
-import {LandingPreferenceTypes} from 'utils/constants';
-import * as Utils from 'utils/utils';
+import {LandingPreferenceTypes} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils';
 
-import * as UserAgent from 'utils/user_agent';
+import * as UserAgent from 'src/utils/user_agent';
 
 type Props = {
     defaultTheme: any;

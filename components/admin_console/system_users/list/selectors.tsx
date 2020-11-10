@@ -5,7 +5,7 @@ import {getUser, getProfiles, getProfilesInTeam, getProfilesWithoutTeam, makeSea
 import {GlobalState} from 'mattermost-redux/types/store';
 import {UserProfile} from 'mattermost-redux/types/users';
 
-import {userSelectorOptionsFromFilter} from 'utils/filter_users';
+import {userSelectorOptionsFromFilter} from 'src/utils/filter_users';
 
 const ALL_USERS = '';
 const NO_TEAM = 'no_team';

@@ -13,10 +13,10 @@ import {Team} from 'mattermost-redux/types/teams';
 import {UserProfile} from 'mattermost-redux/types/users';
 
 import {getStandardAnalytics} from 'actions/admin_actions';
-import {Constants, UserSearchOptions, SearchUserTeamFilter, UserFilters} from 'utils/constants';
-import * as Utils from 'utils/utils';
-import {t} from 'utils/i18n';
-import {getUserOptionsFromFilter, searchUserOptionsFromFilter} from 'utils/filter_users';
+import {Constants, UserSearchOptions, SearchUserTeamFilter, UserFilters} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils';
+import {t} from 'src/utils/i18n';
+import {getUserOptionsFromFilter, searchUserOptionsFromFilter} from 'src/utils/filter_users';
 
 import LocalizedInput from 'components/localized_input/localized_input';
 import FormattedAdminHeader from 'components/widgets/admin_console/formatted_admin_header';

@@ -4,8 +4,8 @@
 import {haveIChannelPermission} from 'mattermost-redux/selectors/entities/roles';
 import Permissions from 'mattermost-redux/constants/permissions';
 
-import Constants from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import Constants from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 
 export function canManageMembers(state, channel) {
     if (channel.type === Constants.PRIVATE_CHANNEL) {

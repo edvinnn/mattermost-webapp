@@ -38,11 +38,11 @@ import {getLastViewedChannelName} from 'selectors/local_storage';
 import {getLastPostsApiTimeForChannel} from 'selectors/views/channel';
 import {getSocketStatus} from 'selectors/views/websocket';
 
-import {browserHistory} from 'utils/browser_history';
-import {Constants, ActionTypes, EventTypes, PostRequestTypes} from 'utils/constants';
-import {isMobile} from 'utils/utils.jsx';
+import {browserHistory} from 'src/utils/browser_history';
+import {Constants, ActionTypes, EventTypes, PostRequestTypes} from 'src/utils/constants';
+import {isMobile} from 'src/utils/utils.jsx';
 import LocalStorageStore from 'stores/local_storage_store.jsx';
-import {isArchivedChannel} from 'utils/channel_utils';
+import {isArchivedChannel} from 'src/utils/channel_utils';
 
 export function checkAndSetMobileView() {
     return (dispatch) => {

@@ -4,7 +4,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import {localizeMessage} from 'utils/utils.jsx';
+import {localizeMessage} from 'src/utils/utils.jsx';
 import LoadingImagePreview from 'components/loading_image_preview';
 
 const MIN_IMAGE_SIZE = 48;

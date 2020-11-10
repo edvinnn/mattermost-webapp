@@ -11,8 +11,8 @@ import {get} from 'mattermost-redux/selectors/entities/preferences';
 
 import {UserProfile} from 'mattermost-redux/types/users';
 
-import {Preferences} from 'utils/constants';
-import {getDirectTeammate, getDisplayNameByUser} from 'utils/utils.jsx';
+import {Preferences} from 'src/utils/constants';
+import {getDirectTeammate, getDisplayNameByUser} from 'src/utils/utils.jsx';
 import {getCurrentLocale} from 'selectors/i18n';
 
 import {GlobalState} from 'types/store';

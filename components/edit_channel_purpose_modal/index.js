@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 import {getBool} from 'mattermost-redux/selectors/entities/preferences';
 import {patchChannel} from 'mattermost-redux/actions/channels';
 
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
 import EditChannelPurposeModal from './edit_channel_purpose_modal.jsx';
 

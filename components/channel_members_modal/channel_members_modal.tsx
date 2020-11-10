@@ -8,7 +8,7 @@ import {Channel} from 'mattermost-redux/types/channels';
 
 import MemberListChannel from 'components/member_list_channel';
 import ChannelInviteModal from 'components/channel_invite_modal';
-import {ModalIdentifiers} from 'utils/constants';
+import {ModalIdentifiers} from 'src/utils/constants';
 
 type Props = {
 

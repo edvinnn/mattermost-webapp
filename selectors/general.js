@@ -3,7 +3,7 @@
 
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import * as UserAgent from 'utils/user_agent';
+import * as UserAgent from 'src/utils/user_agent';
 
 export function areTimezonesEnabledAndSupported(state) {
     if (UserAgent.isInternetExplorer()) {

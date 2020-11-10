@@ -5,8 +5,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
-import {Constants} from 'utils/constants';
-import {t} from 'utils/i18n';
+import {Constants} from 'src/utils/constants';
+import {t} from 'src/utils/i18n';
 
 export default class EditPostTimeLimitButton extends React.PureComponent {
     static propTypes = {

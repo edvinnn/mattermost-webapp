@@ -1,7 +1,7 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {stripMarkdown} from 'utils/markdown';
+import {stripMarkdown} from 'src/utils/markdown';
 import getEnablePluginSetting from 'components/admin_console/custom_plugin_settings/enable_plugin_setting';
 
 function extractTextsFromPlugin(plugin) {

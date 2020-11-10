@@ -7,9 +7,9 @@ import {FormattedMessage} from 'react-intl';
 import {ChannelType, Channel} from 'mattermost-redux/types/channels';
 import {ServerError} from 'mattermost-redux/types/errors';
 
-import Constants, {ModalIdentifiers} from 'utils/constants';
-import * as Utils from 'utils/utils';
-import {cleanUpUrlable} from 'utils/url';
+import Constants, {ModalIdentifiers} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils';
+import {cleanUpUrlable} from 'src/utils/url';
 
 import NewChannelModal from 'components/new_channel_modal';
 import ChangeURLModal from 'components/change_url_modal';

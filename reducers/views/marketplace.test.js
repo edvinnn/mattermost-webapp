@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 
 import marketplaceReducer from 'reducers/views/marketplace';
-import {ActionTypes, ModalIdentifiers} from 'utils/constants';
+import {ActionTypes, ModalIdentifiers} from 'src/utils/constants';
 
 describe('marketplace', () => {
     test('initial state', () => {

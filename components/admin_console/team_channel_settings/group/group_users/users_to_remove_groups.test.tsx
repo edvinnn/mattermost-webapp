@@ -7,7 +7,7 @@ import {shallow} from 'enzyme';
 import {UserProfile} from 'mattermost-redux/types/users';
 import {Group} from 'mattermost-redux/types/groups';
 
-import {TestHelper} from 'utils/test_helper';
+import {TestHelper} from 'src/utils/test_helper';
 
 import UsersToRemoveGroups from './users_to_remove_groups';
 

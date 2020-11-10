@@ -14,9 +14,9 @@ import StateSelector from 'components/payment_form/state_selector';
 import Input from 'components/input';
 import SaveButton from 'components/save_button';
 import {GlobalState} from 'types/store';
-import {browserHistory} from 'utils/browser_history';
-import {COUNTRIES} from 'utils/countries';
-import * as Utils from 'utils/utils';
+import {browserHistory} from 'src/utils/browser_history';
+import {COUNTRIES} from 'src/utils/countries';
+import * as Utils from 'src/utils/utils';
 
 import './company_info_edit.scss';
 

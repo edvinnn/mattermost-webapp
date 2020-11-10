@@ -8,10 +8,10 @@ import {FileInfo} from 'mattermost-redux/types/files';
 import {Post} from 'mattermost-redux/types/posts';
 
 import SizeAwareImage from 'components/size_aware_image';
-import {FileTypes} from 'utils/constants';
+import {FileTypes} from 'src/utils/constants';
 import {
     getFileType,
-} from 'utils/utils';
+} from 'src/utils/utils';
 
 import ViewImageModal from 'components/view_image';
 

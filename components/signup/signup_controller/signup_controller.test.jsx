@@ -5,8 +5,8 @@ import {shallow} from 'enzyme';
 import React from 'react';
 
 import * as GlobalActions from 'actions/global_actions.jsx';
-import {browserHistory} from 'utils/browser_history';
-import {Constants} from 'utils/constants';
+import {browserHistory} from 'src/utils/browser_history';
+import {Constants} from 'src/utils/constants';
 
 import SignupController from './signup_controller.jsx';
 

@@ -7,9 +7,9 @@ import React from 'react';
 import {Overlay, Tooltip} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
-import {browserHistory} from 'utils/browser_history';
-import {Constants, ModalIdentifiers} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import {browserHistory} from 'src/utils/browser_history';
+import {Constants, ModalIdentifiers} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 import ChannelMembersModal from 'components/channel_members_modal';
 import OverlayTrigger from 'components/overlay_trigger';
 import MemberIcon from 'components/widgets/icons/member_icon';

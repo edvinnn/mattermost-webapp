@@ -10,8 +10,8 @@ import {Posts} from 'mattermost-redux/constants';
 import {sortFileInfos} from 'mattermost-redux/utils/file_utils';
 
 import * as GlobalActions from 'actions/global_actions.jsx';
-import Constants, {StoragePrefixes, ModalIdentifiers, Locations, A11yClassNames} from 'utils/constants';
-import {t} from 'utils/i18n';
+import Constants, {StoragePrefixes, ModalIdentifiers, Locations, A11yClassNames} from 'src/utils/constants';
+import {t} from 'src/utils/i18n';
 import {
     containsAtChannel,
     postMessageOnKeyPress,
@@ -19,11 +19,11 @@ import {
     isErrorInvalidSlashCommand,
     splitMessageBasedOnCaretPosition,
     groupsMentionedInText,
-} from 'utils/post_utils.jsx';
-import {getTable, formatMarkdownTableMessage, formatGithubCodePaste, isGitHubCodeBlock} from 'utils/paste';
-import {intlShape} from 'utils/react_intl';
-import * as UserAgent from 'utils/user_agent';
-import * as Utils from 'utils/utils.jsx';
+} from 'src/utils/post_utils.jsx';
+import {getTable, formatMarkdownTableMessage, formatGithubCodePaste, isGitHubCodeBlock} from 'src/utils/paste';
+import {intlShape} from 'src/utils/react_intl';
+import * as UserAgent from 'src/utils/user_agent';
+import * as Utils from 'src/utils/utils.jsx';
 
 import ConfirmModal from 'components/confirm_modal';
 import EditChannelHeaderModal from 'components/edit_channel_header_modal';

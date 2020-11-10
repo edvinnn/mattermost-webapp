@@ -5,7 +5,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 import LoadingScreen from 'components/loading_screen';
 import ConfirmModal from 'components/confirm_modal';
 import AbstractOAuthApp from '../abstract_oauth_app.jsx';

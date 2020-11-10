@@ -11,9 +11,9 @@ import {RelationOneToOne} from 'mattermost-redux/types/utilities';
 import {UserProfile} from 'mattermost-redux/types/users';
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {browserHistory} from 'utils/browser_history';
-import Constants from 'utils/constants';
-import {displayEntireNameForUser, localizeMessage, isGuest} from 'utils/utils.jsx';
+import {browserHistory} from 'src/utils/browser_history';
+import Constants from 'src/utils/constants';
+import {displayEntireNameForUser, localizeMessage, isGuest} from 'src/utils/utils.jsx';
 import MultiSelect, {Value} from 'components/multiselect/multiselect';
 import ProfilePicture from 'components/profile_picture';
 import AddIcon from 'components/widgets/icons/fa_add_icon';

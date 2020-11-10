@@ -14,7 +14,7 @@ import TextSetting from 'components/admin_console/text_setting';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
 import LoadingScreen from 'components/loading_screen';
 
-import {Constants} from 'utils/constants';
+import {Constants} from 'src/utils/constants';
 
 type Props = BaseProps & {
     actions: {

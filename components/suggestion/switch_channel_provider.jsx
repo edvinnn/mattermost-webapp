@@ -37,8 +37,8 @@ import Avatar from 'components/widgets/users/avatar';
 
 import {getPostDraft} from 'selectors/rhs';
 import store from 'stores/redux_store.jsx';
-import {Constants, StoragePrefixes} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import {Constants, StoragePrefixes} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 
 import Provider from './provider.jsx';
 import Suggestion from './suggestion.jsx';

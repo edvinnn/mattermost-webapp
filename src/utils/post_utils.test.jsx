@@ -6,9 +6,9 @@ import assert from 'assert';
 import {createIntl} from 'react-intl';
 import {Posts} from 'mattermost-redux/constants';
 
-import * as PostUtils from 'utils/post_utils.jsx';
-import {PostListRowListIds} from 'utils/constants';
-import EmojiMap from 'utils/emoji_map';
+import * as PostUtils from 'src/utils/post_utils.jsx';
+import {PostListRowListIds} from 'src/utils/constants';
+import EmojiMap from 'src/utils/emoji_map';
 
 const enMessages = require('../i18n/en');
 

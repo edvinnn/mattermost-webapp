@@ -3,8 +3,8 @@
 
 import exif2css from 'exif2css';
 
-import Constants from 'utils/constants';
-import * as UserAgent from 'utils/user_agent';
+import Constants from 'src/utils/constants';
+import * as UserAgent from 'src/utils/user_agent';
 
 export function canUploadFiles(config) {
     const enableFileAttachments = config.EnableFileAttachments === 'true';

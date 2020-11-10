@@ -9,11 +9,11 @@ import {addDecorator} from '@storybook/react';
 
 import IntlProvider from 'components/intl_provider';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 
 import configureStore from 'store';
 
-import {resetTheme} from 'utils/utils';
+import {resetTheme} from 'src/utils/utils';
 
 import state from './state';
 const store = configureStore(state);

@@ -8,8 +8,8 @@ import {Post} from 'mattermost-redux/types/posts';
 import {UserProfile} from 'mattermost-redux/types/users';
 
 import {sendAddToChannelEphemeralPost} from 'actions/global_actions';
-import {Constants} from 'utils/constants';
-import {t} from 'utils/i18n';
+import {Constants} from 'src/utils/constants';
+import {t} from 'src/utils/i18n';
 import AtMention from 'components/at_mention';
 
 interface Actions {

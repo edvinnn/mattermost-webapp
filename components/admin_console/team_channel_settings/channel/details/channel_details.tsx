@@ -18,8 +18,8 @@ import {Team} from 'mattermost-redux/types/teams';
 import ConfirmModal from 'components/confirm_modal';
 import BlockableLink from 'components/admin_console/blockable_link';
 import FormError from 'components/form_error';
-import Constants from 'utils/constants';
-import {browserHistory} from 'utils/browser_history';
+import Constants from 'src/utils/constants';
+import {browserHistory} from 'src/utils/browser_history';
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 
 import {NeedGroupsError, UsersWillBeRemovedError} from '../../errors';

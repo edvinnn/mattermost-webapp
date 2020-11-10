@@ -25,8 +25,8 @@ import store from 'stores/redux_store.jsx';
 
 import configureStore from 'tests/test_store';
 
-import {browserHistory} from 'utils/browser_history';
-import Constants, {SocketEvents, UserStatuses, ActionTypes} from 'utils/constants';
+import {browserHistory} from 'src/utils/browser_history';
+import Constants, {SocketEvents, UserStatuses, ActionTypes} from 'src/utils/constants';
 
 import {
     handleChannelUpdatedEvent,

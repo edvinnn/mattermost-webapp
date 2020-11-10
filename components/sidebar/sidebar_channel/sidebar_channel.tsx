@@ -8,7 +8,7 @@ import classNames from 'classnames';
 import {Channel} from 'mattermost-redux/types/channels';
 
 import {DraggingState} from 'types/store';
-import Constants, {DraggingStates} from 'utils/constants';
+import Constants, {DraggingStates} from 'src/utils/constants';
 
 import SidebarBaseChannel from './sidebar_base_channel';
 import SidebarDirectChannel from './sidebar_direct_channel';

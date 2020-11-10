@@ -9,8 +9,8 @@ import {getUser} from 'mattermost-redux/actions/users';
 import {savePreferences} from 'mattermost-redux/actions/preferences';
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
-import {browserHistory} from 'utils/browser_history';
-import {Preferences} from 'utils/constants';
+import {browserHistory} from 'src/utils/browser_history';
+import {Preferences} from 'src/utils/constants';
 
 export function removeUserFromTeamAndGetStats(teamId, userId) {
     return async (dispatch, getState) => {

@@ -5,9 +5,9 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import Constants from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
-import {t} from 'utils/i18n';
+import Constants from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n';
 
 import AdminSettings from './admin_settings';
 import Setting from './setting';

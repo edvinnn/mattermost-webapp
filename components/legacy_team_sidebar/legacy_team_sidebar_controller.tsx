@@ -13,9 +13,9 @@ import {TeamMembership} from 'mattermost-redux/src/types/teams';
 import {Dispatch} from 'redux';
 import {GenericAction, GetStateFunc} from 'mattermost-redux/types/actions';
 
-import {Constants} from 'utils/constants.jsx';
-import {filterAndSortTeamsByDisplayName} from 'utils/team_utils.jsx';
-import * as Utils from 'utils/utils.jsx';
+import {Constants} from 'src/utils/constants.jsx';
+import {filterAndSortTeamsByDisplayName} from 'src/utils/team_utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 
 import SystemPermissionGate from 'components/permissions_gates/system_permission_gate';
 import Pluggable from 'plugins/pluggable';

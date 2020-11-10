@@ -10,9 +10,9 @@ import classNames from 'classnames';
 import OverlayTrigger from 'components/overlay_trigger';
 import FlagIcon from 'components/widgets/icons/flag_icon';
 import FlagIconFilled from 'components/widgets/icons/flag_icon_filled';
-import Constants, {Locations, A11yCustomEventTypes} from 'utils/constants';
-import {localizeMessage} from 'utils/utils.jsx';
-import {t} from 'utils/i18n';
+import Constants, {Locations, A11yCustomEventTypes} from 'src/utils/constants';
+import {localizeMessage} from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n';
 
 export default class PostFlagIcon extends React.PureComponent {
     static propTypes = {

@@ -12,7 +12,7 @@ import {
 
 import SpinnerButton from 'components/spinner_button';
 
-import {localizeMessage} from 'utils/utils.jsx';
+import {localizeMessage} from 'src/utils/utils.jsx';
 
 import DialogElement from './dialog_element';
 import DialogIntroductionText from './dialog_introduction_text';

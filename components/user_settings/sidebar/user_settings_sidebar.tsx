@@ -15,9 +15,9 @@ import {trackEvent} from 'actions/telemetry_actions.jsx';
 
 import LocalizedIcon from 'components/localized_icon';
 
-import Constants from 'utils/constants';
-import {isMac} from 'utils/utils.jsx';
-import {t} from 'utils/i18n';
+import Constants from 'src/utils/constants';
+import {isMac} from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n';
 
 import SettingItemMax from 'components/setting_item_max.jsx';
 import SettingItemMin from 'components/setting_item_min';

@@ -5,8 +5,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
-import {t} from 'utils/i18n';
-import * as Utils from 'utils/utils';
+import {t} from 'src/utils/i18n';
+import * as Utils from 'src/utils/utils';
 
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 

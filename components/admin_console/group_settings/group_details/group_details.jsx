@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 import {Groups} from 'mattermost-redux/constants';
 
-import {t} from 'utils/i18n';
-import {localizeMessage} from 'utils/utils.jsx';
+import {t} from 'src/utils/i18n';
+import {localizeMessage} from 'src/utils/utils.jsx';
 
 import FormError from 'components/form_error';
 import {GroupProfileAndSettings} from 'components/admin_console/group_settings/group_details/group_profile_and_settings';

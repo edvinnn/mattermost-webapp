@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 import assert from 'assert';
 
-import {TestHelper} from 'utils/test_helper';
+import {TestHelper} from 'src/utils/test_helper';
 
 import {makeGetMentionKeysForPost} from './index';
 

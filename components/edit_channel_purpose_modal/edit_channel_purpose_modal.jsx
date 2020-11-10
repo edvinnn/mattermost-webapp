@@ -6,8 +6,8 @@ import React from 'react';
 import {Modal} from 'react-bootstrap';
 import {FormattedMessage, injectIntl} from 'react-intl';
 
-import Constants from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import Constants from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 
 class EditChannelPurposeModal extends React.PureComponent {
     static propTypes = {

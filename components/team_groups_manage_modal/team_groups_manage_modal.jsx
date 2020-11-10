@@ -11,8 +11,8 @@ import ConfirmModal from 'components/confirm_modal';
 
 import AddGroupsToTeamModal from 'components/add_groups_to_team_modal';
 
-import {ModalIdentifiers} from 'utils/constants';
-import {intlShape} from 'utils/react_intl';
+import {ModalIdentifiers} from 'src/utils/constants';
+import {intlShape} from 'src/utils/react_intl';
 
 import ListModal, {DEFAULT_NUM_PER_PAGE} from 'components/list_modal.jsx';
 
@@ -22,7 +22,7 @@ import groupsAvatar from 'images/groups-avatar.png';
 import MenuWrapper from 'components/widgets/menu/menu_wrapper';
 import Menu from 'components/widgets/menu/menu';
 
-import * as Utils from 'utils/utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
 
 class TeamGroupsManageModal extends React.PureComponent {
     static propTypes = {

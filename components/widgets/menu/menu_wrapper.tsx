@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
 import MenuWrapperAnimation from './menu_wrapper_animation';
 

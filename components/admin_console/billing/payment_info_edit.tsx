@@ -19,8 +19,8 @@ import {STRIPE_CSS_SRC, STRIPE_PUBLIC_KEY} from 'components/payment_form/stripe'
 import SaveButton from 'components/save_button';
 import {areBillingDetailsValid, BillingDetails} from 'types/cloud/sku';
 import {GlobalState} from 'types/store';
-import {CloudLinks} from 'utils/constants';
-import {browserHistory} from 'utils/browser_history';
+import {CloudLinks} from 'src/utils/constants';
+import {browserHistory} from 'src/utils/browser_history';
 
 import './payment_info_edit.scss';
 import AlertBanner from 'components/alert_banner';

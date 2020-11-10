@@ -4,7 +4,7 @@
 import React from 'react';
 import {mount} from 'enzyme';
 
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 
 import SubMenuItem from './submenu_item';
 

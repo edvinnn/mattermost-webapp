@@ -11,11 +11,11 @@ import {ServerError} from 'mattermost-redux/types/errors';
 
 import LocalizedInput from 'components/localized_input/localized_input';
 import OverlayTrigger from 'components/overlay_trigger';
-import {browserHistory} from 'utils/browser_history';
-import Constants from 'utils/constants.jsx';
-import {t} from 'utils/i18n';
-import {getShortenedURL, validateChannelUrl} from 'utils/url';
-import * as Utils from 'utils/utils.jsx';
+import {browserHistory} from 'src/utils/browser_history';
+import Constants from 'src/utils/constants.jsx';
+import {t} from 'src/utils/i18n';
+import {getShortenedURL, validateChannelUrl} from 'src/utils/url';
+import * as Utils from 'src/utils/utils.jsx';
 
 const holders = defineMessages({
     maxLength: {

@@ -11,8 +11,8 @@ import {TeamMembership, Team} from 'mattermost-redux/types/teams';
 import {Dictionary} from 'mattermost-redux/types/utilities';
 import GeneralConstants from 'mattermost-redux/constants/general';
 
-import {t} from 'utils/i18n';
-import Constants from 'utils/constants';
+import {t} from 'src/utils/i18n';
+import Constants from 'src/utils/constants';
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 
 import AdminPanel from 'components/widgets/admin_console/admin_panel';

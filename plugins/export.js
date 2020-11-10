@@ -1,9 +1,9 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import messageHtmlToComponent from 'utils/message_html_to_component';
-import {formatText} from 'utils/text_formatting';
-import {browserHistory} from 'utils/browser_history';
+import messageHtmlToComponent from 'src/utils/message_html_to_component';
+import {formatText} from 'src/utils/text_formatting';
+import {browserHistory} from 'src/utils/browser_history';
 import Textbox from 'components/textbox';
 
 // The following import has intentional side effects. Do not remove without research.

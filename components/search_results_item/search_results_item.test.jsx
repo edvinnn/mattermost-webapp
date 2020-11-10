@@ -6,8 +6,8 @@ import {Posts} from 'mattermost-redux/constants';
 
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
-import {Locations} from 'utils/constants';
-import {browserHistory} from 'utils/browser_history';
+import {Locations} from 'src/utils/constants';
+import {browserHistory} from 'src/utils/browser_history';
 import SearchResultsItem from 'components/search_results_item/search_results_item';
 import PostFlagIcon from 'components/post_view/post_flag_icon';
 import PostPreHeader from 'components/post_view/post_pre_header';

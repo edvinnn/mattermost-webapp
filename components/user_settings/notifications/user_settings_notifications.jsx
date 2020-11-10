@@ -7,12 +7,12 @@ import {FormattedMessage} from 'react-intl';
 
 import semver from 'semver';
 
-import Constants, {NotificationLevels} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import Constants, {NotificationLevels} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 import SettingItemMax from 'components/setting_item_max.jsx';
 import SettingItemMin from 'components/setting_item_min';
 
-import {isDesktopApp} from 'utils/user_agent';
+import {isDesktopApp} from 'src/utils/user_agent';
 
 import DesktopNotificationSettings from './desktop_notification_settings.jsx';
 import EmailNotificationSetting from './email_notification_setting';

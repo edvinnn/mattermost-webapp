@@ -7,11 +7,11 @@ import {FormattedMessage, injectIntl} from 'react-intl';
 
 import Toast from 'components/toast/toast';
 import Timestamp, {RelativeRanges} from 'components/timestamp';
-import {isIdNotPost, getNewMessageIndex} from 'utils/post_utils.jsx';
-import * as Utils from 'utils/utils.jsx';
-import {isToday} from 'utils/datetime';
-import Constants from 'utils/constants';
-import {browserHistory} from 'utils/browser_history';
+import {isIdNotPost, getNewMessageIndex} from 'src/utils/post_utils.jsx';
+import * as Utils from 'src/utils/utils.jsx';
+import {isToday} from 'src/utils/datetime';
+import Constants from 'src/utils/constants';
+import {browserHistory} from 'src/utils/browser_history';
 
 const TOAST_TEXT_COLLAPSE_WIDTH = 500;
 const THRESHOLD_FROM_BOTTOM = 1000;

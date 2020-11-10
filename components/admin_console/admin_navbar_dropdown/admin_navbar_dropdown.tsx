@@ -9,8 +9,8 @@ import {Team} from 'mattermost-redux/types/teams';
 import * as GlobalActions from 'actions/global_actions.jsx';
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 
-import {filterAndSortTeamsByDisplayName} from 'utils/team_utils.jsx';
-import {ModalIdentifiers} from 'utils/constants';
+import {filterAndSortTeamsByDisplayName} from 'src/utils/team_utils.jsx';
+import {ModalIdentifiers} from 'src/utils/constants';
 
 import AboutBuildModal from 'components/about_build_modal';
 

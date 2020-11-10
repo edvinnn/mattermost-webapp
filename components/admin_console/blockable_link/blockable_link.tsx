@@ -4,7 +4,7 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 
 type Props = {
 

@@ -4,7 +4,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {NotificationLevels} from 'utils/constants';
+import {NotificationLevels} from 'src/utils/constants';
 
 export default class UnmuteChannelButton extends React.PureComponent {
     static propTypes = {

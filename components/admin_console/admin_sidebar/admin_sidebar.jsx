@@ -8,10 +8,10 @@ import {FormattedMessage, injectIntl} from 'react-intl';
 import Scrollbars from 'react-custom-scrollbars';
 import isEqual from 'lodash/isEqual';
 
-import * as Utils from 'utils/utils.jsx';
-import {generateIndex} from 'utils/admin_console_index.jsx';
-import {browserHistory} from 'utils/browser_history';
-import {intlShape} from 'utils/react_intl';
+import * as Utils from 'src/utils/utils.jsx';
+import {generateIndex} from 'src/utils/admin_console_index.jsx';
+import {browserHistory} from 'src/utils/browser_history';
+import {intlShape} from 'src/utils/react_intl';
 
 import AdminSidebarCategory from 'components/admin_console/admin_sidebar_category.jsx';
 import AdminSidebarHeader from 'components/admin_console/admin_sidebar_header';

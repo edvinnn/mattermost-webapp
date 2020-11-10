@@ -12,8 +12,8 @@ import {GlobalState} from 'mattermost-redux/types/store';
 import {UserProfile} from 'mattermost-redux/types/users';
 import {ActionFunc, ActionResult} from 'mattermost-redux/types/actions';
 
-import {getPasswordConfig} from 'utils/utils.jsx';
-import {Preferences} from 'utils/constants';
+import {getPasswordConfig} from 'src/utils/utils.jsx';
+import {Preferences} from 'src/utils/constants';
 
 import SecurityTab from './user_settings_security';
 

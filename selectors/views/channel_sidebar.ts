@@ -15,8 +15,8 @@ import {isChannelMuted} from 'mattermost-redux/utils/channel_utils';
 
 import {getItemFromStorage} from 'selectors/storage';
 import {GlobalState} from 'types/store';
-import {StoragePrefixes} from 'utils/constants';
-import {getPrefix} from 'utils/storage_utils';
+import {StoragePrefixes} from 'src/utils/constants';
+import {getPrefix} from 'src/utils/storage_utils';
 
 function isCategoryCollapsedFromStorage(prefix: string, storage: {[key: string]: any}, categoryId: string) {
     return getItemFromStorage(storage, prefix + StoragePrefixes.CHANNEL_CATEGORY_COLLAPSED + categoryId, false);

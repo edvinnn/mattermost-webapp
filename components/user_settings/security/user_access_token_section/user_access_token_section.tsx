@@ -7,9 +7,9 @@ import * as UserUtils from 'mattermost-redux/utils/user_utils';
 import {UserProfile} from 'mattermost-redux/types/users';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
-import Constants from 'utils/constants';
-import {isMobile} from 'utils/user_agent';
-import * as Utils from 'utils/utils.jsx';
+import Constants from 'src/utils/constants';
+import {isMobile} from 'src/utils/user_agent';
+import * as Utils from 'src/utils/utils.jsx';
 import ConfirmModal from 'components/confirm_modal';
 import SettingItemMax from 'components/setting_item_max.jsx';
 import SettingItemMin from 'components/setting_item_min';

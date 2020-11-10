@@ -12,15 +12,15 @@ import {General} from 'mattermost-redux/constants';
 
 import BotDefaultIcon from 'images/bot_default_icon.png';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 import BackstageHeader from 'components/backstage/components/backstage_header.jsx';
 import OverlayTrigger from 'components/overlay_trigger';
 import SpinnerButton from 'components/spinner_button';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
 import FormError from 'components/form_error';
-import {AcceptedProfileImageTypes, Constants, ValidationErrors} from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
-import * as FileUtils from 'utils/file_utils.jsx';
+import {AcceptedProfileImageTypes, Constants, ValidationErrors} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
+import * as FileUtils from 'src/utils/file_utils.jsx';
 
 const roleOptionSystemAdmin = 'System Admin';
 const roleOptionMember = 'Member';

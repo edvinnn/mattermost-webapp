@@ -3,7 +3,7 @@
 
 import assert from 'assert';
 
-import * as TextFormatting from 'utils/text_formatting';
+import * as TextFormatting from 'src/utils/text_formatting';
 
 describe('TextFormatting.AtMentions', () => {
     it('At mentions', () => {

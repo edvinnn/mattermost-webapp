@@ -15,7 +15,7 @@ import {
 import {autocompleteChannelsForSearch} from 'actions/channel_actions';
 import {autocompleteUsersInTeam} from 'actions/user_actions';
 import {getRhsState, getSearchTerms, getIsSearchingTerm, getIsRhsOpen} from 'selectors/rhs';
-import {RHSStates} from 'utils/constants';
+import {RHSStates} from 'src/utils/constants';
 
 import SearchBar from './search_bar.jsx';
 

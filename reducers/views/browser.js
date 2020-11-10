@@ -3,7 +3,7 @@
 
 import {combineReducers} from 'redux';
 
-import {ActionTypes} from 'utils/constants';
+import {ActionTypes} from 'src/utils/constants';
 
 function focused(state = true, action) {
     switch (action.type) {

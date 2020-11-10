@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {FormattedDate, FormattedTime, FormattedMessage} from 'react-intl';
 
-import * as Utils from 'utils/utils.jsx';
-import {format} from 'utils/markdown';
+import * as Utils from 'src/utils/utils.jsx';
+import {format} from 'src/utils/markdown';
 
 import * as AdminActions from 'actions/admin_actions.jsx';
 import {trackEvent} from 'actions/telemetry_actions';

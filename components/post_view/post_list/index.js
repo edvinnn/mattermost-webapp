@@ -12,7 +12,7 @@ import {makePreparePostIdsForPostList} from 'mattermost-redux/utils/post_list';
 import {RequestStatus} from 'mattermost-redux/constants';
 
 import {updateNewMessagesAtInChannel} from 'actions/global_actions.jsx';
-import {getLatestPostId, makeCreateAriaLabelForPost} from 'utils/post_utils.jsx';
+import {getLatestPostId, makeCreateAriaLabelForPost} from 'src/utils/post_utils.jsx';
 import {
     checkAndSetMobileView,
     loadPosts,

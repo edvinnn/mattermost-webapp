@@ -11,8 +11,8 @@ import {setSystemEmojis} from 'mattermost-redux/actions/emojis';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {getCurrentUser} from 'mattermost-redux/selectors/entities/users';
 
-import * as UserAgent from 'utils/user_agent';
-import {EmojiIndicesByAlias} from 'utils/emoji.jsx';
+import * as UserAgent from 'src/utils/user_agent';
+import {EmojiIndicesByAlias} from 'src/utils/emoji.jsx';
 import {trackLoadTime} from 'actions/telemetry_actions.jsx';
 import * as GlobalActions from 'actions/global_actions.jsx';
 import BrowserStore from 'stores/browser_store.jsx';
@@ -20,7 +20,7 @@ import {loadRecentlyUsedCustomEmojis} from 'actions/emoji_actions.jsx';
 import {initializePlugins} from 'plugins';
 import 'plugins/export.js';
 import Pluggable from 'plugins/pluggable';
-import Constants, {StoragePrefixes} from 'utils/constants';
+import Constants, {StoragePrefixes} from 'src/utils/constants';
 import {HFTRoute, LoggedInHFTRoute} from 'components/header_footer_template_route';
 import IntlProvider from 'components/intl_provider';
 import NeedsTeam from 'components/needs_team';
@@ -46,10 +46,10 @@ const LazyCreateTeam = React.lazy(() => import('components/create_team'));
 const LazyMfa = React.lazy(() => import('components/mfa/mfa_controller'));
 
 import store from 'stores/redux_store.jsx';
-import {getSiteURL} from 'utils/url';
-import {enableDevModeFeatures, isDevMode} from 'utils/utils';
+import {getSiteURL} from 'src/utils/url';
+import {enableDevModeFeatures, isDevMode} from 'src/utils/utils';
 
-import A11yController from 'utils/a11y_controller';
+import A11yController from 'src/utils/a11y_controller';
 
 const CreateTeam = makeAsyncComponent(LazyCreateTeam);
 const ErrorPage = makeAsyncComponent(LazyErrorPage);

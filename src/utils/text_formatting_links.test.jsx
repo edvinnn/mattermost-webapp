@@ -3,8 +3,8 @@
 
 import assert from 'assert';
 
-import * as Markdown from 'utils/markdown';
-import * as TextFormatting from 'utils/text_formatting';
+import * as Markdown from 'src/utils/markdown';
+import * as TextFormatting from 'src/utils/text_formatting';
 
 describe('Markdown.Links', () => {
     it('Not links', () => {

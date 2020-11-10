@@ -7,7 +7,7 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {setRecentEmojis} from 'actions/local_storage';
 import {getEmojiMap, getRecentEmojis} from 'selectors/emojis';
 
-import {ActionTypes} from 'utils/constants';
+import {ActionTypes} from 'src/utils/constants';
 
 export function loadRecentlyUsedCustomEmojis() {
     return async (dispatch, getState) => {

@@ -8,7 +8,7 @@ import ReactSelect from 'react-select';
 import {InputActionMeta} from 'react-select/src/types';
 import {getOptionValue} from 'react-select/src/builtins';
 
-import {Constants, A11yCustomEventTypes} from 'utils/constants';
+import {Constants, A11yCustomEventTypes} from 'src/utils/constants';
 import SaveButton from 'components/save_button';
 
 import MultiSelectList from './multiselect_list';

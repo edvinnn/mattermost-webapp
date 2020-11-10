@@ -7,8 +7,8 @@ import {injectIntl, IntlShape} from 'react-intl';
 import {Channel} from 'mattermost-redux/types/channels';
 import {Team} from 'mattermost-redux/types/teams';
 
-import * as UserAgent from 'utils/user_agent';
-import {Constants} from 'utils/constants';
+import * as UserAgent from 'src/utils/user_agent';
+import {Constants} from 'src/utils/constants';
 
 // default favicons
 import faviconDefault16x16 from 'images/favicon/favicon-default-16x16.png';

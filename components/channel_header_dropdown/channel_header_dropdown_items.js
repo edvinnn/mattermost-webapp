@@ -5,8 +5,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {Permissions} from 'mattermost-redux/constants';
 
-import {Constants, ModalIdentifiers} from 'utils/constants';
-import {localizeMessage, isGuest} from 'utils/utils';
+import {Constants, ModalIdentifiers} from 'src/utils/constants';
+import {localizeMessage, isGuest} from 'src/utils/utils';
 
 import MobileChannelHeaderPlug from 'plugins/mobile_channel_header_plug';
 

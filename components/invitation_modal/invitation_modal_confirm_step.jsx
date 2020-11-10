@@ -9,7 +9,7 @@ import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import InviteIcon from 'components/widgets/icons/invite_icon';
 import InvitationModalConfirmStepTable from 'components/invitation_modal/invitation_modal_confirm_step_table';
 
-import {InviteTypes} from 'utils/constants';
+import {InviteTypes} from 'src/utils/constants';
 
 import './invitation_modal_confirm_step.scss';
 

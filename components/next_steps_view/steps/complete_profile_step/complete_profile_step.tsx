@@ -12,8 +12,8 @@ import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import {getAnalyticsCategory} from 'components/next_steps_view/step_helpers';
 import Input from 'components/input';
 import PictureSelector from 'components/picture_selector';
-import {AcceptedProfileImageTypes} from 'utils/constants';
-import * as Utils from 'utils/utils';
+import {AcceptedProfileImageTypes} from 'src/utils/constants';
+import * as Utils from 'src/utils/utils';
 
 import {StepComponentProps} from '../../steps';
 

@@ -13,7 +13,7 @@ import {areTimezonesEnabledAndSupported} from 'selectors/general';
 
 import {GlobalState} from 'types/store';
 
-import {Preferences} from 'utils/constants';
+import {Preferences} from 'src/utils/constants';
 
 import Timestamp, {Props as TimestampProps, supportsHourCycle} from './timestamp';
 

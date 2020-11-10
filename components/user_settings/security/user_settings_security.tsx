@@ -9,8 +9,8 @@ import {UserProfile} from 'mattermost-redux/types/users';
 import {ActionResult} from 'mattermost-redux/types/actions';
 import {OAuthApp} from 'mattermost-redux/types/integrations';
 
-import Constants from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
+import Constants from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
 import icon50 from 'images/icon50x50.png';
 import AccessHistoryModal from 'components/access_history_modal';
 import ActivityLogModal from 'components/activity_log_modal';

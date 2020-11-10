@@ -18,9 +18,9 @@ import {StatusOK} from 'mattermost-redux/types/client4';
 
 import store from 'stores/redux_store.jsx';
 
-import Constants from 'utils/constants';
-import * as Utils from 'utils/utils.jsx';
-import {t} from 'utils/i18n';
+import Constants from 'src/utils/constants';
+import * as Utils from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n';
 import ConfirmModal from '../../confirm_modal';
 
 const UserSettings = React.lazy(() => import(/* webpackPrefetch: true */ 'components/user_settings'));

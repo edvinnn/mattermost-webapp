@@ -6,7 +6,7 @@ import {shallow} from 'enzyme';
 import {Modal} from 'react-bootstrap';
 import {PostType, PostMetadata} from 'mattermost-redux/types/posts';
 
-import {browserHistory} from 'utils/browser_history';
+import {browserHistory} from 'src/utils/browser_history';
 
 import DeletePostModal from 'components/delete_post_modal/delete_post_modal';
 

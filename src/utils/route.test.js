@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 import assert from 'assert';
 
-import {checkIfMFARequired} from 'utils/route';
+import {checkIfMFARequired} from 'src/utils/route';
 
 describe('Utils.Route', () => {
     describe('checkIfMFARequired', () => {

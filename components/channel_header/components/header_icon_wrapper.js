@@ -8,9 +8,9 @@ import {Tooltip} from 'react-bootstrap';
 
 import OverlayTrigger from 'components/overlay_trigger';
 
-import {localizeMessage} from 'utils/utils.jsx';
-import {Constants} from 'utils/constants';
-import {t} from 'utils/i18n';
+import {localizeMessage} from 'src/utils/utils.jsx';
+import {Constants} from 'src/utils/constants';
+import {t} from 'src/utils/i18n';
 
 export default function HeaderIconWrapper({
     iconComponent,

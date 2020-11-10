@@ -6,8 +6,8 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 import {Link} from 'react-router-dom';
 
-import * as Utils from 'utils/utils.jsx';
-import {t} from 'utils/i18n';
+import * as Utils from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n';
 import FormError from 'components/form_error';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message.jsx';
 import CopyText from 'components/copy_text';

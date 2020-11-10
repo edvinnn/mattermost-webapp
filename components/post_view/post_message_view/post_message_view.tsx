@@ -8,13 +8,13 @@ import {Post} from 'mattermost-redux/types/posts';
 
 import {Theme} from 'mattermost-redux/types/preferences';
 
-import * as PostUtils from 'utils/post_utils';
-import * as Utils from 'utils/utils';
+import * as PostUtils from 'src/utils/post_utils';
+import * as Utils from 'src/utils/utils';
 
 import PostMarkdown from 'components/post_markdown';
 import Pluggable from 'plugins/pluggable';
 import ShowMore from 'components/post_view/show_more';
-import {TextFormattingOptions} from 'utils/text_formatting';
+import {TextFormattingOptions} from 'src/utils/text_formatting';
 
 type Props = {
     post: Post; /* The post to render the message for */

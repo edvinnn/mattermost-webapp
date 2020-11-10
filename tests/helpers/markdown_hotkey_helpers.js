@@ -6,7 +6,7 @@
  * consolidate testing of similar behavior across components
  */
 
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 
 /**

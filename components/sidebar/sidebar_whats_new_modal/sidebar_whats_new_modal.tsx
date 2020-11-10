@@ -11,7 +11,7 @@ import GenericModal from 'components/generic_modal';
 
 import whatsNewImg from 'images/whats-new-1.5.gif';
 
-import {ModalIdentifiers} from 'utils/constants';
+import {ModalIdentifiers} from 'src/utils/constants';
 
 import './sidebar_whats_new_modal.scss';
 

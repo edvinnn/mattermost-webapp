@@ -9,9 +9,9 @@ import {Channel} from 'mattermost-redux/types/channels';
 
 import OverlayTrigger from 'components/overlay_trigger';
 
-import Constants, {RHSStates} from 'utils/constants';
-import {isMobile} from 'utils/utils.jsx';
-import {browserHistory} from 'utils/browser_history';
+import Constants, {RHSStates} from 'src/utils/constants';
+import {isMobile} from 'src/utils/utils.jsx';
+import {browserHistory} from 'src/utils/browser_history';
 
 interface RhsHeaderPostProps {
     isExpanded: boolean;

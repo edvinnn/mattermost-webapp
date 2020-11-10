@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 import {UserProfile} from 'mattermost-redux/types/users';
 import {GroupStats} from 'mattermost-redux/types/groups';
 
-import Constants from 'utils/constants';
+import Constants from 'src/utils/constants';
 import UserGridName from 'components/admin_console/user_grid/user_grid_name';
 import DataGrid, {Row, Column} from 'components/admin_console/data_grid/data_grid';
 

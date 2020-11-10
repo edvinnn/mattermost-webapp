@@ -12,7 +12,7 @@ import {removeItem} from 'mattermost-redux/utils/array_utils';
 
 import {DraggingState} from 'types/store';
 
-import {ActionTypes} from 'utils/constants';
+import {ActionTypes} from 'src/utils/constants';
 
 export function unreadFilterEnabled(state = false, action: GenericAction) {
     switch (action.type) {

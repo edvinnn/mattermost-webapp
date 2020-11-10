@@ -9,11 +9,11 @@ import {defineMessages, FormattedMessage, injectIntl} from 'react-intl';
 
 import Textbox from 'components/textbox';
 import TextboxLinks from 'components/textbox/textbox_links';
-import Constants, {ModalIdentifiers} from 'utils/constants';
-import {intlShape} from 'utils/react_intl';
-import {isMobile} from 'utils/user_agent';
-import {insertLineBreakFromKeyEvent, isKeyPressed, isUnhandledLineBreakKeyCombo, localizeMessage} from 'utils/utils.jsx';
-import {t} from 'utils/i18n';
+import Constants, {ModalIdentifiers} from 'src/utils/constants';
+import {intlShape} from 'src/utils/react_intl';
+import {isMobile} from 'src/utils/user_agent';
+import {insertLineBreakFromKeyEvent, isKeyPressed, isUnhandledLineBreakKeyCombo, localizeMessage} from 'src/utils/utils.jsx';
+import {t} from 'src/utils/i18n';
 
 const KeyCodes = Constants.KeyCodes;
 

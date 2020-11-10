@@ -27,7 +27,7 @@ import {
 
 import {sendDesktopNotification} from 'actions/notification_actions.jsx';
 
-import {ActionTypes} from 'utils/constants';
+import {ActionTypes} from 'src/utils/constants';
 
 type NewPostMessageProps = {
     mentions: string[];

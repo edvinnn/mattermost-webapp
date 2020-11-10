@@ -4,7 +4,7 @@
 import {GeneralTypes, UserTypes} from 'mattermost-redux/action_types';
 
 import channelReducer from 'reducers/views/channel';
-import {ActionTypes} from 'utils/constants';
+import {ActionTypes} from 'src/utils/constants';
 
 describe('Reducers.channel', () => {
     const initialState = {

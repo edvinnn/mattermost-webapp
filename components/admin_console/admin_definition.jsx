@@ -4,9 +4,9 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import {Constants} from 'utils/constants';
-import {getSiteURL} from 'utils/url';
-import {t} from 'utils/i18n';
+import {Constants} from 'src/utils/constants';
+import {getSiteURL} from 'src/utils/url';
+import {t} from 'src/utils/i18n';
 import {
     ldapTest, invalidateAllCaches, reloadConfig, testS3Connection,
     removeIdpSamlCertificate, uploadIdpSamlCertificate,

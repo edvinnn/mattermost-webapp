@@ -5,8 +5,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import {showLeavePrivateChannelModal} from 'actions/global_actions';
-import {Constants} from 'utils/constants';
-import {localizeMessage} from 'utils/utils';
+import {Constants} from 'src/utils/constants';
+import {localizeMessage} from 'src/utils/utils';
 
 import Menu from 'components/widgets/menu/menu';
 

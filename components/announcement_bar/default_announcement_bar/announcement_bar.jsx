@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 import PropTypes from 'prop-types';
 import {Tooltip} from 'react-bootstrap';
 
-import {Constants, AnnouncementBarTypes, ModalIdentifiers} from 'utils/constants';
+import {Constants, AnnouncementBarTypes, ModalIdentifiers} from 'src/utils/constants';
 
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import OverlayTrigger from 'components/overlay_trigger';

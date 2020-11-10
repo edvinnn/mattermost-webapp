@@ -5,7 +5,7 @@ import React from 'react';
 import {shallow} from 'enzyme';
 
 import Reaction from 'components/post_view/reaction/reaction.jsx';
-import {getSortedUsers} from 'utils/utils';
+import {getSortedUsers} from 'src/utils/utils';
 
 describe('components/post_view/Reaction', () => {
     const post = {id: 'post_id_1'};
