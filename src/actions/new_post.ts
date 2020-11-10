@@ -25,7 +25,7 @@ import {
     shouldIgnorePost,
 } from 'mattermost-redux/utils/post_utils';
 
-import {sendDesktopNotification} from 'actions/notification_actions.jsx';
+import {sendDesktopNotification} from 'src/actions/notification_actions.jsx';
 
 import {ActionTypes} from 'src/utils/constants';
 

@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import {emitUserLoggedOutEvent} from 'actions/global_actions.jsx';
+import {emitUserLoggedOutEvent} from 'src/actions/global_actions.jsx';
 import Constants from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';

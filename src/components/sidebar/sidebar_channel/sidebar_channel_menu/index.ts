@@ -16,8 +16,8 @@ import {ActionFunc} from 'mattermost-redux/types/actions';
 import {Channel} from 'mattermost-redux/types/channels';
 import {isChannelMuted} from 'mattermost-redux/utils/channel_utils';
 
-import {unmuteChannel, muteChannel} from 'actions/channel_actions';
-import {openModal} from 'actions/views/modals';
+import {unmuteChannel, muteChannel} from 'src/actions/channel_actions';
+import {openModal} from 'src/actions/views/modals';
 import {GlobalState} from 'types/store';
 import {getSiteURL} from 'src/utils/url';
 

@@ -7,7 +7,7 @@ import classNames from 'classnames';
 
 import {Team} from 'mattermost-redux/types/teams';
 
-import {pageVisited, trackEvent} from 'actions/telemetry_actions';
+import {pageVisited, trackEvent} from 'src/actions/telemetry_actions';
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 import Input from 'src/components/input';
 import {getAnalyticsCategory} from 'src/components/next_steps_view/step_helpers';

@@ -14,7 +14,7 @@ import {getScheme as loadScheme, patchScheme, createScheme, getSchemeTeams as lo
 
 import {updateTeamScheme} from 'mattermost-redux/actions/teams';
 
-import {setNavigationBlocked} from 'actions/admin_actions.jsx';
+import {setNavigationBlocked} from 'src/actions/admin_actions.jsx';
 
 import PermissionTeamSchemeSettings from './permission_team_scheme_settings.jsx';
 

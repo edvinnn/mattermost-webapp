@@ -16,7 +16,7 @@ import PluginIcon from 'src/components/widgets/icons/plugin_icon.jsx';
 import LoadingScreen from 'src/components/loading_screen';
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 import {t} from 'src/utils/i18n';
 import {localizeMessage} from 'src/utils/utils';
 

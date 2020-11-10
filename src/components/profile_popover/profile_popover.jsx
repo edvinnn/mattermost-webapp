@@ -12,7 +12,7 @@ import Timestamp from 'src/components/timestamp';
 import OverlayTrigger from 'src/components/overlay_trigger';
 import UserSettingsModal from 'src/components/user_settings/modal';
 import {browserHistory} from 'src/utils/browser_history';
-import * as GlobalActions from 'actions/global_actions.jsx';
+import * as GlobalActions from 'src/actions/global_actions.jsx';
 import Constants, {ModalIdentifiers, UserStatuses} from 'src/utils/constants';
 import {t} from 'src/utils/i18n';
 import {intlShape} from 'src/utils/react_intl';

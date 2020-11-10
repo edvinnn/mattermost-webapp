@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 import {PreferenceType} from 'mattermost-redux/types/preferences';
 import {UserProfile} from 'mattermost-redux/types/users';
 
-import {pageVisited, trackEvent} from 'actions/telemetry_actions';
+import {pageVisited, trackEvent} from 'src/actions/telemetry_actions';
 import Accordion from 'src/components/accordion';
 import Card from 'src/components/card/card';
 import {getAnalyticsCategory} from 'src/components/next_steps_view/step_helpers';

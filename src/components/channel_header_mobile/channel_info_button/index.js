@@ -4,7 +4,7 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
-import {openModal} from 'actions/views/modals';
+import {openModal} from 'src/actions/views/modals';
 
 import ChannelInfoButton from './channel_info_button';
 

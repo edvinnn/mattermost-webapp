@@ -11,8 +11,8 @@ import {get} from 'mattermost-redux/selectors/entities/preferences';
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {isSystemMessage} from 'mattermost-redux/utils/post_utils';
 
-import {markPostAsUnread} from 'actions/post_actions';
-import {selectPost, selectPostCard} from 'actions/views/rhs';
+import {markPostAsUnread} from 'src/actions/post_actions';
+import {selectPost, selectPostCard} from 'src/actions/views/rhs';
 
 import {isArchivedChannel} from 'src/utils/channel_utils';
 import {Preferences} from 'src/utils/constants';

@@ -16,8 +16,8 @@ import {getChannelMembersInChannels} from 'mattermost-redux/selectors/entities/c
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
 import {GlobalState} from 'types/store';
-import {loadChannelMembersForProfilesList, loadTeamMembersForProfilesList} from 'actions/user_actions.jsx';
-import {setModalSearchTerm, setModalFilters} from 'actions/views/search';
+import {loadChannelMembersForProfilesList, loadTeamMembersForProfilesList} from 'src/actions/user_actions.jsx';
+import {setModalSearchTerm, setModalFilters} from 'src/actions/views/search';
 
 import UsersToRemove, {Filters, Memberships} from './users_to_remove';
 

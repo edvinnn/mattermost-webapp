@@ -15,13 +15,13 @@ import {
     removePrivateLdapCertificate, uploadPrivateLdapCertificate,
     removePublicLdapCertificate, uploadPublicLdapCertificate,
     invalidateAllEmailInvites, testSmtp, testSiteURL, getSamlMetadataFromIdp, setSamlIdpCertificateFromMetadata,
-} from 'actions/admin_actions';
+} from 'src/actions/admin_actions';
 import SystemAnalytics from 'src/components/analytics/system_analytics';
 import TeamAnalytics from 'src/components/analytics/team_analytics';
 import PluginManagement from 'src/components/admin_console/plugin_management';
 import CustomPluginSettings from 'src/components/admin_console/custom_plugin_settings';
 
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 
 import Audits from './audits';
 import CustomUrlSchemesSetting from './custom_url_schemes_setting.jsx';

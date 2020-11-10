@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 import {Post} from 'mattermost-redux/types/posts';
 import {UserProfile} from 'mattermost-redux/types/users';
 
-import {sendAddToChannelEphemeralPost} from 'actions/global_actions';
+import {sendAddToChannelEphemeralPost} from 'src/actions/global_actions';
 import {Constants} from 'src/utils/constants';
 import {t} from 'src/utils/i18n';
 import AtMention from 'src/components/at_mention';

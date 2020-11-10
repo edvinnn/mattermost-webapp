@@ -8,7 +8,7 @@ import {injectIntl, FormattedMessage} from 'react-intl';
 import {debounce} from 'mattermost-redux/actions/helpers';
 import {isEmail} from 'mattermost-redux/utils/helpers';
 
-import {trackEvent} from 'actions/telemetry_actions';
+import {trackEvent} from 'src/actions/telemetry_actions';
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 import InviteMembersIcon from 'src/components/widgets/icons/invite_members_icon';
 import UsersEmailsInput from 'src/components/widgets/inputs/users_emails_input.jsx';

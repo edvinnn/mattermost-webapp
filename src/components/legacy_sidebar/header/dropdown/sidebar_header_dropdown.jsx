@@ -4,7 +4,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import * as GlobalActions from 'actions/global_actions.jsx';
+import * as GlobalActions from 'src/actions/global_actions.jsx';
 import {Constants, ModalIdentifiers} from 'src/utils/constants';
 import {cmdOrCtrlPressed, isKeyPressed} from 'src/utils/utils';
 

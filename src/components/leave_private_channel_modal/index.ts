@@ -6,7 +6,7 @@ import {bindActionCreators, Dispatch} from 'redux';
 
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {leaveChannel} from 'actions/views/channel';
+import {leaveChannel} from 'src/actions/views/channel';
 
 import LeavePrivateChannelModal from './leave_private_channel_modal';
 

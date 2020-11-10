@@ -18,11 +18,11 @@ import {Action} from 'mattermost-redux/types/actions';
 
 import {GlobalState} from 'types/store';
 
-import {setPreviousTeamId} from 'actions/local_storage';
+import {setPreviousTeamId} from 'src/actions/local_storage';
 import {getPreviousTeamId} from 'src/selectors/local_storage';
-import {loadStatusesForChannelAndSidebar} from 'actions/status_actions';
-import {addUserToTeam} from 'actions/team_actions';
-import {markChannelAsReadOnFocus} from 'actions/views/channel';
+import {loadStatusesForChannelAndSidebar} from 'src/actions/status_actions';
+import {addUserToTeam} from 'src/actions/team_actions';
+import {markChannelAsReadOnFocus} from 'src/actions/views/channel';
 import {checkIfMFARequired} from 'src/utils/route';
 
 import NeedsTeam from './needs_team';

@@ -4,7 +4,7 @@
 import assert from 'assert';
 
 import {getRecentEmojis} from 'src/selectors/emojis';
-import * as Actions from 'actions/emoji_actions.jsx';
+import * as Actions from 'src/actions/emoji_actions.jsx';
 import configureStore from 'src/store';
 
 describe('Actions.Emojis', () => {

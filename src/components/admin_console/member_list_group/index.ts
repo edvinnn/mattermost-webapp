@@ -12,7 +12,7 @@ import {getProfilesInGroup as selectProfiles, searchProfilesInGroup} from 'matte
 
 import {ActionFunc, GenericAction} from 'mattermost-redux/types/actions';
 
-import {setModalSearchTerm} from 'actions/views/search';
+import {setModalSearchTerm} from 'src/actions/views/search';
 
 import {GlobalState} from 'types/store';
 

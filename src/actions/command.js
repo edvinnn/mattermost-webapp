@@ -9,9 +9,9 @@ import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {getCurrentRelativeTeamUrl, getCurrentTeamId} from 'mattermost-redux/selectors/entities/teams';
 import {IntegrationTypes} from 'mattermost-redux/action_types';
 
-import {openModal} from 'actions/views/modals';
-import * as GlobalActions from 'actions/global_actions.jsx';
-import * as PostActions from 'actions/post_actions.jsx';
+import {openModal} from 'src/actions/views/modals';
+import * as GlobalActions from 'src/actions/global_actions.jsx';
+import * as PostActions from 'src/actions/post_actions.jsx';
 
 import {isUrlSafe, getSiteURL} from 'src/utils/url';
 import {localizeMessage, getUserIdFromChannelName} from 'src/utils/utils.jsx';

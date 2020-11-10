@@ -16,9 +16,9 @@ import {
     canManageAnyChannelMembersInCurrentTeam,
 } from 'mattermost-redux/selectors/entities/channels';
 
-import {openDirectChannelToUserId} from 'actions/channel_actions.jsx';
-import {getMembershipForCurrentEntities} from 'actions/views/profile_popover';
-import {closeModal, openModal} from 'actions/views/modals';
+import {openDirectChannelToUserId} from 'src/actions/channel_actions.jsx';
+import {getMembershipForCurrentEntities} from 'src/actions/views/profile_popover';
+import {closeModal, openModal} from 'src/actions/views/modals';
 
 import {areTimezonesEnabledAndSupported} from 'src/selectors/general';
 import {getSelectedPost, getRhsState} from 'src/selectors/rhs';

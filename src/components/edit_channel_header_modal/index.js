@@ -7,8 +7,8 @@ import {getBool} from 'mattermost-redux/selectors/entities/preferences';
 import {patchChannel} from 'mattermost-redux/actions/channels';
 import {Preferences} from 'mattermost-redux/constants';
 
-import {closeModal} from 'actions/views/modals';
-import {setShowPreviewOnEditChannelHeaderModal} from 'actions/views/textbox';
+import {closeModal} from 'src/actions/views/modals';
+import {setShowPreviewOnEditChannelHeaderModal} from 'src/actions/views/textbox';
 import {showPreviewOnEditChannelHeaderModal} from 'src/selectors/views/textbox';
 
 import {isModalOpen} from 'src/selectors/views/modals';

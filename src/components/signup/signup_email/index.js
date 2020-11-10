@@ -8,8 +8,8 @@ import {createUser} from 'mattermost-redux/actions/users';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {getTeamInviteInfo} from 'mattermost-redux/actions/teams';
 
-import {setGlobalItem} from 'actions/storage';
-import {loginById} from 'actions/views/login';
+import {setGlobalItem} from 'src/actions/storage';
+import {loginById} from 'src/actions/views/login';
 import {getPasswordConfig} from 'src/utils/utils.jsx';
 
 import SignupEmail from './signup_email.jsx';

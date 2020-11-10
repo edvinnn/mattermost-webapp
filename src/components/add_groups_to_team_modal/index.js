@@ -7,7 +7,7 @@ import {getGroupsNotAssociatedToTeam, linkGroupSyncable, getAllGroupsAssociatedT
 import {getGroupsNotAssociatedToTeam as selectGroupsNotAssociatedToTeam} from 'mattermost-redux/selectors/entities/groups';
 import {getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 
-import {setModalSearchTerm} from 'actions/views/search';
+import {setModalSearchTerm} from 'src/actions/views/search';
 
 import AddGroupsToTeamModal from './add_groups_to_team_modal';
 

@@ -9,7 +9,7 @@ import {getCurrentUser, getStatusForUserId} from 'mattermost-redux/selectors/ent
 import {Preferences} from 'mattermost-redux/constants';
 import {get} from 'mattermost-redux/selectors/entities/preferences';
 
-import {openModal} from 'actions/views/modals';
+import {openModal} from 'src/actions/views/modals';
 
 import StatusDropdown from 'src/components/status_dropdown/status_dropdown.jsx';
 

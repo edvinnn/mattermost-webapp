@@ -4,7 +4,7 @@
 import {shallow} from 'enzyme';
 import React from 'react';
 
-import * as GlobalActions from 'actions/global_actions.jsx';
+import * as GlobalActions from 'src/actions/global_actions.jsx';
 import {browserHistory} from 'src/utils/browser_history';
 import {Constants} from 'src/utils/constants';
 

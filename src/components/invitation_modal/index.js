@@ -13,10 +13,10 @@ import {searchChannels as reduxSearchChannels} from 'mattermost-redux/actions/ch
 import {getTeam} from 'mattermost-redux/actions/teams';
 import {Permissions} from 'mattermost-redux/constants';
 
-import {closeModal} from 'actions/views/modals';
+import {closeModal} from 'src/actions/views/modals';
 import {isModalOpen} from 'src/selectors/views/modals';
 import {ModalIdentifiers, Constants} from 'src/utils/constants';
-import {sendMembersInvites, sendGuestsInvites} from 'actions/invite_actions';
+import {sendMembersInvites, sendGuestsInvites} from 'src/actions/invite_actions';
 
 import InvitationModal from './invitation_modal.jsx';
 

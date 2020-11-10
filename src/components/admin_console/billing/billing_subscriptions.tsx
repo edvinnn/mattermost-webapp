@@ -14,8 +14,8 @@ import {getCurrentUser} from 'mattermost-redux/selectors/entities/users';
 import {DispatchFunc} from 'mattermost-redux/types/actions';
 import {PreferenceType} from 'mattermost-redux/types/preferences';
 
-import {pageVisited, trackEvent} from 'actions/telemetry_actions';
-import {openModal} from 'actions/views/modals';
+import {pageVisited, trackEvent} from 'src/actions/telemetry_actions';
+import {openModal} from 'src/actions/views/modals';
 import AlertBanner from 'src/components/alert_banner';
 import BlockableLink from 'src/components/admin_console/blockable_link';
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';

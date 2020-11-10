@@ -11,7 +11,7 @@ import {getStandardAnalytics, sendWarnMetricAck} from 'mattermost-redux/actions/
 import {getCurrentUser} from 'mattermost-redux/selectors/entities/common';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {closeModal} from 'actions/views/modals';
+import {closeModal} from 'src/actions/views/modals';
 
 import {isModalOpen} from 'src/selectors/views/modals';
 import {ModalIdentifiers} from 'src/utils/constants';

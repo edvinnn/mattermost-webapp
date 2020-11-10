@@ -7,7 +7,7 @@ import {getCommands} from 'mattermost-redux/selectors/entities/integrations';
 import {getUsers} from 'mattermost-redux/selectors/entities/users';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {loadCommandsAndProfilesForTeam} from 'actions/integration_actions';
+import {loadCommandsAndProfilesForTeam} from 'src/actions/integration_actions';
 
 import CommandsContainer from './commands_container.jsx';
 

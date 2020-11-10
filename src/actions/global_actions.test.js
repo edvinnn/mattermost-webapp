@@ -4,12 +4,12 @@
 import configureStore from 'redux-mock-store';
 
 import {browserHistory} from 'src/utils/browser_history';
-import {closeRightHandSide, closeMenu as closeRhsMenu} from 'actions/views/rhs';
-import {close as closeLhs} from 'actions/views/lhs';
+import {closeRightHandSide, closeMenu as closeRhsMenu} from 'src/actions/views/rhs';
+import {close as closeLhs} from 'src/actions/views/lhs';
 import LocalStorageStore from 'src/stores/local_storage_store';
 import {getState} from 'src/stores/redux_store';
 
-import {redirectUserToDefaultTeam, toggleSideBarRightMenuAction, getTeamRedirectChannelIfIsAccesible} from 'actions/global_actions.jsx';
+import {redirectUserToDefaultTeam, toggleSideBarRightMenuAction, getTeamRedirectChannelIfIsAccesible} from 'src/actions/global_actions.jsx';
 
 jest.mock('actions/views/rhs', () => ({
     closeMenu: jest.fn(),

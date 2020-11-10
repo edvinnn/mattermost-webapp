@@ -7,7 +7,7 @@ import {getLicenseConfig} from 'mattermost-redux/actions/general';
 import {uploadLicense, removeLicense} from 'mattermost-redux/actions/admin';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {requestTrialLicense, upgradeToE0Status, upgradeToE0, restartServer, ping} from 'actions/admin_actions';
+import {requestTrialLicense, upgradeToE0Status, upgradeToE0, restartServer, ping} from 'src/actions/admin_actions';
 
 import LicenseSettings from './license_settings.jsx';
 

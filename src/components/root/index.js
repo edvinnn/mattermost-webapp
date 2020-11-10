@@ -8,7 +8,7 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {shouldShowTermsOfService, getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {getTeam} from 'mattermost-redux/selectors/entities/teams';
 
-import {loadMeAndConfig} from 'actions/views/root';
+import {loadMeAndConfig} from 'src/actions/views/root';
 import LocalStorageStore from 'src/stores/local_storage_store';
 
 import Root from './root.jsx';

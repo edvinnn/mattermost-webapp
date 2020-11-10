@@ -13,7 +13,7 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {get} from 'mattermost-redux/selectors/entities/preferences';
 import {isSystemMessage} from 'mattermost-redux/utils/post_utils';
 
-import {markPostAsUnread, emitShortcutReactToLastPostFrom} from 'actions/post_actions.jsx';
+import {markPostAsUnread, emitShortcutReactToLastPostFrom} from 'src/actions/post_actions.jsx';
 import {isEmbedVisible} from 'src/selectors/posts';
 import {getEmojiMap} from 'src/selectors/emojis';
 

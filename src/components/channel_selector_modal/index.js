@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {getAllChannels as loadChannels, searchAllChannels} from 'mattermost-redux/actions/channels';
 
-import {setModalSearchTerm} from 'actions/views/search';
+import {setModalSearchTerm} from 'src/actions/views/search';
 
 import ChannelSelectorModal from './channel_selector_modal.jsx';
 

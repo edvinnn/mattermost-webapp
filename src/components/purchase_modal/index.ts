@@ -18,8 +18,8 @@ import {getCloudContactUsLink, InquiryType} from 'src/selectors/cloud';
 
 import {ModalIdentifiers} from 'src/utils/constants';
 
-import {closeModal} from 'actions/views/modals';
-import {completeStripeAddPaymentMethod} from 'actions/cloud';
+import {closeModal} from 'src/actions/views/modals';
+import {completeStripeAddPaymentMethod} from 'src/actions/cloud';
 
 import PurchaseModal from './purchase_modal';
 

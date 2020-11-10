@@ -7,8 +7,8 @@ import {Redirect} from 'react-router';
 import {viewChannel} from 'mattermost-redux/actions/channels';
 import semver from 'semver';
 
-import * as GlobalActions from 'actions/global_actions.jsx';
-import * as WebSocketActions from 'actions/websocket_actions.jsx';
+import * as GlobalActions from 'src/actions/global_actions.jsx';
+import * as WebSocketActions from 'src/actions/websocket_actions.jsx';
 import * as UserAgent from 'src/utils/user_agent';
 import LoadingScreen from 'src/components/loading_screen';
 import {getBrowserTimezone} from 'src/utils/timezone.jsx';

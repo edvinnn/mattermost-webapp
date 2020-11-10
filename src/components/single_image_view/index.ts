@@ -8,7 +8,7 @@ import {GenericAction} from 'mattermost-redux/types/actions';
 
 import {GlobalState} from 'types/store';
 
-import {toggleEmbedVisibility} from 'actions/post_actions';
+import {toggleEmbedVisibility} from 'src/actions/post_actions';
 
 import {getIsRhsOpen} from 'src/selectors/rhs';
 

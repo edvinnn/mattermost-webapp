@@ -4,7 +4,7 @@
 import thunk from 'redux-thunk';
 import configureStore from 'redux-mock-store';
 
-import * as Actions from 'actions/views/root';
+import * as Actions from 'src/actions/views/root';
 
 const mockStore = configureStore([thunk]);
 

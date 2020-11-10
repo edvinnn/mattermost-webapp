@@ -10,8 +10,8 @@ import {isModalOpen} from 'src/selectors/views/modals';
 import {ModalIdentifiers} from 'src/utils/constants';
 import {getSiteURL} from 'src/utils/url';
 
-import {closeModal} from 'actions/views/modals';
-import {fetchPlugins, filterPlugins} from 'actions/marketplace';
+import {closeModal} from 'src/actions/views/modals';
+import {fetchPlugins, filterPlugins} from 'src/actions/marketplace';
 
 import {MarketplaceModal} from './marketplace_modal';
 

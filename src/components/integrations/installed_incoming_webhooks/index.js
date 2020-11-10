@@ -12,7 +12,7 @@ import {haveITeamPermission} from 'mattermost-redux/selectors/entities/roles';
 import {Permissions} from 'mattermost-redux/constants';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {loadIncomingHooksAndProfilesForTeam} from 'actions/integration_actions';
+import {loadIncomingHooksAndProfilesForTeam} from 'src/actions/integration_actions';
 
 import InstalledIncomingWebhooks from './installed_incoming_webhooks.jsx';
 

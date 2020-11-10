@@ -13,7 +13,7 @@ import FileUploadOverlay from 'src/components/file_upload_overlay';
 import NextStepsView from 'src/components/next_steps_view';
 import PostView from 'src/components/post_view';
 import TutorialView from 'src/components/tutorial';
-import {clearMarks, mark, measure, trackEvent} from 'actions/telemetry_actions.jsx';
+import {clearMarks, mark, measure, trackEvent} from 'src/actions/telemetry_actions.jsx';
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
 export default class ChannelView extends React.PureComponent {

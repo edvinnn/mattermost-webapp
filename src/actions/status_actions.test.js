@@ -7,7 +7,7 @@ import configureStore from 'redux-mock-store';
 import {Preferences} from 'mattermost-redux/constants';
 import {getStatusesByIds} from 'mattermost-redux/actions/users';
 
-import * as Actions from 'actions/status_actions.jsx';
+import * as Actions from 'src/actions/status_actions.jsx';
 
 jest.mock('mattermost-redux/actions/users', () => ({
     getStatusesByIds: jest.fn(() => {

@@ -23,9 +23,9 @@ import {isAdmin} from 'src/utils/utils.jsx';
 
 import {RHSStates} from 'src/utils/constants';
 
-import {unhideNextSteps} from 'actions/views/next_steps';
-import {showMentions, showFlaggedPosts, closeRightHandSide, closeMenu as closeRhsMenu} from 'actions/views/rhs';
-import {openModal} from 'actions/views/modals';
+import {unhideNextSteps} from 'src/actions/views/next_steps';
+import {showMentions, showFlaggedPosts, closeRightHandSide, closeMenu as closeRhsMenu} from 'src/actions/views/rhs';
+import {openModal} from 'src/actions/views/modals';
 import {getRhsState} from 'src/selectors/rhs';
 
 import {

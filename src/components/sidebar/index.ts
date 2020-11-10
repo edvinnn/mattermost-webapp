@@ -15,8 +15,8 @@ import {haveIChannelPermission} from 'mattermost-redux/selectors/entities/roles'
 import {getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 import {GenericAction, ActionFunc} from 'mattermost-redux/types/actions';
 
-import {createCategory} from 'actions/views/channel_sidebar';
-import {openModal} from 'actions/views/modals';
+import {createCategory} from 'src/actions/views/channel_sidebar';
+import {openModal} from 'src/actions/views/modals';
 import {GlobalState} from 'types/store';
 import {getIsLhsOpen} from 'src/selectors/lhs';
 

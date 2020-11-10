@@ -9,7 +9,7 @@ import {getChannel} from 'mattermost-redux/selectors/entities/channels';
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {getCurrentTeamId, getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 
-import {openModal} from 'actions/views/modals';
+import {openModal} from 'src/actions/views/modals';
 import {
     flagPost,
     unflagPost,
@@ -17,7 +17,7 @@ import {
     unpinPost,
     setEditingPost,
     markPostAsUnread,
-} from 'actions/post_actions.jsx';
+} from 'src/actions/post_actions.jsx';
 import * as PostUtils from 'src/utils/post_utils.jsx';
 
 import {isArchivedChannel} from 'src/utils/channel_utils';

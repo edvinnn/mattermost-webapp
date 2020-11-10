@@ -11,8 +11,8 @@ import {getChannelByName, getUnreadChannelIds, getChannel} from 'mattermost-redu
 import {getCurrentTeamUrl, getCurrentTeamId} from 'mattermost-redux/selectors/entities/teams';
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
-import {trackEvent} from 'actions/telemetry_actions.jsx';
-import {loadNewDMIfNeeded, loadNewGMIfNeeded, loadProfilesForSidebar} from 'actions/user_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
+import {loadNewDMIfNeeded, loadNewGMIfNeeded, loadProfilesForSidebar} from 'src/actions/user_actions.jsx';
 import {browserHistory} from 'src/utils/browser_history';
 import {Constants, Preferences, NotificationLevels} from 'src/utils/constants';
 import {getDirectChannelName} from 'src/utils/utils';

@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 import {ProductNotices, ProductNotice} from 'mattermost-redux/types/product_notices';
 import {WebsocketStatus} from 'mattermost-redux/types/websocket';
 
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 
 import Markdown from 'src/components/markdown';
 import GenericModal from 'src/components/generic_modal';

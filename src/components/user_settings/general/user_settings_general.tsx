@@ -8,7 +8,7 @@ import {defineMessages, FormattedDate, FormattedMessage, injectIntl, IntlShape} 
 import {isEmail} from 'mattermost-redux/utils/helpers';
 import {UserProfile} from 'mattermost-redux/types/users';
 
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 import * as Utils from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';
 

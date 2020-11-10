@@ -4,7 +4,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import {uploadBrandImage, deleteBrandImage} from 'actions/admin_actions.jsx';
+import {uploadBrandImage, deleteBrandImage} from 'src/actions/admin_actions.jsx';
 
 import BrandImageSetting from './brand_image_setting.jsx';
 

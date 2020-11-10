@@ -8,7 +8,7 @@ import {Permissions} from 'mattermost-redux/constants';
 
 import {isEmpty} from 'lodash';
 
-import * as GlobalActions from 'actions/global_actions.jsx';
+import * as GlobalActions from 'src/actions/global_actions.jsx';
 import {Constants, ModalIdentifiers} from 'src/utils/constants';
 import {intlShape} from 'src/utils/react_intl';
 import {cmdOrCtrlPressed, isKeyPressed} from 'src/utils/utils';

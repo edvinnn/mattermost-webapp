@@ -26,8 +26,8 @@ import {displayUsername} from 'mattermost-redux/utils/user_utils';
 
 import {Constants, NotificationLevels, StoragePrefixes} from 'src/utils/constants';
 
-import {leaveChannel, leaveDirectChannel} from 'actions/views/channel';
-import {open as openLhs} from 'actions/views/lhs.js';
+import {leaveChannel, leaveDirectChannel} from 'src/actions/views/channel';
+import {open as openLhs} from 'src/actions/views/lhs.js';
 import {getPostDraft} from 'src/selectors/rhs';
 
 import SidebarChannel from './sidebar_channel.jsx';

@@ -13,7 +13,7 @@ import GeneralConstants from 'mattermost-redux/constants/general';
 
 import {t} from 'src/utils/i18n';
 import Constants from 'src/utils/constants';
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 
 import AdminPanel from 'src/components/widgets/admin_console/admin_panel';
 import UserGrid from 'src/components/admin_console/user_grid/user_grid';

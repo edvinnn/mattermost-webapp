@@ -8,7 +8,7 @@ import {getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 import {getCurrentUser} from 'mattermost-redux/selectors/entities/users';
 import {getInt} from 'mattermost-redux/selectors/entities/preferences';
 
-import {openModal} from 'actions/views/modals';
+import {openModal} from 'src/actions/views/modals';
 
 import {Preferences, TutorialSteps} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';

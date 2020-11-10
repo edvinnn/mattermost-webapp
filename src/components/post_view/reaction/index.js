@@ -16,7 +16,7 @@ import Permissions from 'mattermost-redux/constants/permissions';
 import Constants from 'mattermost-redux/constants/general';
 import {getConfig, getLicense} from 'mattermost-redux/selectors/entities/general';
 
-import {addReaction} from 'actions/post_actions.jsx';
+import {addReaction} from 'src/actions/post_actions.jsx';
 
 import * as Emoji from 'src/utils/emoji.jsx';
 import {getSortedUsers} from 'src/utils/utils.jsx';

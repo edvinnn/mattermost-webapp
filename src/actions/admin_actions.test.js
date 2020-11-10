@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 import React from 'react';
 
-import * as Actions from 'actions/admin_actions.jsx';
+import * as Actions from 'src/actions/admin_actions.jsx';
 import configureStore from 'src/store';
 
 describe('Actions.Admin', () => {

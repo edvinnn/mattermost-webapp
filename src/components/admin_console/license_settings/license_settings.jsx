@@ -9,8 +9,8 @@ import {FormattedDate, FormattedTime, FormattedMessage} from 'react-intl';
 import * as Utils from 'src/utils/utils.jsx';
 import {format} from 'src/utils/markdown';
 
-import * as AdminActions from 'actions/admin_actions.jsx';
-import {trackEvent} from 'actions/telemetry_actions';
+import * as AdminActions from 'src/actions/admin_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions';
 
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted_admin_header';

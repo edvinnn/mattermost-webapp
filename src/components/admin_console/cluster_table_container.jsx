@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-import {getClusterStatus} from 'actions/admin_actions.jsx';
+import {getClusterStatus} from 'src/actions/admin_actions.jsx';
 import LoadingScreen from '../loading_screen';
 
 import ClusterTable from './cluster_table.jsx';

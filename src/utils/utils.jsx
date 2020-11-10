@@ -21,7 +21,7 @@ import cssVars from 'css-vars-ponyfill';
 import moment from 'moment';
 
 import {browserHistory} from 'src/utils/browser_history';
-import {searchForTerm} from 'actions/post_actions';
+import {searchForTerm} from 'src/actions/post_actions';
 import Constants, {FileTypes, UserStatuses, ValidationErrors} from 'src/utils/constants.jsx';
 import * as UserAgent from 'src/utils/user_agent';
 import * as Utils from 'src/utils/utils';

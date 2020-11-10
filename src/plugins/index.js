@@ -9,9 +9,9 @@ import store from 'src/stores/redux_store.jsx';
 import {ActionTypes} from 'src/utils/constants.jsx';
 import {getSiteURL} from 'src/utils/url';
 import PluginRegistry from 'src/plugins/registry';
-import {unregisterAllPluginWebSocketEvents, unregisterPluginReconnectHandler} from 'actions/websocket_actions.jsx';
-import {unregisterPluginTranslationsSource} from 'actions/views/root';
-import {unregisterAdminConsolePlugin} from 'actions/admin_actions';
+import {unregisterAllPluginWebSocketEvents, unregisterPluginReconnectHandler} from 'src/actions/websocket_actions.jsx';
+import {unregisterPluginTranslationsSource} from 'src/actions/views/root';
+import {unregisterAdminConsolePlugin} from 'src/actions/admin_actions';
 
 import {removeWebappPlugin} from './actions';
 

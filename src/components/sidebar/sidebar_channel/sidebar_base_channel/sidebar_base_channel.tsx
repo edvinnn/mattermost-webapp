@@ -5,8 +5,8 @@ import React from 'react';
 
 import {Channel} from 'mattermost-redux/types/channels';
 
-import {trackEvent} from 'actions/telemetry_actions';
-import * as GlobalActions from 'actions/global_actions';
+import {trackEvent} from 'src/actions/telemetry_actions';
+import * as GlobalActions from 'src/actions/global_actions';
 
 import SidebarChannelLink from 'src/components/sidebar/sidebar_channel/sidebar_channel_link';
 import {localizeMessage} from 'src/utils/utils';

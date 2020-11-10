@@ -9,9 +9,9 @@ import {getTeamByName, getMyTeamMember} from 'mattermost-redux/selectors/entitie
 import {getCurrentUser} from 'mattermost-redux/selectors/entities/users';
 import {RequestStatus} from 'mattermost-redux/constants';
 
-import {addUserToTeamFromInvite} from 'actions/team_actions';
+import {addUserToTeamFromInvite} from 'src/actions/team_actions';
 
-import {login} from 'actions/views/login';
+import {login} from 'src/actions/views/login';
 
 import LoginController from './login_controller.jsx';
 

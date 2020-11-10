@@ -6,8 +6,8 @@ import {getPostThread} from 'mattermost-redux/actions/posts';
 import {getCurrentTeamId, getTeam} from 'mattermost-redux/selectors/entities/teams';
 import {getUser} from 'mattermost-redux/selectors/entities/users';
 
-import {loadChannelsForCurrentUser} from 'actions/channel_actions.jsx';
-import {loadNewDMIfNeeded, loadNewGMIfNeeded} from 'actions/user_actions.jsx';
+import {loadChannelsForCurrentUser} from 'src/actions/channel_actions.jsx';
+import {loadNewDMIfNeeded, loadNewGMIfNeeded} from 'src/actions/user_actions.jsx';
 import {browserHistory} from 'src/utils/browser_history';
 import {ActionTypes, Constants, ErrorPageTypes} from 'src/utils/constants';
 import {getUserIdFromChannelId} from 'src/utils/utils';

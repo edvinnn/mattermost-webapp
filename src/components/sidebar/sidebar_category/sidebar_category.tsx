@@ -12,7 +12,7 @@ import {Channel} from 'mattermost-redux/types/channels';
 import {ChannelCategory, CategorySorting} from 'mattermost-redux/types/channel_categories';
 import {localizeMessage} from 'mattermost-redux/utils/i18n_utils';
 
-import {trackEvent} from 'actions/telemetry_actions';
+import {trackEvent} from 'src/actions/telemetry_actions';
 
 import OverlayTrigger from 'src/components/overlay_trigger';
 

@@ -11,9 +11,9 @@ import {
     showFlaggedPosts,
     closeRightHandSide,
     updateRhsState,
-} from 'actions/views/rhs';
-import {autocompleteChannelsForSearch} from 'actions/channel_actions';
-import {autocompleteUsersInTeam} from 'actions/user_actions';
+} from 'src/actions/views/rhs';
+import {autocompleteChannelsForSearch} from 'src/actions/channel_actions';
+import {autocompleteUsersInTeam} from 'src/actions/user_actions';
 import {getRhsState, getSearchTerms, getIsSearchingTerm, getIsRhsOpen} from 'src/selectors/rhs';
 import {RHSStates} from 'src/utils/constants';
 

@@ -4,7 +4,7 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import {elasticsearchPurgeIndexes, elasticsearchTest} from 'actions/admin_actions.jsx';
+import {elasticsearchPurgeIndexes, elasticsearchTest} from 'src/actions/admin_actions.jsx';
 import {JobStatuses, JobTypes} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n';

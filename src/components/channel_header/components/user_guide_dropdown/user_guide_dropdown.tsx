@@ -10,8 +10,8 @@ import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
 import UserGuideIcon from 'src/components/widgets/icons/user_guide_icon';
 import Menu from 'src/components/widgets/menu/menu';
 import OverlayTrigger from 'src/components/overlay_trigger';
-import * as GlobalActions from 'actions/global_actions.jsx';
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+import * as GlobalActions from 'src/actions/global_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 
 const askTheCommunityUrl = 'https://mattermost.com/pl/default-ask-mattermost-community/';
 

@@ -4,7 +4,7 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
-import {allowOAuth2, getOAuthAppInfo} from 'actions/admin_actions.jsx';
+import {allowOAuth2, getOAuthAppInfo} from 'src/actions/admin_actions.jsx';
 
 import Authorize from './authorize';
 

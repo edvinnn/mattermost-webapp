@@ -9,10 +9,10 @@ import * as PostSelectors from 'mattermost-redux/selectors/entities/posts';
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {canEditPost, comparePosts} from 'mattermost-redux/utils/post_utils';
 
-import {addRecentEmoji} from 'actions/emoji_actions';
-import * as StorageActions from 'actions/storage';
-import {loadNewDMIfNeeded, loadNewGMIfNeeded} from 'actions/user_actions.jsx';
-import * as RhsActions from 'actions/views/rhs';
+import {addRecentEmoji} from 'src/actions/emoji_actions';
+import * as StorageActions from 'src/actions/storage';
+import {loadNewDMIfNeeded, loadNewGMIfNeeded} from 'src/actions/user_actions.jsx';
+import * as RhsActions from 'src/actions/views/rhs';
 import {isEmbedVisible} from 'src/selectors/posts';
 import {getSelectedPostId, getSelectedPostCardId, getRhsState} from 'src/selectors/rhs';
 import {

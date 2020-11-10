@@ -14,7 +14,7 @@ import {Preferences} from 'src/utils/constants';
 import {getDirectTeammate} from 'src/utils/utils.jsx';
 import {getSelectedChannel, getSelectedPost} from 'src/selectors/rhs';
 import {getSocketStatus} from 'src/selectors/views/websocket';
-import {selectPostCard} from 'actions/views/rhs';
+import {selectPostCard} from 'src/actions/views/rhs';
 import {GlobalState} from 'types/store';
 
 import RhsThread from './rhs_thread';

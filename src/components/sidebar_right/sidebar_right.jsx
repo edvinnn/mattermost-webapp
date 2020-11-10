@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import classNames from 'classnames';
 
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 import Constants from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 

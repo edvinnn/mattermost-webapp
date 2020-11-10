@@ -8,7 +8,7 @@ import {savePreferences} from 'mattermost-redux/actions/preferences';
 import {getCurrentTeam, getCurrentTeamId} from 'mattermost-redux/selectors/entities/teams';
 import {getRedirectChannelNameForTeam} from 'mattermost-redux/selectors/entities/channels';
 
-import {leaveDirectChannel} from 'actions/views/channel';
+import {leaveDirectChannel} from 'src/actions/views/channel';
 
 import CloseMessage from './close_message';
 

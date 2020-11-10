@@ -11,8 +11,8 @@ import {General, RequestStatus} from 'mattermost-redux/constants';
 import configureServiceStore from 'mattermost-redux/store';
 import reduxInitialState from 'mattermost-redux/store/initial_state';
 
-import {storageRehydrate} from 'actions/storage';
-import {clearUserCookie} from 'actions/views/cookie';
+import {storageRehydrate} from 'src/actions/storage';
+import {clearUserCookie} from 'src/actions/views/cookie';
 import appReducer from 'src/reducers';
 import {transformSet} from 'src/store/utils';
 import {detect} from 'src/utils/network.js';

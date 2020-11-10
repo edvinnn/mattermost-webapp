@@ -3,7 +3,7 @@
 
 import React, {useEffect} from 'react';
 
-import {pageVisited, trackEvent} from 'actions/telemetry_actions';
+import {pageVisited, trackEvent} from 'src/actions/telemetry_actions';
 import {getAnalyticsCategory} from 'src/components/next_steps_view/step_helpers';
 import * as Utils from 'src/utils/utils.jsx';
 import {showNotification} from 'src/utils/notifications';

@@ -20,8 +20,8 @@ import {getChannelMembersInChannels, getAllChannelStats, getChannel} from 'matte
 import {makeGetProfilesInChannel, makeSearchProfilesInChannel, filterProfiles, getFilteredUsersStats as selectFilteredUsersStats} from 'mattermost-redux/selectors/entities/users';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {loadProfilesAndReloadChannelMembers, searchProfilesAndChannelMembers} from 'actions/user_actions';
-import {setUserGridSearch, setUserGridFilters} from 'actions/views/search';
+import {loadProfilesAndReloadChannelMembers, searchProfilesAndChannelMembers} from 'src/actions/user_actions';
+import {setUserGridSearch, setUserGridFilters} from 'src/actions/views/search';
 import {GlobalState} from 'types/store';
 
 import ChannelMembers from './channel_members';

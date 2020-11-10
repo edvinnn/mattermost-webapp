@@ -10,9 +10,9 @@ import {Team, TeamMembership} from 'mattermost-redux/types/teams';
 import {Group} from 'mattermost-redux/types/groups';
 import {UserStatus} from 'mattermost-redux/types/users';
 
-import {startPeriodicStatusUpdates, stopPeriodicStatusUpdates} from 'actions/status_actions.jsx';
-import {startPeriodicSync, stopPeriodicSync, reconnect} from 'actions/websocket_actions.jsx';
-import * as GlobalActions from 'actions/global_actions.jsx';
+import {startPeriodicStatusUpdates, stopPeriodicStatusUpdates} from 'src/actions/status_actions.jsx';
+import {startPeriodicSync, stopPeriodicSync, reconnect} from 'src/actions/websocket_actions.jsx';
+import * as GlobalActions from 'src/actions/global_actions.jsx';
 
 import Constants from 'src/utils/constants';
 import * as UserAgent from 'src/utils/user_agent';

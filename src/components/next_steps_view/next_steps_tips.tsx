@@ -8,9 +8,9 @@ import classNames from 'classnames';
 
 import {PreferenceType} from 'mattermost-redux/types/preferences';
 
-import {trackEvent} from 'actions/telemetry_actions';
-import {toggleShortcutsModal} from 'actions/global_actions';
-import {openModal, closeModal} from 'actions/views/modals';
+import {trackEvent} from 'src/actions/telemetry_actions';
+import {toggleShortcutsModal} from 'src/actions/global_actions';
+import {openModal, closeModal} from 'src/actions/views/modals';
 import Card from 'src/components/card/card';
 import MoreChannels from 'src/components/more_channels';
 import TeamMembersModal from 'src/components/team_members_modal';

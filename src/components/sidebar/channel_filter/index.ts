@@ -7,7 +7,7 @@ import {bindActionCreators, Dispatch} from 'redux';
 import {getMyTeams} from 'mattermost-redux/selectors/entities/teams';
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {setUnreadFilterEnabled} from 'actions/views/channel_sidebar';
+import {setUnreadFilterEnabled} from 'src/actions/views/channel_sidebar';
 import {isUnreadFilterEnabled} from 'src/selectors/views/channel_sidebar';
 import {GlobalState} from 'types/store';
 

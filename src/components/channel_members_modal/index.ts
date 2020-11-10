@@ -7,7 +7,7 @@ import {connect} from 'react-redux';
 import {canManageChannelMembers} from 'mattermost-redux/selectors/entities/channels';
 import {ActionFunc} from 'mattermost-redux/types/actions';
 
-import {openModal} from 'actions/views/modals';
+import {openModal} from 'src/actions/views/modals';
 
 import {GlobalState} from 'types/store';
 

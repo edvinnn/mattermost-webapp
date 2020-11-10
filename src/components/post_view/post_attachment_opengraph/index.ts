@@ -9,7 +9,7 @@ import {GenericAction} from 'mattermost-redux/types/actions';
 import {connect} from 'react-redux';
 import {bindActionCreators, Dispatch} from 'redux';
 
-import {editPost} from 'actions/views/posts';
+import {editPost} from 'src/actions/views/posts';
 import {GlobalState} from 'types/store';
 import {Preferences} from 'src/utils/constants';
 

@@ -1,7 +1,7 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import {setCategoryCollapsed} from 'actions/views/channel_sidebar';
+import {setCategoryCollapsed} from 'src/actions/views/channel_sidebar';
 
 import configureStore from 'src/store';
 

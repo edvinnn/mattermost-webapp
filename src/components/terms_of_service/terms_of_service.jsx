@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 
 import {memoizeResult} from 'mattermost-redux/utils/helpers';
 
-import * as GlobalActions from 'actions/global_actions.jsx';
+import * as GlobalActions from 'src/actions/global_actions.jsx';
 import AnnouncementBar from 'src/components/announcement_bar';
 import LoadingScreen from 'src/components/loading_screen';
 import LoadingSpinner from 'src/components/widgets/loading/loading_spinner';

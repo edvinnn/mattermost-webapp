@@ -5,7 +5,7 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 import PropTypes from 'prop-types';
 
-import * as AdminActions from 'actions/admin_actions.jsx';
+import * as AdminActions from 'src/actions/admin_actions.jsx';
 import Constants from 'src/utils/constants';
 
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';

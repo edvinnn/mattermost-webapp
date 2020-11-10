@@ -11,7 +11,7 @@ import {markChannelAsRead, markChannelAsViewed} from 'mattermost-redux/actions/c
 import {makePreparePostIdsForPostList} from 'mattermost-redux/utils/post_list';
 import {RequestStatus} from 'mattermost-redux/constants';
 
-import {updateNewMessagesAtInChannel} from 'actions/global_actions.jsx';
+import {updateNewMessagesAtInChannel} from 'src/actions/global_actions.jsx';
 import {getLatestPostId, makeCreateAriaLabelForPost} from 'src/utils/post_utils.jsx';
 import {
     checkAndSetMobileView,
@@ -20,7 +20,7 @@ import {
     loadPostsAround,
     syncPostsInChannel,
     loadLatestPosts,
-} from 'actions/views/channel';
+} from 'src/actions/views/channel';
 
 import PostList from './post_list.jsx';
 

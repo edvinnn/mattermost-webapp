@@ -8,7 +8,7 @@ import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 import {getInt} from 'mattermost-redux/selectors/entities/preferences';
 
-import {openMenu as openRhsMenu} from 'actions/views/rhs';
+import {openMenu as openRhsMenu} from 'src/actions/views/rhs';
 import {getIsRhsMenuOpen} from 'src/selectors/rhs';
 import {Preferences, TutorialSteps} from 'src/utils/constants';
 import {isMobile} from 'src/utils/utils.jsx';

@@ -14,7 +14,7 @@ import wavesBackground from 'images/cloud/waves.svg';
 import blueDotes from 'images/cloud/blue.svg';
 import LowerBlueDots from 'images/cloud/blue-lower.svg';
 import cloudLogo from 'images/cloud/mattermost-cloud.svg';
-import {trackEvent, pageVisited} from 'actions/telemetry_actions';
+import {trackEvent, pageVisited} from 'src/actions/telemetry_actions';
 import {TELEMETRY_CATEGORIES, CloudLinks} from 'src/utils/constants';
 
 import {STRIPE_CSS_SRC, STRIPE_PUBLIC_KEY} from 'src/components/payment_form/stripe';

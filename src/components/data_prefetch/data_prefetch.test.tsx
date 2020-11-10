@@ -6,7 +6,7 @@ import React from 'react';
 
 import {ChannelType} from 'mattermost-redux/types/channels';
 
-import {loadProfilesForSidebar} from 'actions/user_actions.jsx';
+import {loadProfilesForSidebar} from 'src/actions/user_actions.jsx';
 
 import {TestHelper} from 'src/utils/test_helper';
 

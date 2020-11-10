@@ -33,7 +33,7 @@ import {getMostRecentPostIdInChannel, getPost} from 'mattermost-redux/selectors/
 import {getChannelByName} from 'mattermost-redux/utils/channel_utils';
 import EventEmitter from 'mattermost-redux/utils/event_emitter';
 
-import {openDirectChannelToUserId} from 'actions/channel_actions.jsx';
+import {openDirectChannelToUserId} from 'src/actions/channel_actions.jsx';
 import {getLastViewedChannelName} from 'src/selectors/local_storage';
 import {getLastPostsApiTimeForChannel} from 'src/selectors/views/channel';
 import {getSocketStatus} from 'src/selectors/views/websocket';

@@ -4,7 +4,7 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {goToLastViewedChannel} from 'actions/views/channel';
+import {goToLastViewedChannel} from 'src/actions/views/channel';
 
 import CloseChannel from './close_channel';
 

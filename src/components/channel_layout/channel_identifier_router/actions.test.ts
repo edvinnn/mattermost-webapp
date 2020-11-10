@@ -7,7 +7,7 @@ import configureStore from 'redux-mock-store';
 import {joinChannel} from 'mattermost-redux/actions/channels';
 import {getUserByEmail} from 'mattermost-redux/actions/users';
 
-import {emitChannelClickEvent} from 'actions/global_actions.jsx';
+import {emitChannelClickEvent} from 'src/actions/global_actions.jsx';
 import {
     goToChannelByChannelName,
     goToDirectChannelByUserId,

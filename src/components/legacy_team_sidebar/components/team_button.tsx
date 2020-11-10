@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 import {Draggable} from 'react-beautiful-dnd';
 import classNames from 'classnames';
 
-import {mark, trackEvent} from 'actions/telemetry_actions.jsx';
+import {mark, trackEvent} from 'src/actions/telemetry_actions.jsx';
 import Constants from 'src/utils/constants';
 import {isDesktopApp} from 'src/utils/user_agent';
 import {isMac, localizeMessage} from 'src/utils/utils.jsx';

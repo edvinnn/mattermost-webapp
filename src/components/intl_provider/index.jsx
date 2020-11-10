@@ -4,7 +4,7 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
-import {loadTranslations} from 'actions/views/root';
+import {loadTranslations} from 'src/actions/views/root';
 
 import {getCurrentLocale, getTranslations} from 'src/selectors/i18n';
 

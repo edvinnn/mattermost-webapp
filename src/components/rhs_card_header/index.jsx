@@ -11,7 +11,7 @@ import {
     showPinnedPosts,
     closeRightHandSide,
     toggleRhsExpanded,
-} from 'actions/views/rhs';
+} from 'src/actions/views/rhs';
 import {getIsRhsExpanded} from 'src/selectors/rhs';
 
 import RhsCardHeader from './rhs_card_header.jsx';

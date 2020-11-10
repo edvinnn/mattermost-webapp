@@ -19,7 +19,7 @@ import SizeAwareImage from 'src/components/size_aware_image';
 import ActionButton from '../action_button';
 import ActionMenu from '../action_menu';
 
-import {trackEvent} from 'actions/telemetry_actions';
+import {trackEvent} from 'src/actions/telemetry_actions';
 
 export default class MessageAttachment extends React.PureComponent {
     static propTypes = {

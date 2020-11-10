@@ -30,18 +30,18 @@ import {Permissions, Posts, Preferences as PreferencesRedux} from 'mattermost-re
 
 import {connectionErrorCount} from 'src/selectors/views/system';
 
-import {addReaction, createPost, setEditingPost, emitShortcutReactToLastPostFrom} from 'actions/post_actions.jsx';
-import {scrollPostListToBottom} from 'actions/views/channel';
-import {selectPostFromRightHandSideSearchByPostId} from 'actions/views/rhs';
-import {setShowPreviewOnCreatePost} from 'actions/views/textbox';
-import {executeCommand} from 'actions/command';
-import {runMessageWillBePostedHooks, runSlashCommandWillBePostedHooks} from 'actions/hooks';
+import {addReaction, createPost, setEditingPost, emitShortcutReactToLastPostFrom} from 'src/actions/post_actions.jsx';
+import {scrollPostListToBottom} from 'src/actions/views/channel';
+import {selectPostFromRightHandSideSearchByPostId} from 'src/actions/views/rhs';
+import {setShowPreviewOnCreatePost} from 'src/actions/views/textbox';
+import {executeCommand} from 'src/actions/command';
+import {runMessageWillBePostedHooks, runSlashCommandWillBePostedHooks} from 'src/actions/hooks';
 import {getPostDraft, getIsRhsExpanded} from 'src/selectors/rhs';
 import {showPreviewOnCreatePost} from 'src/selectors/views/textbox';
 import {getCurrentLocale} from 'src/selectors/i18n';
 import {getEmojiMap, getShortcutReactToLastPostEmittedFrom} from 'src/selectors/emojis';
-import {setGlobalItem, actionOnGlobalItemsWithPrefix} from 'actions/storage';
-import {openModal} from 'actions/views/modals';
+import {setGlobalItem, actionOnGlobalItemsWithPrefix} from 'src/actions/storage';
+import {openModal} from 'src/actions/views/modals';
 import {Constants, Preferences, StoragePrefixes, TutorialSteps, UserStatuses} from 'src/utils/constants';
 import {canUploadFiles} from 'src/utils/file_utils';
 

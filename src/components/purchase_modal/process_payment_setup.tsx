@@ -5,7 +5,7 @@ import React from 'react';
 import {Stripe} from '@stripe/stripe-js';
 
 import {BillingDetails} from 'types/cloud/sku';
-import {pageVisited} from 'actions/telemetry_actions';
+import {pageVisited} from 'src/actions/telemetry_actions';
 import {TELEMETRY_CATEGORIES} from 'src/utils/constants';
 
 import successSvg from 'images/cloud/payment_success.svg';

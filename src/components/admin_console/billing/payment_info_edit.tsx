@@ -11,7 +11,7 @@ import {Elements} from '@stripe/react-stripe-js';
 import {getCloudCustomer} from 'mattermost-redux/actions/cloud';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {completeStripeAddPaymentMethod} from 'actions/cloud';
+import {completeStripeAddPaymentMethod} from 'src/actions/cloud';
 import BlockableLink from 'src/components/admin_console/blockable_link';
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 import PaymentForm from 'src/components/payment_form/payment_form';

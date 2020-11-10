@@ -19,11 +19,11 @@ import {
     submitCommand,
     makeOnSubmit,
     makeOnEditLatestPost,
-} from 'actions/views/create_comment';
-import {setGlobalItem, actionOnGlobalItemsWithPrefix} from 'actions/storage';
-import * as PostActions from 'actions/post_actions.jsx';
-import {executeCommand} from 'actions/command';
-import * as HookActions from 'actions/hooks';
+} from 'src/actions/views/create_comment';
+import {setGlobalItem, actionOnGlobalItemsWithPrefix} from 'src/actions/storage';
+import * as PostActions from 'src/actions/post_actions.jsx';
+import {executeCommand} from 'src/actions/command';
+import * as HookActions from 'src/actions/hooks';
 import {StoragePrefixes} from 'src/utils/constants';
 
 /* eslint-disable global-require */

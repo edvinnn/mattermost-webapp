@@ -6,7 +6,7 @@ import {getTeamMember} from 'mattermost-redux/selectors/entities/teams';
 import {getChannelMembersInChannels} from 'mattermost-redux/selectors/entities/channels';
 import {joinChannel} from 'mattermost-redux/actions/channels';
 
-import {addUsersToTeam} from 'actions/team_actions';
+import {addUsersToTeam} from 'src/actions/team_actions';
 
 import {t} from 'src/utils/i18n';
 import {isGuest, localizeMessage} from 'src/utils/utils';

@@ -8,7 +8,7 @@ import {
     toggle,
     open,
     close,
-} from 'actions/views/lhs';
+} from 'src/actions/views/lhs';
 import {ActionTypes} from 'src/utils/constants';
 
 const mockStore = configureStore([thunk]);

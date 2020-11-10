@@ -16,8 +16,8 @@ import {isChannelMuted} from 'mattermost-redux/utils/channel_utils';
 import {
     closeRightHandSide as closeRhs,
     closeMenu as closeRhsMenu,
-} from 'actions/views/rhs';
-import {close as closeLhs} from 'actions/views/lhs';
+} from 'src/actions/views/rhs';
+import {close as closeLhs} from 'src/actions/views/lhs';
 
 import {getIsRhsOpen} from 'src/selectors/rhs';
 

@@ -17,8 +17,8 @@ import {RelationOneToOne} from 'mattermost-redux/types/utilities';
 
 import {GlobalState} from 'types/store';
 
-import {prefetchChannelPosts} from 'actions/views/channel';
-import {trackDMGMOpenChannels} from 'actions/user_actions';
+import {prefetchChannelPosts} from 'src/actions/views/channel';
+import {trackDMGMOpenChannels} from 'src/actions/user_actions';
 
 import DataPrefetch from './data_prefetch';
 

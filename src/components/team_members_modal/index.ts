@@ -8,7 +8,7 @@ import {ActionFunc} from 'mattermost-redux/types/actions';
 
 import {ModalIdentifiers} from 'src/utils/constants';
 import {isModalOpen} from 'src/selectors/views/modals';
-import {openModal} from 'actions/views/modals';
+import {openModal} from 'src/actions/views/modals';
 
 import {GlobalState} from 'types/store';
 

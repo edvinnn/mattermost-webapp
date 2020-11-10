@@ -9,8 +9,8 @@ import {getProfiles} from 'mattermost-redux/actions/users';
 import {makeGetCategory} from 'mattermost-redux/selectors/entities/preferences';
 import {getCurrentUser, isCurrentUserSystemAdmin} from 'mattermost-redux/selectors/entities/users';
 
-import {setShowNextStepsView} from 'actions/views/next_steps';
-import {closeRightHandSide} from 'actions/views/rhs';
+import {setShowNextStepsView} from 'src/actions/views/next_steps';
+import {closeRightHandSide} from 'src/actions/views/rhs';
 import {GlobalState} from 'types/store';
 import {Preferences} from 'src/utils/constants';
 

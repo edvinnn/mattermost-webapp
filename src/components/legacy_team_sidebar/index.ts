@@ -21,7 +21,7 @@ import {GenericAction} from 'mattermost-redux/types/actions';
 
 import {getCurrentLocale} from 'src/selectors/i18n';
 import {getIsLhsOpen} from 'src/selectors/lhs';
-import {switchTeam, updateTeamsOrderForUser} from 'actions/team_actions.jsx';
+import {switchTeam, updateTeamsOrderForUser} from 'src/actions/team_actions.jsx';
 import {Preferences} from 'src/utils/constants.jsx';
 import {GlobalState} from 'types/store';
 

@@ -8,7 +8,7 @@ import * as UserActions from 'mattermost-redux/actions/users';
 import {
     login,
     loginById,
-} from 'actions/views/login';
+} from 'src/actions/views/login';
 import configureStore from 'src/store';
 
 describe('actions/views/login', () => {

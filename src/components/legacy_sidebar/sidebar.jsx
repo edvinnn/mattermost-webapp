@@ -12,8 +12,8 @@ import classNames from 'classnames';
 import Scrollbars from 'react-custom-scrollbars';
 import {SpringSystem, MathUtil} from 'rebound';
 
-import {trackEvent} from 'actions/telemetry_actions.jsx';
-import {redirectUserToDefaultTeam} from 'actions/global_actions';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
+import {redirectUserToDefaultTeam} from 'src/actions/global_actions';
 import * as ChannelUtils from 'src/utils/channel_utils.jsx';
 import {Constants, ModalIdentifiers, SidebarChannelGroups} from 'src/utils/constants';
 import {intlShape} from 'src/utils/react_intl';

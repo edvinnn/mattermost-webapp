@@ -4,7 +4,7 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import {blevePurgeIndexes} from 'actions/admin_actions.jsx';
+import {blevePurgeIndexes} from 'src/actions/admin_actions.jsx';
 import {JobStatuses, JobTypes} from 'src/utils/constants';
 import {t} from 'src/utils/i18n';
 

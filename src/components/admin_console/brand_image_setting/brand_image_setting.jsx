@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 import {Tooltip} from 'react-bootstrap';
 import {Client4} from 'mattermost-redux/client';
 
-import {uploadBrandImage, deleteBrandImage} from 'actions/admin_actions.jsx';
+import {uploadBrandImage, deleteBrandImage} from 'src/actions/admin_actions.jsx';
 import {Constants} from 'src/utils/constants';
 import FormError from 'src/components/form_error';
 import OverlayTrigger from 'src/components/overlay_trigger';

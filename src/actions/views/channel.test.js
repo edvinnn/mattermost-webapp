@@ -9,8 +9,8 @@ import {leaveChannel, markChannelAsRead} from 'mattermost-redux/actions/channels
 import * as PostActions from 'mattermost-redux/actions/posts';
 
 import {browserHistory} from 'src/utils/browser_history';
-import * as Actions from 'actions/views/channel';
-import {openDirectChannelToUserId} from 'actions/channel_actions.jsx';
+import * as Actions from 'src/actions/views/channel';
+import {openDirectChannelToUserId} from 'src/actions/channel_actions.jsx';
 import {ActionTypes, PostRequestTypes} from 'src/utils/constants';
 
 const mockStore = configureStore([thunk]);

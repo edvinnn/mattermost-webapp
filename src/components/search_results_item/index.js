@@ -17,7 +17,7 @@ import {
     selectPostFromRightHandSideSearch,
     selectPostCardFromRightHandSideSearch,
     setRhsExpanded,
-} from 'actions/views/rhs';
+} from 'src/actions/views/rhs';
 
 import {makeCreateAriaLabelForPost, makeGetReplyCount} from 'src/utils/post_utils.jsx';
 import {getDirectTeammate, getDisplayNameByUser} from 'src/utils/utils.jsx';

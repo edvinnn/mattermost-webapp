@@ -8,7 +8,7 @@ import {Tooltip} from 'react-bootstrap';
 
 import {localizeMessage} from 'src/utils/utils.jsx';
 import {browserHistory} from 'src/utils/browser_history';
-import {mark, trackEvent} from 'actions/telemetry_actions.jsx';
+import {mark, trackEvent} from 'src/actions/telemetry_actions.jsx';
 import {isDesktopApp} from 'src/utils/user_agent';
 import Constants from 'src/utils/constants';
 import CopyUrlContextMenu from 'src/components/copy_url_context_menu';

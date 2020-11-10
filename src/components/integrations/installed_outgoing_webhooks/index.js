@@ -11,7 +11,7 @@ import {haveITeamPermission} from 'mattermost-redux/selectors/entities/roles';
 import {Permissions} from 'mattermost-redux/constants';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {loadOutgoingHooksAndProfilesForTeam} from 'actions/integration_actions';
+import {loadOutgoingHooksAndProfilesForTeam} from 'src/actions/integration_actions';
 
 import InstalledOutgoingWebhook from './installed_outgoing_webhooks.jsx';
 

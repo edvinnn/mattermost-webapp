@@ -6,7 +6,7 @@ import {bindActionCreators} from 'redux';
 import {getTeams as loadTeams, searchTeams} from 'mattermost-redux/actions/teams';
 import {getTeams} from 'mattermost-redux/selectors/entities/teams';
 
-import {setModalSearchTerm} from 'actions/views/search';
+import {setModalSearchTerm} from 'src/actions/views/search';
 
 import TeamSelectorModal from './team_selector_modal.jsx';
 

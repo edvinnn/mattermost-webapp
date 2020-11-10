@@ -4,7 +4,7 @@ import {
     IntegrationTypes,
 } from 'mattermost-redux/action_types';
 
-import {openModal} from 'actions/views/modals';
+import {openModal} from 'src/actions/views/modals';
 
 import {ModalIdentifiers} from 'src/utils/constants';
 

@@ -20,7 +20,7 @@ import BlockableLink from 'src/components/admin_console/blockable_link';
 import FormError from 'src/components/form_error';
 import Constants from 'src/utils/constants';
 import {browserHistory} from 'src/utils/browser_history';
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 
 import {NeedGroupsError, UsersWillBeRemovedError} from '../../errors';
 import ConvertConfirmModal from '../../convert_confirm_modal';

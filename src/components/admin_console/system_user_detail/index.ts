@@ -17,7 +17,7 @@ import {ServerError} from 'mattermost-redux/types/errors';
 
 import {TeamMembership} from 'mattermost-redux/types/teams';
 
-import {setNavigationBlocked} from 'actions/admin_actions.jsx';
+import {setNavigationBlocked} from 'src/actions/admin_actions.jsx';
 
 import SystemUserDetail from './system_user_detail';
 

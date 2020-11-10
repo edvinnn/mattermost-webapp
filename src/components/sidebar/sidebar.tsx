@@ -4,7 +4,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import {trackEvent} from 'actions/telemetry_actions';
+import {trackEvent} from 'src/actions/telemetry_actions';
 import EditCategoryModal from 'src/components/edit_category_modal';
 import MoreDirectChannels from 'src/components/more_direct_channels';
 import DataPrefetch from 'src/components/data_prefetch';

@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 
 import {bindActionCreators} from 'redux';
 
-import {autocompleteUsers} from 'actions/user_actions';
+import {autocompleteUsers} from 'src/actions/user_actions';
 
 import UserAutocompleteSetting from './user_autocomplete_setting';
 

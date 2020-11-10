@@ -18,7 +18,7 @@ import {ConsoleAccess} from 'mattermost-redux/types/admin';
 import {General} from 'mattermost-redux/constants';
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {setNavigationBlocked, deferNavigation, cancelNavigation, confirmNavigation} from 'actions/admin_actions.jsx';
+import {setNavigationBlocked, deferNavigation, cancelNavigation, confirmNavigation} from 'src/actions/admin_actions.jsx';
 import {getNavigationBlocked, showNavigationPrompt} from 'src/selectors/views/admin';
 import {getAdminDefinition, getConsoleAccess} from 'src/selectors/admin_console';
 

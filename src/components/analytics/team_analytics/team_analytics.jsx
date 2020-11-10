@@ -10,7 +10,7 @@ import LoadingScreen from 'src/components/loading_screen';
 
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 
-import * as AdminActions from 'actions/admin_actions';
+import * as AdminActions from 'src/actions/admin_actions';
 import BrowserStore from 'src/stores/browser_store';
 import {StatTypes} from 'src/utils/constants';
 import Banner from 'src/components/admin_console/banner';

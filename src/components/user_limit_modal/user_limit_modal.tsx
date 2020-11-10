@@ -5,7 +5,7 @@ import React, {useEffect} from 'react';
 import {Modal, Button} from 'react-bootstrap';
 import {FormattedMessage} from 'react-intl';
 
-import {trackEvent, pageVisited} from 'actions/telemetry_actions';
+import {trackEvent, pageVisited} from 'src/actions/telemetry_actions';
 
 import {ModalIdentifiers, TELEMETRY_CATEGORIES} from 'src/utils/constants';
 import PurchaseModal from 'src/components/purchase_modal';

@@ -18,13 +18,13 @@ import {getCurrentChannelStats, getCurrentChannelId, getMyChannelMember, getRedi
 import {ChannelTypes} from 'mattermost-redux/action_types';
 
 import {browserHistory} from 'src/utils/browser_history';
-import {handleNewPost} from 'actions/post_actions.jsx';
-import {stopPeriodicStatusUpdates} from 'actions/status_actions.jsx';
-import {loadProfilesForSidebar} from 'actions/user_actions.jsx';
-import {closeRightHandSide, closeMenu as closeRhsMenu, updateRhsState} from 'actions/views/rhs';
-import {clearUserCookie} from 'actions/views/cookie';
-import {close as closeLhs} from 'actions/views/lhs';
-import * as WebsocketActions from 'actions/websocket_actions.jsx';
+import {handleNewPost} from 'src/actions/post_actions.jsx';
+import {stopPeriodicStatusUpdates} from 'src/actions/status_actions.jsx';
+import {loadProfilesForSidebar} from 'src/actions/user_actions.jsx';
+import {closeRightHandSide, closeMenu as closeRhsMenu, updateRhsState} from 'src/actions/views/rhs';
+import {clearUserCookie} from 'src/actions/views/cookie';
+import {close as closeLhs} from 'src/actions/views/lhs';
+import * as WebsocketActions from 'src/actions/websocket_actions.jsx';
 import AppDispatcher from 'src/dispatcher/app_dispatcher.jsx';
 import {getCurrentLocale} from 'src/selectors/i18n';
 import {getIsRhsOpen, getRhsState} from 'src/selectors/rhs';

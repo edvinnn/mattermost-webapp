@@ -25,8 +25,8 @@ import {
     openMenu,
     closeMenu,
     openAtPrevious,
-} from 'actions/views/rhs';
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+} from 'src/actions/views/rhs';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 import {ActionTypes, RHSStates} from 'src/utils/constants';
 import {getBrowserUtcOffset} from 'src/utils/timezone.jsx';
 

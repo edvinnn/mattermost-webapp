@@ -14,9 +14,9 @@ import {getCurrentUserId, makeGetProfilesInChannel, makeGetProfilesNotInChannel}
 import {GlobalState} from 'mattermost-redux/types/store';
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {autocompleteUsersInChannel} from 'actions/views/channel';
-import {searchAssociatedGroupsForReference} from 'actions/views/group';
-import {autocompleteChannels} from 'actions/channel_actions';
+import {autocompleteUsersInChannel} from 'src/actions/views/channel';
+import {searchAssociatedGroupsForReference} from 'src/actions/views/group';
+import {autocompleteChannels} from 'src/actions/channel_actions';
 
 import Textbox from './textbox';
 

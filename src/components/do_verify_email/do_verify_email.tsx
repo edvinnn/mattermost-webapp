@@ -8,14 +8,14 @@ import {ServerError} from 'mattermost-redux/types/errors';
 
 import {ActionFunc, ActionResult} from 'mattermost-redux/types/actions';
 
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 import {browserHistory} from 'src/utils/browser_history';
 import {AnnouncementBarTypes, AnnouncementBarMessages, VerifyEmailErrors} from 'src/utils/constants';
 import logoImage from 'images/logo.png';
 import BackButton from 'src/components/common/back_button';
 import LoadingScreen from 'src/components/loading_screen';
 
-import * as GlobalActions from 'actions/global_actions.jsx';
+import * as GlobalActions from 'src/actions/global_actions.jsx';
 
 type Props = {
     location: {

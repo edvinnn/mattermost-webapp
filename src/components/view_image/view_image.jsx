@@ -6,7 +6,7 @@ import React from 'react';
 import {Modal} from 'react-bootstrap';
 import {getFilePreviewUrl, getFileUrl, getFileDownloadUrl} from 'mattermost-redux/utils/file_utils';
 
-import * as GlobalActions from 'actions/global_actions';
+import * as GlobalActions from 'src/actions/global_actions';
 import Constants, {FileTypes, ZoomSettings} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils';
 import AudioVideoPreview from 'src/components/audio_video_preview';

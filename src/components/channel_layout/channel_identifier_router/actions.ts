@@ -12,8 +12,8 @@ import {Channel} from 'mattermost-redux/types/channels';
 import {History} from 'history';
 
 import {Constants} from 'src/utils/constants';
-import {openDirectChannelToUserId} from 'actions/channel_actions';
-import * as GlobalActions from 'actions/global_actions.jsx';
+import {openDirectChannelToUserId} from 'src/actions/channel_actions';
+import * as GlobalActions from 'src/actions/global_actions.jsx';
 import * as Utils from 'src/utils/utils.jsx';
 
 import {Match, MatchAndHistory} from './channel_identifier_router';

@@ -9,19 +9,19 @@ import {
     unregisterPluginWebSocketEvent,
     registerPluginReconnectHandler,
     unregisterPluginReconnectHandler,
-} from 'actions/websocket_actions.jsx';
+} from 'src/actions/websocket_actions.jsx';
 
-import {showRHSPlugin, hideRHSPlugin, toggleRHSPlugin} from 'actions/views/rhs';
+import {showRHSPlugin, hideRHSPlugin, toggleRHSPlugin} from 'src/actions/views/rhs';
 
 import {
     registerPluginTranslationsSource,
-} from 'actions/views/root';
+} from 'src/actions/views/root';
 
 import {
     registerAdminConsolePlugin,
     unregisterAdminConsolePlugin,
     registerAdminConsoleCustomSetting,
-} from 'actions/admin_actions';
+} from 'src/actions/admin_actions';
 
 import store from 'src/stores/redux_store.jsx';
 import {ActionTypes} from 'src/utils/constants';

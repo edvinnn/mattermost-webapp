@@ -29,10 +29,10 @@ import {UserProfile} from 'mattermost-redux/types/users';
 import {sortByUsername, filterProfilesStartingWithTerm} from 'mattermost-redux/utils/user_utils';
 import {memoizeResult} from 'mattermost-redux/utils/helpers';
 
-import {openDirectChannelToUserId, openGroupChannelToUserIds} from 'actions/channel_actions';
-import {loadStatusesForProfilesList} from 'actions/status_actions.jsx';
-import {loadProfilesForGroupChannels} from 'actions/user_actions.jsx';
-import {setModalSearchTerm} from 'actions/views/search';
+import {openDirectChannelToUserId, openGroupChannelToUserIds} from 'src/actions/channel_actions';
+import {loadStatusesForProfilesList} from 'src/actions/status_actions.jsx';
+import {loadProfilesForGroupChannels} from 'src/actions/user_actions.jsx';
+import {setModalSearchTerm} from 'src/actions/views/search';
 
 import {GlobalState} from 'types/store';
 

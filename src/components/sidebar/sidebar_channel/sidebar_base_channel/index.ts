@@ -7,7 +7,7 @@ import {bindActionCreators, Dispatch, ActionCreatorsMapObject} from 'redux';
 
 import {ActionFunc} from 'mattermost-redux/types/actions';
 
-import {leaveChannel} from 'actions/views/channel';
+import {leaveChannel} from 'src/actions/views/channel';
 
 import SidebarBaseChannel from './sidebar_base_channel';
 

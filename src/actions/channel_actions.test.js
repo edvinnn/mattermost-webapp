@@ -4,8 +4,8 @@
 import thunk from 'redux-thunk';
 import configureStore from 'redux-mock-store';
 
-import * as Actions from 'actions/channel_actions';
-import {loadProfilesForSidebar} from 'actions/user_actions.jsx';
+import * as Actions from 'src/actions/channel_actions';
+import {loadProfilesForSidebar} from 'src/actions/user_actions.jsx';
 
 const mockStore = configureStore([thunk]);
 

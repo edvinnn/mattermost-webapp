@@ -10,7 +10,7 @@ import {AnalyticsRow} from 'mattermost-redux/types/admin';
 import {Subscription} from 'mattermost-redux/types/cloud';
 import {isEmpty} from 'lodash';
 
-import {trackEvent} from 'actions/telemetry_actions';
+import {trackEvent} from 'src/actions/telemetry_actions';
 
 import {t} from 'src/utils/i18n';
 import PurchaseModal from 'src/components/purchase_modal';

@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 
 import {isEmail} from 'mattermost-redux/utils/helpers';
 
-import {adminResetEmail} from 'actions/admin_actions.jsx';
+import {adminResetEmail} from 'src/actions/admin_actions.jsx';
 
 export default class ResetEmailModal extends React.PureComponent {
     static propTypes = {

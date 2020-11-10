@@ -4,7 +4,7 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
-import {flagPost, unflagPost} from 'actions/post_actions.jsx';
+import {flagPost, unflagPost} from 'src/actions/post_actions.jsx';
 
 import PostFlagIcon from './post_flag_icon';
 

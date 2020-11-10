@@ -9,7 +9,7 @@ import classNames from 'classnames';
 
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {trackEvent} from 'actions/telemetry_actions';
+import {trackEvent} from 'src/actions/telemetry_actions';
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 import OverlayTrigger from 'src/components/overlay_trigger';
 import {getCurrentLocale} from 'src/selectors/i18n';

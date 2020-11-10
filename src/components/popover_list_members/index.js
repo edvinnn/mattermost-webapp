@@ -9,9 +9,9 @@ import {getCurrentRelativeTeamUrl} from 'mattermost-redux/selectors/entities/tea
 import {getCurrentUserId, getUserStatuses, makeGetProfilesInChannel} from 'mattermost-redux/selectors/entities/users';
 import {getTeammateNameDisplaySetting} from 'mattermost-redux/selectors/entities/preferences';
 
-import {openDirectChannelToUserId} from 'actions/channel_actions.jsx';
-import {loadProfilesAndStatusesInChannel} from 'actions/user_actions.jsx';
-import {openModal} from 'actions/views/modals';
+import {openDirectChannelToUserId} from 'src/actions/channel_actions.jsx';
+import {loadProfilesAndStatusesInChannel} from 'src/actions/user_actions.jsx';
+import {openModal} from 'src/actions/views/modals';
 import {canManageMembers} from 'src/utils/channel_utils.jsx';
 import {sortUsersByStatusAndDisplayName} from 'src/utils/utils.jsx';
 

@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 
 import {ActionTypes} from 'src/utils/constants.jsx';
-import {hideRHSPlugin as hideRHSPluginAction} from 'actions/views/rhs';
+import {hideRHSPlugin as hideRHSPluginAction} from 'src/actions/views/rhs';
 import {getPluggableId} from 'src/selectors/rhs';
 
 export const removeWebappPlugin = (manifest) => {

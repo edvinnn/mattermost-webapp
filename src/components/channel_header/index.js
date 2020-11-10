@@ -28,15 +28,15 @@ import {
 } from 'mattermost-redux/selectors/entities/users';
 import {getUserIdFromChannelName} from 'mattermost-redux/utils/channel_utils';
 
-import {goToLastViewedChannel} from 'actions/views/channel';
-import {openModal, closeModal} from 'actions/views/modals';
+import {goToLastViewedChannel} from 'src/actions/views/channel';
+import {openModal, closeModal} from 'src/actions/views/modals';
 import {
     showFlaggedPosts,
     showPinnedPosts,
     showMentions,
     openRHSSearch,
     closeRightHandSide,
-} from 'actions/views/rhs';
+} from 'src/actions/views/rhs';
 import {getIsRhsOpen, getRhsState} from 'src/selectors/rhs';
 import {isModalOpen} from 'src/selectors/views/modals';
 import {getAnnouncementBarCount} from 'src/selectors/views/announcement_bar';

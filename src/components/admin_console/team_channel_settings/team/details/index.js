@@ -17,7 +17,7 @@ import {
 
 import {connect} from 'react-redux';
 
-import {setNavigationBlocked} from 'actions/admin_actions';
+import {setNavigationBlocked} from 'src/actions/admin_actions';
 
 import TeamDetails from './team_details';
 

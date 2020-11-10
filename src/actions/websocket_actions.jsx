@@ -60,17 +60,17 @@ import {getStandardAnalytics} from 'mattermost-redux/actions/admin';
 
 import {getSelectedChannelId} from 'src/selectors/rhs';
 
-import {openModal} from 'actions/views/modals';
-import {incrementWsErrorCount, resetWsErrorCount} from 'actions/views/system';
-import {closeRightHandSide} from 'actions/views/rhs';
-import {syncPostsInChannel} from 'actions/views/channel';
+import {openModal} from 'src/actions/views/modals';
+import {incrementWsErrorCount, resetWsErrorCount} from 'src/actions/views/system';
+import {closeRightHandSide} from 'src/actions/views/rhs';
+import {syncPostsInChannel} from 'src/actions/views/channel';
 
 import {browserHistory} from 'src/utils/browser_history';
-import {loadChannelsForCurrentUser} from 'actions/channel_actions.jsx';
-import {redirectUserToDefaultTeam} from 'actions/global_actions.jsx';
-import {handleNewPost} from 'actions/post_actions.jsx';
-import * as StatusActions from 'actions/status_actions.jsx';
-import {loadProfilesForSidebar} from 'actions/user_actions.jsx';
+import {loadChannelsForCurrentUser} from 'src/actions/channel_actions.jsx';
+import {redirectUserToDefaultTeam} from 'src/actions/global_actions.jsx';
+import {handleNewPost} from 'src/actions/post_actions.jsx';
+import * as StatusActions from 'src/actions/status_actions.jsx';
+import {loadProfilesForSidebar} from 'src/actions/user_actions.jsx';
 import store from 'src/stores/redux_store.jsx';
 import WebSocketClient from 'src/client/web_websocket_client.jsx';
 import {loadPlugin, loadPluginsIfNecessary, removePlugin} from 'src/plugins';

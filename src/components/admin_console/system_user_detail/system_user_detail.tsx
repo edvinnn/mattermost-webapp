@@ -17,7 +17,7 @@ import {$ID} from 'mattermost-redux/types/utilities';
 
 import {ServerError} from 'mattermost-redux/types/errors';
 
-import {adminResetMfa, adminResetEmail} from 'actions/admin_actions.jsx';
+import {adminResetMfa, adminResetEmail} from 'src/actions/admin_actions.jsx';
 
 import {Constants} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';

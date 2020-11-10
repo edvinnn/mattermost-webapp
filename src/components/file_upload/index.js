@@ -7,7 +7,7 @@ import {bindActionCreators} from 'redux';
 import {getCurrentChannelId} from 'mattermost-redux/selectors/entities/channels';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {uploadFile, handleFileUploadEnd} from 'actions/file_actions.jsx';
+import {uploadFile, handleFileUploadEnd} from 'src/actions/file_actions.jsx';
 import {getCurrentLocale} from 'src/selectors/i18n';
 import {canUploadFiles} from 'src/utils/file_utils';
 

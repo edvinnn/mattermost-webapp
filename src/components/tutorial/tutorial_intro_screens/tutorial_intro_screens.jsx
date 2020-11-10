@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 import {Constants, Preferences, ModalIdentifiers} from 'src/utils/constants.jsx';
 import {useSafeUrl} from 'src/utils/url';
 import AppIcons from 'images/appIcons.png';

@@ -7,7 +7,7 @@ import {useDispatch} from 'react-redux';
 import {DispatchFunc} from 'mattermost-redux/types/actions';
 import {getCloudCustomer} from 'mattermost-redux/actions/cloud';
 
-import {pageVisited} from 'actions/telemetry_actions';
+import {pageVisited} from 'src/actions/telemetry_actions';
 import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted_admin_header';
 
 import CompanyInfoDisplay from './company_info_display';

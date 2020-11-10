@@ -8,10 +8,10 @@ import {Preferences, General} from 'mattermost-redux/constants';
 import channelCategories from 'mattermost-redux/selectors/entities/channel_categories';
 import {CategoryTypes} from 'mattermost-redux/constants/channel_categories';
 
-import * as UserActions from 'actions/user_actions';
+import * as UserActions from 'src/actions/user_actions';
 import {getState} from 'src/stores/redux_store';
 import TestHelper from 'tests/helpers/client-test-helper';
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 
 const mockStore = configureStore([thunk]);
 

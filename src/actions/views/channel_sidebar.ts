@@ -7,7 +7,7 @@ import {DispatchFunc, GetStateFunc} from 'mattermost-redux/types/actions';
 import {GlobalState} from 'mattermost-redux/types/store';
 import {insertWithoutDuplicates} from 'mattermost-redux/utils/array_utils';
 
-import {setItem} from 'actions/storage';
+import {setItem} from 'src/actions/storage';
 import {DraggingState} from 'types/store';
 import {ActionTypes, StoragePrefixes} from 'src/utils/constants';
 

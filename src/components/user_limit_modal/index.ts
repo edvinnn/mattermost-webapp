@@ -15,7 +15,7 @@ import {isAdmin} from 'src/utils/utils.jsx';
 import {isModalOpen} from 'src/selectors/views/modals';
 import {ModalIdentifiers} from 'src/utils/constants';
 
-import {closeModal, openModal} from 'actions/views/modals';
+import {closeModal, openModal} from 'src/actions/views/modals';
 
 import UserLimitModal from './user_limit_modal';
 

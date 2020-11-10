@@ -33,7 +33,7 @@ import {connect} from 'react-redux';
 
 import {getTeam} from 'mattermost-redux/selectors/entities/teams';
 
-import {setNavigationBlocked} from 'actions/admin_actions';
+import {setNavigationBlocked} from 'src/actions/admin_actions';
 
 import ChannelDetails from './channel_details';
 

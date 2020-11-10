@@ -4,7 +4,7 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
-import {toggleEmbedVisibility} from 'actions/post_actions';
+import {toggleEmbedVisibility} from 'src/actions/post_actions';
 
 import {isEmbedVisible} from 'src/selectors/posts';
 

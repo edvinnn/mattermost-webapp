@@ -15,7 +15,7 @@ import {PreferenceType} from 'mattermost-redux/types/preferences';
 
 import {Preferences} from 'src/utils/constants';
 
-import {dismissNotice} from 'actions/views/notice';
+import {dismissNotice} from 'src/actions/views/notice';
 
 import Notices from 'src/components/system_notice/notices';
 import SystemNotice from 'src/components/system_notice/system_notice';

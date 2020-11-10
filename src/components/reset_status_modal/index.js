@@ -9,7 +9,7 @@ import {Preferences} from 'mattermost-redux/constants';
 import {get} from 'mattermost-redux/selectors/entities/preferences';
 import {getStatusForUserId} from 'mattermost-redux/selectors/entities/users';
 
-import {autoResetStatus} from 'actions/user_actions.jsx';
+import {autoResetStatus} from 'src/actions/user_actions.jsx';
 
 import ResetStatusModal from './reset_status_modal.jsx';
 

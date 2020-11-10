@@ -17,8 +17,8 @@ import {getProfiles} from 'mattermost-redux/actions/users';
 import {getDirectTeammate} from 'src/utils/utils.jsx';
 import {TutorialSteps, Preferences} from 'src/utils/constants';
 
-import {goToLastViewedChannel} from 'actions/views/channel';
-import {setShowNextStepsView} from 'actions/views/next_steps';
+import {goToLastViewedChannel} from 'src/actions/views/channel';
+import {setShowNextStepsView} from 'src/actions/views/next_steps';
 import {isOnboardingHidden, showNextSteps, showNextStepsTips} from 'src/components/next_steps_view/steps';
 
 import ChannelView from './channel_view.jsx';

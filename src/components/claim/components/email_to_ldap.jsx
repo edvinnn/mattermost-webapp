@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import {emailToLdap} from 'actions/admin_actions.jsx';
+import {emailToLdap} from 'src/actions/admin_actions.jsx';
 import * as Utils from 'src/utils/utils.jsx';
 import {t} from 'src/utils/i18n.jsx';
 import LoginMfa from 'src/components/login/login_mfa.jsx';

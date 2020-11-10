@@ -5,13 +5,13 @@ import React, {useEffect} from 'react';
 
 import {useDispatch} from 'react-redux';
 
-import {pageVisited, trackEvent} from 'actions/telemetry_actions';
+import {pageVisited, trackEvent} from 'src/actions/telemetry_actions';
 import {getAnalyticsCategory} from 'src/components/next_steps_view/step_helpers';
 import {ModalIdentifiers} from 'src/utils/constants';
 import UserSettingsModal from '../../../user_settings/modal';
 import {StepComponentProps} from '../../steps';
 import TextCardWithAction from '../text_card_with_action/text_card_with_action';
-import {openModal} from 'actions/views/modals';
+import {openModal} from 'src/actions/views/modals';
 
 export default function SetupPreferencesStep(props: StepComponentProps) {
     useEffect(() => {

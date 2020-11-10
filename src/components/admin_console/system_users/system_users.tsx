@@ -12,7 +12,7 @@ import {Team} from 'mattermost-redux/types/teams';
 
 import {UserProfile} from 'mattermost-redux/types/users';
 
-import {getStandardAnalytics} from 'actions/admin_actions';
+import {getStandardAnalytics} from 'src/actions/admin_actions';
 import {Constants, UserSearchOptions, SearchUserTeamFilter, UserFilters} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils';
 import {t} from 'src/utils/i18n';
@@ -23,7 +23,7 @@ import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 import SystemPermissionGate from 'src/components/permissions_gates/system_permission_gate';
 import ConfirmModal from 'src/components/confirm_modal';
-import {emitUserLoggedOutEvent} from 'actions/global_actions';
+import {emitUserLoggedOutEvent} from 'src/actions/global_actions';
 
 import SystemUsersList from './list';
 

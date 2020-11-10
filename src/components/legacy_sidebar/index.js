@@ -19,9 +19,9 @@ import {getCurrentUser} from 'mattermost-redux/selectors/entities/users';
 import {haveITeamPermission} from 'mattermost-redux/selectors/entities/roles';
 import {getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 
-import {switchToChannelById} from 'actions/views/channel';
-import {openModal} from 'actions/views/modals';
-import {close} from 'actions/views/lhs';
+import {switchToChannelById} from 'src/actions/views/channel';
+import {openModal} from 'src/actions/views/modals';
+import {close} from 'src/actions/views/lhs';
 import {getIsLhsOpen} from 'src/selectors/lhs';
 
 import Sidebar from './sidebar.jsx';

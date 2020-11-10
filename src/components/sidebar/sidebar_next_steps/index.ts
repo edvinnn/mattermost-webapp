@@ -10,8 +10,8 @@ import {getCurrentUserId, getCurrentUser, isCurrentUserSystemAdmin} from 'matter
 
 import {getSteps} from '../../next_steps_view/steps';
 
-import {openModal, closeModal} from 'actions/views/modals';
-import {setShowNextStepsView} from 'actions/views/next_steps';
+import {openModal, closeModal} from 'src/actions/views/modals';
+import {setShowNextStepsView} from 'src/actions/views/next_steps';
 import {showNextSteps, showNextStepsTips} from 'src/components/next_steps_view/steps';
 import {GlobalState} from 'types/store';
 import {Preferences} from 'src/utils/constants';

@@ -9,7 +9,7 @@ import {DispatchFunc} from 'mattermost-redux/types/actions';
 import {getCloudCustomer} from 'mattermost-redux/actions/cloud';
 import {GlobalState} from 'mattermost-redux/types/store';
 
-import {pageVisited} from 'actions/telemetry_actions';
+import {pageVisited} from 'src/actions/telemetry_actions';
 import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted_admin_header';
 import AlertBanner from 'src/components/alert_banner';
 

@@ -8,7 +8,7 @@ import {getMyTeams} from 'mattermost-redux/selectors/entities/teams';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {deferNavigation} from 'actions/admin_actions.jsx';
+import {deferNavigation} from 'src/actions/admin_actions.jsx';
 import {getCurrentLocale} from 'src/selectors/i18n';
 import {getNavigationBlocked} from 'src/selectors/views/admin';
 

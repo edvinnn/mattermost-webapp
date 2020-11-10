@@ -7,7 +7,7 @@ import {Posts} from 'mattermost-redux/constants';
 import {shallowWithIntl} from 'tests/helpers/intl-test-helper';
 import {testComponentForLineBreak} from 'tests/helpers/line_break_helpers';
 import {testComponentForMarkdownHotkeys, makeSelectionEvent} from 'tests/helpers/markdown_hotkey_helpers.js';
-import * as GlobalActions from 'actions/global_actions.jsx';
+import * as GlobalActions from 'src/actions/global_actions.jsx';
 import EmojiMap from 'src/utils/emoji_map';
 
 import Constants, {StoragePrefixes, ModalIdentifiers} from 'src/utils/constants';

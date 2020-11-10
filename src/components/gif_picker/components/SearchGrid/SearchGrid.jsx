@@ -9,7 +9,7 @@ import {saveSearchScrollPosition} from 'mattermost-redux/actions/gifs';
 import {getTheme} from 'mattermost-redux/selectors/entities/preferences';
 import {changeOpacity, makeStyleFromTheme} from 'mattermost-redux/utils/theme_utils';
 
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 
 import InfiniteScroll from 'src/components/gif_picker/components/InfiniteScroll';
 import SearchItem from 'src/components/gif_picker/components/SearchItem';

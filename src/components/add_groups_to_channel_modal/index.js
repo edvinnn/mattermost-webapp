@@ -8,7 +8,7 @@ import {getTeam} from 'mattermost-redux/actions/teams';
 import {getGroupsNotAssociatedToChannel as selectGroupsNotAssociatedToChannel} from 'mattermost-redux/selectors/entities/groups';
 import {getCurrentChannel} from 'mattermost-redux/selectors/entities/channels';
 
-import {setModalSearchTerm} from 'actions/views/search';
+import {setModalSearchTerm} from 'src/actions/views/search';
 
 import AddGroupsToChannelModal from './add_groups_to_channel_modal';
 

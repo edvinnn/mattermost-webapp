@@ -15,7 +15,7 @@ import {getCurrentChannel, getRedirectChannelNameForTeam} from 'mattermost-redux
 import {getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 import {getCurrentUser, getUser} from 'mattermost-redux/selectors/entities/users';
 
-import {leaveDirectChannel} from 'actions/views/channel';
+import {leaveDirectChannel} from 'src/actions/views/channel';
 
 import SidebarDirectChannel from './sidebar_direct_channel';
 

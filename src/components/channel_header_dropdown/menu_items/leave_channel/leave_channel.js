@@ -4,7 +4,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {showLeavePrivateChannelModal} from 'actions/global_actions';
+import {showLeavePrivateChannelModal} from 'src/actions/global_actions';
 import {Constants} from 'src/utils/constants';
 import {localizeMessage} from 'src/utils/utils';
 

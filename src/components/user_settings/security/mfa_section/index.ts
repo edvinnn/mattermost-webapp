@@ -9,7 +9,7 @@ import {GlobalState} from 'mattermost-redux/types/store';
 import {UserProfile} from 'mattermost-redux/types/users';
 import {ActionFunc} from 'mattermost-redux/types/actions';
 
-import {deactivateMfa} from 'actions/views/mfa';
+import {deactivateMfa} from 'src/actions/views/mfa';
 import Constants from 'src/utils/constants';
 
 import MfaSection from './mfa_section';

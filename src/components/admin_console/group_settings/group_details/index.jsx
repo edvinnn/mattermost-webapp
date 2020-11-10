@@ -17,7 +17,7 @@ import {getProfilesInGroup} from 'mattermost-redux/actions/users';
 import {getGroup, getGroupTeams, getGroupChannels, getGroupMemberCount} from 'mattermost-redux/selectors/entities/groups';
 import {getProfilesInGroup as selectProfilesInGroup} from 'mattermost-redux/selectors/entities/users';
 
-import {setNavigationBlocked} from 'actions/admin_actions';
+import {setNavigationBlocked} from 'src/actions/admin_actions';
 
 import GroupDetails from './group_details.jsx';
 

@@ -9,8 +9,8 @@ import {Permissions} from 'mattermost-redux/constants';
 
 import {Team} from 'mattermost-redux/types/teams';
 
-import {emitUserLoggedOutEvent} from 'actions/global_actions.jsx';
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+import {emitUserLoggedOutEvent} from 'src/actions/global_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 
 import * as UserAgent from 'src/utils/user_agent';
 import Constants from 'src/utils/constants';

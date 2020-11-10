@@ -6,7 +6,7 @@ import {connect} from 'react-redux';
 
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {toggleMenu as toggleRhsMenu} from 'actions/views/rhs';
+import {toggleMenu as toggleRhsMenu} from 'src/actions/views/rhs';
 
 import CollapseRhsButton from './collapse_rhs_button';
 

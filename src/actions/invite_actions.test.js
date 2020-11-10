@@ -3,7 +3,7 @@
 
 import configureStore from 'redux-mock-store';
 
-import {sendMembersInvites, sendGuestsInvites} from 'actions/invite_actions.jsx';
+import {sendMembersInvites, sendGuestsInvites} from 'src/actions/invite_actions.jsx';
 
 jest.mock('actions/team_actions', () => ({
     addUsersToTeam: () => ({ // since we are using addUsersToTeamGracefully, this call will always succeed

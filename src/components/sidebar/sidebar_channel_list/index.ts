@@ -10,14 +10,14 @@ import {makeGetCategoriesForTeam} from 'mattermost-redux/selectors/entities/chan
 import {getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {switchToChannelById} from 'actions/views/channel';
+import {switchToChannelById} from 'src/actions/views/channel';
 import {
     expandCategory,
     moveChannelInSidebar,
     setDraggingState,
     stopDragging,
-} from 'actions/views/channel_sidebar';
-import {close} from 'actions/views/lhs';
+} from 'src/actions/views/channel_sidebar';
+import {close} from 'src/actions/views/lhs';
 import {isUnreadFilterEnabled, getDraggingState, getDisplayedChannels} from 'src/selectors/views/channel_sidebar';
 import {GlobalState} from 'types/store';
 

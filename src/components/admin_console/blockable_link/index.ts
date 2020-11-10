@@ -4,7 +4,7 @@
 import {connect} from 'react-redux';
 import {bindActionCreators, Dispatch} from 'redux';
 
-import {deferNavigation} from 'actions/admin_actions';
+import {deferNavigation} from 'src/actions/admin_actions';
 import {getNavigationBlocked} from 'src/selectors/views/admin';
 import {GlobalState} from 'types/store';
 

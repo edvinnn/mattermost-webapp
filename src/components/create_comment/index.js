@@ -25,11 +25,11 @@ import {
     makeOnMoveHistoryIndex,
     makeOnSubmit,
     makeOnEditLatestPost,
-} from 'actions/views/create_comment';
-import {emitShortcutReactToLastPostFrom} from 'actions/post_actions';
+} from 'src/actions/views/create_comment';
+import {emitShortcutReactToLastPostFrom} from 'src/actions/post_actions';
 import {getPostDraft, getIsRhsExpanded, getSelectedPostFocussedAt} from 'src/selectors/rhs';
 import {showPreviewOnCreateComment} from 'src/selectors/views/textbox';
-import {setShowPreviewOnCreateComment} from 'actions/views/textbox';
+import {setShowPreviewOnCreateComment} from 'src/actions/views/textbox';
 
 import CreateComment from './create_comment.jsx';
 

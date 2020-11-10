@@ -4,7 +4,7 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {toggle as toggleLhs} from 'actions/views/lhs';
+import {toggle as toggleLhs} from 'src/actions/views/lhs';
 
 import CollapseLhsButton from './collapse_lhs_button';
 

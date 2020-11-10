@@ -10,7 +10,7 @@ import {ChannelWithTeamData, ChannelSearchOpts} from 'mattermost-redux/types/cha
 import {debounce} from 'mattermost-redux/actions/helpers';
 
 import {browserHistory} from 'src/utils/browser_history';
-import {trackEvent} from 'actions/telemetry_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 
 import {Constants} from 'src/utils/constants';
 import {isArchivedChannel} from 'src/utils/channel_utils';

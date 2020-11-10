@@ -11,7 +11,7 @@ import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {makePreparePostIdsForPostList} from 'mattermost-redux/utils/post_list';
 import {countCurrentChannelUnreadMessages, isManuallyUnread} from 'mattermost-redux/selectors/entities/channels';
 
-import {updateToastStatus} from 'actions/views/channel';
+import {updateToastStatus} from 'src/actions/views/channel';
 
 import ToastWrapper from './toast_wrapper.jsx';
 

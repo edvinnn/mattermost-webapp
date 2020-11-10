@@ -12,8 +12,8 @@ import {ActionFunc, GenericAction} from 'mattermost-redux/types/actions';
 import {createChannel} from 'mattermost-redux/actions/channels';
 import {GlobalState} from 'mattermost-redux/types/store';
 
-import {switchToChannel} from 'actions/views/channel';
-import {closeModal} from 'actions/views/modals';
+import {switchToChannel} from 'src/actions/views/channel';
+import {closeModal} from 'src/actions/views/modals';
 
 import NewChannelFlow, {Props} from './new_channel_flow';
 

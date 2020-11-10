@@ -22,9 +22,9 @@ import {GenericAction} from 'mattermost-redux/types/actions';
 
 import {GlobalState} from 'types/store';
 
-import {loadProfilesAndTeamMembers, loadProfilesWithoutTeam} from 'actions/user_actions';
+import {loadProfilesAndTeamMembers, loadProfilesWithoutTeam} from 'src/actions/user_actions';
 
-import {setSystemUsersSearch} from 'actions/views/search';
+import {setSystemUsersSearch} from 'src/actions/views/search';
 import {SearchUserTeamFilter} from 'src/utils/constants';
 
 import SystemUsers from './system_users';

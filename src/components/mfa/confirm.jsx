@@ -7,7 +7,7 @@ import {FormattedMessage} from 'react-intl';
 import Constants from 'src/utils/constants';
 import {isKeyPressed} from 'src/utils/utils.jsx';
 
-import {redirectUserToDefaultTeam} from 'actions/global_actions.jsx';
+import {redirectUserToDefaultTeam} from 'src/actions/global_actions.jsx';
 
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 

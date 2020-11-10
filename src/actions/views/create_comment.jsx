@@ -20,10 +20,10 @@ import {
 import {Posts} from 'mattermost-redux/constants';
 import {isPostPendingOrFailed} from 'mattermost-redux/utils/post_utils';
 
-import * as PostActions from 'actions/post_actions.jsx';
-import {executeCommand} from 'actions/command';
-import {runMessageWillBePostedHooks, runSlashCommandWillBePostedHooks} from 'actions/hooks';
-import {setGlobalItem, actionOnGlobalItemsWithPrefix} from 'actions/storage';
+import * as PostActions from 'src/actions/post_actions.jsx';
+import {executeCommand} from 'src/actions/command';
+import {runMessageWillBePostedHooks, runSlashCommandWillBePostedHooks} from 'src/actions/hooks';
+import {setGlobalItem, actionOnGlobalItemsWithPrefix} from 'src/actions/storage';
 import EmojiMap from 'src/utils/emoji_map';
 import {getPostDraft} from 'src/selectors/rhs';
 

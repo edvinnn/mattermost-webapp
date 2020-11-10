@@ -9,7 +9,7 @@ import {getPrivateChannels, getPublicChannels} from 'mattermost-redux/selectors/
 import {removeUserFromTeam as leaveTeam} from 'mattermost-redux/actions/teams';
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {toggleSideBarRightMenuAction} from 'actions/global_actions.jsx';
+import {toggleSideBarRightMenuAction} from 'src/actions/global_actions.jsx';
 import {ModalIdentifiers} from 'src/utils/constants';
 
 import {isModalOpen} from 'src/selectors/views/modals';

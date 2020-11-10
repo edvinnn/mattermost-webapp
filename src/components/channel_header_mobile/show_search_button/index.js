@@ -4,7 +4,7 @@
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {openRHSSearch} from 'actions/views/rhs';
+import {openRHSSearch} from 'src/actions/views/rhs';
 
 import ShowSearchButton from './show_search_button';
 

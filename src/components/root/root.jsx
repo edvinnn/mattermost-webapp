@@ -13,10 +13,10 @@ import {getCurrentUser} from 'mattermost-redux/selectors/entities/users';
 
 import * as UserAgent from 'src/utils/user_agent';
 import {EmojiIndicesByAlias} from 'src/utils/emoji.jsx';
-import {trackLoadTime} from 'actions/telemetry_actions.jsx';
-import * as GlobalActions from 'actions/global_actions.jsx';
+import {trackLoadTime} from 'src/actions/telemetry_actions.jsx';
+import * as GlobalActions from 'src/actions/global_actions.jsx';
 import BrowserStore from 'src/stores/browser_store.jsx';
-import {loadRecentlyUsedCustomEmojis} from 'actions/emoji_actions.jsx';
+import {loadRecentlyUsedCustomEmojis} from 'src/actions/emoji_actions.jsx';
 import {initializePlugins} from 'src/plugins';
 import 'src/plugins/export.js';
 import Pluggable from 'src/plugins/pluggable';

@@ -12,7 +12,7 @@ import {getCloudSubscription, getCloudCustomer} from 'mattermost-redux/actions/c
 
 import {isCurrentUserSystemAdmin} from 'mattermost-redux/selectors/entities/users';
 
-import {openModal} from 'actions/views/modals';
+import {openModal} from 'src/actions/views/modals';
 
 import {GlobalState} from 'types/store';
 

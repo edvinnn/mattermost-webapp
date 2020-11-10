@@ -6,7 +6,7 @@ import {bindActionCreators, Dispatch, ActionCreatorsMapObject} from 'redux';
 
 import {ActionFunc} from 'mattermost-redux/types/actions';
 
-import {openModal} from 'actions/views/modals';
+import {openModal} from 'src/actions/views/modals';
 import {browserHistory} from 'src/utils/browser_history';
 
 import ChannelNavigator from './channel_navigator';

@@ -14,8 +14,8 @@ import {getSiteURL} from 'src/utils/url';
 import {t} from 'src/utils/i18n';
 import {Constants, ModalIdentifiers, WarnMetricTypes} from 'src/utils/constants';
 
-import {trackEvent} from 'actions/telemetry_actions';
-import * as AdminActions from 'actions/admin_actions.jsx';
+import {trackEvent} from 'src/actions/telemetry_actions';
+import * as AdminActions from 'src/actions/admin_actions.jsx';
 
 const StatTypes = Constants.StatTypes;
 
