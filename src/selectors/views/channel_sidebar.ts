@@ -13,7 +13,7 @@ import {Channel} from 'mattermost-redux/types/channels';
 import {ChannelCategory} from 'mattermost-redux/types/channel_categories';
 import {isChannelMuted} from 'mattermost-redux/utils/channel_utils';
 
-import {getItemFromStorage} from 'selectors/storage';
+import {getItemFromStorage} from 'src/selectors/storage';
 import {GlobalState} from 'types/store';
 import {StoragePrefixes} from 'src/utils/constants';
 import {getPrefix} from 'src/utils/storage_utils';

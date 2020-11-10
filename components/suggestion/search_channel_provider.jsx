@@ -6,7 +6,7 @@ import {isDirectChannel, isGroupChannel, sortChannelsByTypeListAndDisplayName} f
 import store from 'src/stores/redux_store.jsx';
 
 import Constants from 'src/utils/constants';
-import {getCurrentLocale} from 'selectors/i18n';
+import {getCurrentLocale} from 'src/selectors/i18n';
 
 import Provider from './provider.jsx';
 import SearchChannelSuggestion from './search_channel_suggestion';

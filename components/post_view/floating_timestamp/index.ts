@@ -6,7 +6,7 @@ import {connect} from 'react-redux';
 import {getPost} from 'mattermost-redux/selectors/entities/posts';
 import * as PostListUtils from 'mattermost-redux/utils/post_list';
 
-import {getToastStatus} from 'selectors/views/channel';
+import {getToastStatus} from 'src/selectors/views/channel';
 import {GlobalState} from 'types/store';
 
 import FloatingTimestamp from './floating_timestamp';

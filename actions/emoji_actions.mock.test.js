@@ -5,7 +5,7 @@ import thunk from 'redux-thunk';
 import configureStore from 'redux-mock-store';
 
 import * as Actions from 'actions/emoji_actions.jsx';
-import {getEmojiMap, getRecentEmojis} from 'selectors/emojis';
+import {getEmojiMap, getRecentEmojis} from 'src/selectors/emojis';
 
 const mockStore = configureStore([thunk]);
 

@@ -37,9 +37,9 @@ import {
     openRHSSearch,
     closeRightHandSide,
 } from 'actions/views/rhs';
-import {getIsRhsOpen, getRhsState} from 'selectors/rhs';
-import {isModalOpen} from 'selectors/views/modals';
-import {getAnnouncementBarCount} from 'selectors/views/announcement_bar';
+import {getIsRhsOpen, getRhsState} from 'src/selectors/rhs';
+import {isModalOpen} from 'src/selectors/views/modals';
+import {getAnnouncementBarCount} from 'src/selectors/views/announcement_bar';
 import {ModalIdentifiers} from 'src/utils/constants';
 
 import ChannelHeader from './channel_header';

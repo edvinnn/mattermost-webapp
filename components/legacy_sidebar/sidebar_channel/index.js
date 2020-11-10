@@ -28,7 +28,7 @@ import {Constants, NotificationLevels, StoragePrefixes} from 'src/utils/constant
 
 import {leaveChannel, leaveDirectChannel} from 'actions/views/channel';
 import {open as openLhs} from 'actions/views/lhs.js';
-import {getPostDraft} from 'selectors/rhs';
+import {getPostDraft} from 'src/selectors/rhs';
 
 import SidebarChannel from './sidebar_channel.jsx';
 

@@ -25,7 +25,7 @@ import {executeCommand} from 'actions/command';
 import {runMessageWillBePostedHooks, runSlashCommandWillBePostedHooks} from 'actions/hooks';
 import {setGlobalItem, actionOnGlobalItemsWithPrefix} from 'actions/storage';
 import EmojiMap from 'src/utils/emoji_map';
-import {getPostDraft} from 'selectors/rhs';
+import {getPostDraft} from 'src/selectors/rhs';
 
 import * as Utils from 'src/utils/utils.jsx';
 import {Constants, StoragePrefixes} from 'src/utils/constants';

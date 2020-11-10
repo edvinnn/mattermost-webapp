@@ -20,7 +20,7 @@ import {getUserTimezone} from 'mattermost-redux/selectors/entities/timezone';
 import {getUserCurrentTimezone} from 'mattermost-redux/utils/timezone_utils';
 
 import {trackEvent} from 'actions/telemetry_actions.jsx';
-import {getSearchTerms, getRhsState, getPluggableId} from 'selectors/rhs';
+import {getSearchTerms, getRhsState, getPluggableId} from 'src/selectors/rhs';
 import {ActionTypes, RHSStates} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils';
 

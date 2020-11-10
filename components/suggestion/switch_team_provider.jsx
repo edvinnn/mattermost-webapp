@@ -5,7 +5,7 @@ import React from 'react';
 import * as Selectors from 'mattermost-redux/selectors/entities/teams';
 import {FormattedMessage} from 'react-intl';
 
-import {getCurrentLocale} from 'selectors/i18n';
+import {getCurrentLocale} from 'src/selectors/i18n';
 import store from 'src/stores/redux_store.jsx';
 
 import Provider from './provider.jsx';

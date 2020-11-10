@@ -12,7 +12,7 @@ import {GenericAction} from 'mattermost-redux/types/actions';
 import {GlobalState} from 'types/store';
 
 import {isAdmin} from 'src/utils/utils.jsx';
-import {isModalOpen} from 'selectors/views/modals';
+import {isModalOpen} from 'src/selectors/views/modals';
 import {ModalIdentifiers} from 'src/utils/constants';
 
 import {closeModal, openModal} from 'actions/views/modals';

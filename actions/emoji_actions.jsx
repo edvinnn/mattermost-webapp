@@ -5,7 +5,7 @@ import * as EmojiActions from 'mattermost-redux/actions/emojis';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
 import {setRecentEmojis} from 'actions/local_storage';
-import {getEmojiMap, getRecentEmojis} from 'selectors/emojis';
+import {getEmojiMap, getRecentEmojis} from 'src/selectors/emojis';
 
 import {ActionTypes} from 'src/utils/constants';
 

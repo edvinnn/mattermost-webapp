@@ -58,7 +58,7 @@ import {getPost, getMostRecentPostIdInChannel} from 'mattermost-redux/selectors/
 import {haveISystemPermission, haveITeamPermission} from 'mattermost-redux/selectors/entities/roles';
 import {getStandardAnalytics} from 'mattermost-redux/actions/admin';
 
-import {getSelectedChannelId} from 'selectors/rhs';
+import {getSelectedChannelId} from 'src/selectors/rhs';
 
 import {openModal} from 'actions/views/modals';
 import {incrementWsErrorCount, resetWsErrorCount} from 'actions/views/system';

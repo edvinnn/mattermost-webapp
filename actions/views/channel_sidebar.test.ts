@@ -6,7 +6,7 @@ import {insertWithoutDuplicates} from 'mattermost-redux/utils/array_utils';
 
 import configureStore from 'src/store';
 
-import {isCategoryCollapsed} from 'selectors/views/channel_sidebar';
+import {isCategoryCollapsed} from 'src/selectors/views/channel_sidebar';
 
 import * as Actions from './channel_sidebar';
 

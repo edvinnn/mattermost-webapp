@@ -6,7 +6,7 @@ import React from 'react';
 import {autocompleteCustomEmojis} from 'mattermost-redux/actions/emojis';
 import {getEmojiImageUrl} from 'mattermost-redux/utils/emoji_utils';
 
-import {getEmojiMap, getRecentEmojis} from 'selectors/emojis';
+import {getEmojiMap, getRecentEmojis} from 'src/selectors/emojis';
 
 import store from 'src/stores/redux_store.jsx';
 

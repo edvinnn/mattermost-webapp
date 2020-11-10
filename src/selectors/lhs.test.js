@@ -3,7 +3,7 @@
 
 import assert from 'assert';
 
-import * as Selectors from 'selectors/lhs';
+import * as Selectors from 'src/selectors/lhs';
 
 describe('Selectors.Lhs', () => {
     let state;

@@ -11,7 +11,7 @@ import {getCurrentTeamId} from 'mattermost-redux/selectors/entities/teams';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {ClientConfig} from 'mattermost-redux/types/config';
 
-import {getSocketStatus} from 'selectors/views/websocket';
+import {getSocketStatus} from 'src/selectors/views/websocket';
 import {GlobalState} from 'types/store';
 
 import ProductNoticesModal from './product_notices_modal';

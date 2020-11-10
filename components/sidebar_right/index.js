@@ -15,7 +15,7 @@ import {
     getSelectedPostId,
     getSelectedPostCardId,
     getPreviousRhsState,
-} from 'selectors/rhs';
+} from 'src/selectors/rhs';
 import {RHSStates} from 'src/utils/constants';
 
 import SidebarRight from './sidebar_right.jsx';

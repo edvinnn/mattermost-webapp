@@ -1,6 +1,6 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
-import {isModalOpen} from 'selectors/views/modals';
+import {isModalOpen} from 'src/selectors/views/modals';
 
 describe('modals selector', () => {
     const state = {

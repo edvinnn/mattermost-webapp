@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 
 import {browserHistory} from 'src/utils/browser_history';
-import * as Selectors from 'selectors/storage';
+import * as Selectors from 'src/selectors/storage';
 import * as Actions from 'actions/storage';
 import store from 'src/stores/redux_store.jsx';
 import {ErrorPageTypes, StoragePrefixes, LandingPreferenceTypes} from 'src/utils/constants';

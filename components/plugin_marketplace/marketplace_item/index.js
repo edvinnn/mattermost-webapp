@@ -8,7 +8,7 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {installPlugin} from 'actions/marketplace';
 import {closeModal} from 'actions/views/modals';
 import {ModalIdentifiers} from 'src/utils/constants';
-import {getInstalling, getError} from 'selectors/views/marketplace';
+import {getInstalling, getError} from 'src/selectors/views/marketplace';
 import {trackEvent} from 'actions/telemetry_actions.jsx';
 
 import MarketplaceItem from './marketplace_item';

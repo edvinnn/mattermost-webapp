@@ -13,7 +13,7 @@ import {getAllUserMentionKeys} from 'mattermost-redux/selectors/entities/search'
 
 import {GlobalState} from 'mattermost-redux/types/store';
 
-import {getEmojiMap} from 'selectors/emojis';
+import {getEmojiMap} from 'src/selectors/emojis';
 import {getSiteURL} from 'src/utils/url';
 import {ChannelNamesMap} from 'src/utils/text_formatting';
 

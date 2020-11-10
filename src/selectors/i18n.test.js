@@ -3,7 +3,7 @@
 
 import {General} from 'mattermost-redux/constants';
 
-import {getCurrentLocale, getTranslations} from 'selectors/i18n';
+import {getCurrentLocale, getTranslations} from 'src/selectors/i18n';
 
 describe('selectors/i18n', () => {
     describe('getCurrentLocale', () => {

@@ -12,12 +12,12 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {get} from 'mattermost-redux/selectors/entities/preferences';
 
 import {markPostAsUnread, emitShortcutReactToLastPostFrom} from 'actions/post_actions.jsx';
-import {isEmbedVisible} from 'selectors/posts';
-import {getEmojiMap} from 'selectors/emojis';
+import {isEmbedVisible} from 'src/selectors/posts';
+import {getEmojiMap} from 'src/selectors/emojis';
 import {isArchivedChannel} from 'src/utils/channel_utils';
 import {Preferences} from 'src/utils/constants';
 
-import {getShortcutReactToLastPostEmittedFrom} from 'selectors/emojis.js';
+import {getShortcutReactToLastPostEmittedFrom} from 'src/selectors/emojis.js';
 
 import RhsRootPost from './rhs_root_post.jsx';
 

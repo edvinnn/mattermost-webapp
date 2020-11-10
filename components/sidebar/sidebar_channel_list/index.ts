@@ -18,7 +18,7 @@ import {
     stopDragging,
 } from 'actions/views/channel_sidebar';
 import {close} from 'actions/views/lhs';
-import {isUnreadFilterEnabled, getDraggingState, getDisplayedChannels} from 'selectors/views/channel_sidebar';
+import {isUnreadFilterEnabled, getDraggingState, getDisplayedChannels} from 'src/selectors/views/channel_sidebar';
 import {GlobalState} from 'types/store';
 
 import SidebarChannelList from './sidebar_channel_list';

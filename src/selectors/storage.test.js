@@ -4,7 +4,7 @@
 import assert from 'assert';
 
 import {getPrefix} from 'src/utils/storage_utils';
-import * as Selectors from 'selectors/storage';
+import * as Selectors from 'src/selectors/storage';
 
 describe('Selectors.Storage', () => {
     const testState = {

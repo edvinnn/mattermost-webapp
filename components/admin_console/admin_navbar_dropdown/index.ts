@@ -9,8 +9,8 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {GenericAction} from 'mattermost-redux/types/actions';
 
 import {deferNavigation} from 'actions/admin_actions.jsx';
-import {getCurrentLocale} from 'selectors/i18n';
-import {getNavigationBlocked} from 'selectors/views/admin';
+import {getCurrentLocale} from 'src/selectors/i18n';
+import {getNavigationBlocked} from 'src/selectors/views/admin';
 
 import {GlobalState} from 'types/store';
 

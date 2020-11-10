@@ -14,13 +14,13 @@ import {get} from 'mattermost-redux/selectors/entities/preferences';
 import {isSystemMessage} from 'mattermost-redux/utils/post_utils';
 
 import {markPostAsUnread, emitShortcutReactToLastPostFrom} from 'actions/post_actions.jsx';
-import {isEmbedVisible} from 'selectors/posts';
-import {getEmojiMap} from 'selectors/emojis';
+import {isEmbedVisible} from 'src/selectors/posts';
+import {getEmojiMap} from 'src/selectors/emojis';
 
 import {isArchivedChannel} from 'src/utils/channel_utils';
 import {Preferences} from 'src/utils/constants';
 
-import {getShortcutReactToLastPostEmittedFrom} from 'selectors/emojis.js';
+import {getShortcutReactToLastPostEmittedFrom} from 'src/selectors/emojis.js';
 
 import RhsComment from './rhs_comment.jsx';
 

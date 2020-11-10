@@ -6,8 +6,8 @@ import {bindActionCreators} from 'redux';
 import {getPlugins} from 'mattermost-redux/actions/admin';
 import {getConfig, getLicense} from 'mattermost-redux/selectors/entities/general';
 
-import {getNavigationBlocked} from 'selectors/views/admin';
-import {getAdminDefinition, getConsoleAccess} from 'selectors/admin_console';
+import {getNavigationBlocked} from 'src/selectors/views/admin';
+import {getAdminDefinition, getConsoleAccess} from 'src/selectors/admin_console';
 
 import AdminSidebar from './admin_sidebar.jsx';
 

@@ -6,9 +6,9 @@ import {connect} from 'react-redux';
 import {getTeamByName} from 'mattermost-redux/selectors/entities/teams';
 import {getRedirectChannelNameForTeam} from 'mattermost-redux/selectors/entities/channels';
 
-import {getIsRhsOpen, getIsRhsMenuOpen} from 'selectors/rhs';
-import {getIsLhsOpen} from 'selectors/lhs';
-import {getLastViewedChannelNameByTeamName} from 'selectors/local_storage';
+import {getIsRhsOpen, getIsRhsMenuOpen} from 'src/selectors/rhs';
+import {getIsLhsOpen} from 'src/selectors/lhs';
+import {getLastViewedChannelNameByTeamName} from 'src/selectors/local_storage';
 
 import {GlobalState} from 'types/store';
 

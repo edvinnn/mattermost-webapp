@@ -9,7 +9,7 @@ import {getUserCurrentTimezone} from 'mattermost-redux/utils/timezone_utils';
 import {getBool} from 'mattermost-redux/selectors/entities/preferences';
 import {UserTimezone} from 'mattermost-redux/types/users';
 
-import {areTimezonesEnabledAndSupported} from 'selectors/general';
+import {areTimezonesEnabledAndSupported} from 'src/selectors/general';
 
 import {GlobalState} from 'types/store';
 

@@ -33,7 +33,7 @@ import ripple from 'sounds/ripple.mp3';
 import upstairs from 'sounds/upstairs.mp3';
 import {t} from 'src/utils/i18n';
 import store from 'src/stores/redux_store.jsx';
-import {getCurrentLocale, getTranslations} from 'selectors/i18n';
+import {getCurrentLocale, getTranslations} from 'src/selectors/i18n';
 
 export function isMac() {
     return navigator.platform.toUpperCase().indexOf('MAC') >= 0;

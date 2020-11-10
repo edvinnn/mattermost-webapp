@@ -13,8 +13,8 @@ import {getClientConfig} from 'mattermost-redux/actions/general';
 import {GlobalState} from 'types/store';
 import {BillingDetails} from 'types/cloud/sku';
 
-import {isModalOpen} from 'selectors/views/modals';
-import {getCloudContactUsLink, InquiryType} from 'selectors/cloud';
+import {isModalOpen} from 'src/selectors/views/modals';
+import {getCloudContactUsLink, InquiryType} from 'src/selectors/cloud';
 
 import {ModalIdentifiers} from 'src/utils/constants';
 

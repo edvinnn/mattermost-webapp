@@ -17,7 +17,7 @@ import {
     getIsSearchingFlaggedPost,
     getIsSearchingPinnedPost,
     getIsSearchGettingMore,
-} from 'selectors/rhs';
+} from 'src/selectors/rhs';
 import {Preferences} from 'src/utils/constants.jsx';
 
 import SearchResults from './search_results.jsx';

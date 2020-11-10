@@ -8,7 +8,7 @@ import {getProfilesInTeam} from 'mattermost-redux/actions/users';
 import {getTeamsList} from 'mattermost-redux/selectors/entities/teams';
 
 import BrowserStore from 'src/stores/browser_store.jsx';
-import {getCurrentLocale} from 'selectors/i18n';
+import {getCurrentLocale} from 'src/selectors/i18n';
 
 import TeamAnalytics from './team_analytics.jsx';
 

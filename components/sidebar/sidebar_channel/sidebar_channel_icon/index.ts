@@ -8,7 +8,7 @@ import {getCurrentChannel} from 'mattermost-redux/selectors/entities/channels';
 import {GenericAction} from 'mattermost-redux/types/actions';
 import {Channel} from 'mattermost-redux/types/channels';
 
-import {getPostDraft} from 'selectors/rhs';
+import {getPostDraft} from 'src/selectors/rhs';
 import {StoragePrefixes} from 'src/utils/constants';
 import {GlobalState} from 'types/store';
 

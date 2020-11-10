@@ -8,7 +8,7 @@ import {getConfig, getLicense} from 'mattermost-redux/selectors/entities/general
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {getTeamInviteInfo} from 'mattermost-redux/actions/teams';
 
-import {getGlobalItem} from 'selectors/storage';
+import {getGlobalItem} from 'src/selectors/storage';
 import {removeGlobalItem} from 'actions/storage';
 import {addUserToTeamFromInvite} from 'actions/team_actions';
 

@@ -20,7 +20,7 @@ import {
     getRedirectChannelNameForTeam,
 } from 'mattermost-redux/selectors/entities/channels';
 
-import {getPenultimateViewedChannelName} from 'selectors/local_storage';
+import {getPenultimateViewedChannelName} from 'src/selectors/local_storage';
 
 import {Constants} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils';

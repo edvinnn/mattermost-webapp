@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 import {getConfig, getLicense} from 'mattermost-redux/selectors/entities/general';
 
 import {ModalIdentifiers} from 'src/utils/constants';
-import {isModalOpen} from 'selectors/views/modals';
+import {isModalOpen} from 'src/selectors/views/modals';
 
 import AboutBuildModal from './about_build_modal.jsx';
 

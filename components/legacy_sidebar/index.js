@@ -22,7 +22,7 @@ import {getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 import {switchToChannelById} from 'actions/views/channel';
 import {openModal} from 'actions/views/modals';
 import {close} from 'actions/views/lhs';
-import {getIsLhsOpen} from 'selectors/lhs';
+import {getIsLhsOpen} from 'src/selectors/lhs';
 
 import Sidebar from './sidebar.jsx';
 

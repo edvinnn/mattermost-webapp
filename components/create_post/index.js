@@ -28,7 +28,7 @@ import {
 } from 'mattermost-redux/actions/posts';
 import {Permissions, Posts, Preferences as PreferencesRedux} from 'mattermost-redux/constants';
 
-import {connectionErrorCount} from 'selectors/views/system';
+import {connectionErrorCount} from 'src/selectors/views/system';
 
 import {addReaction, createPost, setEditingPost, emitShortcutReactToLastPostFrom} from 'actions/post_actions.jsx';
 import {scrollPostListToBottom} from 'actions/views/channel';
@@ -36,10 +36,10 @@ import {selectPostFromRightHandSideSearchByPostId} from 'actions/views/rhs';
 import {setShowPreviewOnCreatePost} from 'actions/views/textbox';
 import {executeCommand} from 'actions/command';
 import {runMessageWillBePostedHooks, runSlashCommandWillBePostedHooks} from 'actions/hooks';
-import {getPostDraft, getIsRhsExpanded} from 'selectors/rhs';
-import {showPreviewOnCreatePost} from 'selectors/views/textbox';
-import {getCurrentLocale} from 'selectors/i18n';
-import {getEmojiMap, getShortcutReactToLastPostEmittedFrom} from 'selectors/emojis';
+import {getPostDraft, getIsRhsExpanded} from 'src/selectors/rhs';
+import {showPreviewOnCreatePost} from 'src/selectors/views/textbox';
+import {getCurrentLocale} from 'src/selectors/i18n';
+import {getEmojiMap, getShortcutReactToLastPostEmittedFrom} from 'src/selectors/emojis';
 import {setGlobalItem, actionOnGlobalItemsWithPrefix} from 'actions/storage';
 import {openModal} from 'actions/views/modals';
 import {Constants, Preferences, StoragePrefixes, TutorialSteps, UserStatuses} from 'src/utils/constants';

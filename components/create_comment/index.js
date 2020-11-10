@@ -14,10 +14,10 @@ import {getChannelTimezones, getChannelMemberCountsByGroup} from 'mattermost-red
 import {Permissions, Preferences, Posts} from 'mattermost-redux/constants';
 import {getAssociatedGroupsForReferenceByMention} from 'mattermost-redux/selectors/entities/groups';
 
-import {connectionErrorCount} from 'selectors/views/system';
+import {connectionErrorCount} from 'src/selectors/views/system';
 
 import {Constants, StoragePrefixes} from 'src/utils/constants';
-import {getCurrentLocale} from 'selectors/i18n';
+import {getCurrentLocale} from 'src/selectors/i18n';
 
 import {
     clearCommentDraftUploads,
@@ -27,8 +27,8 @@ import {
     makeOnEditLatestPost,
 } from 'actions/views/create_comment';
 import {emitShortcutReactToLastPostFrom} from 'actions/post_actions';
-import {getPostDraft, getIsRhsExpanded, getSelectedPostFocussedAt} from 'selectors/rhs';
-import {showPreviewOnCreateComment} from 'selectors/views/textbox';
+import {getPostDraft, getIsRhsExpanded, getSelectedPostFocussedAt} from 'src/selectors/rhs';
+import {showPreviewOnCreateComment} from 'src/selectors/views/textbox';
 import {setShowPreviewOnCreateComment} from 'actions/views/textbox';
 
 import CreateComment from './create_comment.jsx';

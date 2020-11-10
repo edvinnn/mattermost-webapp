@@ -19,8 +19,8 @@ import {General} from 'mattermost-redux/constants';
 import {GenericAction} from 'mattermost-redux/types/actions';
 
 import {setNavigationBlocked, deferNavigation, cancelNavigation, confirmNavigation} from 'actions/admin_actions.jsx';
-import {getNavigationBlocked, showNavigationPrompt} from 'selectors/views/admin';
-import {getAdminDefinition, getConsoleAccess} from 'selectors/admin_console';
+import {getNavigationBlocked, showNavigationPrompt} from 'src/selectors/views/admin';
+import {getAdminDefinition, getConsoleAccess} from 'src/selectors/admin_console';
 
 import LocalStorageStore from 'src/stores/local_storage_store';
 

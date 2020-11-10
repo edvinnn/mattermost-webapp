@@ -4,7 +4,7 @@
 
 import {connect} from 'react-redux';
 
-import {getDraggingState} from 'selectors/views/channel_sidebar';
+import {getDraggingState} from 'src/selectors/views/channel_sidebar';
 import {GlobalState} from 'types/store';
 
 import SidebarMenu from './sidebar_menu';

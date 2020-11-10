@@ -6,7 +6,7 @@ import {bindActionCreators} from 'redux';
 
 import {loadTranslations} from 'actions/views/root';
 
-import {getCurrentLocale, getTranslations} from 'selectors/i18n';
+import {getCurrentLocale, getTranslations} from 'src/selectors/i18n';
 
 import IntlProvider from './intl_provider';
 

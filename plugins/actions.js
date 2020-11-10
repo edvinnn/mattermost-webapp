@@ -3,7 +3,7 @@
 
 import {ActionTypes} from 'src/utils/constants.jsx';
 import {hideRHSPlugin as hideRHSPluginAction} from 'actions/views/rhs';
-import {getPluggableId} from 'selectors/rhs';
+import {getPluggableId} from 'src/selectors/rhs';
 
 export const removeWebappPlugin = (manifest) => {
     return (dispatch) => {

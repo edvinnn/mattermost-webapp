@@ -26,7 +26,7 @@ import {RHSStates} from 'src/utils/constants';
 import {unhideNextSteps} from 'actions/views/next_steps';
 import {showMentions, showFlaggedPosts, closeRightHandSide, closeMenu as closeRhsMenu} from 'actions/views/rhs';
 import {openModal} from 'actions/views/modals';
-import {getRhsState} from 'selectors/rhs';
+import {getRhsState} from 'src/selectors/rhs';
 
 import {
     showOnboarding,

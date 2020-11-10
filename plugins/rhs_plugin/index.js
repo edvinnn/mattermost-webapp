@@ -4,7 +4,7 @@
 
 import {connect} from 'react-redux';
 
-import {getPluggableId} from 'selectors/rhs';
+import {getPluggableId} from 'src/selectors/rhs';
 
 import RHSPlugin from './rhs_plugin.jsx';
 

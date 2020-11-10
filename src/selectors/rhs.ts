@@ -9,7 +9,7 @@ import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {Channel} from 'mattermost-redux/types/channels';
 import {$ID} from 'mattermost-redux/types/utilities';
 
-import {makeGetGlobalItem} from 'selectors/storage';
+import {makeGetGlobalItem} from 'src/selectors/storage';
 import {PostTypes} from 'src/utils/constants';
 import {localizeMessage} from 'src/utils/utils.jsx';
 import {GlobalState} from 'types/store';

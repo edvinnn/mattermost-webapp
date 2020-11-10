@@ -13,7 +13,7 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
 import {closeModal} from 'actions/views/modals';
 
-import {isModalOpen} from '../../selectors/views/modals';
+import {isModalOpen} from 'src/selectors/views/modals';
 import {ModalIdentifiers} from 'src/utils/constants';
 
 import WarnMetricAckModal from './warn_metric_ack_modal';

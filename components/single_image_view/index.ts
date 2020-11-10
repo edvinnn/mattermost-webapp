@@ -10,7 +10,7 @@ import {GlobalState} from 'types/store';
 
 import {toggleEmbedVisibility} from 'actions/post_actions';
 
-import {getIsRhsOpen} from 'selectors/rhs';
+import {getIsRhsOpen} from 'src/selectors/rhs';
 
 import SingleImageView from 'components/single_image_view/single_image_view';
 

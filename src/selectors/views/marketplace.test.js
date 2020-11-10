@@ -7,7 +7,7 @@ import {
     getFilter,
     getInstalling,
     getError,
-} from 'selectors/views/marketplace';
+} from 'src/selectors/views/marketplace';
 
 describe('marketplace', () => {
     const samplePlugin = {

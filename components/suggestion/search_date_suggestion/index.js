@@ -7,7 +7,7 @@ import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 import {getUserTimezone} from 'mattermost-redux/selectors/entities/timezone';
 
 import {getCurrentDateForTimezone} from 'src/utils/timezone';
-import {areTimezonesEnabledAndSupported} from 'selectors/general';
+import {areTimezonesEnabledAndSupported} from 'src/selectors/general';
 
 import SearchDateSuggestion from './search_date_suggestion.jsx';
 

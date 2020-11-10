@@ -3,7 +3,7 @@
 import {getRedirectChannelNameForTeam} from 'mattermost-redux/selectors/entities/channels';
 
 import store from 'src/stores/redux_store.jsx';
-import {getBasePath} from 'selectors/general';
+import {getBasePath} from 'src/selectors/general';
 
 const getPreviousTeamIdKey = (userId) => ['user_prev_team', userId].join(':');
 const getPreviousChannelNameKey = (userId, teamId) => ['user_team_prev_channel', userId, teamId].join(':');

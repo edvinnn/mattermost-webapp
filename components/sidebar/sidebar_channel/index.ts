@@ -7,7 +7,7 @@ import {getMyChannelMemberships} from 'mattermost-redux/selectors/entities/commo
 import {getCurrentChannel, makeGetChannel} from 'mattermost-redux/selectors/entities/channels';
 import {getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 
-import {getDraggingState} from 'selectors/views/channel_sidebar';
+import {getDraggingState} from 'src/selectors/views/channel_sidebar';
 import {GlobalState} from 'types/store';
 import {NotificationLevels} from 'src/utils/constants';
 

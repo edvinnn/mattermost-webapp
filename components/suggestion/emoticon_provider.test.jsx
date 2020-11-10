@@ -2,7 +2,7 @@
 // See LICENSE.txt for license information.
 
 import EmojiMap from 'src/utils/emoji_map';
-import {getEmojiMap, getRecentEmojis} from 'selectors/emojis';
+import {getEmojiMap, getRecentEmojis} from 'src/selectors/emojis';
 
 import EmoticonProvider, {
     MIN_EMOTICON_LENGTH,

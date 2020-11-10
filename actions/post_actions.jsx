@@ -13,8 +13,8 @@ import {addRecentEmoji} from 'actions/emoji_actions';
 import * as StorageActions from 'actions/storage';
 import {loadNewDMIfNeeded, loadNewGMIfNeeded} from 'actions/user_actions.jsx';
 import * as RhsActions from 'actions/views/rhs';
-import {isEmbedVisible} from 'selectors/posts';
-import {getSelectedPostId, getSelectedPostCardId, getRhsState} from 'selectors/rhs';
+import {isEmbedVisible} from 'src/selectors/posts';
+import {getSelectedPostId, getSelectedPostCardId, getRhsState} from 'src/selectors/rhs';
 import {
     ActionTypes,
     Constants,

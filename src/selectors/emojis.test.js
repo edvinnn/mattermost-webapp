@@ -5,7 +5,7 @@ import assert from 'assert';
 
 import LocalStorageStore from 'src/stores/local_storage_store';
 
-import * as Selectors from 'selectors/emojis';
+import * as Selectors from 'src/selectors/emojis';
 
 describe('Selectors.Emojis', () => {
     it('getRecentEmojis', () => {

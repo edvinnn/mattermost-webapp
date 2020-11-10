@@ -18,7 +18,7 @@ import {GenericAction, ActionFunc} from 'mattermost-redux/types/actions';
 import {createCategory} from 'actions/views/channel_sidebar';
 import {openModal} from 'actions/views/modals';
 import {GlobalState} from 'types/store';
-import {getIsLhsOpen} from 'selectors/lhs';
+import {getIsLhsOpen} from 'src/selectors/lhs';
 
 import Sidebar from './sidebar';
 

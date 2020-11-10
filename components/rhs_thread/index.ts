@@ -12,8 +12,8 @@ import {UserProfile} from 'mattermost-redux/src/types/users';
 
 import {Preferences} from 'src/utils/constants';
 import {getDirectTeammate} from 'src/utils/utils.jsx';
-import {getSelectedChannel, getSelectedPost} from 'selectors/rhs';
-import {getSocketStatus} from 'selectors/views/websocket';
+import {getSelectedChannel, getSelectedPost} from 'src/selectors/rhs';
+import {getSocketStatus} from 'src/selectors/views/websocket';
 import {selectPostCard} from 'actions/views/rhs';
 import {GlobalState} from 'types/store';
 

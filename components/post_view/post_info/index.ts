@@ -16,8 +16,8 @@ import {GlobalState} from 'types/store';
 import {emitShortcutReactToLastPostFrom} from 'actions/post_actions.jsx';
 import {Preferences} from 'src/utils/constants';
 import * as PostUtils from 'src/utils/post_utils.jsx';
-import {getSelectedPostCard} from 'selectors/rhs';
-import {getShortcutReactToLastPostEmittedFrom} from 'selectors/emojis';
+import {getSelectedPostCard} from 'src/selectors/rhs';
+import {getShortcutReactToLastPostEmittedFrom} from 'src/selectors/emojis';
 
 import PostInfo from './post_info';
 

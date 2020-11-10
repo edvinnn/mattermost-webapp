@@ -8,7 +8,7 @@ import {
     closeRightHandSide,
     toggleRhsExpanded,
 } from 'actions/views/rhs';
-import {getIsRhsExpanded} from 'selectors/rhs';
+import {getIsRhsExpanded} from 'src/selectors/rhs';
 
 import SearchResultsHeader from './search_results_header.jsx';
 

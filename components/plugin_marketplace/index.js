@@ -4,9 +4,9 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
-import {getPlugins, getInstalledPlugins} from 'selectors/views/marketplace';
+import {getPlugins, getInstalledPlugins} from 'src/selectors/views/marketplace';
 
-import {isModalOpen} from 'selectors/views/modals';
+import {isModalOpen} from 'src/selectors/views/modals';
 import {ModalIdentifiers} from 'src/utils/constants';
 import {getSiteURL} from 'src/utils/url';
 

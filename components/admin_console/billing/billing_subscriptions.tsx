@@ -21,7 +21,7 @@ import BlockableLink from 'components/admin_console/blockable_link';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import PurchaseModal from 'components/purchase_modal';
 import FormattedAdminHeader from 'components/widgets/admin_console/formatted_admin_header';
-import {getCloudContactUsLink, InquiryType} from 'selectors/cloud';
+import {getCloudContactUsLink, InquiryType} from 'src/selectors/cloud';
 import {GlobalState} from 'types/store';
 import {
     Preferences,

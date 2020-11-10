@@ -6,7 +6,7 @@ import {Preferences} from 'mattermost-redux/constants';
 import {getTheme, getBool} from 'mattermost-redux/selectors/entities/preferences';
 import {getCurrentRelativeTeamUrl} from 'mattermost-redux/selectors/entities/teams';
 
-import {getIsRhsExpanded, getIsRhsOpen} from 'selectors/rhs';
+import {getIsRhsExpanded, getIsRhsOpen} from 'src/selectors/rhs';
 
 import {GlobalState} from 'types/store';
 

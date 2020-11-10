@@ -7,7 +7,7 @@ import {bindActionCreators} from 'redux';
 import {getCustomEmojis, searchCustomEmojis} from 'mattermost-redux/actions/emojis';
 
 import {incrementEmojiPickerPage} from 'actions/emoji_actions.jsx';
-import {getEmojiMap, getRecentEmojis} from 'selectors/emojis';
+import {getEmojiMap, getRecentEmojis} from 'src/selectors/emojis';
 
 import EmojiPicker from './emoji_picker.jsx';
 

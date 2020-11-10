@@ -14,10 +14,10 @@ import {getBool} from 'mattermost-redux/selectors/entities/preferences';
 
 import {openModal} from 'actions/views/modals';
 import {setShowPreviewOnEditPostModal} from 'actions/views/textbox';
-import {showPreviewOnEditPostModal} from 'selectors/views/textbox';
+import {showPreviewOnEditPostModal} from 'src/selectors/views/textbox';
 import {hideEditPostModal} from 'actions/post_actions';
 import {editPost} from 'actions/views/posts';
-import {getEditingPost} from 'selectors/posts';
+import {getEditingPost} from 'src/selectors/posts';
 import Constants from 'src/utils/constants';
 
 import EditPostModal from './edit_post_modal.jsx';

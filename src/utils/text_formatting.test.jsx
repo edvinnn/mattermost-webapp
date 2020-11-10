@@ -3,7 +3,7 @@
 
 import emojiRegex from 'emoji-regex';
 
-import {getEmojiMap} from 'selectors/emojis';
+import {getEmojiMap} from 'src/selectors/emojis';
 import store from 'src/stores/redux_store.jsx';
 
 import {formatText, autolinkAtMentions, highlightSearchTerms, handleUnicodeEmoji, parseSearchTerms} from 'src/utils/text_formatting';

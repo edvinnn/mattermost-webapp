@@ -13,7 +13,7 @@ import {
 
 import {GenericAction} from 'mattermost-redux/types/actions';
 
-import {getCurrentLocale} from 'selectors/i18n';
+import {getCurrentLocale} from 'src/selectors/i18n';
 
 import {GlobalState} from 'types/store';
 

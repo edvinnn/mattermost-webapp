@@ -7,7 +7,7 @@ import {Client4} from 'mattermost-redux/client';
 
 import {ActionTypes} from 'src/utils/constants';
 import en from 'i18n/en.json';
-import {getCurrentLocale, getTranslations} from 'selectors/i18n';
+import {getCurrentLocale, getTranslations} from 'src/selectors/i18n';
 
 export function loadMeAndConfig() {
     return async (dispatch) => {

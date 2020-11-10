@@ -6,8 +6,8 @@ import {connect} from 'react-redux';
 import {makeGetFilesForPost} from 'mattermost-redux/selectors/entities/files';
 import {getConfig} from 'mattermost-redux/selectors/entities/general';
 
-import {getCurrentLocale} from 'selectors/i18n';
-import {isEmbedVisible} from 'selectors/posts';
+import {getCurrentLocale} from 'src/selectors/i18n';
+import {isEmbedVisible} from 'src/selectors/posts';
 
 import FileAttachmentList from './file_attachment_list.jsx';
 

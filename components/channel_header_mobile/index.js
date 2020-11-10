@@ -19,7 +19,7 @@ import {
 } from 'actions/views/rhs';
 import {close as closeLhs} from 'actions/views/lhs';
 
-import {getIsRhsOpen} from 'selectors/rhs';
+import {getIsRhsOpen} from 'src/selectors/rhs';
 
 import ChannelHeaderMobile from './channel_header_mobile';
 

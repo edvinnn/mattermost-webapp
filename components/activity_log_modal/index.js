@@ -6,7 +6,7 @@ import {bindActionCreators} from 'redux';
 import {getSessions, revokeSession} from 'mattermost-redux/actions/users';
 import {getCurrentUserId, getUserSessions} from 'mattermost-redux/selectors/entities/users';
 
-import {getCurrentLocale} from 'selectors/i18n';
+import {getCurrentLocale} from 'src/selectors/i18n';
 
 import ActivityLogModal from './activity_log_modal.jsx';
 

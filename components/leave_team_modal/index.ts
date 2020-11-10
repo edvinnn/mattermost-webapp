@@ -12,7 +12,7 @@ import {GenericAction} from 'mattermost-redux/types/actions';
 import {toggleSideBarRightMenuAction} from 'actions/global_actions.jsx';
 import {ModalIdentifiers} from 'src/utils/constants';
 
-import {isModalOpen} from 'selectors/views/modals';
+import {isModalOpen} from 'src/selectors/views/modals';
 
 import {GlobalState} from 'types/store';
 

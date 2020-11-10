@@ -14,7 +14,7 @@ import {getTeam} from 'mattermost-redux/actions/teams';
 import {Permissions} from 'mattermost-redux/constants';
 
 import {closeModal} from 'actions/views/modals';
-import {isModalOpen} from 'selectors/views/modals';
+import {isModalOpen} from 'src/selectors/views/modals';
 import {ModalIdentifiers, Constants} from 'src/utils/constants';
 import {sendMembersInvites, sendGuestsInvites} from 'actions/invite_actions';
 

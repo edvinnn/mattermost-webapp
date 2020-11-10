@@ -11,7 +11,7 @@ import store from 'src/stores/redux_store.jsx';
 
 import * as UserAgent from 'src/utils/user_agent';
 import * as Utils from 'src/utils/utils.jsx';
-import {getSelectedPost} from 'selectors/rhs';
+import {getSelectedPost} from 'src/selectors/rhs';
 
 import Suggestion from './suggestion.jsx';
 import Provider from './provider.jsx';

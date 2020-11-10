@@ -20,8 +20,8 @@ import {openDirectChannelToUserId} from 'actions/channel_actions.jsx';
 import {getMembershipForCurrentEntities} from 'actions/views/profile_popover';
 import {closeModal, openModal} from 'actions/views/modals';
 
-import {areTimezonesEnabledAndSupported} from 'selectors/general';
-import {getSelectedPost, getRhsState} from 'selectors/rhs';
+import {areTimezonesEnabledAndSupported} from 'src/selectors/general';
+import {getSelectedPost, getRhsState} from 'src/selectors/rhs';
 
 import ProfilePopover from './profile_popover.jsx';
 

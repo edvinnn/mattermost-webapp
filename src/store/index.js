@@ -17,7 +17,7 @@ import appReducer from 'reducers';
 import {transformSet} from 'src/store/utils';
 import {detect} from 'src/utils/network.js';
 import {ActionTypes} from 'src/utils/constants';
-import {getBasePath} from 'selectors/general';
+import {getBasePath} from 'src/selectors/general';
 
 function getAppReducer() {
     return require('../../reducers'); // eslint-disable-line global-require

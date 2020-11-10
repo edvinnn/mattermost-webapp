@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 import {getCurrentChannel} from 'mattermost-redux/selectors/entities/channels';
 import {getCurrentRelativeTeamUrl, getCurrentTeam} from 'mattermost-redux/selectors/entities/teams';
 
-import {getIsRhsOpen} from 'selectors/rhs';
+import {getIsRhsOpen} from 'src/selectors/rhs';
 
 import ChannelInfoModal from './channel_info_modal.jsx';
 

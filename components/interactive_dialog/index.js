@@ -6,7 +6,7 @@ import {bindActionCreators} from 'redux';
 
 import {submitInteractiveDialog} from 'mattermost-redux/actions/integrations';
 
-import {getEmojiMap} from 'selectors/emojis';
+import {getEmojiMap} from 'src/selectors/emojis';
 
 import InteractiveDialog from './interactive_dialog';
 

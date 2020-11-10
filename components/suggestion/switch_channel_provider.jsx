@@ -35,7 +35,7 @@ import BotBadge from 'components/widgets/badges/bot_badge';
 import GuestBadge from 'components/widgets/badges/guest_badge';
 import Avatar from 'components/widgets/users/avatar';
 
-import {getPostDraft} from 'selectors/rhs';
+import {getPostDraft} from 'src/selectors/rhs';
 import store from 'src/stores/redux_store.jsx';
 import {Constants, StoragePrefixes} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';

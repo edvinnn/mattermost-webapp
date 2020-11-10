@@ -14,7 +14,7 @@ import {canEditPost as canEditPostRedux, isPostEphemeral} from 'mattermost-redux
 
 import {allAtMentions} from 'src/utils/text_formatting';
 
-import {getEmojiMap} from 'selectors/emojis';
+import {getEmojiMap} from 'src/selectors/emojis';
 
 import Constants, {PostListRowListIds, Preferences} from 'src/utils/constants';
 import {formatWithRenderer} from 'src/utils/markdown';

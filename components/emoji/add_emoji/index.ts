@@ -9,7 +9,7 @@ import {createCustomEmoji} from 'mattermost-redux/actions/emojis';
 import {ActionFunc, ActionResult, GenericAction} from 'mattermost-redux/types/actions';
 import {CustomEmoji} from 'mattermost-redux/types/emojis';
 
-import {getEmojiMap} from 'selectors/emojis';
+import {getEmojiMap} from 'src/selectors/emojis';
 
 import {GlobalState} from 'types/store';
 

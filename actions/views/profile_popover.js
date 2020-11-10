@@ -6,7 +6,7 @@ import {getChannelMember} from 'mattermost-redux/actions/channels';
 import {getCurrentChannel} from 'mattermost-redux/selectors/entities/channels';
 import {getCurrentTeamId} from 'mattermost-redux/selectors/entities/teams';
 
-import {getSelectedPost} from 'selectors/rhs';
+import {getSelectedPost} from 'src/selectors/rhs';
 
 export function getMembershipForCurrentEntities(userId) {
     return async (dispatch, getState) => {

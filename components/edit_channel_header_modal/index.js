@@ -9,9 +9,9 @@ import {Preferences} from 'mattermost-redux/constants';
 
 import {closeModal} from 'actions/views/modals';
 import {setShowPreviewOnEditChannelHeaderModal} from 'actions/views/textbox';
-import {showPreviewOnEditChannelHeaderModal} from 'selectors/views/textbox';
+import {showPreviewOnEditChannelHeaderModal} from 'src/selectors/views/textbox';
 
-import {isModalOpen} from '../../selectors/views/modals';
+import {isModalOpen} from 'src/selectors/views/modals';
 import {ModalIdentifiers} from 'src/utils/constants';
 
 import EditChannelHeaderModal from './edit_channel_header_modal.jsx';

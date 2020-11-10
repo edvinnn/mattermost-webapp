@@ -12,7 +12,7 @@ import {getConfig} from 'mattermost-redux/selectors/entities/general';
 import {trackEvent} from 'actions/telemetry_actions';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import OverlayTrigger from 'components/overlay_trigger';
-import {getCurrentLocale} from 'selectors/i18n';
+import {getCurrentLocale} from 'src/selectors/i18n';
 import {GlobalState} from 'types/store';
 import {getMonthLong} from 'src/utils/i18n';
 import {CloudLinks} from 'src/utils/constants';

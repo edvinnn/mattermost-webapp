@@ -6,7 +6,7 @@ import {bindActionCreators} from 'redux';
 
 import {toggleEmbedVisibility} from 'actions/post_actions';
 
-import {isEmbedVisible} from 'selectors/posts';
+import {isEmbedVisible} from 'src/selectors/posts';
 
 import PostBodyAdditionalContent from './post_body_additional_content';
 
