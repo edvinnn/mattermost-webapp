@@ -4,7 +4,7 @@
 import assert from 'assert';
 
 import * as Actions from 'actions/storage';
-import configureStore from 'store';
+import configureStore from 'src/store';
 
 describe('Actions.Storage', () => {
     let store;

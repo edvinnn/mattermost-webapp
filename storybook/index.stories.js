@@ -11,7 +11,7 @@ import IntlProvider from 'components/intl_provider';
 
 import {browserHistory} from 'src/utils/browser_history';
 
-import configureStore from 'store';
+import configureStore from 'src/store';
 
 import {resetTheme} from 'src/utils/utils';
 

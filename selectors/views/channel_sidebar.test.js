@@ -3,7 +3,7 @@
 
 import {setCategoryCollapsed} from 'actions/views/channel_sidebar';
 
-import configureStore from 'store';
+import configureStore from 'src/store';
 
 import {TestHelper} from 'src/utils/test_helper';
 

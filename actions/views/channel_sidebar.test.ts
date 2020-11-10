@@ -4,7 +4,7 @@
 import {CategorySorting} from 'mattermost-redux/types/channel_categories';
 import {insertWithoutDuplicates} from 'mattermost-redux/utils/array_utils';
 
-import configureStore from 'store';
+import configureStore from 'src/store';
 
 import {isCategoryCollapsed} from 'selectors/views/channel_sidebar';
 

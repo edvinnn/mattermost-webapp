@@ -3,7 +3,7 @@
 import React from 'react';
 
 import * as Actions from 'actions/admin_actions.jsx';
-import configureStore from 'store';
+import configureStore from 'src/store';
 
 describe('Actions.Admin', () => {
     let store;
