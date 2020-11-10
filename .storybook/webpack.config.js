@@ -36,21 +36,11 @@ module.exports = async ({config, mode}) => {
       ],
     });
 
-    config.resolve.alias.actions = path.join(path.resolve(__dirname), '..', 'actions')
-    config.resolve.alias.client = path.join(path.resolve(__dirname), '..', 'client')
-    config.resolve.alias.components = path.join(path.resolve(__dirname), '..', 'components')
-    config.resolve.alias.dispatcher = path.join(path.resolve(__dirname), '..', 'dispatcher')
     config.resolve.alias.i18n = path.join(path.resolve(__dirname), '..', 'i18n')
     config.resolve.alias.images = path.join(path.resolve(__dirname), '..', 'images')
-    config.resolve.alias.plugins = path.join(path.resolve(__dirname), '..', 'plugins')
-    config.resolve.alias.reducers = path.join(path.resolve(__dirname), '..', 'reducers')
     config.resolve.alias.sass = path.join(path.resolve(__dirname), '..', 'sass')
-    config.resolve.alias.selectors = path.join(path.resolve(__dirname), '..', 'selectors')
-    config.resolve.alias.store = path.join(path.resolve(__dirname), '..', 'store')
-    config.resolve.alias.stores = path.join(path.resolve(__dirname), '..', 'stores')
-    config.resolve.alias.storybook = path.join(path.resolve(__dirname), '..', 'storybook')
-    config.resolve.alias.utils = path.join(path.resolve(__dirname), '..', 'utils')
     config.resolve.alias.sounds = path.join(path.resolve(__dirname), '..', 'sounds')
+    config.resolve.alias.src = path.join(path.resolve(__dirname), '..', 'src')
 
     return config;
 };

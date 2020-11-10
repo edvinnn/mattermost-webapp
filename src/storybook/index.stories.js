@@ -19,7 +19,7 @@ import state from './state';
 const store = configureStore(state);
 
 import 'sass/styles.scss';
-import 'storybook/styles.scss';
+import 'src/storybook/styles.scss';
 
 resetTheme();
 

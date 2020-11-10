@@ -7,8 +7,8 @@ import {storiesOf} from '@storybook/react';
 import {withKnobs, boolean, number, text, date} from '@storybook/addon-knobs';
 import {action} from '@storybook/addon-actions';
 
-import StoryGrid from 'storybook/story_grid';
-import StoryBox from 'storybook/story_box';
+import StoryGrid from 'src/storybook/story_grid';
+import StoryBox from 'src/storybook/story_box';
 
 import ThreadItem from './thread_item';
 

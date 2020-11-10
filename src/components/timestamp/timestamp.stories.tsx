@@ -8,8 +8,8 @@ import moment from 'moment';
 import {storiesOf} from '@storybook/react';
 import {withKnobs, date, boolean, optionsKnob} from '@storybook/addon-knobs';
 
-import StoryGrid from 'storybook/story_grid';
-import StoryBox from 'storybook/story_box';
+import StoryGrid from 'src/storybook/story_grid';
+import StoryBox from 'src/storybook/story_box';
 
 import {STANDARD_UNITS} from './relative_ranges';
 
