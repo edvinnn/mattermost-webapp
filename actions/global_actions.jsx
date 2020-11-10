@@ -25,7 +25,7 @@ import {closeRightHandSide, closeMenu as closeRhsMenu, updateRhsState} from 'act
 import {clearUserCookie} from 'actions/views/cookie';
 import {close as closeLhs} from 'actions/views/lhs';
 import * as WebsocketActions from 'actions/websocket_actions.jsx';
-import AppDispatcher from 'dispatcher/app_dispatcher.jsx';
+import AppDispatcher from 'src/dispatcher/app_dispatcher.jsx';
 import {getCurrentLocale} from 'src/selectors/i18n';
 import {getIsRhsOpen, getRhsState} from 'src/selectors/rhs';
 import BrowserStore from 'src/stores/browser_store.jsx';

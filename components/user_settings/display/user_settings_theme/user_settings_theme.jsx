@@ -10,7 +10,7 @@ import {FormattedMessage} from 'react-intl';
 
 import {ActionTypes, Constants} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
-import AppDispatcher from 'dispatcher/app_dispatcher.jsx';
+import AppDispatcher from 'src/dispatcher/app_dispatcher.jsx';
 import SettingItemMax from 'components/setting_item_max.jsx';
 import SettingItemMin from 'components/setting_item_min';
 
