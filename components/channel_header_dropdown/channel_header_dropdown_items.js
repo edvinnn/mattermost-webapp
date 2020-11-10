@@ -8,7 +8,7 @@ import {Permissions} from 'mattermost-redux/constants';
 import {Constants, ModalIdentifiers} from 'src/utils/constants';
 import {localizeMessage, isGuest} from 'src/utils/utils';
 
-import MobileChannelHeaderPlug from 'plugins/mobile_channel_header_plug';
+import MobileChannelHeaderPlug from 'src/plugins/mobile_channel_header_plug';
 
 import ChannelNotificationsModal from 'components/channel_notifications_modal';
 import ChannelInviteModal from 'components/channel_invite_modal';

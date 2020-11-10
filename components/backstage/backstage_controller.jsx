@@ -8,7 +8,7 @@ import {Route, Switch} from 'react-router-dom';
 import Bots from 'components/integrations/bots';
 import AddBot from 'components/integrations/bots/add_bot';
 
-import Pluggable from 'plugins/pluggable';
+import Pluggable from 'src/plugins/pluggable';
 import AnnouncementBar from 'components/announcement_bar';
 import SystemNotice from 'components/system_notice';
 import Integrations from 'components/integrations';

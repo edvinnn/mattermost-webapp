@@ -6,7 +6,7 @@ import React from 'react';
 
 import SearchResultsHeader from 'components/search_results_header';
 
-import Pluggable from 'plugins/pluggable';
+import Pluggable from 'src/plugins/pluggable';
 
 export default class RhsPlugin extends React.PureComponent {
     static propTypes = {

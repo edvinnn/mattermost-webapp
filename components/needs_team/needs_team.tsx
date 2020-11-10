@@ -21,7 +21,7 @@ import * as Utils from 'src/utils/utils.jsx';
 import {makeAsyncComponent} from 'components/async_load';
 const LazyBackstageController = React.lazy(() => import('components/backstage'));
 import ChannelController from 'components/channel_layout/channel_controller';
-import Pluggable from 'plugins/pluggable';
+import Pluggable from 'src/plugins/pluggable';
 
 const BackstageController = makeAsyncComponent(LazyBackstageController);
 

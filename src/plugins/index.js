@@ -8,7 +8,7 @@ import {Client4} from 'mattermost-redux/client';
 import store from 'src/stores/redux_store.jsx';
 import {ActionTypes} from 'src/utils/constants.jsx';
 import {getSiteURL} from 'src/utils/url';
-import PluginRegistry from 'plugins/registry';
+import PluginRegistry from 'src/plugins/registry';
 import {unregisterAllPluginWebSocketEvents, unregisterPluginReconnectHandler} from 'actions/websocket_actions.jsx';
 import {unregisterPluginTranslationsSource} from 'actions/views/root';
 import {unregisterAdminConsolePlugin} from 'actions/admin_actions';

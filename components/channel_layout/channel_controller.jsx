@@ -7,7 +7,7 @@ import {Route} from 'react-router-dom';
 
 import AnnouncementBarController from 'components/announcement_bar';
 
-import Pluggable from 'plugins/pluggable';
+import Pluggable from 'src/plugins/pluggable';
 import SystemNotice from 'components/system_notice';
 import EditPostModal from 'components/edit_post_modal';
 

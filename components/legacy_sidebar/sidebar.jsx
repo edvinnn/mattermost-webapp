@@ -26,7 +26,7 @@ import MoreDirectChannels from 'components/more_direct_channels';
 import QuickSwitchModal from 'components/quick_switch_modal';
 import NewChannelFlow from 'components/new_channel_flow';
 import UnreadChannelIndicator from 'components/sidebar/unread_channel_indicator';
-import Pluggable from 'plugins/pluggable';
+import Pluggable from 'src/plugins/pluggable';
 
 import SidebarHeader from './header';
 import SidebarChannel from './sidebar_channel';

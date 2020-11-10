@@ -73,7 +73,7 @@ import * as StatusActions from 'actions/status_actions.jsx';
 import {loadProfilesForSidebar} from 'actions/user_actions.jsx';
 import store from 'src/stores/redux_store.jsx';
 import WebSocketClient from 'client/web_websocket_client.jsx';
-import {loadPlugin, loadPluginsIfNecessary, removePlugin} from 'plugins';
+import {loadPlugin, loadPluginsIfNecessary, removePlugin} from 'src/plugins';
 import {ActionTypes, Constants, AnnouncementBarMessages, SocketEvents, UserStatuses, ModalIdentifiers, WarnMetricTypes} from 'src/utils/constants';
 import {getSiteURL} from 'src/utils/url';
 import {isGuest} from 'src/utils/utils';

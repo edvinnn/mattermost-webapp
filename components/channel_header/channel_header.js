@@ -41,7 +41,7 @@ import {
 import {intlShape} from 'src/utils/react_intl';
 import * as Utils from 'src/utils/utils';
 
-import ChannelHeaderPlug from 'plugins/channel_header_plug';
+import ChannelHeaderPlug from 'src/plugins/channel_header_plug';
 
 import HeaderIconWrapper from './components/header_icon_wrapper';
 import UserGuideDropdown from './components/user_guide_dropdown';

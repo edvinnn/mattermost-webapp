@@ -17,7 +17,7 @@ import Constants, {ModalIdentifiers, UserStatuses} from 'src/utils/constants';
 import {t} from 'src/utils/i18n';
 import {intlShape} from 'src/utils/react_intl';
 import * as Utils from 'src/utils/utils.jsx';
-import Pluggable from 'plugins/pluggable';
+import Pluggable from 'src/plugins/pluggable';
 
 import AddUserToChannelModal from 'components/add_user_to_channel_modal';
 import LocalizedIcon from 'components/localized_icon';

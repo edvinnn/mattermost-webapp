@@ -6,7 +6,7 @@ import Popper from 'popper.js';
 import ReactDOM from 'react-dom';
 
 import {Constants} from 'src/utils/constants';
-import Pluggable from 'plugins/pluggable';
+import Pluggable from 'src/plugins/pluggable';
 
 const tooltipContainerStyles: CSSProperties = {
     display: 'flex',

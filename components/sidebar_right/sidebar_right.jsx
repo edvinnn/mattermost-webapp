@@ -15,7 +15,7 @@ import RhsCard from 'components/rhs_card';
 import SearchBar from 'components/search_bar';
 import SearchResults from 'components/search_results';
 
-import RhsPlugin from 'plugins/rhs_plugin';
+import RhsPlugin from 'src/plugins/rhs_plugin';
 
 export default class SidebarRight extends React.PureComponent {
     static propTypes = {

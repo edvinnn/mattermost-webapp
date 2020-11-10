@@ -17,7 +17,7 @@ import * as PostUtils from 'src/utils/post_utils.jsx';
 import * as Utils from 'src/utils/utils.jsx';
 import ChannelPermissionGate from 'components/permissions_gates/channel_permission_gate';
 
-import Pluggable from 'plugins/pluggable';
+import Pluggable from 'src/plugins/pluggable';
 
 import Menu from 'components/widgets/menu/menu';
 import MenuWrapper from 'components/widgets/menu/menu_wrapper';
