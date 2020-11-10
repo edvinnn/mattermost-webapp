@@ -3,7 +3,7 @@
 
 import {GeneralTypes, UserTypes} from 'mattermost-redux/action_types';
 
-import channelReducer from 'reducers/views/channel';
+import channelReducer from 'src/reducers/views/channel';
 import {ActionTypes} from 'src/utils/constants';
 
 describe('Reducers.channel', () => {

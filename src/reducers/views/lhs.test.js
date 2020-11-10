@@ -3,7 +3,7 @@
 
 import {TeamTypes} from 'mattermost-redux/action_types';
 
-import lhsReducer from 'reducers/views/lhs';
+import lhsReducer from 'src/reducers/views/lhs';
 import {ActionTypes} from 'src/utils/constants';
 
 describe('Reducers.LHS', () => {

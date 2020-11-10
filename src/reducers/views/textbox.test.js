@@ -1,7 +1,7 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import textboxReducer from 'reducers/views/textbox';
+import textboxReducer from 'src/reducers/views/textbox';
 
 import {ActionTypes} from 'src/utils/constants';
 

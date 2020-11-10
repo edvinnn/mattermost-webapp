@@ -3,7 +3,7 @@
 
 import assert from 'assert';
 
-import storageReducer from 'reducers/storage';
+import storageReducer from 'src/reducers/storage';
 import {StorageTypes} from 'src/utils/constants';
 
 describe('Reducers.Storage', () => {

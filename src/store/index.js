@@ -13,14 +13,14 @@ import reduxInitialState from 'mattermost-redux/store/initial_state';
 
 import {storageRehydrate} from 'actions/storage';
 import {clearUserCookie} from 'actions/views/cookie';
-import appReducer from 'reducers';
+import appReducer from 'src/reducers';
 import {transformSet} from 'src/store/utils';
 import {detect} from 'src/utils/network.js';
 import {ActionTypes} from 'src/utils/constants';
 import {getBasePath} from 'src/selectors/general';
 
 function getAppReducer() {
-    return require('../../reducers'); // eslint-disable-line global-require
+    return require('../reducers'); // eslint-disable-line global-require
 }
 
 const usersSetTransform = [
