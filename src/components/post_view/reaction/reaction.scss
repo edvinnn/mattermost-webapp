@@ -1,7 +1,7 @@
 @import 'compass/utilities';
 @import 'compass/css3';
-@import 'sass/utils/mixins';
-@import 'sass/utils/functions';
+@import 'src/sass/utils/mixins';
+@import 'src/sass/utils/functions';
 
 .Reaction {
     @include button-style--none;

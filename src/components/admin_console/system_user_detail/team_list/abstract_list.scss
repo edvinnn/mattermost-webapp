@@ -1,6 +1,6 @@
 @import 'compass/css3';
-@import 'sass/utils/variables';
-@import 'sass/utils/functions';
+@import 'src/sass/utils/variables';
+@import 'src/sass/utils/functions';
 
 .AbstractList {
     @include single-transition(all, .4s, ease-in-out, 0s);

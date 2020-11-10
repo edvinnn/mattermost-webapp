@@ -9,7 +9,7 @@ import {logError} from 'mattermost-redux/actions/errors';
 import PDFJS from 'pdfjs-dist';
 
 // Import our styles
-import 'sass/styles.scss';
+import 'src/sass/styles.scss';
 import 'katex/dist/katex.min.css';
 
 import {isDevMode, setCSRFFromCookie} from 'src/utils/utils';

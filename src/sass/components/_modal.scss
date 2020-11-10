@@ -425,7 +425,7 @@
                 @include single-transition(opacity, .6s);
                 @include background-size(100% 100%);
                 @include opacity(1);
-                background-image: url('../images/close.png');
+                background-image: url('../../images/close.png');
                 cursor: pointer;
                 height: 37px;
                 position: absolute;
@@ -503,7 +503,7 @@
         }
 
         .image-control {
-            background: url('../images/prev.png') left no-repeat;
+            background: url('../../images/prev.png') left no-repeat;
             float: left;
             height: 45px;
             margin-top: -23px;
@@ -512,7 +512,7 @@
             width: 50px;
 
             &.image-next {
-                background: url('../images/next.png') left no-repeat;
+                background: url('../../images/next.png') left no-repeat;
                 float: right;
             }
         }

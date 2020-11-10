@@ -29,7 +29,7 @@ module.exports = async ({config, mode}) => {
               loader: 'sass-loader',
               options: {
                   sassOptions: {
-                      includePaths: ['node_modules/compass-mixins/lib', 'sass'],
+                      includePaths: ['node_modules/compass-mixins/lib', 'src/sass'],
                   },
               },
           },
@@ -37,7 +37,6 @@ module.exports = async ({config, mode}) => {
     });
 
     config.resolve.alias.images = path.join(path.resolve(__dirname), '..', 'images')
-    config.resolve.alias.sass = path.join(path.resolve(__dirname), '..', 'sass')
     config.resolve.alias.sounds = path.join(path.resolve(__dirname), '..', 'sounds')
     config.resolve.alias.src = path.join(path.resolve(__dirname), '..', 'src')
 
