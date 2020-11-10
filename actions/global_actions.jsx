@@ -31,7 +31,7 @@ import {getIsRhsOpen, getRhsState} from 'src/selectors/rhs';
 import BrowserStore from 'src/stores/browser_store.jsx';
 import store from 'src/stores/redux_store.jsx';
 import LocalStorageStore from 'src/stores/local_storage_store';
-import WebSocketClient from 'client/web_websocket_client.jsx';
+import WebSocketClient from 'src/client/web_websocket_client.jsx';
 
 import {ActionTypes, Constants, PostTypes, RHSStates, ModalIdentifiers} from 'src/utils/constants';
 import {filterAndSortTeamsByDisplayName} from 'src/utils/team_utils.jsx';
