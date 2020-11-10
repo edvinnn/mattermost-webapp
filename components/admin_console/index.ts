@@ -22,7 +22,7 @@ import {setNavigationBlocked, deferNavigation, cancelNavigation, confirmNavigati
 import {getNavigationBlocked, showNavigationPrompt} from 'selectors/views/admin';
 import {getAdminDefinition, getConsoleAccess} from 'selectors/admin_console';
 
-import LocalStorageStore from 'stores/local_storage_store';
+import LocalStorageStore from 'src/stores/local_storage_store';
 
 import {GlobalState} from 'types/store';
 

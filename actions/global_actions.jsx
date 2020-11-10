@@ -28,9 +28,9 @@ import * as WebsocketActions from 'actions/websocket_actions.jsx';
 import AppDispatcher from 'dispatcher/app_dispatcher.jsx';
 import {getCurrentLocale} from 'selectors/i18n';
 import {getIsRhsOpen, getRhsState} from 'selectors/rhs';
-import BrowserStore from 'stores/browser_store.jsx';
-import store from 'stores/redux_store.jsx';
-import LocalStorageStore from 'stores/local_storage_store';
+import BrowserStore from 'src/stores/browser_store.jsx';
+import store from 'src/stores/redux_store.jsx';
+import LocalStorageStore from 'src/stores/local_storage_store';
 import WebSocketClient from 'client/web_websocket_client.jsx';
 
 import {ActionTypes, Constants, PostTypes, RHSStates, ModalIdentifiers} from 'src/utils/constants';

@@ -5,7 +5,7 @@ import regeneratorRuntime from 'regenerator-runtime';
 
 import {Client4} from 'mattermost-redux/client';
 
-import store from 'stores/redux_store.jsx';
+import store from 'src/stores/redux_store.jsx';
 import {ActionTypes} from 'src/utils/constants.jsx';
 import {getSiteURL} from 'src/utils/url';
 import PluginRegistry from 'plugins/registry';

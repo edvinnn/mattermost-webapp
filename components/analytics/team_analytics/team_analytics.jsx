@@ -11,7 +11,7 @@ import LoadingScreen from 'components/loading_screen';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 
 import * as AdminActions from 'actions/admin_actions';
-import BrowserStore from 'stores/browser_store';
+import BrowserStore from 'src/stores/browser_store';
 import {StatTypes} from 'src/utils/constants';
 import Banner from 'components/admin_console/banner';
 import LineChart from 'components/analytics/line_chart';

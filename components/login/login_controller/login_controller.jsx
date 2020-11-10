@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom';
 import {Client4} from 'mattermost-redux/client';
 
 import * as GlobalActions from 'actions/global_actions.jsx';
-import LocalStorageStore from 'stores/local_storage_store';
+import LocalStorageStore from 'src/stores/local_storage_store';
 
 import {browserHistory} from 'src/utils/browser_history';
 import Constants from 'src/utils/constants.jsx';

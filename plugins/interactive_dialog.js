@@ -9,7 +9,7 @@ import {openModal} from 'actions/views/modals';
 import {ModalIdentifiers} from 'src/utils/constants';
 
 import InteractiveDialog from 'components/interactive_dialog';
-import store from '../stores/redux_store';
+import store from 'src/stores/redux_store';
 
 export function openInteractiveDialog(dialog) {
     store.dispatch({type: IntegrationTypes.RECEIVED_DIALOG, data: dialog});

@@ -3,7 +3,7 @@
 import assert from 'assert';
 import {GeneralTypes} from 'mattermost-redux/action_types';
 
-import store from 'stores/redux_store.jsx';
+import store from 'src/stores/redux_store.jsx';
 
 import Constants, {ValidationErrors} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';

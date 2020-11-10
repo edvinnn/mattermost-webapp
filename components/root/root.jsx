@@ -15,7 +15,7 @@ import * as UserAgent from 'src/utils/user_agent';
 import {EmojiIndicesByAlias} from 'src/utils/emoji.jsx';
 import {trackLoadTime} from 'actions/telemetry_actions.jsx';
 import * as GlobalActions from 'actions/global_actions.jsx';
-import BrowserStore from 'stores/browser_store.jsx';
+import BrowserStore from 'src/stores/browser_store.jsx';
 import {loadRecentlyUsedCustomEmojis} from 'actions/emoji_actions.jsx';
 import {initializePlugins} from 'plugins';
 import 'plugins/export.js';
@@ -45,7 +45,7 @@ const LazyAuthorize = React.lazy(() => import('components/authorize'));
 const LazyCreateTeam = React.lazy(() => import('components/create_team'));
 const LazyMfa = React.lazy(() => import('components/mfa/mfa_controller'));
 
-import store from 'stores/redux_store.jsx';
+import store from 'src/stores/redux_store.jsx';
 import {getSiteURL} from 'src/utils/url';
 import {enableDevModeFeatures, isDevMode} from 'src/utils/utils';
 

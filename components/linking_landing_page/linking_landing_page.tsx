@@ -9,7 +9,7 @@ import mobileImg from 'images/deep-linking/deeplinking-mobile-img.png';
 import MattermostLogoSvg from 'images/logo.svg';
 import FormattedMarkdownMessage from 'components/formatted_markdown_message';
 import CheckboxCheckedIcon from 'components/widgets/icons/checkbox_checked_icon';
-import BrowserStore from 'stores/browser_store';
+import BrowserStore from 'src/stores/browser_store';
 import {LandingPreferenceTypes} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils';
 

@@ -4,7 +4,7 @@
 import {browserHistory} from 'src/utils/browser_history';
 import * as Selectors from 'selectors/storage';
 import * as Actions from 'actions/storage';
-import store from 'stores/redux_store.jsx';
+import store from 'src/stores/redux_store.jsx';
 import {ErrorPageTypes, StoragePrefixes, LandingPreferenceTypes} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 

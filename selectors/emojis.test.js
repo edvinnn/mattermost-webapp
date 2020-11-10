@@ -3,7 +3,7 @@
 
 import assert from 'assert';
 
-import LocalStorageStore from 'stores/local_storage_store';
+import LocalStorageStore from 'src/stores/local_storage_store';
 
 import * as Selectors from 'selectors/emojis';
 

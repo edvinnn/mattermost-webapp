@@ -6,7 +6,7 @@ import {createSelector} from 'reselect';
 import {getCustomEmojisByName} from 'mattermost-redux/selectors/entities/emojis';
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
-import LocalStorageStore from 'stores/local_storage_store';
+import LocalStorageStore from 'src/stores/local_storage_store';
 
 import {Constants} from 'src/utils/constants';
 import {getItemFromStorage} from 'selectors/storage';

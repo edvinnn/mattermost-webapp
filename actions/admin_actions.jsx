@@ -11,7 +11,7 @@ import {trackEvent} from 'actions/telemetry_actions.jsx';
 
 import {emitUserLoggedOutEvent} from 'actions/global_actions.jsx';
 import {getOnNavigationConfirmed} from 'selectors/views/admin';
-import store from 'stores/redux_store.jsx';
+import store from 'src/stores/redux_store.jsx';
 import {ActionTypes} from 'src/utils/constants';
 
 const dispatch = store.dispatch;

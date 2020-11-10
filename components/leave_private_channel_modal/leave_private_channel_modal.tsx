@@ -6,7 +6,7 @@ import {FormattedMessage} from 'react-intl';
 
 import {Channel} from 'mattermost-redux/types/channels';
 
-import ModalStore from 'stores/modal_store.jsx';
+import ModalStore from 'src/stores/modal_store.jsx';
 import Constants from 'src/utils/constants';
 import ConfirmModal from 'components/confirm_modal';
 

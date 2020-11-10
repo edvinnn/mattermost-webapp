@@ -3,7 +3,7 @@
 
 import assert from 'assert';
 
-import LocalStorageStore, {getPenultimateChannelNameKey} from 'stores/local_storage_store';
+import LocalStorageStore, {getPenultimateChannelNameKey} from 'src/stores/local_storage_store';
 
 describe('stores/LocalStorageStore', () => {
     test('should persist previous team id per user', () => {

@@ -6,7 +6,7 @@ import React from 'react';
 import {Modal} from 'react-bootstrap';
 import {defineMessages, injectIntl} from 'react-intl';
 
-import ModalStore from 'stores/modal_store.jsx';
+import ModalStore from 'src/stores/modal_store.jsx';
 import Constants from 'src/utils/constants';
 import {intlShape} from 'src/utils/react_intl';
 import {t} from 'src/utils/i18n';

@@ -9,7 +9,7 @@ import {shouldShowTermsOfService, getCurrentUserId} from 'mattermost-redux/selec
 import {getTeam} from 'mattermost-redux/selectors/entities/teams';
 
 import {loadMeAndConfig} from 'actions/views/root';
-import LocalStorageStore from 'stores/local_storage_store';
+import LocalStorageStore from 'src/stores/local_storage_store';
 
 import Root from './root.jsx';
 

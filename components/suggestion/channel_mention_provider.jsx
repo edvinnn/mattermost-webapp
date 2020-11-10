@@ -7,7 +7,7 @@ import {getMyChannels, getMyChannelMemberships} from 'mattermost-redux/selectors
 
 import {sortChannelsByTypeAndDisplayName} from 'mattermost-redux/utils/channel_utils';
 
-import store from 'stores/redux_store.jsx';
+import store from 'src/stores/redux_store.jsx';
 
 import {Constants} from 'src/utils/constants';
 

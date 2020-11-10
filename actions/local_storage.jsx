@@ -3,7 +3,7 @@
 
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
-import LocalStorageStore from 'stores/local_storage_store';
+import LocalStorageStore from 'src/stores/local_storage_store';
 
 // setPreviousTeamId is a pseudo-action that writes not to the Redux store, but back to local
 // storage.

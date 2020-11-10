@@ -7,7 +7,7 @@ import {getPostsInCurrentChannel} from 'mattermost-redux/selectors/entities/post
 import {getDirectShowPreferences} from 'mattermost-redux/selectors/entities/preferences';
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';
 
-import store from 'stores/redux_store.jsx';
+import store from 'src/stores/redux_store.jsx';
 import {Constants} from 'src/utils/constants';
 
 export function loadStatusesForChannelAndSidebar() {

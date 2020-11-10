@@ -16,7 +16,7 @@ import {
 import {UserProfile} from 'mattermost-redux/types/users';
 import {StatusOK} from 'mattermost-redux/types/client4';
 
-import store from 'stores/redux_store.jsx';
+import store from 'src/stores/redux_store.jsx';
 
 import Constants from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';

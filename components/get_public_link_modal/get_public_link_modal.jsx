@@ -4,7 +4,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import ModalStore from 'stores/modal_store.jsx';
+import ModalStore from 'src/stores/modal_store.jsx';
 import Constants from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 import GetLinkModal from 'components/get_link_modal';

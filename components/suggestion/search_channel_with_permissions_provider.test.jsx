@@ -3,7 +3,7 @@
 
 import configureStore from 'redux-mock-store';
 
-import {getState} from 'stores/redux_store';
+import {getState} from 'src/stores/redux_store';
 
 import SearchChannelWithPermissionsProvider from 'components/suggestion/search_channel_with_permissions_provider.jsx';
 

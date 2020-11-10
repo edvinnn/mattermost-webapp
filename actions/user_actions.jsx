@@ -24,7 +24,7 @@ import {CategoryTypes} from 'mattermost-redux/constants/channel_categories';
 
 import {loadStatusesForProfilesList, loadStatusesForProfilesMap} from 'actions/status_actions.jsx';
 import {trackEvent} from 'actions/telemetry_actions.jsx';
-import store from 'stores/redux_store.jsx';
+import store from 'src/stores/redux_store.jsx';
 import * as Utils from 'src/utils/utils.jsx';
 import {Constants, Preferences, UserStatuses} from 'src/utils/constants';
 

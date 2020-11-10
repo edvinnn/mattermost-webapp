@@ -4,7 +4,7 @@
 import {getSupportedTimezones as getTimezones} from 'mattermost-redux/selectors/entities/general';
 import moment from 'moment-timezone';
 
-import store from 'stores/redux_store.jsx';
+import store from 'src/stores/redux_store.jsx';
 
 export function getSupportedTimezones(state = store.getState()) {
     return getTimezones(state);

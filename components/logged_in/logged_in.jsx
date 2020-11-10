@@ -12,9 +12,9 @@ import * as WebSocketActions from 'actions/websocket_actions.jsx';
 import * as UserAgent from 'src/utils/user_agent';
 import LoadingScreen from 'components/loading_screen';
 import {getBrowserTimezone} from 'src/utils/timezone.jsx';
-import store from 'stores/redux_store.jsx';
+import store from 'src/stores/redux_store.jsx';
 import WebSocketClient from 'client/web_websocket_client.jsx';
-import BrowserStore from 'stores/browser_store';
+import BrowserStore from 'src/stores/browser_store';
 
 const dispatch = store.dispatch;
 const getState = store.getState;

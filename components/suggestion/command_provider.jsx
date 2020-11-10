@@ -7,7 +7,7 @@ import {Client4} from 'mattermost-redux/client';
 import {getCurrentTeamId} from 'mattermost-redux/selectors/entities/teams';
 import {getChannel, getCurrentChannel} from 'mattermost-redux/selectors/entities/channels';
 
-import store from 'stores/redux_store.jsx';
+import store from 'src/stores/redux_store.jsx';
 
 import * as UserAgent from 'src/utils/user_agent';
 import * as Utils from 'src/utils/utils.jsx';

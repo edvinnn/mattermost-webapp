@@ -7,7 +7,7 @@ import {Provider} from 'react-redux';
 import {Router, Route} from 'react-router-dom';
 
 import {browserHistory} from 'src/utils/browser_history';
-import store from 'stores/redux_store.jsx';
+import store from 'src/stores/redux_store.jsx';
 
 import {makeAsyncComponent} from 'components/async_load';
 const LazyRoot = React.lazy(() => import('components/root'));

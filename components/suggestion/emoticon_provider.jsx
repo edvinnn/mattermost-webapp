@@ -8,7 +8,7 @@ import {getEmojiImageUrl} from 'mattermost-redux/utils/emoji_utils';
 
 import {getEmojiMap, getRecentEmojis} from 'selectors/emojis';
 
-import store from 'stores/redux_store.jsx';
+import store from 'src/stores/redux_store.jsx';
 
 import * as Emoticons from 'src/utils/emoticons';
 import {compareEmojis} from 'src/utils/emoji_utils';
