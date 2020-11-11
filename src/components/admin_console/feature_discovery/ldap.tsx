@@ -4,7 +4,7 @@
 import React from 'react';
 
 import {t} from 'src/utils/i18n';
-import ldap from 'images/feature-discovery/ldap.png';
+import ldap from 'src/images/feature-discovery/ldap.png';
 
 import FeatureDiscovery from './index';
 

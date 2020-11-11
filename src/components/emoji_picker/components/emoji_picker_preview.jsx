@@ -6,7 +6,7 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 import {getEmojiImageUrl} from 'mattermost-redux/utils/emoji_utils';
 
-import imgTrans from 'images/img_trans.gif';
+import imgTrans from 'src/images/img_trans.gif';
 
 export default class EmojiPickerPreview extends React.PureComponent {
     static propTypes = {

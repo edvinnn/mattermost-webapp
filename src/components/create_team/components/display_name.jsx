@@ -9,7 +9,7 @@ import {FormattedMessage} from 'react-intl';
 import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 import Constants from 'src/utils/constants.jsx';
 import {cleanUpUrlable} from 'src/utils/url';
-import logoImage from 'images/logo.png';
+import logoImage from 'src/images/logo.png';
 import NextIcon from 'src/components/widgets/icons/fa_next_icon';
 
 export default class TeamSignupDisplayNamePage extends React.PureComponent {

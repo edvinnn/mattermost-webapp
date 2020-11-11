@@ -9,11 +9,11 @@ import {Elements} from '@stripe/react-stripe-js';
 import {Product} from 'mattermost-redux/types/cloud';
 import {Dictionary} from 'mattermost-redux/types/utilities';
 
-import upgradeImage from 'images/cloud/upgrade.svg';
-import wavesBackground from 'images/cloud/waves.svg';
-import blueDotes from 'images/cloud/blue.svg';
-import LowerBlueDots from 'images/cloud/blue-lower.svg';
-import cloudLogo from 'images/cloud/mattermost-cloud.svg';
+import upgradeImage from 'src/images/cloud/upgrade.svg';
+import wavesBackground from 'src/images/cloud/waves.svg';
+import blueDotes from 'src/images/cloud/blue.svg';
+import LowerBlueDots from 'src/images/cloud/blue-lower.svg';
+import cloudLogo from 'src/images/cloud/mattermost-cloud.svg';
 import {trackEvent, pageVisited} from 'src/actions/telemetry_actions';
 import {TELEMETRY_CATEGORIES, CloudLinks} from 'src/utils/constants';
 

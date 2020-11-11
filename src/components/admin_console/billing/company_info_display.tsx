@@ -8,7 +8,7 @@ import {useSelector} from 'react-redux';
 import {trackEvent} from 'src/actions/telemetry_actions';
 import BlockableLink from 'src/components/admin_console/blockable_link';
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
-import noCompanyInfoGraphic from 'images/no_company_info_graphic.svg';
+import noCompanyInfoGraphic from 'src/images/no_company_info_graphic.svg';
 import {GlobalState} from 'src/types/store';
 
 import './company_info_display.scss';

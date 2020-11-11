@@ -11,7 +11,7 @@ import {OAuthApp} from 'mattermost-redux/types/integrations';
 
 import Constants from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
-import icon50 from 'images/icon50x50.png';
+import icon50 from 'src/images/icon50x50.png';
 import AccessHistoryModal from 'src/components/access_history_modal';
 import ActivityLogModal from 'src/components/activity_log_modal';
 import SettingItemMax from 'src/components/setting_item_max.jsx';

@@ -14,7 +14,7 @@ import Card from 'src/components/card/card';
 import {getAnalyticsCategory} from 'src/components/next_steps_view/step_helpers';
 import {Preferences, RecommendedNextSteps} from 'src/utils/constants';
 
-import loadingIcon from 'images/spinner-48x48-blue.apng';
+import loadingIcon from 'src/images/spinner-48x48-blue.apng';
 
 import {StepType} from './steps';
 import './next_steps_view.scss';

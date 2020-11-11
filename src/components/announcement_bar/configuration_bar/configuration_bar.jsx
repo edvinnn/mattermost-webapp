@@ -17,8 +17,8 @@ import FormattedMarkdownMessage from 'src/components/formatted_markdown_message'
 import AnnouncementBar from '../default_announcement_bar';
 import TextDismissableBar from '../text_dismissable_bar';
 
-import ackIcon from 'images/icons/check-circle-outline.svg';
-import alertIcon from 'images/icons/round-white-info-icon.svg';
+import ackIcon from 'src/images/icons/check-circle-outline.svg';
+import alertIcon from 'src/images/icons/round-white-info-icon.svg';
 
 const RENEWAL_LINK = 'https://mattermost.com/renew/';
 

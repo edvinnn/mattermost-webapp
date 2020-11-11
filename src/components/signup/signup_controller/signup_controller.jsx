@@ -9,7 +9,7 @@ import {Client4} from 'mattermost-redux/client';
 
 import {browserHistory} from 'src/utils/browser_history';
 import * as GlobalActions from 'src/actions/global_actions.jsx';
-import logoImage from 'images/logo.png';
+import logoImage from 'src/images/logo.png';
 import AnnouncementBar from 'src/components/announcement_bar';
 import BackButton from 'src/components/common/back_button';
 import FormError from 'src/components/form_error';

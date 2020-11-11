@@ -11,7 +11,7 @@ import {ActionFunc, ActionResult} from 'mattermost-redux/types/actions';
 import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 import {browserHistory} from 'src/utils/browser_history';
 import {AnnouncementBarTypes, AnnouncementBarMessages, VerifyEmailErrors} from 'src/utils/constants';
-import logoImage from 'images/logo.png';
+import logoImage from 'src/images/logo.png';
 import BackButton from 'src/components/common/back_button';
 import LoadingScreen from 'src/components/loading_screen';
 

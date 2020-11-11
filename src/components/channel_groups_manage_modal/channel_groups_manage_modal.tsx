@@ -18,7 +18,7 @@ import ListModal, {DEFAULT_NUM_PER_PAGE} from 'src/components/list_modal.jsx';
 
 import DropdownIcon from 'src/components/widgets/icons/fa_dropdown_icon';
 
-import groupsAvatar from 'images/groups-avatar.png';
+import groupsAvatar from 'src/images/groups-avatar.png';
 
 import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
 import Menu from 'src/components/widgets/menu/menu';

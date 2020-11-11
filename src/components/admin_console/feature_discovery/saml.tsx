@@ -4,7 +4,7 @@
 import React from 'react';
 
 import {t} from 'src/utils/i18n';
-import saml from 'images/feature-discovery/saml.png';
+import saml from 'src/images/feature-discovery/saml.png';
 
 import FeatureDiscovery from './index';
 

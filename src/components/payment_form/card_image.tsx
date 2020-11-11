@@ -3,13 +3,13 @@
 
 import React from 'react';
 
-import amex from 'images/cloud/cards/amex.png';
+import amex from 'src/images/cloud/cards/amex.png';
 
-import dinersclub from 'images/cloud/cards/dinersclub.png';
-import discover from 'images/cloud/cards/discover.jpg';
-import jcb from 'images/cloud/cards/jcb.png';
-import mastercard from 'images/cloud/cards/mastercard.png';
-import visa from 'images/cloud/cards/visa.jpg';
+import dinersclub from 'src/images/cloud/cards/dinersclub.png';
+import discover from 'src/images/cloud/cards/discover.jpg';
+import jcb from 'src/images/cloud/cards/jcb.png';
+import mastercard from 'src/images/cloud/cards/mastercard.png';
+import visa from 'src/images/cloud/cards/visa.jpg';
 
 import './card_image.css';
 

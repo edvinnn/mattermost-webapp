@@ -9,7 +9,7 @@ import throttle from 'lodash/throttle';
 import * as Emoji from 'src/utils/emoji.jsx';
 import {compareEmojis} from 'src/utils/emoji_utils';
 import {t} from 'src/utils/i18n';
-import imgTrans from 'images/img_trans.gif';
+import imgTrans from 'src/images/img_trans.gif';
 
 import LocalizedInput from 'src/components/localized_input/localized_input';
 

@@ -10,7 +10,7 @@ import ExternalImage from 'src/components/external_image';
 import SizeAwareImage from 'src/components/size_aware_image';
 import ViewImageModal from 'src/components/view_image';
 
-import brokenImageIcon from 'images/icons/brokenimage.png';
+import brokenImageIcon from 'src/images/icons/brokenimage.png';
 
 export default class MarkdownImage extends React.PureComponent {
     static defaultProps = {

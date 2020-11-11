@@ -12,7 +12,7 @@ import Constants from 'src/utils/constants';
 import {localizeMessage} from 'src/utils/utils.jsx';
 
 import MultiSelect from 'src/components/multiselect/multiselect';
-import groupsAvatar from 'images/groups-avatar.png';
+import groupsAvatar from 'src/images/groups-avatar.png';
 import AddIcon from 'src/components/widgets/icons/fa_add_icon';
 import Nbsp from 'src/components/html_entities/nbsp';
 

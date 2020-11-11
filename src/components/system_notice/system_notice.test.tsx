@@ -4,7 +4,7 @@
 import {shallow} from 'enzyme';
 import React from 'react';
 
-import mattermostIcon from 'images/icon50x50.png';
+import mattermostIcon from 'src/images/icon50x50.png';
 
 import SystemNotice from 'src/components/system_notice/system_notice';
 

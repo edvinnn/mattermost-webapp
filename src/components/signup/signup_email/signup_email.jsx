@@ -15,7 +15,7 @@ import {browserHistory} from 'src/utils/browser_history';
 import Constants, {ValidationErrors} from 'src/utils/constants';
 import * as Utils from 'src/utils/utils.jsx';
 
-import logoImage from 'images/logo.png';
+import logoImage from 'src/images/logo.png';
 
 import BackButton from 'src/components/common/back_button';
 import LoadingScreen from 'src/components/loading_screen';

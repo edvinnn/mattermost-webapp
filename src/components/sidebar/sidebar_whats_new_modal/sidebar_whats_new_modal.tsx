@@ -9,7 +9,7 @@ import {PreferenceType} from 'mattermost-redux/types/preferences';
 
 import GenericModal from 'src/components/generic_modal';
 
-import whatsNewImg from 'images/whats-new-1.5.gif';
+import whatsNewImg from 'src/images/whats-new-1.5.gif';
 
 import {ModalIdentifiers} from 'src/utils/constants';
 

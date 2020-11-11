@@ -13,7 +13,7 @@ import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 
 import Constants from 'src/utils/constants.jsx';
 import * as URL from 'src/utils/url';
-import logoImage from 'images/logo.png';
+import logoImage from 'src/images/logo.png';
 
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message.jsx';
 import OverlayTrigger from 'src/components/overlay_trigger';

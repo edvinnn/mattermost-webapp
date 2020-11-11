@@ -15,7 +15,7 @@ import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 import * as UserAgent from 'src/utils/user_agent';
 import Constants from 'src/utils/constants';
 
-import logoImage from 'images/logo.png';
+import logoImage from 'src/images/logo.png';
 
 import AnnouncementBar from 'src/components/announcement_bar';
 

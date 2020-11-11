@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import icon50 from 'images/icon50x50.png';
+import icon50 from 'src/images/icon50x50.png';
 import FormError from 'src/components/form_error';
 import {browserHistory} from 'src/utils/browser_history';
 

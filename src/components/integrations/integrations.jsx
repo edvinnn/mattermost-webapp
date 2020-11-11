@@ -7,13 +7,13 @@ import {FormattedMessage} from 'react-intl';
 
 import {Permissions} from 'mattermost-redux/constants';
 
-import BotAccountsIcon from 'images/bot_default_icon.png';
+import BotAccountsIcon from 'src/images/bot_default_icon.png';
 
 import * as Utils from 'src/utils/utils.jsx';
-import IncomingWebhookIcon from 'images/incoming_webhook.jpg';
-import OAuthIcon from 'images/oauth_icon.png';
-import OutgoingWebhookIcon from 'images/outgoing_webhook.jpg';
-import SlashCommandIcon from 'images/slash_command_icon.jpg';
+import IncomingWebhookIcon from 'src/images/incoming_webhook.jpg';
+import OAuthIcon from 'src/images/oauth_icon.png';
+import OutgoingWebhookIcon from 'src/images/outgoing_webhook.jpg';
+import SlashCommandIcon from 'src/images/slash_command_icon.jpg';
 
 import SystemPermissionGate from 'src/components/permissions_gates/system_permission_gate';
 import TeamPermissionGate from 'src/components/permissions_gates/team_permission_gate';

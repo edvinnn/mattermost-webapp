@@ -7,8 +7,8 @@ import {FormattedMessage} from 'react-intl';
 
 import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 import Constants from 'src/utils/constants';
-import tutorialGif from 'images/tutorialTip.gif';
-import tutorialGifWhite from 'images/tutorialTipWhite.gif';
+import tutorialGif from 'src/images/tutorialTip.gif';
+import tutorialGifWhite from 'src/images/tutorialTipWhite.gif';
 
 const Preferences = Constants.Preferences;
 const TutorialSteps = Constants.TutorialSteps;

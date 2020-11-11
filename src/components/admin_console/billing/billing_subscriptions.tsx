@@ -31,8 +31,8 @@ import {
 } from 'src/utils/constants';
 import {isCustomerCardExpired} from 'src/utils/cloud_utils';
 
-import privateCloudImage from 'images/private-cloud-image.svg';
-import upgradeMattermostCloudImage from 'images/upgrade-mattermost-cloud-image.svg';
+import privateCloudImage from 'src/images/private-cloud-image.svg';
+import upgradeMattermostCloudImage from 'src/images/upgrade-mattermost-cloud-image.svg';
 
 import BillingSummary from './billing_summary';
 import PlanDetails from './plan_details';

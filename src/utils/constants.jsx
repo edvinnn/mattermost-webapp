@@ -7,25 +7,25 @@ import Permissions from 'mattermost-redux/constants/permissions';
 
 import * as PostListUtils from 'mattermost-redux/utils/post_list';
 
-import audioIcon from 'images/icons/audio.svg';
-import codeIcon from 'images/icons/code.svg';
-import excelIcon from 'images/icons/excel.svg';
-import genericIcon from 'images/icons/generic.svg';
-import patchIcon from 'images/icons/patch.svg';
-import pdfIcon from 'images/icons/pdf.svg';
-import pptIcon from 'images/icons/ppt.svg';
-import videoIcon from 'images/icons/video.svg';
-import wordIcon from 'images/icons/word.svg';
-import logoImage from 'images/logo_compact.png';
-import githubIcon from 'images/themes/code_themes/github.png';
-import monokaiIcon from 'images/themes/code_themes/monokai.png';
-import solarizedDarkIcon from 'images/themes/code_themes/solarized-dark.png';
-import solarizedLightIcon from 'images/themes/code_themes/solarized-light.png';
-import mattermostThemeImage from 'images/themes/mattermost.png';
-import mattermostDarkThemeImage from 'images/themes/mattermost_dark.png';
-import defaultThemeImage from 'images/themes/organization.png';
-import windows10ThemeImage from 'images/themes/windows_dark.png';
-import logoWebhook from 'images/webhook_icon.jpg';
+import audioIcon from 'src/images/icons/audio.svg';
+import codeIcon from 'src/images/icons/code.svg';
+import excelIcon from 'src/images/icons/excel.svg';
+import genericIcon from 'src/images/icons/generic.svg';
+import patchIcon from 'src/images/icons/patch.svg';
+import pdfIcon from 'src/images/icons/pdf.svg';
+import pptIcon from 'src/images/icons/ppt.svg';
+import videoIcon from 'src/images/icons/video.svg';
+import wordIcon from 'src/images/icons/word.svg';
+import logoImage from 'src/images/logo_compact.png';
+import githubIcon from 'src/images/themes/code_themes/github.png';
+import monokaiIcon from 'src/images/themes/code_themes/monokai.png';
+import solarizedDarkIcon from 'src/images/themes/code_themes/solarized-dark.png';
+import solarizedLightIcon from 'src/images/themes/code_themes/solarized-light.png';
+import mattermostThemeImage from 'src/images/themes/mattermost.png';
+import mattermostDarkThemeImage from 'src/images/themes/mattermost_dark.png';
+import defaultThemeImage from 'src/images/themes/organization.png';
+import windows10ThemeImage from 'src/images/themes/windows_dark.png';
+import logoWebhook from 'src/images/webhook_icon.jpg';
 
 import {t} from 'src/utils/i18n';
 

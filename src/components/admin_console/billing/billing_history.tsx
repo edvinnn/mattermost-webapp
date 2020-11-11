@@ -15,7 +15,7 @@ import LoadingSpinner from 'src/components/widgets/loading/loading_spinner';
 import {pageVisited, trackEvent} from 'src/actions/telemetry_actions';
 import FormattedAdminHeader from 'src/components/widgets/admin_console/formatted_admin_header';
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
-import noBillingHistoryGraphic from 'images/no_billing_history_graphic.svg';
+import noBillingHistoryGraphic from 'src/images/no_billing_history_graphic.svg';
 import {CloudLinks} from 'src/utils/constants';
 
 import './billing_history.scss';

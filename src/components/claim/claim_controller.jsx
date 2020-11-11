@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 
-import logoImage from 'images/logo.png';
+import logoImage from 'src/images/logo.png';
 import BackButton from 'src/components/common/back_button';
 import OAuthToEmail from 'src/components/claim/components/oauth_to_email';
 import EmailToOAuth from 'src/components/claim/components/email_to_oauth';

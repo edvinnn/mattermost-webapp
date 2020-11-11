@@ -18,7 +18,7 @@ import MarketplaceModal from 'src/components/plugin_marketplace';
 import MenuWrapper from 'src/components/widgets/menu/menu_wrapper';
 import RemoveNextStepsModal from 'src/components/sidebar/sidebar_next_steps/remove_next_steps_modal';
 import Menu from 'src/components/widgets/menu/menu';
-import downloadApps from 'images/download-app.svg';
+import downloadApps from 'src/images/download-app.svg';
 import {browserHistory} from 'src/utils/browser_history';
 import * as UserAgent from 'src/utils/user_agent';
 import NewChannelFlow from 'src/components/new_channel_flow';

@@ -3,8 +3,8 @@
 
 import * as UserAgent from 'src/utils/user_agent';
 import Constants from 'src/utils/constants';
-import icon50 from 'images/icon50x50.png';
-import iconWS from 'images/icon_WS.png';
+import icon50 from 'src/images/icon50x50.png';
+import iconWS from 'src/images/icon_WS.png';
 
 let requestedNotificationPermission = false;
 

@@ -8,12 +8,12 @@ import {BillingDetails} from 'src/types/cloud/sku';
 import {pageVisited} from 'src/actions/telemetry_actions';
 import {TELEMETRY_CATEGORIES} from 'src/utils/constants';
 
-import successSvg from 'images/cloud/payment_success.svg';
-import failedSvg from 'images/cloud/payment_fail.svg';
+import successSvg from 'src/images/cloud/payment_success.svg';
+import failedSvg from 'src/images/cloud/payment_fail.svg';
 import {t} from 'src/utils/i18n';
 import {getNextBillingDate} from 'src/utils/utils';
 
-import processSvg from 'images/cloud/processing_payment.svg';
+import processSvg from 'src/images/cloud/processing_payment.svg';
 
 import './process_payment.css';
 

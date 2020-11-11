@@ -4,9 +4,9 @@
 import React, {PureComponent} from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import desktopImg from 'images/deep-linking/deeplinking-desktop-img.png';
-import mobileImg from 'images/deep-linking/deeplinking-mobile-img.png';
-import MattermostLogoSvg from 'images/logo.svg';
+import desktopImg from 'src/images/deep-linking/deeplinking-desktop-img.png';
+import mobileImg from 'src/images/deep-linking/deeplinking-mobile-img.png';
+import MattermostLogoSvg from 'src/images/logo.svg';
 import FormattedMarkdownMessage from 'src/components/formatted_markdown_message';
 import CheckboxCheckedIcon from 'src/components/widgets/icons/checkbox_checked_icon';
 import BrowserStore from 'src/stores/browser_store';

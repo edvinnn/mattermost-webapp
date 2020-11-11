@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 import {trackEvent} from 'src/actions/telemetry_actions.jsx';
 import {Constants, Preferences, ModalIdentifiers} from 'src/utils/constants.jsx';
 import {useSafeUrl} from 'src/utils/url';
-import AppIcons from 'images/appIcons.png';
+import AppIcons from 'src/images/appIcons.png';
 import ModalToggleButtonRedux from 'src/components/toggle_modal_button_redux';
 import InvitationModal from 'src/components/invitation_modal';
 

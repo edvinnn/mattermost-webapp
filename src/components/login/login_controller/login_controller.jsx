@@ -18,7 +18,7 @@ import * as Utils from 'src/utils/utils.jsx';
 import {showNotification} from 'src/utils/notifications';
 import {t} from 'src/utils/i18n.jsx';
 
-import logoImage from 'images/logo.png';
+import logoImage from 'src/images/logo.png';
 
 import SiteNameAndDescription from 'src/components/common/site_name_and_description';
 import AnnouncementBar from 'src/components/announcement_bar';

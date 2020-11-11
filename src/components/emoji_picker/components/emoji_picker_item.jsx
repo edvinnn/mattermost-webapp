@@ -7,7 +7,7 @@ import {injectIntl} from 'react-intl';
 import debounce from 'lodash/debounce';
 import {getEmojiImageUrl} from 'mattermost-redux/utils/emoji_utils';
 
-import imgTrans from 'images/img_trans.gif';
+import imgTrans from 'src/images/img_trans.gif';
 import {intlShape} from 'src/utils/react_intl';
 
 const SCROLLING_ADDITIONAL_VISUAL_SPACING = 10; // to make give the emoji some visual 'breathing room'

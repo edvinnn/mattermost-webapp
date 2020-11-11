@@ -15,7 +15,7 @@ import OverlayTrigger from 'src/components/overlay_trigger';
 import {GlobalState} from 'src/types/store';
 import {CloudLinks} from 'src/utils/constants';
 
-import noBillingHistoryGraphic from 'images/no_billing_history_graphic.svg';
+import noBillingHistoryGraphic from 'src/images/no_billing_history_graphic.svg';
 
 import './billing_summary.scss';
 
