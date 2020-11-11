@@ -133,7 +133,7 @@ if (DEV) {
 }
 
 var config = {
-    entry: ['./root.jsx', 'root.html'],
+    entry: ['./src/root.jsx', './src/root.html'],
     output: {
         path: path.join(__dirname, 'dist'),
         publicPath,
@@ -271,7 +271,7 @@ var config = {
         new HtmlWebpackPlugin({
             filename: 'root.html',
             inject: 'head',
-            template: 'root.html',
+            template: 'src/root.html',
             meta: {
                 csp: {
                     'http-equiv': 'Content-Security-Policy',
@@ -399,7 +399,7 @@ config.plugins.push(new webpack.DefinePlugin({
 
 // Test mode configuration
 if (targetIsTest) {
-    config.entry = ['./root.jsx'];
+    config.entry = ['./src/root.jsx'];
     config.target = 'node';
     config.externals = [nodeExternals()];
 }
