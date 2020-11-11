@@ -5,6 +5,7 @@ import {hot} from 'react-hot-loader/root';
 import React from 'react';
 import {Provider} from 'react-redux';
 import {Router, Route} from 'react-router-dom';
+import '@mattermost/compass-icons';
 
 import {browserHistory} from 'src/utils/browser_history';
 import store from 'src/stores/redux_store.jsx';
