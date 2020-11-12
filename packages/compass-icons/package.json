@@ -14,7 +14,7 @@
         "open:font": "fontello-cli open",
         "package": "run-s build:config package:font",
         "package:font": "fontello-cli install",
-        "prepublishOnly": "yarn run build"
+        "postinstall": "yarn run build"
     },
     "keywords": [
         "mattermost",
